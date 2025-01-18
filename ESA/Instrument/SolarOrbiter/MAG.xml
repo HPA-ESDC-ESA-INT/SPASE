@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_6_1.xsd">
+  <Version>2.6.1</Version>
+  <Instrument>
+    <ResourceID>spase://ESA/Instrument/SolarOrbiter/MAG</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Solar Orbiter Magnetometer (MAG)</ResourceName>
+      <AlternateName>Magnetometer</AlternateName>
+      <ReleaseDate>2024-12-12T00:00:00Z</ReleaseDate>
+      <Description>The Solar Orbiter MAG magnetometer is a high performance dual fluxgate instrument, with data rates up to 128 vectors/s from each sensor and a noise level of ~5 pT at 1 Hz. This allows observation of the ion kinetic regime and, near perihelion, access to electron kinetic phenomena at tens of Hz. Significant signals from spacecraft subsystems and other instruments can be present in the raw data. Cleaning is undertaken to remove signals from spacecraft subsystems and other instruments, although some artifacts may be present. Level 2 data files contain the best estimates of the cleaned magnetic field; flags within the files indicate data quality. Level 0 and 1 data files include data from both inboard and outboard sensors. Normal mode data coverage is nearly complete. Burst mode coverage varies from a few minutes a day to complete, depending on available telemetry.</Description>
+      <Contact>
+        <PersonID>spase://ESA/Person/Timothy.S.Horbury</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>      
+      </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>Solar Orbiter MAG instrument</InvestigationName>
+    <ObservatoryID>spase://ESA/Observatory/SolarOrbiter</ObservatoryID>
+  </Instrument>
+</Spase>
