@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_6_1.xsd">
+   <Version>2.6.1</Version>
+   <Repository>
+        <ResourceID>spase://ESA/Repository/ESDC</ResourceID>
+        <ResourceHeader>
+            <ResourceName>ESAC Science Data Centre (ESDC)</ResourceName>
+            <ReleaseDate>2024-12-12T00:00:00Z</ReleaseDate>
+            <Description>The ESAC Science Data Centre (ESDC), located at the European Space Astronomy Centre (ESAC), Madrid, Spain, provides services and tools to access and retrieve observations and data from ESA space science missions (astronomy, planetary science and heliophysics). The majority of ESA space science mission archives are developed and maintained by the ESDC, in coordination with the science operations centres, the instrument teams and the consortia of the various missions.</Description>
+            <Contact>
+                <PersonID>spase://ESA/Person/Bruno.Merin</PersonID>
+                <Role>ProgramManager</Role>
+            </Contact>
+            <InformationURL>
+                <Name>ESDC home page</Name>
+                <URL>https://www.cosmos.esa.int/web/esdc/home</URL>
+                <Description>ESDC home page at ESA</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <AccessURL>
+            <URL>https://www.cosmos.esa.int/web/esdc/home</URL>
+        </AccessURL>
+   </Repository>
+</Spase>
