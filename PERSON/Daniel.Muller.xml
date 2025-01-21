@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_6_1.xsd">
+  <Version>2.6.1</Version>
+  <Person>
+    <ResourceID>spase://ESA/Person/Daniel.Muller</ResourceID>
+    <PersonName>Daniel Muller</PersonName>
+    <OrganizationName>European Space Agency</OrganizationName>
+    <Email>Daniel.Muller@esa.int</Email>
+    <ORCIdentifier>0000-0001-9027-9954</ORCIdentifier>
+  </Person>
+</Spase>
