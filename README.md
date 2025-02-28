@@ -20,19 +20,24 @@ Changes to our SPASE descriptions are possible and can be requested via email: E
 
 ```bash
 SPASE
-   |___PERSON
-   |
    |___ESA
-        |___Instrument
-      	| 	|__SolarOrbiter
-      	|		|___MAG
-      	|
-      	|___NumericalData
-      	|	  |__SolarOrbiter
-      	|		  |___MAG
-      	|		      |___L2
-      	|
-      	|___Repository
-               |
-               |___ESDC
+   |    |___PERSON
+   |    |___Repository
+   |          |___ESDC   
+   |
+   |___ESA-NASA
+   |     |___Instrument
+   |     |    |___SolarOrbiter
+   |     |         |___MAG
+   |     |
+   |     |___Observatory
+   |     |    |___SolarOrbiter
+   |     |   
+   |     |   
+   |     |___NumericalData
+   |   	|__SolarOrbiter
+   |              |___MAG
+   |   		  |___L2
+      	
+
 ```
