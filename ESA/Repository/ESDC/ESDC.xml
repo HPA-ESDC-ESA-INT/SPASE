@@ -2,7 +2,7 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://spase-group.org/data/schema/spase-2.7.0.xsd">
    <Version>2.7.0</Version>
    <Repository>
-        <ResourceID>spase://ESA/Repository/ESDC</ResourceID>
+       <ResourceID>spase://ESA/Repository/ESDC</ResourceID>
        <NamingAuthority>ESA</NamingAuthority>
        <ResourceType>Repository</ResourceType>
         <ResourceHeader>

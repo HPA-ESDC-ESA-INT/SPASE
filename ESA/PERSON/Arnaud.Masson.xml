@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_6_1.xsd">
-  <Version>2.6.1</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://spase-group.org/data/schema/spase-2.7.0.xsd">
+  <Version>2.7.0</Version>
   <Person>
     <ResourceID>spase://ESA/Person/Arnaud.Masson</ResourceID>
+    <NamingAuthority>ESA</NamingAuthority>
+    <ResourceType>Person</ResourceType>
     <PersonName>Arnaud Masson</PersonName>
     <OrganizationName>European Space Agency</OrganizationName>
     <Email>arnaud.masson@esa.int</Email>
