@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://spase-group.org/data/schema/spase-2.7.0.xsd">
+  <Version>2.7.0</Version>
+  <Observatory>
+    <ResourceID>spase://ESA-NASA/Observatory/SolarOrbiter</ResourceID>
+    <NamingAuthority>ESA-NASA</NamingAuthority>
+    <ResourceType>Observatory</ResourceType>
+    <ResourceHeader>
+      <ResourceName>SolarOrbiter</ResourceName>
+      <AlternateName>Solar Orbiter</AlternateName>
+      <ReleaseDate>2025-02-28T00:00:00Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2025-02-28T00:00:00Z</ReleaseDate>
+          <Note>Update to include complex NamingAuthority and new SPASE version 2.7.0.</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2024-12-12T00:00:00Z</ReleaseDate>
+          <Note>First release using SPASE version 2.6.1.</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description> Solar Orbiter is a mission of international collaboration between ESA and NASA. It explores the Sun and the heliosphere from close up and out of the ecliptic plane. Launched on 10 February 2020, it aims to address the overarching science question: how does the Sun create and control the Heliosphere – and why does solar activity change with time? To answer it, the Solar Orbiter spacecraft is cruising to a unique orbit around the Sun, eventually reaching a minimum perihelion of 0.28 AU, and performing measurements out of the ecliptic plane: reaching 18° heliographic latitude during its nominal mission phase, and above 30° during its extended mission phase. It carries six remote sensing instruments to observe the Sun and the solar corona, and four in-situ instruments to measure the solar wind, its thermal and energetic particles, and electromagnetic fields. Müller, D., O.C. St. Cyr, I. Zouganelis, et al., The Solar Orbiter mission: science overview, A&amp;A., 642, A1, 2020; DOI: https://doi.org/10.1051/0004-6361/202038467; Müller, D., Marsden, R.G., St. Cyr, O.C. et al., Solar Orbiter, Sol. Phys., 285, 25–70 (2013); https://doi.org/10.1007/s11207-012-0085-7</Description>
+      <Contact>     
+        <PersonID>spase://ESA/Person/Daniel.Muller</PersonID>
+        <Role>ProjectScientist</Role>
+      </Contact>
+      <Contact>     
+        <PersonID>spase://ESA/Person/Anik.de.Groof</PersonID>
+        <Role>MissionManager</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Solar Orbiter home page at ESA</Name>
+        <URL>https://www.esa.int/Science_Exploration/Space_Science/Solar_Orbiter</URL>
+      </InformationURL>
+      <InformationURL>
+        <Name>The Solar Orbiter mission: science overview, Müller, D., O.C. St. Cyr, I. Zouganelis, et al. (2020)</Name>
+        <URL>https://doi.org/10.1051/0004-6361/202038467</URL>
+      </InformationURL>
+      <InformationURL>
+        <Name>Solar Orbiter, Müller, D., Marsden, R.G., St. Cyr, O.C. et al. (2013)</Name>
+        <URL>https://doi.org/10.1007/s11207-012-0085-7</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <Location> 
+      <ObservatoryRegion>Sun</ObservatoryRegion>
+      <ObservatoryRegion>Heliosphere.Inner</ObservatoryRegion>
+    </Location> 
+    <OperatingSpan>
+      <StartDate>2020-02-09T23:15:00</StartDate>
+    </OperatingSpan> 
+  </Observatory>
+</Spase>

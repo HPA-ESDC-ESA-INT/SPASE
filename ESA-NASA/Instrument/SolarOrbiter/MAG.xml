@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://spase-group.org/data/schema/spase-2.7.0.xsd">
+  <Version>2.7.0</Version>
+  <Instrument>
+    <ResourceID>spase://ESA-NASA/Instrument/SolarOrbiter/MAG</ResourceID>
+    <NamingAuthority>ESA-NASA</NamingAuthority>
+    <ResourceType>Instrument</ResourceType>
+    <ResourceHeader>
+      <ResourceName>Solar Orbiter Magnetometer (MAG)</ResourceName>
+      <AlternateName>Magnetometer</AlternateName>
+      <DOI>https://doi.org/10.5270/esa-ux7y320</DOI>
+      <ReleaseDate>2025-02-28T00:00:00Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2025-02-28T00:00:00Z</ReleaseDate>
+          <Note>Update to include complex NamingAuthority and new SPASE version 2.7.0.</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2024-12-12T00:00:00Z</ReleaseDate>
+          <Note>First release using SPASE version 2.6.1.</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>The Solar Orbiter MAG magnetometer is a high performance dual fluxgate instrument, with data rates up to 128 vectors/s from each sensor and a noise level of ~5 pT at 1 Hz. This allows observation of the ion kinetic regime and, near perihelion, access to electron kinetic phenomena at tens of Hz. Significant signals from spacecraft subsystems and other instruments can be present in the raw data. Cleaning is undertaken to remove signals from spacecraft subsystems and other instruments, although some artifacts may be present. Level 2 data files contain the best estimates of the cleaned magnetic field; flags within the files indicate data quality. Level 0 and 1 data files include data from both inboard and outboard sensors. Normal mode data coverage is nearly complete. Burst mode coverage varies from a few minutes a day to complete, depending on available telemetry.</Description>
+      <Contact>
+        <PersonID>spase://ESA/Person/Timothy.S.Horbury</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>      
+      </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>Solar Orbiter MAG instrument</InvestigationName>
+    <ObservatoryID>spase://ESA-NASA/Observatory/SolarOrbiter</ObservatoryID>
+  </Instrument>
+</Spase>
