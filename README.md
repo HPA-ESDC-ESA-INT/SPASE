@@ -35,9 +35,9 @@ SPASE
    |     |   
    |     |   
    |     |___NumericalData
-   |   	|__SolarOrbiter
-   |              |___MAG
-   |   		  |___L2
+   |          |__SolarOrbiter
+   |           |___MAG
+   |               |___L2
       	
 
 ```
