@@ -29,6 +29,7 @@ SPASE
    |     |___Instrument
    |     |    |___SolarOrbiter
    |     |         |___MAG
+   |     |         |___SWA   
    |     |
    |     |___Observatory
    |     |    |___SolarOrbiter
@@ -37,7 +38,12 @@ SPASE
    |     |___NumericalData
    |          |__SolarOrbiter
    |           |___MAG
-   |               |___L2
+   |           |    |___L2
+   |           |        
+   |           |___SWA   
+   |                |___EAS
+   |                |    |___PAD
+   |                |         |___L2   
       	
 
 ```
