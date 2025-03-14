@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://spase-group.org/data/schema/spase-2.7.0.xsd">
+  <Version>2.7.0</Version>
+  <Instrument>
+    <ResourceID>spase://ESA-NASA/Instrument/SolarOrbiter/SWA</ResourceID>
+    <NamingAuthority>ESA-NASA</NamingAuthority>
+    <ResourceType>Instrument</ResourceType>
+    <ResourceHeader>
+      <ResourceName>Solar Orbiter Solar Wind Analiser (SWA)</ResourceName>
+      <AlternateName>SWA</AlternateName>
+      <ReleaseDate>2025-03-15T00:00:00Z</ReleaseDate>
+      <Description>The Solar Orbiter Solar Wind Analyser (SWA) suite has been designed and created, and is operated by a large international consortium of institutes, which is led by UCL/Mullard Space Science Laboratory, UK, INAF-Istituto di Astrofisica e Planetologia Spaziali, Italy, Southwest Research Institute, USA and the Institut de Recherche en Astrophysique et Planétologie, France. These activities have been funded through numerous contracts from the UK Space Agency (UKSA), the UK Science and Technology Facilities Council (STFC), the Agenzia Spaziale Italiana (ASI), the Centre National d’Etudes Spatiales (CNES, France), the Centre National de la Recherche Scientifique (CNRS, France), the Czech contribution to the ESA PRODEX programme, and NASA. The SWA suite comprises 3 scientific sensors, the Electron Analyser System (SWA-EAS), the Proton-Alpha Sensor (SWA-PAS), and the Heavy Ion Sensor (SWA-HIS), which together are serviced by a central control and data processing unit (SWA-DPU). Together these sensors measure and categorise the vast majority of thermal and suprathermal ions and electrons in the solar wind and determine the abundances and charge states of the heavy ion populations. The SWA-EAS uses two top hat electrostatic analyser heads, each of which have 360° azimuth acceptance angles and ±45° aperture deflection plates. Together these two sensors, which are mounted on the end of the boom, cover a full sky field-of-view (FoV) (except for blockages by the spacecraft and its appendages) and measure the full 3D velocity distribution function (VDF) of solar wind electrons in the energy range of a few eV to ∼5 keV. The SWA-PAS instrument also uses an electrostatic analyser with a more confined FoV (−24° to +42° × ±22.5° around the expected solar wind arrival direction), which nevertheless is capable of measuring the full 3D VDF of the protons and alpha particles arriving at the instrument in the energy range from 200 eV/q to 20 keV/e. Finally, SWA-HIS measures the composition and 3D VDFs of heavy ions in the bulk solar wind as well as those of the major constituents in the suprathermal energy range and those of pick-up ions. Measurements are over a FoV of −33° to +66° × ±20° around the expected solar wind arrival direction and at energies up to 80 keV/e. The mass resolution (m/Δm) is > 5.</Description>
+      <Contact>
+        <PersonID>spase://ESA/Person/Christopher.J.Owen</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Raffaella.D'Amicis</PersonID>
+        <Role>CoPI</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Philippe.Louarn</PersonID>
+        <Role>CoPI</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Stephano.Livi</PersonID>
+        <Role>CoPI</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Gethyn.Lewis</PersonID>
+        <Role>OperationsManager</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Andrei.Federov</PersonID>
+        <Role>OperationsManager</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/James.Raines</PersonID>
+        <Role>OperationsManager</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Arnaud.Masson</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>     
+      </ResourceHeader>
+    <InstrumentType>ParticleDetector</InstrumentType>
+    <InvestigationName>Solar Orbiter SWA instrument</InvestigationName>
+    <ObservatoryID>spase://ESA-NASA/Observatory/SolarOrbiter</ObservatoryID>
+  </Instrument>
+</Spase>
