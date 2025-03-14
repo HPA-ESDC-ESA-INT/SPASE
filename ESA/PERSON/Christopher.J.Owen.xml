@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://spase-group.org/data/schema/spase-2.7.0.xsd">
+  <Version>2.7.0</Version>
+  <Person>
+    <ResourceID>spase://ESA/Person/Christopher.J.Owen</ResourceID>
+    <NamingAuthority>ESA</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <PersonName>Christopher J. Owen</PersonName>
+    <OrganizationName>MSSL-UCL, Mullard Space Science Laboratory, University College London, UK</OrganizationName>
+    <Email>c.owen@ucl.ac.uk</Email>
+    <ORCIdentifier>0000-0002-5982-4667</ORCIdentifier>
+  </Person>
+</Spase>

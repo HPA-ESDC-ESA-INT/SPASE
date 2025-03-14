@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://spase-group.org/data/schema/spase-2.7.0.xsd">
+  <Version>2.7.0</Version>
+  <Person>
+    <ResourceID>spase://ESA/Person/Philippe.Louarn</ResourceID>
+    <NamingAuthority>ESA</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <PersonName>Philippe Louarn</PersonName>
+    <OrganizationName>Institut de Recherche en Astrophysique et Planétologie, Centre National de la Recherche Scientiﬁque, Université de Toulouse, France</OrganizationName>
+    <Email>philippe.louarn@irap.omp.eu</Email>
+    <ORCIdentifier>0000-0003-2783-0808</ORCIdentifier>
+  </Person>
+</Spase>
