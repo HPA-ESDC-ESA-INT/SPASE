@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2.7.0.xsd">
+  <Version>2.7.0</Version>
+  <Instrument>
+    <ResourceID>spase://ESA-NASA/Instrument/Cluster/STAFF</ResourceID>
+    <NamingAuthority>ESA-NASA</NamingAuthority>
+    <ResourceType>Instrument</ResourceType>
+    <ResourceHeader>
+      <ResourceName>Cluster Spatio Temporal Analysis of Field Fluctuations (STAFF)</ResourceName>
+      <AlternateName>STAFF</AlternateName>
+      <DOI>https://doi.org/10.5270/esa-yrzyijm</DOI>
+      <ReleaseDate>2025-06-04T12:00:00Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2025-06-04T12:00:00Z</ReleaseDate>
+          <Note>First release using SPASE version 2.7.0.</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>STAFF (Spatio Temporal Analysis of Field Fluctuations) is one of the five experiments of the Wave Experiment Consortium (WEC). The STAFF experiment comprises a boom-mounted three-axis search coil magnetometer, a preamplifier and an electronics box that houses the two complementary data-analysis packages: an on-board waveform unit (SC) to measure magnetic fluctuations in the frequency range 0.1 Hz - 180 Hz and a digital Spectrum Analyser to provide the characteristics of the electromagnetic fluctuations in the frequency range 8 Hz-4 kHz.</Description>
+      <Contact>
+        <PersonID>spase://ESA/Person/Olivier.Lecontel</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>      
+      </ResourceHeader>
+    <InstrumentType>SearchCoil</InstrumentType>
+    <InvestigationName>Cluster STAFF instrument</InvestigationName>
+    <ObservatoryID>spase://ESA-NASA/Observatory/Cluster</ObservatoryID>
+  </Instrument>
+</Spase>
