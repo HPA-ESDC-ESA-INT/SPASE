@@ -16,6 +16,9 @@ SPASE descriptions of ESA led missions will be mirrored at the HPDE GitHub. The 
 ## How to suggest changes
 Changes to our SPASE descriptions are possible and can be requested via email: ESDC-HPA@cosmos.esa.int. To request a change please use [ChangeRequest SPASE] tag + file name in the email title.
 
+## Privacy Notice
+Read [SCI_Heliophysics-Archive-(HPA)_privacy-notice_DPNR-2851_28042025.pdf](https://github.com/HPA-ESDC-ESA-INT/SPASE/blob/main/SCI_Heliophysics-Archive-(HPA)_privacy-notice_DPNR-2851_28042025.pdf) to learn how personal data from SPASE descriptions is processed by ESA.
+
 ## Currently available in the ESA SPASE Repository:
 
 ```bash
@@ -28,22 +31,51 @@ SPASE
    |___ESA-NASA
    |     |___Instrument
    |     |    |___SolarOrbiter
-   |     |         |___MAG
-   |     |         |___SWA   
+   |     |    |     |___MAG
+   |     |    |     |___SWA   
+   |     |    |
+   |     |    |___Cluster
+   |     |          |___STAFF
    |     |
+   |     |   
    |     |___Observatory
    |     |    |___SolarOrbiter
+   |     |    |___Cluster   
    |     |   
    |     |   
    |     |___NumericalData
-   |          |__SolarOrbiter
-   |           |___MAG
-   |           |    |___L2
-   |           |        
-   |           |___SWA   
-   |                |___EAS
-   |                |    |___PAD
-   |                |         |___L2   
+   |          |___SolarOrbiter
+   |          |     |___MAG
+   |          |     |   |___L2
+   |          |     |        
+   |          |     |___SWA   
+   |          |     |    |___EAS
+   |          |     |    |    |___PAD
+   |          |     |    |        |___L2
+   |          |     |    |___HIS
+   |          |     |         |___L3
+   |          |     |            |___Composition   
+   |          |
+   |          |
+   |          |___Cluster
+   |          |     |___C1
+   |          |     |    |___STAFF
+   |          |     |          |___PSD  
+   |          |     |
+   |          |     |___C2
+   |          |     |    |___STAFF
+   |          |     |          |___PSD  
+   |          |     |
+   |          |     |___C3
+   |          |     |    |___STAFF
+   |          |     |          |___PSD  
+   |          |     |
+   |          |     |___C4
+   |          |     |    |___STAFF
+   |          |     |          |___PSD  
+        
+  
+   
       	
 
 ```
