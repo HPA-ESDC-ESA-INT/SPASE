@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2.7.0.xsd">
+  <Version>2.7.0</Version>
+  <Observatory>
+    <ResourceID>spase://ESA-NASA/Observatory/Cluster</ResourceID>
+    <NamingAuthority>ESA-NASA</NamingAuthority>
+    <ResourceType>Observatory</ResourceType>
+    <ResourceHeader>
+      <ResourceName>Cluster</ResourceName>
+      <ReleaseDate>2025-06-04T00:00:00Z</ReleaseDate>
+      <Description>Cluster is the first constellation of four scientific spacecraft to study the Earth-Sun connection in three dimensions. Cluster offers unique opportunities to investigate physical processes in near-Earth space. Those processes are essential to study and understand the effects of the Sun on the vast Earth’s environment that is a highly varying system both in time and space. The four Cluster spacecraft in a polar orbit are unique in their ability to obtain a three-dimensional picture of medium and large-scale plasma structures. The varying Cluster spacecraft formation from 3 km to a few tens of thousands kilometres along the orbit enables multi-point local measurements of different regions at different scales that cannot be done with any other space mission.</Description>
+      <Contact>     
+        <PersonID>spase://ESA/Person/Arnaud.Masson</PersonID>
+        <Role>ProjectScientist</Role>
+      </Contact>
+      <Contact>     
+        <PersonID>spase://ESA/Person/Philippe.Escoubet</PersonID>
+        <Role>MissionManager</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Cluster home page at ESA</Name>
+        <URL>https://www.esa.int/Science_Exploration/Space_Science/Cluster</URL>
+      </InformationURL>
+      <InformationURL>
+        <Name>The Cluster mission, Escoubet, C.P., et al. (2001)</Name>
+        <URL>https://doi.org/10.5194/angeo-19-1197-2001</URL>
+      </InformationURL>
+      <InformationURL>
+        <Name>Cluster - Science and Mission Overview, Escoubet, C.P, et al. (1997)</Name>
+        <URL>https://doi.org/10.1023/A:1004923124586</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <Location> 
+      <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
+      <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
+    </Location> 
+    <OperatingSpan>
+      <StartDate>2000-09-08T03:05:20</StartDate>
+      <StopDate>2024-09-30T23:59:59</StopDate>
+     </OperatingSpan> 
+  </Observatory>
+</Spase>
