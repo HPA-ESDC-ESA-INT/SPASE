@@ -39,11 +39,20 @@ SPASE
    |          |__SolarOrbiter
    |           |___MAG
    |           |    |___L2
+   |                |    |___RTN
+   |                |         |___Burst
+   |                |         |___Normal
+   |                |    |___SRF
+   |                |         |___Burst
+   |                |         |___Normal
    |           |        
    |           |___SWA   
    |                |___EAS
-   |                |    |___PAD
-   |                |         |___L2   
-      	
+   |                |    |___L2
+   |                |         |___PAD
+   |                |___HIS 
+   |                |    |___L3
+   |                |         |___Composition
+
 
 ```
