@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
+  <Version>2.7.0</Version>
+  <Person>
+    <ResourceID>spase://ESA/Person/Patrick.Canu</ResourceID>
+    <NamingAuthority>ESA</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <PersonName>Patrick Canu</PersonName>
+    <OrganizationName>LPP/CNRS</OrganizationName>
+    <Email>Patrick.Canu@lpp.polytechnique.fr</Email>
+    <ORCIdentifier>0000-0002-2517-4846</ORCIdentifier>
+  </Person>
+</Spase>
+
