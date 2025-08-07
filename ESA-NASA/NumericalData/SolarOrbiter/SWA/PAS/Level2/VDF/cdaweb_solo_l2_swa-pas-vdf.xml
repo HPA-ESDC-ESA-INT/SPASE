@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://spase-group.org/data/schema/spase-2.7.0.xsd">
+   <Version>2.7.0</Version>
+   <NumericalData>
+      <ResourceID>spase://ESA-NASA/NumericalData/SolarOrbiter/SWA/PAS/Level2/VDF/VariableCadence</ResourceID>
+      <NamingAuthority>ESA-NASA</NamingAuthority>
+      <ResourceType>NumericalData</ResourceType>
+      <ResourceHeader>
+         <ResourceName>Solar Orbiter Solar Wind Analyser (SWA), Proton Analyser Sensor (PAS), 3D ion distributions, in velocity distribution function (VDF) units. Level 2 (calibrated) data. </ResourceName>
+         <ReleaseDate>2025-08-07T12:00:00.00Z</ReleaseDate>
+         <Description>This Level 2 (L2) dataset contains 3D ion distribution from the Proton Analyser Sensor (PAS) sub-unit of the Solar Orbiter Solar Wind Analyser (SWA) instrument expressed in velocity distribution function (VDF) units. Variable Cadence (cadence depends on which sensor mode is used). Normal mode: 4, 2 or 1 seconds time resolution; Snapshot mode: generally 4 distribution per second over a period of 7 seconds; Burst mode: variety of cadences, extending down into the sub-second range, depending on the trade-off between time and angular or energy resolution).</Description>
+         <Acknowledgement>Solar Orbiter is a space mission of international collaboration between ESA and NASA, operated by ESA. Solar Orbiter Solar Wind Analyser (SWA) data are derived from scientific sensors which have been designed and created, and are operated under funding provided in numerous contracts from the UK Space Agency (UKSA), the UK Science and Technology Facilities Council (STFC), the Agenzia Spaziale Italiana (ASI), the Centre National d'Etudes Spatiales (CNES, France), the Centre National de la Recherche Scientifique (CNRS, France), the Czech contribution to the ESA PRODEX programme and NASA.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://ESA/Person/Christopher.J.Owen</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://ESA/Person/Raffaella.D'Amicis</PersonID>
+            <Role>CoPI</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://ESA/Person/Philippe.Louarn</PersonID>
+            <Role>CoPI</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://ESA/Person/Stephano.Livi</PersonID>
+            <Role>CoPI</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://ESA/Person/Gethyn.Lewis</PersonID>
+            <Role>OperationsManager</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://ESA/Person/Andrei.Fedorov</PersonID>
+            <Role>OperationsManager</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://ESA/Person/James.Raines</PersonID>
+            <Role>OperationsManager</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://ESA/Person/Arnaud.Masson</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Solar Orbiter SWA reference webpage with DOI information</Name>
+            <URL>https://doi.org/10.5270/esa-ahypgn6</URL>
+            <Description>Website</Description>
+         </InformationURL>
+         <InformationURL> 
+            <Name>Owen C. J. et al., The Solar Orbiter Solar Wind Analyser (SWA) Suite, A&amp;A, 642 (2020) A16</Name> 
+            <URL>https://doi.org/10.1051/0004-6361/201937259</URL> 
+            <Description>Publication</Description> 
+         </InformationURL> 
+      </ResourceHeader>
+      <AccessInformation>
+         <RepositoryID>spase://ESA/Repository/ESDC</RepositoryID>
+         <Availability>Online</Availability>
+         <AccessURL> 
+            <Name>Solar Orbiter Archive (SOAR) web interface</Name> 
+            <URL>https://soar.esac.esa.int/soar/</URL>
+            <ProductKey>SOLO_L2_SWA-PAS-VDF</ProductKey>
+            <Description>Solar Orbiter Archive (SOAR) European Space Agency web interface</Description>
+         </AccessURL>
+         <AccessURL> 
+            <Name>Solar Orbiter Archive (SOAR) TAP</Name> 
+            <URL>https://soar.esac.esa.int/soar-sl-tap/tap/</URL>
+            <ProductKey>SOLO_L2_SWA-PAS-VDF</ProductKey>
+            <Description> Solar Orbiter Data and Metadata via the European Space Agency Table Access Protocol (TAP) server</Description>
+         </AccessURL>
+         <Format>CDF</Format>
+      </AccessInformation>
+      <AccessInformation>
+         <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+         <Availability>Online</Availability>
+         <AccessRights>Open</AccessRights>
+         <AccessURL>
+            <Name>CDAWeb</Name>
+            <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=SOLO_L2_SWA-PAS-VDF&amp;index=sp_phys</URL>
+            <ProductKey>SOLO_L2_SWA-PAS-VDF</ProductKey>
+            <Description>Access to ASCII, CDF, and Plots via NASA/GSFC CDAWeb</Description>
+         </AccessURL>
+         <Format>CDF</Format>
+         <Encoding>None</Encoding>
+         <Acknowledgement>Please acknowledge the Principal Investigator C.J. Owen. Please acknowledge the Data Providers and CDAWeb when using these Data.</Acknowledgement>
+      </AccessInformation>
+      <ProcessingLevel>Calibrated</ProcessingLevel>
+      <ProviderProcessingLevel>Level 2</ProviderProcessingLevel>
+      <InstrumentID>spase://ESA-NASA/Instrument/SolarOrbiter/SWA</InstrumentID>
+      <MeasurementType>EnergeticParticles</MeasurementType>
+      <TemporalDescription>
+         <TimeSpan>
+            <StartDate>2020-04-15T00:00:00</StartDate>
+            <RelativeStopDate>-P3M</RelativeStopDate>
+         </TimeSpan>
+         <Cadence>PT4S</Cadence>
+      </TemporalDescription>
+      <ObservedRegion>Heliosphere</ObservedRegion>
+      <ObservedRegion>Heliosphere.Inner</ObservedRegion>
+      <Keyword>SWA</Keyword>
+      <Keyword>PAS</Keyword>
+      <Keyword>SWA-PAS</Keyword>      
+      <Keyword>Protons</Keyword>
+      <Keyword>Solar Wind</Keyword>
+      <Keyword>Heliosphere</Keyword>      
+      <Keyword>Interplanetary Medium</Keyword>
+      <Keyword>Space Plasmas</Keyword>
+      <Keyword>Interplanetary Magnetic Field</Keyword>
+      <Keyword>Protons Distribution</Keyword>
+      <Keyword>Proton Flux</Keyword>      
+      <Keyword>Plasma Energisation</Keyword>
+      <Parameter>
+         <Name>Epoch</Name>
+         <ParameterKey>Epoch</ParameterKey>
+         <Description>Epoch encoded as Terrestrial Time 2000 on rotating Earth geoid, ns since J2000.</Description>
+         <Units>ns</Units>
+         <UnitsConversion>1.0E-9>s</UnitsConversion>
+         <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>Epoch</AxisLabel>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>2020-02-10T00:00:00.000</ValidMin>
+         <ValidMax>2030-12-31T23:59:59.999</ValidMax>
+         <FillValue>9999-12-31T23:59:59.999</FillValue>
+         <Support>
+            <SupportQuantity>Temporal</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Half interval</Name>
+         <ParameterKey>Half_interval</ParameterKey>
+         <Description>Acquisition period half interval</Description>
+         <Units>s</Units>
+         <UnitsConversion>1.0s</UnitsConversion>
+         <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>Half-interval</AxisLabel>
+            <ValueFormat>F4.2</ValueFormat>
+            <ScaleMin>0.0</ScaleMin>
+            <ScaleMax>10.0</ScaleMax>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>-60.0</ValidMin>
+         <ValidMax>60.0</ValidMax>
+         <FillValue>-1.0</FillValue>
+         <Support>
+            <SupportQuantity>Other</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Spacecraft Clock Elapsed Time</Name>
+         <ParameterKey>SCET</ParameterKey>
+         <Description>Elapsed time on the onboard clock</Description>
+         <Units>Ticks</Units>
+         <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>SCET</AxisLabel>
+            <ValueFormat>F14.3</ValueFormat>
+            <ScaleMin>0.0</ScaleMin>
+            <ScaleMax>4.29497e+09</ScaleMax>
+         </RenderingHints>
+         <ValidMin>0.0</ValidMin>
+         <ValidMax>4.29497e+09</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Support>
+            <SupportQuantity>Temporal</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Information sensor mode</Name>
+         <ParameterKey>Info</ParameterKey>
+         <Description>Info 0:Ground 1:Normal 2:Snapshot 3:Burst 4:Engineering 5:Calibration</Description>
+         <RenderingHints>
+            <AxisLabel>Info sensor mode</AxisLabel>
+            <ValueFormat>I3</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>0</ValidMin>
+         <ValidMax>5</ValidMax>
+         <FillValue>255</FillValue>
+         <Support>
+            <SupportQuantity>Housekeeping</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Unrecoverd count</Name>
+         <ParameterKey>unrecovered_count</ParameterKey>
+         <Description>Total counter of unrecovered bins</Description>
+         <RenderingHints>
+            <AxisLabel>Unrecovered count</AxisLabel>
+            <ValueFormat>E12.2</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>0.0</ValidMin>
+         <ValidMax>1.0e+30</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Particle>
+            <ParticleType>Proton</ParticleType>
+            <ParticleType>AlphaParticle</ParticleType>
+            <ParticleQuantity>Counts</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Total count</Name>
+         <ParameterKey>total_count</ParameterKey>
+         <Description>Total count</Description>
+         <RenderingHints>
+            <AxisLabel>Total count</AxisLabel>
+            <ValueFormat>E12.2</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>0.0</ValidMin>
+         <ValidMax>1.0e+30</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Particle>
+            <ParticleType>Proton</ParticleType>
+            <ParticleType>AlphaParticle</ParticleType>
+            <ParticleQuantity>Counts</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Quality factor</Name>
+         <ParameterKey>quality_factor</ParameterKey>
+         <Description>Quality factor</Description>
+         <RenderingHints>
+            <AxisLabel>Quality factor</AxisLabel>
+            <ValueFormat>E12.2</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>0.0</ValidMin>
+         <ValidMax>1.0e+30</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Support>
+            <SupportQuantity>DataQuality</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Start energy bin</Name>
+         <ParameterKey>start_energy bin</ParameterKey>
+         <Description>Start energy bin</Description>
+         <RenderingHints>
+            <AxisLabel>Start energy</AxisLabel>
+            <ValueFormat>I5</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>0</ValidMin>
+         <ValidMax>96</ValidMax>
+         <FillValue>-32768</FillValue>
+         <Support>
+            <SupportQuantity>Other</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Number Energy bins</Name>
+         <ParameterKey>nb_energy_bins</ParameterKey>
+         <Description>Number energy bins</Description>
+         <RenderingHints>
+            <AxisLabel>Number energy</AxisLabel>
+            <ValueFormat>I5</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>0</ValidMin>
+         <ValidMax>96</ValidMax>
+         <FillValue>-32768</FillValue>
+         <Support>
+            <SupportQuantity>Other</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Start elevation bin</Name>
+         <ParameterKey>start_elevation_bin</ParameterKey>
+         <Description>Start elevation bin</Description>
+         <RenderingHints>
+            <AxisLabel>Start elevation</AxisLabel>
+            <ValueFormat>I5</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>0</ValidMin>
+         <ValidMax>9</ValidMax>
+         <FillValue>-32768</FillValue>
+         <Support>
+            <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
+            <SupportQuantity>Orientation</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Number elevation bins</Name>
+         <ParameterKey>nb_elevation_bins</ParameterKey>
+         <Description>Number elevation bins</Description>
+         <RenderingHints>
+            <AxisLabel>Number elevation</AxisLabel>
+            <ValueFormat>I5</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>0</ValidMin>
+         <ValidMax>9</ValidMax>
+         <FillValue>-32768</FillValue>
+         <Support>
+            <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
+            <SupportQuantity>Orientation</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Start Azimuth bin</Name>
+         <ParameterKey>start_az</ParameterKey>
+         <Description>Start Azimuth bin</Description>
+         <RenderingHints>
+            <AxisLabel>Start Azimuth</AxisLabel>
+            <ValueFormat>I5</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>0</ValidMin>
+         <ValidMax>11</ValidMax>
+         <FillValue>-32768</FillValue>
+         <Support>
+            <SupportQuantity>Other</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Number Azimuth bins</Name>
+         <ParameterKey>nb_az</ParameterKey>
+         <Description>Number Azimuth Bins</Description>
+         <RenderingHints>
+            <AxisLabel>Number Azimuth</AxisLabel>
+            <ValueFormat>I5</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>0</ValidMin>
+         <ValidMax>11</ValidMax>
+         <FillValue>-32768</FillValue>
+         <Support>
+            <SupportQuantity>Other</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Number of sub-sampling per second</Name>
+         <ParameterKey>nb_K</ParameterKey>
+         <Description>Number of sub-sampling per second, K</Description>
+         <RenderingHints>
+            <AxisLabel>Nb_K</AxisLabel>
+            <ValueFormat>I5</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>0</ValidMin>
+         <ValidMax>8</ValidMax>
+         <FillValue>-32768</FillValue>
+         <Support>
+            <SupportQuantity>Other</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Current sub-sampling</Name>
+         <ParameterKey>K</ParameterKey>
+         <Description>Current sub-sampling, K</Description>
+         <RenderingHints>
+            <AxisLabel>K</AxisLabel>
+            <ValueFormat>I5</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>0</ValidMin>
+         <ValidMax>8</ValidMax>
+         <FillValue>-32768</FillValue>
+         <Support>
+            <SupportQuantity>Other</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>SOLO_SWA_PAS to SOLO_RTN matrix</Name>
+         <ParameterKey>PAS_to_RTN</ParameterKey>
+         <Description>The transformation matrix from PAS science frame to RTN frame</Description>
+         <RenderingHints>
+            <AxisLabel>PAS to RTN</AxisLabel>
+            <ValueFormat>E10</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>3 3</Size>
+         </Structure>
+         <FillValue>-1.0e+31</FillValue>
+         <Support>
+            <SupportQuantity>Other</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Distribution function</Name>
+         <ParameterKey>vdf</ParameterKey>
+         <Description>Distribution function. Depends on Epoch, Azimuth, Elevation and Energy per charge.
+            
+            * Column 1 AZIMUTH: [-2.17e+01,-1.46e+01,-8.61e+00,-2.70e+00,3.14e+00,9.02e+00,1.49e+01,2.07e+01,2.74e+01,3.33e+01,3.91e+01];
+            * Column 2 ELEVATION: [ -17.1000, -14.0000, -10.4000, -6.07000, -0.515000, 5.29000, 10.7000, 15.2000, 19.9000];
+            * Column 3 ENERGY: [ 18500.0, 17400.0, 16400.0, 15500.0, 14600.0, 13800.0, 13000.0, 12200.0, 11500.0, 10900.0, 10300.0, 9670.00, 9120.00, 8600.00, 8110.00, 7650.00, 7210.00, 6800.00, 6420.00, 6050.00, 5700.00, 5380.00, 5070.00, 4780.00, 4510.00, 4250.00, 4010.00, 3780.00, 3570.00, 3360.00, 3170.00, 2990.00, 2820.00, 2660.00, 2510.00, 2370.00, 2230.00, 2100.00, 1980.00, 1870.00, 1760.00, 1660.00, 1570.00, 1480.00, 1390.00, 1320.00, 1240.00, 1170.00, 1100.00, 1040.00, 981.000, 925.000, 872.000, 822.000, 776.000, 731.000, 690.000, 650.000, 613.000, 578.000, 545.000, 514.000, 485.000, 457.000, 431.000, 407.000, 384.000, 362.000, 341.000, 322.000, 303.000, 286.000, 270.000, 254.000, 240.000, 226.000, 213.000, 201.000, 190.000, 179.000, 169.000, 159.000, 150.000, 141.000, 133.000, 126.000, 119.000, 112.000, 105.000, 99.4000, 93.8000, 88.4000, 83.4000, 78.6000, 74.2000, 69.9000].</Description>
+         <Units>s^3 m^-6</Units>
+         <RenderingHints>
+            <AxisLabel>VDF</AxisLabel>
+            <ValueFormat>E10</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>11 9 96</Size>
+         </Structure>
+         <FillValue>-1.0e+31</FillValue>
+         <Particle>
+            <ParticleType>Proton</ParticleType>
+            <ParticleType>AlphaParticle</ParticleType>
+            <ParticleQuantity>ChargeFlux</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Energy per Charge</Name>
+         <ParameterKey>Energy</ParameterKey>
+         <Description>Center of energy bins</Description>
+         <Units>eV</Units>
+         <RenderingHints>
+            <AxisLabel>E/Q</AxisLabel>
+            <ValueFormat>E12.2</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>96</Size>
+         </Structure>
+         <ValidMin>0.0</ValidMin>
+         <ValidMax>40000.0</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Particle>
+            <ParticleType>Proton</ParticleType>
+            <ParticleType>AlphaParticle</ParticleType>
+            <ParticleQuantity>Energy</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Delta plus Energy per Charge</Name>
+         <ParameterKey>delta_p_Energy</ParameterKey>
+         <Description>Delta plus energy per charge</Description>
+         <Units>eV</Units>
+         <RenderingHints>
+            <AxisLabel>Delta plus E/Q</AxisLabel>
+            <ValueFormat>E12.2</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>96</Size>
+         </Structure>
+         <ValidMin>0.0</ValidMin>
+         <ValidMax>40000.0</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Particle>
+            <ParticleType>Proton</ParticleType>
+            <ParticleType>AlphaParticle</ParticleType>
+            <ParticleQuantity>Energy</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Delta minus Energy per Charge </Name>
+         <ParameterKey>delta_m_Energy</ParameterKey>
+         <Description>Delta minus energy per charge</Description>
+         <Units>eV</Units>
+         <RenderingHints>
+            <AxisLabel>Delta minus E/Q</AxisLabel>
+            <ValueFormat>E12.2</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>96</Size>
+         </Structure>
+         <ValidMin>0.0</ValidMin>
+         <ValidMax>40000.0</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Particle>
+            <ParticleType>Proton</ParticleType>
+            <ParticleType>AlphaParticle</ParticleType>
+            <ParticleQuantity>Energy</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Azimuth</Name>
+         <ParameterKey>Azimuth</ParameterKey>
+         <Description>Center of azimuth bin</Description>
+         <Units>degree</Units>
+         <RenderingHints>
+            <AxisLabel>Azimuth</AxisLabel>
+            <ValueFormat>E12.2</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>11</Size>
+         </Structure>
+         <ValidMin>-90.0</ValidMin>
+         <ValidMax>90.0</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Support>
+            <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
+            <SupportQuantity>Orientation</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Elevation</Name>
+         <ParameterKey>Elevation</ParameterKey>
+         <Description>Center of elevation bin</Description>
+         <Units>degree</Units>
+         <RenderingHints>
+            <AxisLabel>Elevation</AxisLabel>
+            <ValueFormat>E12.2</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>9</Size>
+         </Structure>
+         <ValidMin>-45.0</ValidMin>
+         <ValidMax>45.0</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Support>
+            <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
+            <SupportQuantity>Orientation</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Delta Azimuth</Name>
+         <ParameterKey>delta_Azimuth</ParameterKey>
+         <Description>Delta Azimuth</Description>
+         <Units>degree</Units>
+         <RenderingHints>
+            <AxisLabel>Delta Azimuth</AxisLabel>
+            <ValueFormat>E12.2</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>11</Size>
+         </Structure>
+         <ValidMin>0.0</ValidMin>
+         <ValidMax>45.0</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Support>
+            <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
+            <SupportQuantity>Orientation</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Delta Elevation</Name>
+         <ParameterKey>delta_Elevation</ParameterKey>
+         <Description>Delta elevation</Description>
+         <Units>degree</Units>
+         <RenderingHints>
+            <AxisLabel>Delta elevation</AxisLabel>
+            <ValueFormat>E12.2</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>9</Size>
+         </Structure>
+         <ValidMin>-45.0</ValidMin>
+         <ValidMax>45.0</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Support>
+            <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
+            <SupportQuantity>Orientation</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Elevation correction</Name>
+         <ParameterKey>Elevation_correction</ParameterKey>
+         <Description>Elevation correction for each energy bin</Description>
+         <Units>degree</Units>
+         <Structure>
+            <Size>96</Size>
+         </Structure>
+         <ValidMin>-10.0</ValidMin>
+         <ValidMax>10.0</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Support>
+            <SupportQuantity>Other</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Full_elevation</Name>
+         <ParameterKey>Full_elevation</ParameterKey>
+         <Description>Full resolution elevation table</Description>
+         <Units>degree</Units>
+         <Structure>
+            <Size>11 9 3</Size>
+         </Structure>
+         <Support>
+            <SupportQuantity>Other</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Full azimuth</Name>
+         <ParameterKey>Full_azimuth</ParameterKey>
+         <Description>Full resolution azimuths table</Description>
+         <Units>degree</Units>
+         <Structure>
+            <Size>11 9 3</Size>
+         </Structure>
+         <Support>
+            <SupportQuantity>Other</SupportQuantity>
+         </Support>
+      </Parameter> 
+   </NumericalData>
+</Spase>

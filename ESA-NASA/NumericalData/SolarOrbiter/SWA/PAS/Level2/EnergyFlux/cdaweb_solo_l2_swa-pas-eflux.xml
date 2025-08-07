@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://spase-group.org/data/schema/spase-2.7.0.xsd">
+   <Version>2.7.0</Version>
+   <NumericalData>
+      <ResourceID>spase://ESA-NASA/NumericalData/SolarOrbiter/SWA/PAS/Level2/EnergyFlux/VariableCadence</ResourceID>
+      <NamingAuthority>ESA-NASA</NamingAuthority>
+      <ResourceType>NumericalData</ResourceType>
+      <ResourceHeader>
+         <ResourceName>Solar Orbiter Solar Wind Analyser (SWA), Proton Analyser Sensor (PAS), Energy Flux, Level 2 (calibrated), Data</ResourceName>
+         <DOI>DOI_DOI</DOI>
+         <ReleaseDate>2025-08-07T12:00:00.00Z</ReleaseDate>
+         <Description>
+            This Level 2 (L2) dataset contains 1D differential energy flux from the Proton Analyser Sensor (PAS) sub-unit of the Solar Orbiter Solar Wind Analyser (SWA) instrument. In detail, it contains original velocity distribution function integrated over elevation and azimuth converted to the differential energy flux. Variable Cadence (Normal sampling can be 4, 2 or 1s since 2024/07/27, Snapshot and burst sampling vary and are defined by Info variable).</Description>
+         <Acknowledgement>Solar Orbiter is a space mission of international collaboration between ESA and NASA, operated by ESA. Solar Orbiter Solar Wind Analyser (SWA) data are derived from scientific sensors which have been designed and created, and are operated under funding provided in numerous contracts from the UK Space Agency (UKSA), the UK Science and Technology Facilities Council (STFC), the Agenzia Spaziale Italiana (ASI), the Centre National d'Etudes Spatiales (CNES, France), the Centre National de la Recherche Scientifique (CNRS, France), the Czech contribution to the ESA PRODEX programme and NASA.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://ESA/Person/Christopher.J.Owen</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://ESA/Person/Raffaella.D'Amicis</PersonID>
+            <Role>CoPI</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://ESA/Person/Philippe.Louarn</PersonID>
+            <Role>CoPI</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://ESA/Person/Stephano.Livi</PersonID>
+            <Role>CoPI</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://ESA/Person/Gethyn.Lewis</PersonID>
+            <Role>OperationsManager</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://ESA/Person/Andrei.Fedorov</PersonID>
+            <Role>OperationsManager</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://ESA/Person/James.Raines</PersonID>
+            <Role>OperationsManager</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://ESA/Person/Arnaud.Masson</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>      
+         <InformationURL>
+            <Name>Solar Orbiter SWA reference webpage with DOI information</Name>
+            <URL>https://doi.org/10.5270/esa-ahypgn6</URL>
+            <Description>Website</Description>
+         </InformationURL>
+         <InformationURL> 
+            <Name>Owen C. J. et al., The Solar Orbiter Solar Wind Analyser (SWA) Suite, A&amp;A, 642 (2020) A16</Name> 
+            <URL>https://doi.org/10.1051/0004-6361/201937259</URL> 
+            <Description>Publication</Description> 
+         </InformationURL> 
+      </ResourceHeader>
+      <AccessInformation>
+         <RepositoryID>spase://ESA/Repository/ESDC</RepositoryID>
+         <Availability>Online</Availability>
+         <AccessURL> 
+            <Name>Solar Orbiter Archive (SOAR) web interface</Name> 
+            <URL>https://soar.esac.esa.int/soar/</URL>
+            <ProductKey>SOLO_L2_SWA-PAS-EFLUX</ProductKey>
+            <Description>Solar Orbiter Archive (SOAR) European Space Agency web interface</Description>
+         </AccessURL>
+         <AccessURL> 
+            <Name>Solar Orbiter Archive (SOAR) TAP</Name> 
+            <URL>https://soar.esac.esa.int/soar-sl-tap/tap/</URL>
+            <ProductKey>SOLO_L2_SWA-PAS-EFLUX</ProductKey>
+            <Description> Solar Orbiter Data and Metadata via the European Space Agency Table Access Protocol (TAP) server</Description>
+         </AccessURL>
+         <Format>CDF</Format>
+      </AccessInformation>
+      <AccessInformation>
+         <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+         <Availability>Online</Availability>
+         <AccessRights>Open</AccessRights>
+         <AccessURL>
+            <Name>CDAWeb</Name>
+            <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=SOLO_L2_SWA-PAS-EFLUX&amp;index=sp_phys</URL>
+            <ProductKey>SOLO_L2_SWA-PAS-EFLUX</ProductKey>
+            <Description>Access to ASCII, CDF, and Plots via NASA/GSFC CDAWeb</Description>
+         </AccessURL>
+         <Format>CDF</Format>
+         <Encoding>None</Encoding>
+         <Acknowledgement>Please acknowledge the Principal Investigator C.J. Owen. Please acknowledge the Data Providers and CDAWeb when using these Data.</Acknowledgement>
+      </AccessInformation>
+      <ProcessingLevel>Calibrated</ProcessingLevel>
+      <ProviderProcessingLevel>Level 2</ProviderProcessingLevel>
+      <InstrumentID>spase://ESA-NASA/Instrument/SolarOrbiter/SWA</InstrumentID>
+      <MeasurementType>ThermalPlasma</MeasurementType>
+      <TemporalDescription>
+         <TimeSpan>
+            <StartDate>2020-04-15T00:00:00</StartDate>
+            <RelativeStopDate>-P3M</RelativeStopDate>
+         </TimeSpan>
+         <Cadence>PT4S</Cadence>
+      </TemporalDescription>
+      <ObservedRegion>Heliosphere</ObservedRegion>
+      <ObservedRegion>Heliosphere.Inner</ObservedRegion>
+      <Keyword>SWA</Keyword>
+      <Keyword>PAS</Keyword>
+      <Keyword>SWA-PAS</Keyword>      
+      <Keyword>Protons</Keyword>
+      <Keyword>Solar Wind</Keyword>
+      <Keyword>Heliosphere</Keyword>      
+      <Keyword>Interplanetary Medium</Keyword>
+      <Keyword>Space Plasmas</Keyword>
+      <Keyword>Ground Moments</Keyword>
+      <Keyword>Protons Distribution</Keyword>
+      <Keyword>Proton Flux</Keyword>      
+      <Keyword>Plasma Energisation</Keyword>
+      <Parameter>
+         <Name>Epoch</Name>
+         <ParameterKey>Epoch</ParameterKey>
+         <Description>Epoch encoded as Terrestrial Time on rotating Earth geoid, ns since J2000</Description>
+         <Cadence>PT4S</Cadence>
+         <Units>ns</Units>
+         <UnitsConversion>1.0E-9>s</UnitsConversion>
+         <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>Epoch</AxisLabel>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>2020-02-10T00:00:00.000</ValidMin>
+         <ValidMax>2030-12-31T23:59:59.999</ValidMax>
+         <FillValue>9999-12-31T23:59:59.999</FillValue>
+         <Support>
+            <SupportQuantity>Temporal</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Half interval</Name>
+         <ParameterKey>Half_interval</ParameterKey>
+         <Description>Acquisition period half interval.</Description>
+         <Units>s</Units>
+         <UnitsConversion>1</UnitsConversion>
+         <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>Half-interval</AxisLabel>
+            <ValueFormat>F4.2</ValueFormat>
+            <ScaleMin>0.0</ScaleMin>
+            <ScaleMax>10.0</ScaleMax>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>0.0</ValidMin>
+         <ValidMax>60.0</ValidMax>
+         <FillValue>-1.0</FillValue>
+         <Support>
+            <SupportQuantity>Other</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>SCET</Name>
+         <ParameterKey>SCET</ParameterKey>
+         <Description>Elapsed time on the onboard clock</Description>
+         <Cadence>PT4S</Cadence>
+         <Units>Ticks</Units>
+         <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>SCET</AxisLabel>
+            <ValueFormat>F14.3</ValueFormat>
+            <ScaleMin>0.0</ScaleMin>
+            <ScaleMax>4.29497e+09</ScaleMax>
+         </RenderingHints>
+         <ValidMin>0.0</ValidMin>
+         <ValidMax>4.29497e+09</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Support>
+            <SupportQuantity>Temporal</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Information sensor mode</Name>
+         <ParameterKey>Info</ParameterKey>
+         <Description>Info 0:Ground 1:Normal 2:Snapshot 3:Burst 4:Engineering 5:Calib</Description>
+         <RenderingHints>
+            <AxisLabel>Info</AxisLabel>
+            <ValueFormat>I3</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>0</ValidMin>
+         <ValidMax>5</ValidMax>
+         <FillValue>255</FillValue>
+         <Support>
+            <SupportQuantity>Housekeeping</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Counter for unrecoverd bins</Name>
+         <ParameterKey>unrecovered_count</ParameterKey>
+         <Description>Total counter of unrecovered bins</Description>
+         <RenderingHints>
+            <AxisLabel>Unrecovered count</AxisLabel>
+            <ValueFormat>E12.2</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>0.0</ValidMin>
+         <ValidMax>1.0e+30</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Particle>
+            <ParticleType>Proton</ParticleType>
+            <ParticleType>AlphaParticle</ParticleType>
+            <ParticleQuantity>Counts</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Total count</Name>
+         <ParameterKey>total_count</ParameterKey>
+         <Description>Total count</Description>
+         <RenderingHints>
+            <AxisLabel>Total count</AxisLabel>
+            <ValueFormat>E12.2</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>0.0</ValidMin>
+         <ValidMax>1.0e+30</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Particle>
+            <ParticleType>Proton</ParticleType>
+            <ParticleType>AlphaParticle</ParticleType>
+            <ParticleQuantity>Counts</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>quality_factor</Name>
+         <ParameterKey>quality_factor</ParameterKey>
+         <Description>Quality factor</Description>
+         <RenderingHints>
+            <AxisLabel>Quality factor</AxisLabel>
+            <ValueFormat>E12.2</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>0.0</ValidMin>
+         <ValidMax>1.0e+30</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Support>
+            <SupportQuantity>DataQuality</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Start energy</Name>
+         <ParameterKey>start_energy</ParameterKey>
+         <Description>Start energy bin</Description>
+         <RenderingHints>
+            <AxisLabel>Start energy</AxisLabel>
+            <ValueFormat>I5</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>0</ValidMin>
+         <ValidMax>96</ValidMax>
+         <FillValue>-32768</FillValue>
+         <Support>
+            <SupportQuantity>Other</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Number energy</Name>
+         <ParameterKey>nb_energy</ParameterKey>
+         <Description>Number of energy bins</Description>
+         <RenderingHints>
+            <AxisLabel>Number energy</AxisLabel>
+            <ValueFormat>I5</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>0</ValidMin>
+         <ValidMax>96</ValidMax>
+         <FillValue>-32768</FillValue>
+         <Support>
+            <SupportQuantity>Other</SupportQuantity>
+         </Support>
+      </Parameter>
+      
+      <Parameter>
+         <Name>Energy Flux</Name>
+         <ParameterKey>eflux</ParameterKey>
+         <Description>Differential Energy Flux (Omni-directional)</Description>
+         <Units>cm-2 s-1 eV/eV</Units>
+         <RenderingHints>
+            <AxisLabel>eflux</AxisLabel>
+            <ValueFormat>E10</ValueFormat>
+            <ScaleType>LogScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>96</Size>
+            <Element>
+               <Name>Element 1</Name>
+               <Index>1</Index>
+            </Element>
+            <Element>
+               <Name>Element 2</Name>
+               <Index>2</Index>
+            </Element>
+            <Element>
+               <Name>Element 3</Name>
+               <Index>3</Index>
+            </Element>
+            <Element>
+               <Name>Element 4</Name>
+               <Index>4</Index>
+            </Element>
+            <Element>
+               <Name>Element 5</Name>
+               <Index>5</Index>
+            </Element>
+            <Element>
+               <Name>Element 6</Name>
+               <Index>6</Index>
+            </Element>
+            <Element>
+               <Name>Element 7</Name>
+               <Index>7</Index>
+            </Element>
+            <Element>
+               <Name>Element 8</Name>
+               <Index>8</Index>
+            </Element>
+            <Element>
+               <Name>Element 9</Name>
+               <Index>9</Index>
+            </Element>
+            <Element>
+               <Name>Element 10</Name>
+               <Index>10</Index>
+            </Element>
+            <Element>
+               <Name>Element 11</Name>
+               <Index>11</Index>
+            </Element>
+            <Element>
+               <Name>Element 12</Name>
+               <Index>12</Index>
+            </Element>
+            <Element>
+               <Name>Element 13</Name>
+               <Index>13</Index>
+            </Element>
+            <Element>
+               <Name>Element 14</Name>
+               <Index>14</Index>
+            </Element>
+            <Element>
+               <Name>Element 15</Name>
+               <Index>15</Index>
+            </Element>
+            <Element>
+               <Name>Element 16</Name>
+               <Index>16</Index>
+            </Element>
+            <Element>
+               <Name>Element 17</Name>
+               <Index>17</Index>
+            </Element>
+            <Element>
+               <Name>Element 18</Name>
+               <Index>18</Index>
+            </Element>
+            <Element>
+               <Name>Element 19</Name>
+               <Index>19</Index>
+            </Element>
+            <Element>
+               <Name>Element 20</Name>
+               <Index>20</Index>
+            </Element>
+            <Element>
+               <Name>Element 21</Name>
+               <Index>21</Index>
+            </Element>
+            <Element>
+               <Name>Element 22</Name>
+               <Index>22</Index>
+            </Element>
+            <Element>
+               <Name>Element 23</Name>
+               <Index>23</Index>
+            </Element>
+            <Element>
+               <Name>Element 24</Name>
+               <Index>24</Index>
+            </Element>
+            <Element>
+               <Name>Element 25</Name>
+               <Index>25</Index>
+            </Element>
+            <Element>
+               <Name>Element 26</Name>
+               <Index>26</Index>
+            </Element>
+            <Element>
+               <Name>Element 27</Name>
+               <Index>27</Index>
+            </Element>
+            <Element>
+               <Name>Element 28</Name>
+               <Index>28</Index>
+            </Element>
+            <Element>
+               <Name>Element 29</Name>
+               <Index>29</Index>
+            </Element>
+            <Element>
+               <Name>Element 30</Name>
+               <Index>30</Index>
+            </Element>
+            <Element>
+               <Name>Element 31</Name>
+               <Index>31</Index>
+            </Element>
+            <Element>
+               <Name>Element 32</Name>
+               <Index>32</Index>
+            </Element>
+            <Element>
+               <Name>Element 33</Name>
+               <Index>33</Index>
+            </Element>
+            <Element>
+               <Name>Element 34</Name>
+               <Index>34</Index>
+            </Element>
+            <Element>
+               <Name>Element 35</Name>
+               <Index>35</Index>
+            </Element>
+            <Element>
+               <Name>Element 36</Name>
+               <Index>36</Index>
+            </Element>
+            <Element>
+               <Name>Element 37</Name>
+               <Index>37</Index>
+            </Element>
+            <Element>
+               <Name>Element 38</Name>
+               <Index>38</Index>
+            </Element>
+            <Element>
+               <Name>Element 39</Name>
+               <Index>39</Index>
+            </Element>
+            <Element>
+               <Name>Element 40</Name>
+               <Index>40</Index>
+            </Element>
+            <Element>
+               <Name>Element 41</Name>
+               <Index>41</Index>
+            </Element>
+            <Element>
+               <Name>Element 42</Name>
+               <Index>42</Index>
+            </Element>
+            <Element>
+               <Name>Element 43</Name>
+               <Index>43</Index>
+            </Element>
+            <Element>
+               <Name>Element 44</Name>
+               <Index>44</Index>
+            </Element>
+            <Element>
+               <Name>Element 45</Name>
+               <Index>45</Index>
+            </Element>
+            <Element>
+               <Name>Element 46</Name>
+               <Index>46</Index>
+            </Element>
+            <Element>
+               <Name>Element 47</Name>
+               <Index>47</Index>
+            </Element>
+            <Element>
+               <Name>Element 48</Name>
+               <Index>48</Index>
+            </Element>
+            <Element>
+               <Name>Element 49</Name>
+               <Index>49</Index>
+            </Element>
+            <Element>
+               <Name>Element 50</Name>
+               <Index>50</Index>
+            </Element>
+            <Element>
+               <Name>Element 51</Name>
+               <Index>51</Index>
+            </Element>
+            <Element>
+               <Name>Element 52</Name>
+               <Index>52</Index>
+            </Element>
+            <Element>
+               <Name>Element 53</Name>
+               <Index>53</Index>
+            </Element>
+            <Element>
+               <Name>Element 54</Name>
+               <Index>54</Index>
+            </Element>
+            <Element>
+               <Name>Element 55</Name>
+               <Index>55</Index>
+            </Element>
+            <Element>
+               <Name>Element 56</Name>
+               <Index>56</Index>
+            </Element>
+            <Element>
+               <Name>Element 57</Name>
+               <Index>57</Index>
+            </Element>
+            <Element>
+               <Name>Element 58</Name>
+               <Index>58</Index>
+            </Element>
+            <Element>
+               <Name>Element 59</Name>
+               <Index>59</Index>
+            </Element>
+            <Element>
+               <Name>Element 60</Name>
+               <Index>60</Index>
+            </Element>
+            <Element>
+               <Name>Element 61</Name>
+               <Index>61</Index>
+            </Element>
+            <Element>
+               <Name>Element 62</Name>
+               <Index>62</Index>
+            </Element>
+            <Element>
+               <Name>Element 63</Name>
+               <Index>63</Index>
+            </Element>
+            <Element>
+               <Name>Element 64</Name>
+               <Index>64</Index>
+            </Element>
+            <Element>
+               <Name>Element 65</Name>
+               <Index>65</Index>
+            </Element>
+            <Element>
+               <Name>Element 66</Name>
+               <Index>66</Index>
+            </Element>
+            <Element>
+               <Name>Element 67</Name>
+               <Index>67</Index>
+            </Element>
+            <Element>
+               <Name>Element 68</Name>
+               <Index>68</Index>
+            </Element>
+            <Element>
+               <Name>Element 69</Name>
+               <Index>69</Index>
+            </Element>
+            <Element>
+               <Name>Element 70</Name>
+               <Index>70</Index>
+            </Element>
+            <Element>
+               <Name>Element 71</Name>
+               <Index>71</Index>
+            </Element>
+            <Element>
+               <Name>Element 72</Name>
+               <Index>72</Index>
+            </Element>
+            <Element>
+               <Name>Element 73</Name>
+               <Index>73</Index>
+            </Element>
+            <Element>
+               <Name>Element 74</Name>
+               <Index>74</Index>
+            </Element>
+            <Element>
+               <Name>Element 75</Name>
+               <Index>75</Index>
+            </Element>
+            <Element>
+               <Name>Element 76</Name>
+               <Index>76</Index>
+            </Element>
+            <Element>
+               <Name>Element 77</Name>
+               <Index>77</Index>
+            </Element>
+            <Element>
+               <Name>Element 78</Name>
+               <Index>78</Index>
+            </Element>
+            <Element>
+               <Name>Element 79</Name>
+               <Index>79</Index>
+            </Element>
+            <Element>
+               <Name>Element 80</Name>
+               <Index>80</Index>
+            </Element>
+            <Element>
+               <Name>Element 81</Name>
+               <Index>81</Index>
+            </Element>
+            <Element>
+               <Name>Element 82</Name>
+               <Index>82</Index>
+            </Element>
+            <Element>
+               <Name>Element 83</Name>
+               <Index>83</Index>
+            </Element>
+            <Element>
+               <Name>Element 84</Name>
+               <Index>84</Index>
+            </Element>
+            <Element>
+               <Name>Element 85</Name>
+               <Index>85</Index>
+            </Element>
+            <Element>
+               <Name>Element 86</Name>
+               <Index>86</Index>
+            </Element>
+            <Element>
+               <Name>Element 87</Name>
+               <Index>87</Index>
+            </Element>
+            <Element>
+               <Name>Element 88</Name>
+               <Index>88</Index>
+            </Element>
+            <Element>
+               <Name>Element 89</Name>
+               <Index>89</Index>
+            </Element>
+            <Element>
+               <Name>Element 90</Name>
+               <Index>90</Index>
+            </Element>
+            <Element>
+               <Name>Element 91</Name>
+               <Index>91</Index>
+            </Element>
+            <Element>
+               <Name>Element 92</Name>
+               <Index>92</Index>
+            </Element>
+            <Element>
+               <Name>Element 93</Name>
+               <Index>93</Index>
+            </Element>
+            <Element>
+               <Name>Element 94</Name>
+               <Index>94</Index>
+            </Element>
+            <Element>
+               <Name>Element 95</Name>
+               <Index>95</Index>
+            </Element>
+            <Element>
+               <Name>Element 96</Name>
+               <Index>96</Index>
+            </Element>
+         </Structure>
+         <ValidMin>0.0</ValidMin>
+         <ValidMax>1.0e+12</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Particle>
+            <ParticleType>Proton</ParticleType>
+            <ParticleType>AlphaParticle</ParticleType>
+            <ParticleQuantity>EnergyFlux</ParticleQuantity>
+         </Particle> 
+      </Parameter>
+      <Parameter>
+         <Name>Center of Energy bins</Name>
+         <ParameterKey>Energy per charge</ParameterKey>
+         <Description>Center of energy bins</Description>
+         <Units>eV</Units>
+         <RenderingHints>
+            <AxisLabel>E/Q</AxisLabel>
+            <ValueFormat>E12.2</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>96</Size>
+         </Structure>
+         <ValidMin>0.0</ValidMin>
+         <ValidMax>40000.0</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Particle>
+            <ParticleType>Proton</ParticleType>
+            <ParticleType>AlphaParticle</ParticleType>
+            <ParticleQuantity>EnergyPerCharge</ParticleQuantity>
+         </Particle> 
+      </Parameter>
+      <Parameter>
+         <Name>delta plus Energy bins</Name>
+         <ParameterKey>delta_p_Energy</ParameterKey>
+         <Description>Delta plus Energy per Charge</Description>
+         <Units>eV</Units>
+         <RenderingHints>
+            <AxisLabel>Delta plus E/Q</AxisLabel>
+            <ValueFormat>E12.2</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>96</Size>
+         </Structure>
+         <ValidMin>0.0</ValidMin>
+         <ValidMax>40000.0</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Particle>
+            <ParticleType>Proton</ParticleType>
+            <ParticleType>AlphaParticle</ParticleType>
+            <ParticleQuantity>Energy</ParticleQuantity>
+         </Particle> 
+      </Parameter>
+      <Parameter>
+         <Name>delta minus Energy bins</Name>
+         <ParameterKey>delta_m_Energy</ParameterKey>
+         <Description>Delta minus Energy per Charge</Description>
+         <Units>eV</Units>
+         <RenderingHints>
+            <AxisLabel>Delta minus E/Q</AxisLabel>
+            <ValueFormat>E12.2</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>96</Size>
+         </Structure>
+         <ValidMin>0.0</ValidMin>
+         <ValidMax>40000.0</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Particle>
+            <ParticleType>Proton</ParticleType>
+            <ParticleType>AlphaParticle</ParticleType>
+            <ParticleQuantity>Energy</ParticleQuantity>
+         </Particle> 
+      </Parameter>
+   </NumericalData>
+</Spase>

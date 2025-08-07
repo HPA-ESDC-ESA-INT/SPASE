@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://spase-group.org/data/schema/spase-2.7.0.xsd">
+   <Version>2.7.0</Version>
+   <NumericalData>
+      <ResourceID>spase://ESA-NASA/NumericalData/SolarOrbiter/SWA/PAS/Level2/Ground-Moments/VariableCadence</ResourceID>
+      <NamingAuthority>ESA-NASA</NamingAuthority>
+      <ResourceType>NumericalData</ResourceType>
+      <ResourceHeader>
+         <ResourceName>Solar Orbiter Solar Wind Analyser (SWA), Proton Analyser Sensor (PAS), Ground Calculated Moments, Level 2 (calibrated), Data</ResourceName>
+         <DOI>DOI_DOI</DOI>
+         <ReleaseDate>2025-08-07T12:00:00.00Z</ReleaseDate>
+         <Description>This Level 2 (L2) dataset contains ground calculated moments from the Proton part of ion distribution function measured by the Proton Analyser Sensor (PAS) sub-unit of the Solar Orbiter Solar Wind Analyser (SWA) instrument. In detail, the dataset contain the number density, the velocity vector, the pressure tensor and the temperature of the proton peak, extracted from the 3D velocity distribution function (VDF). Variable Cadence (Normal sampling can be 4, 2 or 1s since 2024/07/27, Snapshot and burst sampling vary and are defined by Info variable). </Description>
+         <Acknowledgement>Solar Orbiter is a space mission of international collaboration between ESA and NASA, operated by ESA. Solar Orbiter Solar Wind Analyser (SWA) data are derived from scientific sensors which have been designed and created, and are operated under funding provided in numerous contracts from the UK Space Agency (UKSA), the UK Science and Technology Facilities Council (STFC), the Agenzia Spaziale Italiana (ASI), the Centre National d'Etudes Spatiales (CNES, France), the Centre National de la Recherche Scientifique (CNRS, France), the Czech contribution to the ESA PRODEX programme and NASA.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://ESA/Person/Christopher.J.Owen</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://ESA/Person/Raffaella.D'Amicis</PersonID>
+            <Role>CoPI</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://ESA/Person/Philippe.Louarn</PersonID>
+            <Role>CoPI</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://ESA/Person/Stephano.Livi</PersonID>
+            <Role>CoPI</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://ESA/Person/Gethyn.Lewis</PersonID>
+            <Role>OperationsManager</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://ESA/Person/Andrei.Fedorov</PersonID>
+            <Role>OperationsManager</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://ESA/Person/James.Raines</PersonID>
+            <Role>OperationsManager</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://ESA/Person/Arnaud.Masson</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Solar Orbiter SWA reference webpage with DOI information</Name>
+            <URL>https://doi.org/10.5270/esa-ahypgn6</URL>
+            <Description>Website</Description>
+         </InformationURL>
+         <InformationURL> 
+            <Name>Owen C. J. et al., The Solar Orbiter Solar Wind Analyser (SWA) Suite, A&amp;A, 642 (2020) A16</Name> 
+            <URL>https://doi.org/10.1051/0004-6361/201937259</URL> 
+            <Description>Publication</Description> 
+         </InformationURL> 
+      </ResourceHeader>
+      <AccessInformation>
+         <RepositoryID>spase://ESA/Repository/ESDC</RepositoryID>
+         <Availability>Online</Availability>
+         <AccessURL> 
+            <Name>Solar Orbiter Archive (SOAR) web interface</Name> 
+            <URL>https://soar.esac.esa.int/soar/</URL>
+            <ProductKey>SOLO_L2_SWA-PAS-GRND-MOM</ProductKey>
+            <Description>Solar Orbiter Archive (SOAR) European Space Agency web interface</Description>
+         </AccessURL>
+         <AccessURL> 
+            <Name>Solar Orbiter Archive (SOAR) TAP</Name> 
+            <URL>https://soar.esac.esa.int/soar-sl-tap/tap/</URL>
+            <ProductKey>SOLO_L2_SWA-PAS-GRND-MOM</ProductKey>
+            <Description> Solar Orbiter Data and Metadata via the European Space Agency Table Access Protocol (TAP) server</Description>
+         </AccessURL>
+         <Format>CDF</Format>
+      </AccessInformation>
+      <AccessInformation>
+         <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+         <Availability>Online</Availability>
+         <AccessRights>Open</AccessRights>
+         <AccessURL>
+            <Name>CDAWeb</Name>
+            <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=SOLO_L2_SWA-PAS-GRND-MOM&amp;index=sp_phys</URL>
+            <ProductKey>SOLO_L2_SWA-PAS-GRND-MOM</ProductKey>
+            <Description>Access to ASCII, CDF, and Plots via NASA/GSFC CDAWeb</Description>
+         </AccessURL>
+         <Format>CDF</Format>
+         <Encoding>None</Encoding>
+         <Acknowledgement>Please acknowledge the Principal Investigator C.J. Owen. Please acknowledge the Data Providers and CDAWeb when using these Data.</Acknowledgement>
+      </AccessInformation>
+      <ProcessingLevel>Calibrated</ProcessingLevel>
+      <ProviderProcessingLevel>Level 2</ProviderProcessingLevel>
+      <InstrumentID>spase://ESA-NASA/Instrument/SolarOrbiter/SWA</InstrumentID>
+      <MeasurementType>ThermalPlasma</MeasurementType>
+      <TemporalDescription>
+         <TimeSpan>
+            <StartDate>2020-04-15T00:00:00</StartDate>
+            <RelativeStopDate>-P3M</RelativeStopDate>
+         </TimeSpan>
+         <Cadence>PT4S</Cadence>
+      </TemporalDescription>
+      <ObservedRegion>Heliosphere</ObservedRegion>
+      <ObservedRegion>Heliosphere.Inner</ObservedRegion>
+      <Keyword>SWA</Keyword>
+      <Keyword>PAS</Keyword>
+      <Keyword>SWA-PAS</Keyword>      
+      <Keyword>Protons</Keyword>
+      <Keyword>Solar Wind</Keyword>
+      <Keyword>Heliosphere</Keyword>      
+      <Keyword>Interplanetary Medium</Keyword>
+      <Keyword>Space Plasmas</Keyword>
+      <Keyword>Ground Moments</Keyword>
+      <Keyword>Protons Distribution</Keyword>
+      <Keyword>Proton Flux</Keyword>      
+      <Keyword>Plasma Energisation</Keyword>
+      <Parameter>
+         <Name>Epoch</Name>
+         <ParameterKey>Epoch</ParameterKey>
+         <Description>Epoch encoded as Terrestrial Time 2000 on rotating Earth geoid, ns since J2000.</Description>
+         <Cadence>PT4S</Cadence>
+         <Units>ns</Units>
+         <UnitsConversion>1.0E-9>s</UnitsConversion>
+         <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>Epoch</AxisLabel>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>2020-02-10T00:00:00.000</ValidMin>
+         <ValidMax>2030-12-31T23:59:59.999</ValidMax>
+         <FillValue>9999-12-31T23:59:59.999</FillValue>
+         <Support>
+            <SupportQuantity>Temporal</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Half interval</Name>
+         <ParameterKey>Half_interval</ParameterKey>
+         <Description>Acquisition period half interval.</Description>
+         <Units>s</Units>
+         <UnitsConversion>1</UnitsConversion>
+         <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>Half-interval</AxisLabel>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>0</ValidMin>
+         <ValidMax>60</ValidMax>
+         <FillValue>-1.0</FillValue>
+         <Support>
+            <SupportQuantity>Other</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Spacecraft Elapsed Time</Name>
+         <ParameterKey>SCET</ParameterKey>
+         <Description>Elapsed time on the onboard clock</Description>
+         <Cadence>PT4S</Cadence>
+         <Units>Ticks</Units>
+         <RenderingHints>
+            <AxisLabel>SCET</AxisLabel>
+            <ValueFormat>D20.6</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>0.0</ValidMin>
+         <ValidMax>4.29497e+09</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Support>
+            <SupportQuantity>Temporal</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Information sensor mode</Name>
+         <ParameterKey>Info</ParameterKey>
+         <Description>Info 0:Ground 1:Normal 2:Snapshot 3:Burst 4:Engineering 5:Calib</Description>
+         <RenderingHints>
+            <AxisLabel>Info</AxisLabel>
+            <ValueFormat>I3</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>0</ValidMin>
+         <ValidMax>5</ValidMax>
+         <FillValue>255</FillValue>
+         <Support>
+            <SupportQuantity>Housekeeping</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Counter of unrecoverd bins</Name>
+         <ParameterKey>unrecovered_count</ParameterKey>
+         <Description>Total counter of unrecovered bins</Description>
+         <RenderingHints>
+            <AxisLabel>Unrecovered count</AxisLabel>
+            <ValueFormat>E12.2</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>0.0</ValidMin>
+         <ValidMax>1.0e+30</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Particle>
+            <ParticleType>Proton</ParticleType>
+            <ParticleQuantity>Counts</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Total count</Name>
+         <ParameterKey>total_count</ParameterKey>
+         <Description>Total count</Description>
+         <RenderingHints>
+            <AxisLabel>Total count</AxisLabel>
+            <ValueFormat>E12.2</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>0.0</ValidMin>
+         <ValidMax>1.0e+30</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Particle>
+            <ParticleType>Proton</ParticleType>
+            <ParticleQuantity>Counts</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Quality Factor</Name>
+         <ParameterKey>quality_factor</ParameterKey>
+         <Description>Quality factor</Description>
+         <RenderingHints>
+            <AxisLabel>Quality factor</AxisLabel>
+            <ValueFormat>E12.2</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>0.0</ValidMin>
+         <ValidMax>1.0e+30</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Support>
+            <SupportQuantity>DataQuality</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Density</Name>
+         <ParameterKey>N</ParameterKey>
+         <Description>Density</Description>
+         <Units>cm^-3</Units>
+         <RenderingHints>
+            <AxisLabel>Density</AxisLabel>
+            <ValueFormat>E12.2</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>0.0</ValidMin>
+         <ValidMax>10000.0</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Particle>
+            <ParticleType>Proton</ParticleType>
+            <ParticleQuantity>NumberDensity</ParticleQuantity>
+         </Particle> 
+      </Parameter>
+      <Parameter>
+         <Name>Velocity in SRF</Name>
+         <ParameterKey>V_SRF</ParameterKey>
+         <Description>Velocity in spacecraft reference frame (SRF)</Description>
+         <Units>km/s</Units>
+         <RenderingHints>
+            <AxisLabel>V (SRF)</AxisLabel>
+            <ValueFormat>E12.2</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>3</Size>
+            <Element>
+               <Name>Vx SRF</Name>
+               <Index>1</Index>
+            </Element>
+            <Element>
+               <Name>Vy SRF</Name>
+               <Index>2</Index>
+            </Element>
+            <Element>
+               <Name>Vz SRF</Name>
+               <Index>3</Index>
+            </Element>
+         </Structure>
+         <ValidMin>-2000.0</ValidMin>
+         <ValidMax>2000.0</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Particle>
+            <ParticleType>Proton</ParticleType>
+            <ParticleQuantity>Velocity</ParticleQuantity>
+         </Particle> 
+      </Parameter>
+      <Parameter>
+         <Name>Velocity in RTN</Name>
+         <ParameterKey>V_RTN</ParameterKey>
+         <Description>Velocity in RTN frame</Description>
+         <Units>km/s</Units>
+         <RenderingHints>
+            <AxisLabel>V (RTN)</AxisLabel>
+            <ValueFormat>E12.2</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>3</Size>
+            <Element>
+               <Name>Vr RTN</Name>
+               <Index>1</Index>
+            </Element>
+            <Element>
+               <Name>Vt RTN</Name>
+               <Index>2</Index>
+            </Element>
+            <Element>
+               <Name>Vn RTN</Name>
+               <Index>3</Index>
+            </Element>
+         </Structure>
+         <ValidMin>-2000.0</ValidMin>
+         <ValidMax>2000.0</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Particle>
+            <ParticleType>Proton</ParticleType>
+            <ParticleQuantity>Velocity</ParticleQuantity>
+         </Particle> 
+      </Parameter>
+      <Parameter>
+         <Name>Proton Pressure in SRF</Name>
+         <ParameterKey>P_SRF</ParameterKey>
+         <Description>Pressure tensor in spacecraft reference frame (SRF)</Description>
+         <Units>J.cm^-3</Units>
+         <RenderingHints>
+            <AxisLabel>Pressure (SRF)</AxisLabel>
+            <ValueFormat>E12.2</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>6</Size>
+            <Element>
+               <Name>Pxx SRF</Name>
+               <Index>1</Index>
+            </Element>
+            <Element>
+               <Name>Pyy SRF</Name>
+               <Index>2</Index>
+            </Element>
+            <Element>
+               <Name>Pzz SRF</Name>
+               <Index>3</Index>
+            </Element>
+            <Element>
+               <Name>Pxy SRF</Name>
+               <Index>4</Index>
+            </Element>
+            <Element>
+               <Name>Pxz SRF</Name>
+               <Index>5</Index>
+            </Element>
+            <Element>
+               <Name>Pyz SRF</Name>
+               <Index>6</Index>
+            </Element>
+         </Structure>
+         <ValidMin>0.0</ValidMin>
+         <ValidMax>1.0e+30</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Particle>
+            <ParticleType>Proton</ParticleType>
+            <ParticleQuantity>Pressure</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Proton Pressure in RTN</Name>
+         <ParameterKey>P_RTN</ParameterKey>
+         <Description>Pressure tensor in RTN frame</Description>
+         <Units>J.cm^-3</Units>
+         <RenderingHints>
+            <AxisLabel>Pressure (RTN)</AxisLabel>
+            <ValueFormat>E12.2</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>6</Size>
+            <Element>
+               <Name>Prr RTN</Name>
+               <Index>1</Index>
+            </Element>
+            <Element>
+               <Name>Ptt RTN</Name>
+               <Index>2</Index>
+            </Element>
+            <Element>
+               <Name>Pnn RTN</Name>
+               <Index>3</Index>
+            </Element>
+            <Element>
+               <Name>Prt RTN</Name>
+               <Index>4</Index>
+            </Element>
+            <Element>
+               <Name>Prn RTN</Name>
+               <Index>5</Index>
+            </Element>
+            <Element>
+               <Name>Ptn RTN</Name>
+               <Index>6</Index>
+            </Element>
+         </Structure>
+         <ValidMin>0.0</ValidMin>
+         <ValidMax>1.0e+30</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Particle>
+            <ParticleType>Proton</ParticleType>
+            <ParticleQuantity>Pressure</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Temperature TxTyTz in SRF</Name>
+         <ParameterKey>TxTyTz_SRF</ParameterKey>
+         <Description>Temperature components (Tx, Ty, Tz) in SRF frame </Description>
+         <Units>eV</Units>
+         <RenderingHints>
+            <AxisLabel>Temperature (SRF)</AxisLabel>
+            <ValueFormat>E12.2</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>3</Size>
+            <Element>
+               <Name>Tx SRF</Name>
+               <Index>1</Index>
+            </Element>
+            <Element>
+               <Name>Ty SRF</Name>
+               <Index>2</Index>
+            </Element>
+            <Element>
+               <Name>Tz SRF</Name>
+               <Index>3</Index>
+            </Element>
+         </Structure>
+         <ValidMin>-100000.0</ValidMin>
+         <ValidMax>100000.0</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Particle>
+            <ParticleType>Proton</ParticleType>
+            <ParticleQuantity>Temperature</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Proton Temperature TxTyTz in RTN</Name>
+         <ParameterKey>TxTyTz_RTN</ParameterKey>
+         <Description>Temperature components (Tx, Ty, Tz) in RTN frame</Description>
+         <Units>eV</Units>
+         <RenderingHints>
+            <AxisLabel>TxTyTz (RTN)</AxisLabel>
+            <ValueFormat>E12.2</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>3</Size>
+            <Element>
+               <Name>Tr RTN</Name>
+               <Index>1</Index>
+            </Element>
+            <Element>
+               <Name>Tt RTN</Name>
+               <Index>2</Index>
+            </Element>
+            <Element>
+               <Name>Tn RTN</Name>
+               <Index>3</Index>
+            </Element>
+         </Structure>
+         <ValidMin>-100000.0</ValidMin>
+         <ValidMax>100000.0</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Particle>
+            <ParticleType>Proton</ParticleType>
+            <ParticleQuantity>Temperature</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Temperature</Name>
+         <ParameterKey>T</ParameterKey>
+         <Description>Temperature</Description>
+         <Units>eV</Units>
+         <RenderingHints>
+            <AxisLabel>Temperature</AxisLabel>
+            <ValueFormat>E12.2</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>0.0</ValidMin>
+         <ValidMax>1.0e+30</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Particle>
+            <ParticleType>Proton</ParticleType>
+            <ParticleQuantity>Temperature</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Spacecraft Velocity in RTN</Name>
+         <ParameterKey>V_SOLO_RTN</ParameterKey>
+         <Description>Spacecraft velocity in RTN frame</Description>
+         <Units>km/s</Units>
+         <RenderingHints>
+            <AxisLabel>SOLO velocity (RTN)</AxisLabel>
+            <ValueFormat>F10.3</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>3</Size>
+            <Element>
+               <Name>SOLO Vr</Name>
+               <Index>1</Index>
+            </Element>
+            <Element>
+               <Name>SOLO Vt</Name>
+               <Index>2</Index>
+            </Element>
+            <Element>
+               <Name>SOLO Vn</Name>
+               <Index>3</Index>
+            </Element>
+         </Structure>
+         <ValidMin>-100.0</ValidMin>
+         <ValidMax>100.0</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Support>
+            <SupportQuantity>Housekeeping</SupportQuantity>
+         </Support>
+      </Parameter>
+   </NumericalData>
+</Spase>
