@@ -2,13 +2,17 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://spase-group.org/data/schema/spase-2.7.0.xsd">
    <Version>2.7.0</Version>
    <NumericalData>
-      <ResourceID>spase://ESA/NumericalData/SolarOrbiter/SWA/HIS/Level3/Composition/PT10M</ResourceID>
+      <ResourceID>spase://ESA-NASA/NumericalData/SolarOrbiter/SWA/HIS/Level3/Composition/PT10M</ResourceID>
       <NamingAuthority>ESA-NASA</NamingAuthority>
       <ResourceType>NumericalData</ResourceType>
       <ResourceHeader>
          <ResourceName>Solar Orbiter (SOLO) Solar Wind Analyser (SWA), Heavy Ion Sensor (HIS) Composition, Level 3 (L3), 10 min Data Resolution</ResourceName>
          <ReleaseDate>2025-05-01T12:00:00.00Z</ReleaseDate>
          <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2025-08-07T12:00:00.00Z</ReleaseDate>
+               <Note>Updated ResourceID to include complex naming authority, and corrected typo in a PersonID name.</Note>
+            </RevisionEvent>
             <RevisionEvent>
                <ReleaseDate>2025-05-01T12:00:00.00Z</ReleaseDate>
                <Note>Initial release of metadata.</Note>
@@ -37,7 +41,7 @@
             <Role>OperationsManager</Role>
          </Contact>
          <Contact>
-            <PersonID>spase://ESA/Person/Andrei.Federov</PersonID>
+            <PersonID>spase://ESA/Person/Andrei.Fedorov</PersonID>
             <Role>OperationsManager</Role>
          </Contact>
          <Contact>
