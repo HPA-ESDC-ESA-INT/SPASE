@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://spase-group.org/data/schema/spase-2.7.0.xsd">
+   <Version>2.7.0</Version>
+   <NumericalData>
+      <ResourceID>spase://ESA-NASA/NumericalData/SolarOrbiter/SWA/EAS/Level2/PAD/DEF</ResourceID>
+      <NamingAuthority>ESA-NASA</NamingAuthority>
+      <ResourceType>NumericalData</ResourceType>
+      <ResourceHeader>
+         <ResourceName>Solar Orbiter Solar Wind Analyser (SWA), Electrostatic Analyser System (EAS), Electron Pitch Angle Distribution (PAD), in Differential Energy Flux (DEF) units, Level 2, 2D Burst Mode data.</ResourceName>
+         <ReleaseDate>2025-03-15T12:00:00.00Z</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2025-03-15T12:00:00.00Z</ReleaseDate>
+               <Note>Initial release of metadata.</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>This Level 2 (L2) dataset contains onboard selected electron pitch angle data (PAD) from the Solar Orbiter Solar Wind Analyser - Electrostatic Analyser System (SOLO SWA-EAS), of both SWA-EAS1 and SWA-EAS2 sensors, in Differential Energy Flux (DEF) units. 2D Burst Mode data. Current best quality data - see caveats file or contact SWA/EAS team for information on use.</Description>
+         <Acknowledgement>Solar Orbiter is a space mission of international collaboration between ESA and NASA, operated by ESA. Solar Orbiter Solar Wind Analyser (SWA) data are derived from scientific sensors which have been designed and created, and are operated under funding provided in numerous contracts from the UK Space Agency (UKSA), the UK Science and Technology Facilities Council (STFC), the Agenzia Spaziale Italiana (ASI), the Centre National d'Etudes Spatiales (CNES, France), the Centre National de la Recherche Scientifique (CNRS, France), the Czech contribution to the ESA PRODEX programme and NASA.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://ESA/Person/Christopher.J.Owen</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://ESA/Person/Raffaella.D'Amicis</PersonID>
+            <Role>CoPI</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://ESA/Person/Philippe.Louarn</PersonID>
+            <Role>CoPI</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://ESA/Person/Stephano.Livi</PersonID>
+            <Role>CoPI</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://ESA/Person/Gethyn.Lewis</PersonID>
+            <Role>OperationsManager</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://ESA/Person/Andrei.Fedorov</PersonID>
+            <Role>OperationsManager</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://ESA/Person/James.Raines</PersonID>
+            <Role>OperationsManager</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://ESA/Person/Arnaud.Masson</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Solar Orbiter SWA reference webpage with DOI information</Name>
+            <URL>https://doi.org/10.5270/esa-ahypgn6</URL>
+            <Description>Website</Description>
+         </InformationURL>
+         <InformationURL> 
+            <Name>Owen C.J. et al., The Solar Orbiter Solar Wind Analyser (SWA) Suite, A&amp;A, 642 (2020) A16</Name> 
+            <URL>https://doi.org/10.1051/0004-6361/201937259</URL> 
+            <Description>Publication</Description> 
+         </InformationURL> 
+      </ResourceHeader>
+      <AccessInformation>
+         <RepositoryID>spase://ESA/Repository/ESDC</RepositoryID>
+         <Availability>Online</Availability>
+         <AccessURL> 
+            <Name>Solar Orbiter Archive (SOAR) web interface</Name> 
+            <URL>https://soar.esac.esa.int/soar/</URL>
+            <ProductKey>solo_L2_SWA-EAS-PAD-DEF</ProductKey>
+            <Description>Solar Orbiter Archive (SOAR) European Space Agency web interface</Description>
+         </AccessURL>
+         <AccessURL> 
+            <Name>Solar Orbiter Archive (SOAR) TAP</Name> 
+            <URL>https://soar.esac.esa.int/soar-sl-tap/tap/</URL>
+            <ProductKey>solo_L2_SWA-EAS-PAD-DEF</ProductKey>
+            <Description> Solar Orbiter Data and Metadata via the European Space Agency Table Access Protocol (TAP) server</Description>
+         </AccessURL>
+         <Format>CDF</Format>
+      </AccessInformation>
+      <AccessInformation>
+         <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+         <Availability>Online</Availability>
+         <AccessRights>Open</AccessRights>
+         <AccessURL>
+            <Name>CDAWeb</Name>
+            <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=SOLO_L2_SWA-EAS-PAD-DEF&amp;index=sp_phys</URL>
+            <ProductKey>SOLO_L2_SWA-EAS-PAD-DEF</ProductKey>
+            <Description>Access to ASCII, CDF, and Plots via NASA/GSFC CDAWeb</Description>
+         </AccessURL>
+         <Format>CDF</Format>
+         <Encoding>None</Encoding>
+         <Acknowledgement>Please acknowledge the Principal Investigator C.J. Owen. Please acknowledge the Data Providers and CDAWeb when using these Data.</Acknowledgement>
+      </AccessInformation>
+      <ProcessingLevel>Calibrated</ProcessingLevel>
+      <ProviderProcessingLevel>Level 2</ProviderProcessingLevel>
+      <InstrumentID>spase://ESA-NASA/Instrument/SolarOrbiter/SWA</InstrumentID>
+      <MeasurementType>EnergeticParticles</MeasurementType>
+      <TemporalDescription>
+         <TimeSpan>
+            <StartDate>2020-04-15T00:00:00</StartDate>
+            <RelativeStopDate>-P3M</RelativeStopDate>
+         </TimeSpan>
+         <Cadence>PT0.125S</Cadence>
+      </TemporalDescription>
+      <ObservedRegion>Heliosphere</ObservedRegion>
+      <ObservedRegion>Heliosphere.Inner</ObservedRegion>
+      <Keyword>SWA</Keyword>
+      <Keyword>EAS</Keyword>
+      <Keyword>SWA-EAS</Keyword>      
+      <Keyword>Electrons</Keyword>
+      <Keyword>Solar Wind</Keyword>
+      <Keyword>Heliosphere</Keyword>      
+      <Keyword>Interplanetary Medium</Keyword>
+      <Keyword>Space Plasmas</Keyword>
+      <Keyword>Interplanetary Magnetic Field</Keyword>
+      <Keyword>Pitch Angle</Keyword>
+      <Keyword>Pitch Angle Distribution</Keyword>
+      <Keyword>Pitch Angle Scattering</Keyword>
+      <Keyword>Plasma Energisation</Keyword>
+      <Keyword>Coronal Electrons</Keyword>
+      <Keyword>Photoelectrons</Keyword>
+      <Keyword>Secondary Electrons</Keyword>
+      <Parameter>
+         <Name>Epoch Time</Name>
+         <ParameterKey>EPOCH</ParameterKey>
+         <Description>Epoch in nano-seconds since J2000, encoded as terrestrial time on rotating Earth Geoid. The EAS time tag is from the center of the acquisition interval which is 1s.</Description>
+         <Units>ns</Units>
+         <UnitsConversion>1.0E-9>s</UnitsConversion>
+         <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>EPOCH</AxisLabel>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>2019-12-31T23:59:59.999</ValidMin>
+         <ValidMax>2039-12-31T23:59:59.999</ValidMax>
+         <FillValue>9999-12-31T23:59:59.99Z</FillValue>
+         <Support>
+            <SupportQuantity>Temporal</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Electron pitch angle distribution - DEF</Name>
+         <ParameterKey>SWA_EAS_PAD_DEF_Data</ParameterKey>
+         <Description>Electron pitch angle distribution - Differential Energy Flux. Depends on EPOCH, SWA_EAS_ELEVATION, SWA_EAS_AZYMUTH, SWA_EAS_ENERGY. Coordinate system is instrument specific EAS[1-2], where 1 and 2 refer to the sensor providing measurements. Note that the rotation matrix from EAS[1-2] science frame to Spacecraft frame is given by the EAS_TO_SRF variable.</Description>
+         <Units>eV m^-2 s^-1 sr^-1 eV^-1</Units>
+         <UnitsConversion>1>m^-2 s^-1 sr^-1</UnitsConversion>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+            <CoordinateSystemName>SensorCoordinates</CoordinateSystemName>
+         </CoordinateSystem>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <AxisLabel>Differential Energy Flux</AxisLabel>
+            <ValueFormat>E12.4</ValueFormat>
+            <ScaleMin>1.0e+4</ScaleMin>
+            <ScaleMax>1.0e+20</ScaleMax>
+            <ScaleType>LogScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>1.0e+4</ValidMin>
+         <ValidMax>1.0e+20</ValidMax>
+         <FillValue>-1.0e+30</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <ParticleQuantity>EnergyFlux</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>EAS Elevation</Name>
+         <ParameterKey>SWA_EAS_ELEVATION</ParameterKey>
+         <Description>The elevation angles (instrument look directions) of the EAS sensor bin centres</Description>
+         <Units>degree</Units>
+         <UnitsConversion>1.74533E-2>radian</UnitsConversion>
+         <RenderingHints>
+            <AxisLabel>Elevation Angle</AxisLabel>
+            <ValueFormat>F14.4</ValueFormat>
+         </RenderingHints>
+         <ValidMin>-45</ValidMin>
+         <ValidMax>45</ValidMax>
+         <FillValue>-1.0e+30</FillValue>
+         <Support>
+            <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
+            <SupportQuantity>Orientation</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>EAS Elevation delta upper</Name>
+         <ParameterKey>SWA_EAS_ELEVATION_delta_upper</ParameterKey>
+         <Description>Upper half width of elevation bin</Description>
+         <Units>degree</Units>
+         <UnitsConversion>1.74533E-2>radian</UnitsConversion>
+         <RenderingHints>
+            <AxisLabel>Elevation upper delta</AxisLabel>
+            <ValueFormat>F14.4</ValueFormat>
+         </RenderingHints>
+         <ValidMin>0</ValidMin>
+         <ValidMax>12</ValidMax>
+         <FillValue>-1.0e+30</FillValue>
+         <Support>
+            <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
+            <SupportQuantity>Orientation</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>EAS Elevation delta lower</Name>
+         <ParameterKey>SWA_EAS_ELEVATION_delta_lower</ParameterKey>
+         <Description>Lower half width of elevation bin</Description>
+         <Units>degree</Units>
+         <UnitsConversion>1.74533E-2>radian</UnitsConversion>
+         <RenderingHints>
+            <AxisLabel>Elevation lower delta</AxisLabel>
+            <ValueFormat>F14.4</ValueFormat>
+         </RenderingHints>
+         <ValidMin>0</ValidMin>
+         <ValidMax>12</ValidMax>
+         <FillValue>-1.0e+30</FillValue>
+         <Support>
+            <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
+            <SupportQuantity>Orientation</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>EAS Azimuth</Name>
+         <ParameterKey>SWA_EAS_AZIMUTH</ParameterKey>
+         <Description>The azimuth angles (electron flow direction) of the EAS sensor bin centres. Does not depend on EPOCH. 32 possible values.</Description>
+         <Units>degree</Units>
+         <UnitsConversion>1.74533E-2>radian</UnitsConversion>
+         <RenderingHints>
+            <AxisLabel>Azimuth Angle</AxisLabel>
+            <ValueFormat>F14.4</ValueFormat>
+         </RenderingHints>
+         <ValidMin>0</ValidMin>
+         <ValidMax>360</ValidMax>
+         <FillValue>-1.0e+30</FillValue>
+         <Support>
+            <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
+            <SupportQuantity>Orientation</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>EAS Azimuth upper delta</Name>
+         <ParameterKey>SWA_EAS_AZIMUTH_delta_upper</ParameterKey>
+         <Description>Upper half width of azimuth bin. 32 possible values.</Description>
+         <Units>degree</Units>
+         <UnitsConversion>1.74533E-2>radian</UnitsConversion>
+         <RenderingHints>
+            <AxisLabel>Azimuth upper delta</AxisLabel>
+            <ValueFormat>F14.3</ValueFormat>
+         </RenderingHints>
+         <ValidMin>0</ValidMin>
+         <ValidMax>12</ValidMax>
+         <FillValue>-1.0e+30</FillValue>
+         <Support>
+            <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
+            <SupportQuantity>Orientation</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>EAS Azimuth lower delta</Name>
+         <ParameterKey>SWA_EAS_AZIMUTH_delta_lower</ParameterKey>
+         <Description>Lower half width of elevation bin. 32 possible values.</Description>
+         <Units>degree</Units>
+         <UnitsConversion>1.74533E-2>radian</UnitsConversion>
+         <RenderingHints>
+            <AxisLabel>Azimuth lower delta</AxisLabel>
+            <ValueFormat>F14.3</ValueFormat>
+         </RenderingHints>
+         <ValidMin>0</ValidMin>
+         <ValidMax>12</ValidMax>
+         <FillValue>-1.0e+30</FillValue>
+         <Support>
+            <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
+            <SupportQuantity>Orientation</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>EAS Centre Energy</Name>
+         <ParameterKey>SWA_EAS_ENERGY</ParameterKey>
+         <Description>The representative centre energy for the accumulation bin. 64 possible values.</Description>
+         <Caveats>Energy is considered as support data within the CDF file.</Caveats>
+         <Units>eV</Units>
+         <UnitsConversion>1.60217646E-19>J</UnitsConversion>
+         <RenderingHints>
+            <ValueFormat>F14.4</ValueFormat>
+            <ScaleType>LogScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>0.5</ValidMin>
+         <ValidMax>6000</ValidMax>
+         <FillValue>-1.0e+30</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <ParticleQuantity>Energy</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>EAS Energy upper delta</Name>
+         <ParameterKey>SWA_EAS_ENERGY_delta_upper</ParameterKey>
+         <Description>Upper half width of energy bin. 64 possible values.</Description>
+         <Caveats>Energy is considered as support data within the CDF file.</Caveats>
+         <Units>eV</Units>
+         <UnitsConversion>1.60217646E-19>J</UnitsConversion>
+         <RenderingHints>
+            <ValueFormat>F14.4</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>0</ValidMin>
+         <ValidMax>1000</ValidMax>
+         <FillValue>-1.0e+30</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <ParticleQuantity>Energy</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>EAS Energy lower delta</Name>
+         <ParameterKey>SWA_EAS_ENERGY_delta_lower</ParameterKey>
+         <Description>Lower half width of energy bin. 64 possible values.</Description>
+         <Caveats>Energy is considered as support data within the CDF file.</Caveats>
+         <Units>eV</Units>
+         <UnitsConversion>1.60217646E-19>J</UnitsConversion>
+         <RenderingHints>
+            <ValueFormat>F14.4</ValueFormat>
+            <ScaleType>LogScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>0</ValidMin>
+         <ValidMax>1000</ValidMax>
+         <FillValue>-1.0e+30</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <ParticleQuantity>Energy</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>EAS sensor used</Name>
+         <ParameterKey>SWA_EAS_EasUsed</ParameterKey>
+         <Description>The EAS sensor used for Burst data collection. 0: EAS1; 1:EAS2.</Description>
+         <RenderingHints>
+            <ValueFormat>I1</ValueFormat>
+         </RenderingHints>
+         <ValidMin>0</ValidMin>
+         <ValidMax>1</ValidMax>
+         <Support>
+            <SupportQuantity>Other</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>SOLO_SWA_EASx-SCI to SOLO_SRF rotation matrix</Name>
+         <ParameterKey>EAS_TO_SRF</ParameterKey>
+         <Description>Rotation matrix from EAS[1-2] science frame (SOLO_SWA_EASx-SCI) to Spacecraft reference frame (SOLO_SRF).</Description>
+         <RenderingHints>
+            <ValueFormat>F14.6</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>3 3</Size>
+         </Structure>
+         <ValidMin>-1</ValidMin>
+         <ValidMax>1</ValidMax>
+         <FillValue>-1.0e+30</FillValue>
+         <Support>
+            <SupportQuantity>Other</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>EAS Data Quality</Name>
+         <ParameterKey>QUALITY_FLAG</ParameterKey>
+         <Description>Electrostatic Analyser System (EAS) Data Quality flag</Description>
+         <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
+            <ValueFormat>I3</ValueFormat>
+            <ScaleMin>0</ScaleMin>
+            <ScaleMax>4</ScaleMax>
+         </RenderingHints>
+         <ValidMin>0</ValidMin>
+         <ValidMax>4</ValidMax> 
+         <FillValue>255</FillValue>
+         <Support>
+            <SupportQuantity>DataQuality</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>EAS Quality Bitmask</Name>
+         <ParameterKey>QUALITY_BITMASK</ParameterKey>
+         <Description>Detailed information about Electrostatic Analyser System (EAS) data quality. This bitwise variable is used to indicate EAS data quality in detail. Details not finalized yet.</Description>
+         <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
+            <ValueFormat>I5</ValueFormat>
+            <ScaleMin>0</ScaleMin>
+            <ScaleMax>4</ScaleMax>
+         </RenderingHints>
+         <ValidMin>0</ValidMin>
+         <ValidMax>65535</ValidMax>
+         <FillValue>65535</FillValue>
+         <Support>
+            <SupportQuantity>DataQuality</SupportQuantity>
+         </Support>
+      </Parameter>    
+   </NumericalData>
+</Spase>
