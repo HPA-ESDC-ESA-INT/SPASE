@@ -10,6 +10,10 @@
          <ReleaseDate>2025-03-15T12:00:00.00Z</ReleaseDate>
          <RevisionHistory>
             <RevisionEvent>
+               <ReleaseDate>2025-08-08T12:00:00.00Z</ReleaseDate>
+               <Note>Corrected typo in Person name.</Note>
+            </RevisionEvent>
+            <RevisionEvent>
                <ReleaseDate>2025-03-15T12:00:00.00Z</ReleaseDate>
                <Note>Initial release of metadata.</Note>
             </RevisionEvent>
@@ -37,7 +41,7 @@
             <Role>OperationsManager</Role>
          </Contact>
          <Contact>
-            <PersonID>spase://ESA/Person/Andrei.Federov</PersonID>
+            <PersonID>spase://ESA/Person/Andrei.Fedorov</PersonID>
             <Role>OperationsManager</Role>
          </Contact>
          <Contact>
