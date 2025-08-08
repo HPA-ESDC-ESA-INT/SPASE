@@ -17,7 +17,7 @@
       <Description>Power Spectral Density measurements of three components of the magnetic field and two components of the electric field in SR2 reference frame, at 27 frequencies logarithmically distributed between 8 Hz and 4 kHz. The time resolution can vary between 0.125 and 0.250s in High Bit Rate and usually 1s (exceptionally 0.5 and 2s) in Normal Bit Rate telemetry mode.</Description>
       <Acknowledgement>Please acknowledge the STAFF team and ESA Cluster Science Archive in any publication based upon use of this data.  Digital Object Identifier for the STAFF archive: doi.org/10.5270/esa-yrzyijm</Acknowledgement>
       <Contact>
-        <PersonID>spase://ESA/Person/Olivier.Lecontel</PersonID>
+        <PersonID>spase://ESA/Person/Olivier.Le_Contel</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <Contact>
@@ -30,8 +30,8 @@
         <Role>MetadataContact</Role>
       </Contact>
       <Contact>
-	<PersonID>spase://SMWG/Person/Leonard.N.Garcia</PersonID>
-	<Role>MetadataContact</Role>
+	      <PersonID>spase://SMWG/Person/Leonard.N.Garcia</PersonID>
+	      <Role>MetadataContact</Role>
       </Contact>
       <InformationURL>
         <Name>Cluster STAFF reference webpage with DOI information</Name>

@@ -7,6 +7,7 @@
       <ResourceType>NumericalData</ResourceType>
       <ResourceHeader>
          <ResourceName>Solar Orbiter Magnetometer (MAG), Magnetic Field, Radial-Tangential-Normal coordinates, Normal Mode, Level 2, 1 min Data</ResourceName>
+         <DOI>TBC</DOI>
          <ReleaseDate>2025-02-28T00:00:00Z</ReleaseDate>
          <RevisionHistory>
             <RevisionEvent>
