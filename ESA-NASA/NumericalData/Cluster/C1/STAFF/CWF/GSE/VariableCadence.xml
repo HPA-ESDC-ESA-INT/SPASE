@@ -1,0 +1,206 @@
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2.7.0.xsd">
+  <Version>2.7.0</Version>
+  <NumericalData>
+    <ResourceID>spase://ESA-NASA/NumericalData/Cluster/C1/STAFF/CWF/GSE/VariableCadence</ResourceID>
+    <NamingAuthority>ESA-NASA</NamingAuthority>
+    <ResourceType>NumericalData</ResourceType>
+    <ResourceHeader>
+      <ResourceName>Magnetic Field Waveform - calibrated</ResourceName>
+      <AlternateName>C1_CP_STA_CWF_GSE</AlternateName>
+      <ReleaseDate>2025-10-31T12:00:00</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2025-10-31T12:00:00</ReleaseDate>
+          <Note>Initial release of metadata.</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>This dataset contains measurements of the magnetic field Calibrated WaveForm (CWF) from the STAFF-SC instrument in Normal Bit Rate (NBR) mode (filtered from 0.6Hz to 10Hz and sampled at 25Hz) and in High Bit Rate (HBR) mode (filtered from 0.6Hz to 180Hz and sampled at 450Hz) on the Cluster C1 spacecraft. This product is given in the Geocentric Solar Ecliptic (GSE) frame. Data calibration is performed using a moving window of 1024 points in NBR mode and 4096 points in HBR mode. These values were chosen as the best compromise for routine production. For further details, please refer to the STAFF Calibration Report.</Description>
+      <Acknowledgement>Please acknowledge the STAFF team and ESA Cluster Science Archive in any publication based upon use of this data. Digital Object Identifier for the STAFF archive: doi.org/10.5270/esa-yrzyijm</Acknowledgement>
+      <Contact>
+        <PersonID>spase://ESA/Person/Olivier.Le_Contel</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Patrick.Canu</PersonID>
+        <Role>CoPI</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Arnaud.Masson</PersonID>
+        <Role>ProjectScientist</Role>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Leonard.N.Garcia</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Cluster STAFF reference webpage with DOI information</Name>
+        <URL>https://doi.org/10.5270/esa-yrzyijm</URL>
+        <Description>Website</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>First results obtained by the Cluster STAFF experiment</Name>
+        <URL>https://doi.org/10.5194/angeo-21-437-2003</URL>
+        <Description>Publication</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://ESA/Repository/ESDC</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessURL>
+	      <Name>Cluster Science Archive (CSA) web interface</Name>
+	      <URL>https://csa.esac.esa.int</URL>
+	      <ProductKey>C1_CP_STA_CWF_GSE</ProductKey>
+      </AccessURL>
+      <AccessURL>
+        <Name>Cluster Science Archive (CSA) TAP</Name>
+        <URL>https://csa.esac.esa.int/csa-sl-tap/tap/</URL>
+        <ProductKey>C1_CP_STA_CWF_GSE</ProductKey>
+        <Description> Cluster Data and Metadata via the European Space Agency Table Access Protocol (TAP) server</Description>
+      </AccessURL>
+      <Format>CEF</Format>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://NASA/Repository/GSFC/SPDF</RepositoryID>
+      <AccessURL>
+	      <Name>CDAWeb</Name>
+	      <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=C1_CP_STA_CWF_GSE&amp;index=sp_phys</URL>
+	      <ProductKey>C1_CP_STA_CWF_GSE</ProductKey>
+      </AccessURL>
+      <Format>CDF</Format>
+      <Acknowledgement>Please acknowledge the Data Providers and CDAWeb when using these data.</Acknowledgement>
+    </AccessInformation>
+    <ProcessingLevel>ValueAdded</ProcessingLevel>
+    <ProviderProcessingLevel>Derived</ProviderProcessingLevel>
+    <InstrumentID>spase://ESA-NASA/Instrument/Cluster/STAFF</InstrumentID>
+    <MeasurementType>Waves.Passive</MeasurementType>
+    <MeasurementType>MagneticField</MeasurementType>
+    <MeasurementType>ElectricField</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+	      <StartDate>2000-09-08T03:05:20</StartDate>
+	      <StopDate>2024-09-30T23:59:59</StopDate>
+      </TimeSpan>
+      <Cadence>PT0.04S</Cadence>
+      <CadenceMin>PT0.04S</CadenceMin>
+      <CadenceMax>PT0.002S</CadenceMax>      
+    </TemporalDescription>
+    <ObservedRegion>Earth.Magnetosheath</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere.Magnetotail</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere.Main</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere.Polar</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere.RadiationBelt</ObservedRegion>
+    <ObservedRegion>Earth.NearSurface.AuroralRegion</ObservedRegion>
+    <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
+    <ObservedRegion>Earth.NearSurface.Plasmasphere</ObservedRegion>
+    <ObservedRegion>Earth.NearSurface.PolarCap</ObservedRegion>
+    <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+    <Keyword>Magnetosphere</Keyword>
+    <Keyword>Auroral Region</Keyword>
+    <Keyword>Polar Cap</Keyword>
+    <Keyword>Cusp</Keyword>
+    <Keyword>Bow Shock</Keyword>
+    <Keyword>Solar Wind</Keyword>
+    <Keyword>Magnetosheath</Keyword>
+    <Keyword>Cluster</Keyword>
+    <Keyword>Magnetotail</Keyword>
+    <Keyword>Lobe</Keyword>
+    <Parameter>
+      <Name>UT Time</Name>
+      <ParameterKey>Time__C1_CP_STA_CWF_GSE</ParameterKey>
+      <Description>Time tag</Description>
+      <Units>s</Units>
+      <UnitsConversion>1.0>s</UnitsConversion>
+      <RenderingHints>
+	       <AxisLabel>UT</AxisLabel>
+         </RenderingHints>
+         <FillValue>9999-12-31T23:59:59.999Z</FillValue>
+      <Support>
+	      <SupportQuantity>Temporal</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Sampling interval length</Name>
+      <ParameterKey>Interval__C1_CP_STA_CWF_GSE</ParameterKey>
+      <Description>Sampling interval length</Description>
+      <Units>s</Units>
+      <UnitsConversion>1.0>s</UnitsConversion>
+      <RenderingHints>
+	      <AxisLabel>s</AxisLabel>
+      </RenderingHints>
+      <ValidMin>0.002</ValidMin>
+      <ValidMax>0.041</ValidMax>
+      <FillValue>10.0</FillValue>
+      <Support>
+	      <SupportQuantity>Temporal</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>STAFF-SC Status</Name>
+      <ParameterKey>Status__C1_CP_STA_CWF_GSE</ParameterKey>
+      <Description>STAFF-SC Status</Description>
+      <Caveats>See UG, Appendix C. We cannot certify the 9th character (EFW Sweep)</Caveats>
+      <RenderingHints>
+        <AxisLabel>Status</AxisLabel>
+      </RenderingHints>
+      <FillValue>ZZZZZZZZZ</FillValue>
+      <Support>
+        <SupportQuantity>DataQuality</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Phase Angle</Name>
+      <ParameterKey>Phase_Angle__C1_CP_STA_CWF_GSE</ParameterKey>
+      <Description>Phase derived from Sun Pulse measurement: can be interpolated see STATUS</Description>
+      <Units>degree</Units>
+      <UnitsConversion>0.01745>rad</UnitsConversion>
+      <CoordinateSystem>
+	      <CoordinateRepresentation>Cylindrical</CoordinateRepresentation>
+	      <CoordinateSystemName>SC</CoordinateSystemName>
+      </CoordinateSystem>
+      <RenderingHints>
+	      <AxisLabel>Phase Angle</AxisLabel>
+      </RenderingHints>
+      <ValidMin>-360.0</ValidMin>
+      <ValidMax>360.0</ValidMax>
+      <FillValue>-500.0</FillValue>
+      <Support>
+	      <SupportQuantity>Other</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Cluster C1, Calibrated Magnetic Field Waveform</Name>
+      <ParameterKey>B_vec_xyz_Instrument__C1_CP_STA_CWF_GSE</ParameterKey>
+      <Description>Cluster C1, Calibrated Magnetic Field Waveform</Description>
+      <Units>nT</Units>
+      <UnitsConversion>1.0E-9>T</UnitsConversion>
+      <CoordinateSystem>
+	      <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+	      <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <RenderingHints>
+	      <DisplayType>TimeSeries</DisplayType>
+	      <AxisLabel>Calibrated Magnetic Field Waveform</AxisLabel>
+      </RenderingHints>
+      <ValidMin>-510.0</ValidMin>
+      <ValidMax>510.0</ValidMax>
+      <FillValue>-1.00E+30</FillValue>
+      <Field>
+	      <Qualifier>Vector</Qualifier>
+	      <FieldQuantity>Magnetic</FieldQuantity>
+      </Field>
+    </Parameter>
+    <Parameter>
+      <Name>Misalignment Matrix</Name>
+      <ParameterKey>Misalignment_Matrix__C1_CP_STA_CWF_GSE</ParameterKey>
+      <Description>C1 transformation from STAFF real instrument frame to the theoric orthogonal frame linked to the instrument.</Description>
+      <ValidMin>0.0</ValidMin>
+      <ValidMax>1.0</ValidMax>
+      <FillValue>1.00E+30</FillValue>
+      <Support>
+	      <SupportQuantity>RotationMatrix</SupportQuantity>
+      </Support>
+    </Parameter>
+  </NumericalData>
+</Spase>

@@ -113,13 +113,13 @@
       <Units>s</Units>
       <UnitsConversion>1.0>s</UnitsConversion>
       <RenderingHints>
-	<AxisLabel>UT</AxisLabel>
+	      <AxisLabel>UT</AxisLabel>
       </RenderingHints>
-   <FillValue>9999-12-31T23:59:59.999Z</FillValue>
-   <Support>
-    <SupportQuantity>Temporal</SupportQuantity>
-   </Support>
-  </Parameter>
+      <FillValue>9999-12-31T23:59:59.999Z</FillValue>
+      <Support>
+        <SupportQuantity>Temporal</SupportQuantity>
+      </Support>
+    </Parameter>
   <Parameter>
    <Name>Sampling interval duration</Name>
    <ParameterKey>Duration__C1_CP_STA_PSD</ParameterKey>
