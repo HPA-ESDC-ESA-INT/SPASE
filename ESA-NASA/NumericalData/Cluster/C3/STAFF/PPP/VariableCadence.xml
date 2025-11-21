@@ -1,0 +1,287 @@
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2.7.0.xsd">
+  <Version>2.7.0</Version>
+  <NumericalData>
+    <ResourceID>spase://ESA-NASA/NumericalData/Cluster/C3/STAFF/PPP/VariableCadence</ResourceID>
+    <NamingAuthority>ESA-NASA</NamingAuthority>
+    <ResourceType>NumericalData</ResourceType>
+    <ResourceHeader>
+      <ResourceName>Polarization and Propagation Parameters</ResourceName>
+      <AlternateName>C3_CP_STA_PPP</AlternateName>
+      <ReleaseDate>2025-11-21T12:00:00</ReleaseDate>
+       <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2025-11-21T12:00:00</ReleaseDate>
+          <Note>Initial release of metadata.</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>Polarization and propagation parameters derived from singular value decomposition (SVD) method of the cross-spectral matrix (sm) using the PRASSADCO program with 4s (or 1s) time resolution at 27 (or 18) logarithmically distributed frequencies between either 8 (or 64) Hz to 4 kHz. The SVD  method is described in Santolik et al (2003). The parameters calculated from the three magnetic components are THSVD, PHSVD, ELLSVD, POLSVD and BSUM. BSUM is the sum of the three magnetic auto-power spectra. When BSUM is inferior to 1.0E-09 nT^2/Hz, the calculation of the other magnetic dependant parameters is meaningless. The theta and phi variables are respectively the wave vector polar and azimuthal angles in Magnetic Field-Aligned (MFA) coordinate system. PVSIGN is the direction of the Poynting vector component parallel to the magnetic field. It is given only when E component is valid. Positive (negative) values correspond to a parallel (anti-parallel) Z-component of the Poynting vector. ESUM is the the sum of auto-power spectra of the two electric antennae. The calculation of PVSIGN is meaningless when BSUM is inferior to 1.0E-09 nT^2/Hz, and ESUM to 3.0E-09mv^2m^-2/Hz. The change of coordinate system has been done using FGM 5VPS data.</Description>
+      <Acknowledgement>Please acknowledge the STAFF team and ESA Cluster Science Archive in any publication based upon use of this data. Digital Object Identifier for the STAFF archive: doi.org/10.5270/esa-yrzyijm</Acknowledgement>
+      <Contact>
+        <PersonID>spase://ESA/Person/Olivier.Le_Contel</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Patrick.Canu</PersonID>
+        <Role>CoPI</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Arnaud.Masson</PersonID>
+        <Role>ProjectScientist</Role>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <Contact>
+	      <PersonID>spase://SMWG/Person/Leonard.N.Garcia</PersonID>
+	      <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Cluster STAFF reference webpage with DOI information</Name>
+        <URL>https://doi.org/10.5270/esa-yrzyijm</URL>
+        <Description>Website</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>First results obtained by the Cluster STAFF experiment</Name>
+        <URL>https://doi.org/10.5194/angeo-21-437-2003</URL>
+        <Description>Publication</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://ESA/Repository/ESDC</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessURL>
+	      <Name>Cluster Science Archive (CSA) web interface</Name>
+	      <URL>https://csa.esac.esa.int</URL>
+	      <ProductKey>C3_CP_STA_PPP</ProductKey>
+      </AccessURL>
+      <AccessURL>
+         <Name>Cluster Science Archive (CSA) TAP</Name>
+         <URL>https://csa.esac.esa.int/csa-sl-tap/tap/</URL>
+         <ProductKey>C3_CP_STA_PPP</ProductKey>
+         <Description> Cluster Data and Metadata via the European Space Agency Table Access Protocol (TAP) server</Description>
+      </AccessURL>
+      <Format>CEF</Format>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://NASA/Repository/GSFC/SPDF</RepositoryID>
+      <AccessURL>
+	      <Name>CDAWeb</Name>
+	      <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=C3_CP_STA_PPP&amp;index=sp_phys</URL>
+	      <ProductKey>C3_CP_STA_PPP</ProductKey>
+      </AccessURL>
+      <Format>CDF</Format>
+      <Acknowledgement>Please acknowledge the Data Providers and CDAWeb when using these Data.</Acknowledgement>
+    </AccessInformation>
+    <ProcessingLevel>ValueAdded</ProcessingLevel>
+    <ProviderProcessingLevel>Derived</ProviderProcessingLevel>
+    <InstrumentID>spase://ESA-NASA/Instrument/Cluster/STAFF</InstrumentID>
+    <MeasurementType>Waves.Passive</MeasurementType>
+    <MeasurementType>MagneticField</MeasurementType>
+    <MeasurementType>ElectricField</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+      	<StartDate>2001-01-07T00:00:00</StartDate>
+      	<StopDate>2024-09-30T23:59:59</StopDate>
+      </TimeSpan>
+      <Cadence>PT4.0S</Cadence>
+      <CadenceMin>PT1.0S</CadenceMin>
+      <CadenceMax>PT4.0S</CadenceMax>
+    </TemporalDescription>
+    <ObservedRegion>Earth.Magnetosheath</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere.Magnetotail</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere.Main</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere.Polar</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere.RadiationBelt</ObservedRegion>
+    <ObservedRegion>Earth.NearSurface.AuroralRegion</ObservedRegion>
+    <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
+    <ObservedRegion>Earth.NearSurface.Plasmasphere</ObservedRegion>
+    <ObservedRegion>Earth.NearSurface.PolarCap</ObservedRegion>
+    <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+    <Keyword>Magnetosphere</Keyword>
+    <Keyword>Auroral Region</Keyword>
+    <Keyword>Polar Cap</Keyword>
+    <Keyword>Cusp</Keyword>
+    <Keyword>Bow Shock</Keyword>
+    <Keyword>Solar Wind</Keyword>
+    <Keyword>Magnetosheath</Keyword>
+    <Keyword>Cluster</Keyword>
+    <Keyword>Magnetotail</Keyword>
+    <Keyword>Lobe</Keyword>
+  <Parameter>
+    <Name>UT Time</Name>
+    <ParameterKey>Time__C3_CP_STA_PPP</ParameterKey>
+    <Description>Interval time tag</Description>
+    <Units>s</Units>
+    <UnitsConversion>1.0>s</UnitsConversion>
+    <RenderingHints>
+	    <AxisLabel>UT</AxisLabel>
+    </RenderingHints>
+    <FillValue>9999-12-31T23:59:59.999Z</FillValue>
+    <Support>
+      <SupportQuantity>Temporal</SupportQuantity>
+    </Support>
+  </Parameter>
+   <Parameter>
+    <Name>Frequency bin centres</Name>
+    <ParameterKey>Frequency__C3_CP_STA_PPP</ParameterKey>
+    <Description>Interval centred frequency tag</Description>
+    <Units>Hz</Units>
+    <UnitsConversion>1.0>Hz</UnitsConversion>
+    <RenderingHints>
+      <AxisLabel>F</AxisLabel>
+    </RenderingHints>
+    <ValidMin>8.7692</ValidMin>
+    <ValidMax>3563.59</ValidMax>
+    <FillValue>-999.99</FillValue>
+    <Support>
+      <SupportQuantity>Other</SupportQuantity>
+    </Support>
+  </Parameter>
+  <Parameter>
+    <Name>Half-interval duration</Name>
+    <ParameterKey>Duration__C3_CP_STA_PPP</ParameterKey>
+    <Description>Half-interval duration</Description>
+    <Units>s</Units>
+    <UnitsConversion>1.0>s</UnitsConversion>
+    <RenderingHints>
+      <AxisLabel>s</AxisLabel>
+    </RenderingHints>
+    <ValidMin>0.5</ValidMin>
+    <ValidMax>2.0</ValidMax>
+    <FillValue>9.999</FillValue>
+    <Support>
+      <SupportQuantity>Temporal</SupportQuantity>
+    </Support>
+  </Parameter>
+  <Parameter>
+    <Name>STAFF-SA Status</Name>
+    <ParameterKey>Status__C3_CP_STA_PPP</ParameterKey>
+    <Description>STAFF-SA Status</Description>
+    <Caveats>First nine characters of STAFF Status. See UG, Appendix C. We cannot certify the 9th character (EFW Sweep)</Caveats>
+    <RenderingHints>
+      <AxisLabel>Status</AxisLabel>
+    </RenderingHints>
+    <FillValue>ZZZZZZZZZ</FillValue>
+    <Support>
+      <SupportQuantity>DataQuality</SupportQuantity>
+    </Support>
+  </Parameter>
+  <Parameter>
+    <Name>Frequency bin half widths</Name>
+    <ParameterKey>Frequency_BHW__C3_CP_STA_PPP</ParameterKey>
+    <Description>Frequency bin half widths</Description>
+    <Units>Hz</Units>
+    <UnitsConversion>1.0>Hz</UnitsConversion>
+    <RenderingHints>
+      <AxisLabel>F_bhw</AxisLabel>
+    </RenderingHints>
+    <ValidMin>1.0085</ValidMin>
+    <ValidMax>409.813</ValidMax>
+    <FillValue>-999.99</FillValue>
+    <Support>
+      <SupportQuantity>Other</SupportQuantity>
+    </Support>
+  </Parameter>
+  <Parameter>
+    <Name>Polar angle (SVD) in MFA coordinate system</Name>
+    <ParameterKey>THSVD_mfa__C3_CP_STA_PPP</ParameterKey>
+    <Description>Polar Angle of the direction of propagation in MFA coordinate system (SVD).</Description>
+    <Units>degree</Units>
+    <UnitsConversion>0.01745>rad</UnitsConversion>
+    <CoordinateSystem>
+      <CoordinateRepresentation>Spherical</CoordinateRepresentation>
+      <CoordinateSystemName>MFA</CoordinateSystemName>
+    </CoordinateSystem>
+    <RenderingHints>
+      <AxisLabel>THSVD</AxisLabel>
+    </RenderingHints>
+    <ValidMin>0.0</ValidMin>
+    <ValidMax>90.0</ValidMax>
+   <FillValue>-999.0</FillValue>
+   <Wave>
+     <Qualifier>DirectionAngle.PolarAngle</Qualifier>
+     <WaveQuantity>ACMagneticField</WaveQuantity>
+   </Wave>
+  </Parameter>
+  <Parameter>
+    <Name>Azimuthal angle (SVD) in MFA coordinate system</Name>
+    <ParameterKey>PHSVD_mfa__C3_CP_STA_PPP</ParameterKey>
+    <Description>Azimuthal angle of the direction of propagation in MFA coordinate system (SVD).</Description>
+    <Units>degree</Units>
+    <UnitsConversion>0.01745>rad</UnitsConversion>
+    <CoordinateSystem>
+      <CoordinateRepresentation>Spherical</CoordinateRepresentation>
+      <CoordinateSystemName>MFA</CoordinateSystemName>
+    </CoordinateSystem>
+    <RenderingHints>
+      <AxisLabel>PHSVD</AxisLabel>
+    </RenderingHints>
+    <ValidMin>-180.0</ValidMin>
+    <ValidMax>180.0</ValidMax>
+    <FillValue>-999.0</FillValue>
+    <Wave>
+      <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
+      <WaveQuantity>ACMagneticField</WaveQuantity>
+    </Wave>
+  </Parameter>
+  <Parameter>
+    <Name>Ellipticity of the polarization (SVD)</Name>
+    <ParameterKey>ELLSVD__C3_CP_STA_PPP</ParameterKey>
+    <Description>Ellipticity of the polarization (SVD).</Description>
+    <ValidMin>-1.0</ValidMin>
+    <ValidMax>1.0</ValidMax>
+    <FillValue>-9.90</FillValue>
+    <Wave>
+      <WaveQuantity>Polarization</WaveQuantity>
+    </Wave>
+  </Parameter>
+  <Parameter>
+   <Name>Degree of polarization in the polarization plane (SVD)</Name>
+   <ParameterKey>POLSVD__C3_CP_STA_PPP</ParameterKey>
+   <Description>Degree of polarization in the polarization plane (SVD).</Description>
+   <ValidMin>0.0</ValidMin>
+   <ValidMax>2.51</ValidMax>
+   <FillValue>-9.9</FillValue>
+   <Wave>
+      <WaveQuantity>Polarization</WaveQuantity>
+   </Wave>
+  </Parameter>
+  <Parameter>
+   <Name>Sum of the three magnetic auto-power spectra</Name>
+   <ParameterKey>BSUM__C3_CP_STA_PPP</ParameterKey>
+   <Description>Sum of the three magnetic auto-power spectra</Description>
+   <Units>nT^2 Hz^-1</Units>
+   <UnitsConversion>1.0E-18>T^2 Hz^-1</UnitsConversion>
+   <ValidMin>0.0</ValidMin>
+   <ValidMax>2200.0</ValidMax>
+   <FillValue>-1.0E+31</FillValue>
+   <Wave>
+      <WaveQuantity>ACMagneticField</WaveQuantity>
+   </Wave>
+  </Parameter>
+  <Parameter>
+   <Name>Normalized Z-component of the Poynting vector</Name>
+   <ParameterKey>PVSIGN__C3_CP_STA_PPP</ParameterKey>
+   <Description>Parallel component of the Poynting vector normalized
+   by its standard deviation</Description>
+   <ValidMin>-8.0</ValidMin>
+   <ValidMax>8.0</ValidMax>
+   <FillValue>-1.0E+31</FillValue>
+   <Wave>
+      <WaveQuantity>ACMagneticField</WaveQuantity>
+   </Wave>
+  </Parameter>
+  <Parameter>
+   <Name>Sum of the two electric auto-power spectra</Name>
+   <ParameterKey>ESUM__C3_CP_STA_PPP</ParameterKey>
+   <Description>Sum of the two electric auto-power spectra</Description>
+   <Units>mV^2 m^-2 Hz^-1</Units>
+   <UnitsConversion>1.0E-6>V^2 m^-2 Hz^-1</UnitsConversion>
+   <ValidMin>0.0</ValidMin>
+   <ValidMax>354000.0</ValidMax>
+   <FillValue>-1.0E+31</FillValue>
+   <Wave>
+      <WaveQuantity>ACElectricField</WaveQuantity>
+   </Wave>
+  </Parameter>
+</NumericalData>
+</Spase>
