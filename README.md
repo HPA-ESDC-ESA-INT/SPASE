@@ -36,6 +36,7 @@ SPASE
    |     |    |
    |     |    |___Cluster
    |     |          |___STAFF
+   |     |          |___CIS   
    |     |
    |     |   
    |     |___Observatory
@@ -68,9 +69,15 @@ SPASE
    |          |___Cluster
    |          |     |___C1
    |          |     |    |___STAFF
-   |          |     |          |___PSD
-   |          |     |          |___PPP   
-   |          |     |          |___CWF/GSE  
+   |          |     |    |     |___PSD
+   |          |     |    |     |___PPP   
+   |          |     |    |     |___CWF/GSE
+   |          |     |    |___CIS
+   |          |     |          |___HIA
+   |          |     |          |    |___Onboard-Moments   
+   |          |     |          |___CODIF
+   |          |     |               |___HS
+   |          |     |                   |___Moments   
    |          |     |
    |          |     |___C2
    |          |     |    |___STAFF
@@ -80,15 +87,25 @@ SPASE
    |          |     |
    |          |     |___C3
    |          |     |    |___STAFF
-   |          |     |          |___PSD
-   |          |     |          |___PPP   
-   |          |     |          |___CWF/GSE     
+   |          |     |    |     |___PSD
+   |          |     |    |     |___PPP   
+   |          |     |    |     |___CWF/GSE
+   |          |     |    |___CIS
+   |          |     |          |___HIA
+   |          |     |          |    |___Onboard-Moments   
+   |          |     |          |___CODIF
+   |          |     |               |___HS
+   |          |     |                   |___Moments     
    |          |     |
    |          |     |___C4
    |          |     |    |___STAFF
-   |          |     |          |___PSD
-   |          |     |          |___PPP   
-   |          |     |          |___CWF/GSE     
+   |          |     |    |     |___PSD
+   |          |     |    |     |___PPP   
+   |          |     |    |     |___CWF/GSE
+   |          |     |    |___CIS   
+   |          |     |          |___CODIF
+   |          |     |               |___HS
+   |          |     |                   |___Moments     
         
   
    
