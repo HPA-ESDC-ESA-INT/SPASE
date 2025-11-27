@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2.7.0.xsd">
+  <Version>2.7.0</Version>
+  <Instrument>
+    <ResourceID>spase://ESA-NASA/Instrument/Cluster/CIS</ResourceID>
+    <NamingAuthority>ESA-NASA</NamingAuthority>
+    <ResourceType>Instrument</ResourceType>
+    <ResourceHeader>
+      <ResourceName>Cluster Ion Spectrometry (CIS)</ResourceName>
+      <AlternateName>CIS</AlternateName>
+      <DOI>https://doi.org/10.5270/esa-ceffumg</DOI>
+      <ReleaseDate>2025-11-27T12:00:00Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2025-11-27T12:00:00Z</ReleaseDate>
+          <Note>First release.</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>The CIS (Cluster Ion Spectrometry) experiment is a comprehensive ionic plasma spectrometry package onboard the Cluster spacecraft,capable of obtaining full three-dimentional ion distributions (about 0 to 40 KeV/e) with a time resolution of one spacecraft spin (4 sec) and with mass-per-charge composition determination. The CIS package consists of two different instruments, a time-of-flight ion Composition and Distribution Function analyser (CODIF, or CIS-1) and a Hot Ion Analyser (HIA, or CIS-2).
+        CIS key scientific datasets from Cluster 1 (similar for Cluster 3, CODIF only on C4, no data from CIS on C2)
+        
+       *Moments:
+        Dataset ID	| Dataset content
+        C1_CP_CIS-HIA_ONBOARD_MOMENTS	 | Ion Moments (High and Low Sensitivity)
+        C1_CP_CIS-CODIF_HS_H1_MOMENTS	 | H+ Moments (High sensitivity)
+        C1_CP_CIS-CODIF_HS_He1_MOMENTS | He+ Moments (High sensitivity)
+        C1_CP_CIS-CODIF_HS_O1_MOMENTS	 | O+ Moments (High sensitivity)
+        
+       *Pitch-Angle  | Distributions:
+        C1_CP_CIS-HIA_PAD_HS_MAG_IONS_PF	| Ion pitch angle distribution (High sensitivity)
+        C1_CP_CIS-CODIF_PAD_HS_H1_PF	    | H+ pitch angle distribution (High sensitivity)
+        C1_CP_CIS-CODIF_PAD_HS_He1_PF	    | He+ pitch angle distribution (High sensitivity)
+        C1_CP_CIS-CODIF_PAD_HS_O1_PF	    | O+ pitch angle distribution (High sensitivity)
+        
+       *3D particle distribution:
+        Dataset ID  |	Dataset content
+        C1_CP_CIS-HIA_HS_MAG_IONS_PF|	3D Ion distributions on C1, High-Sensitivity, Magnetospheric Mode, in Differential Particle Flux
+        C1_CP_CIS-HIA_HS_SW_IONS_PF |	3D Ion distributions on C1, High-Sensitivity, Solar-Wind mode, in Differential Particle Flux
+        C1_CP_CIS-HIA_LS_SW_IONS_PF |	3D Ion distributions on C1, Low-Sensitivity, Solar Wind mode, in Differential Particle Flux
+        C1_CP_CIS-CODIF_HS_H1_PF	  | 3D Proton distributions on C1, High-Sensitivity, in Differential Particle Flux
+        C1_CP_CIS-CODIF_HS_He1_PF	  | 3D Helium+ distributions on C1, High-Sensitivity, in Differential Particle Flux
+        C1_CP_CIS-CODIF_HS_He2_PF	  | 3D Alpha particle distributions on C1, High-Sensitivity, in Differential Particle Flux
+        C1_CP_CIS-CODIF_HS_O1_PF	  | 3D Oxygen+ distributions on C1, High-Sensitivity, in Differential Particle Flux
+        
+        
+        3D particle distribution are also provided in Particle energy flux and phase space density units. Data collected by the Retarding Potential Analyzer mode used in the plasmasphere are also available together with omnidirectional particle energy flux.
+      </Description>
+      <Contact>
+        <PersonID>spase://ESA/Person/Iannis.Dandouras</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>      
+      </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>Cluster CIS instrument</InvestigationName>
+    <ObservatoryID>spase://ESA-NASA/Observatory/Cluster</ObservatoryID>
+  </Instrument>
+</Spase>
