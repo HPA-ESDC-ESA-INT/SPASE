@@ -1,0 +1,249 @@
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2.7.0.xsd">
+  <Version>2.7.0</Version>
+  <NumericalData>
+    <ResourceID>spase://ESA-NASA/NumericalData/Cluster/C3/CIS/HIA/Onboard-Moments/PT4S</ResourceID>
+    <NamingAuthority>ESA-NASA</NamingAuthority>
+    <ResourceType>NumericalData</ResourceType>
+    <ResourceHeader>
+      <ResourceName>CIS-HIA onboard computed moments on Cluster C3</ResourceName>
+      <AlternateName>C3_CP_CIS-HIA_ONBOARD_MOMENTS</AlternateName>
+      <ReleaseDate>2025-11-27T12:00:00</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2025-11-27T12:00:00</ReleaseDate>
+          <Note>Initial release of metadata.</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>This dataset contains CIS-HIA (Cluster Ion Spectrometry - Hot Ion Analyser) onboard computed moments on spacecraft C3 (Cluster 3).</Description>
+      <Acknowledgement>Please acknowledge the CIS team and ESA Cluster Science Archive when using this data. Digital Object Identifier for the CIS archive: https://doi.org/10.5270/esa-ceffumg</Acknowledgement>
+      <Contact>
+        <PersonID>spase://ESA/Person/Iannis.Dandouras</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Henri.Reme</PersonID>
+        <Role>CoPI</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Arnaud.Masson</PersonID>
+        <Role>ProjectScientist</Role>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Cluster CIS reference webpage with DOI information</Name>
+        <URL>https://doi.org/10.5270/esa-ceffumg</URL>
+        <Description>Website</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>The Cluster Ion Spectrometry (CIS) Experiment</Name>
+        <URL>https://doi.org/10.1023/A:1004929816409</URL>
+        <Description>Publication</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>First multispacecraft ion measurements in and near the Earth‘s magnetosphere with the identical Cluster ion spectrometry (CIS) experiment</Name>
+        <URL> https://doi.org/10.5194/angeo-19-1303-2001</URL>
+        <Description>Publication</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://ESA/Repository/ESDC</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessURL>
+	      <Name>Cluster Science Archive (CSA) web interface</Name>
+	      <URL>https://csa.esac.esa.int</URL>
+        <ProductKey>C3_CP_CIS-HIA_ONBOARD_MOMENTS</ProductKey>
+      </AccessURL>
+      <AccessURL>
+        <Name>Cluster Science Archive (CSA) TAP</Name>
+        <URL>https://csa.esac.esa.int/csa-sl-tap/tap/</URL>
+        <ProductKey>C3_CP_CIS-HIA_ONBOARD_MOMENTS</ProductKey>
+        <Description> Cluster Data and Metadata via the European Space Agency Table Access Protocol (TAP) server</Description>
+      </AccessURL>
+      <Format>CEF</Format>
+    </AccessInformation>
+    <ProcessingLevel>Calibrated</ProcessingLevel>
+    <InstrumentID>spase://ESA-NASA/Instrument/Cluster/CIS</InstrumentID>
+    <MeasurementType>EnergeticParticles</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+	      <StartDate>2001-01-11T00:00:01</StartDate>
+	      <StopDate>2009-11-11T23:59:59</StopDate>
+      </TimeSpan>
+      <Cadence>PT4S</Cadence>
+      <CadenceMin>PT4S</CadenceMin>
+      <CadenceMax>PT4S</CadenceMax>      
+    </TemporalDescription>
+    <ObservedRegion>Earth.Magnetosheath</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere.Magnetotail</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere.RadiationBelt</ObservedRegion>
+    <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
+    <ObservedRegion>Earth.NearSurface.Plasmasphere</ObservedRegion>
+    <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+    <Keyword>CIS</Keyword>
+    <Keyword>Ions</Keyword>
+    <Keyword>3D velocity distribution</Keyword>
+    <Keyword>Cluster</Keyword>
+    <Keyword>Magnetosphere</Keyword>
+    <Keyword>Solar Wind</Keyword>
+    <Parameter>
+      <Name>Center time</Name>
+      <ParameterKey>time_tags__C3_CP_CIS-HIA_ONBOARD_MOMENTS</ParameterKey>
+      <Description>Interval centred time tag</Description>
+      <Units>s</Units>
+      <UnitsConversion>1.0>s</UnitsConversion>
+      <RenderingHints>
+	       <AxisLabel>UT</AxisLabel>
+         </RenderingHints>
+      <FillValue>9999-99-99T99:99:99Z</FillValue>
+      <Support>
+	      <SupportQuantity>Temporal</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Half interval duration</Name>
+      <ParameterKey>delta_time__C3_CP_CIS-HIA_ONBOARD_MOMENTS</ParameterKey>
+      <Description>Half interval duration</Description>
+      <Units>s</Units>
+      <UnitsConversion>1.0>s</UnitsConversion>
+      <RenderingHints>
+	      <AxisLabel>dT</AxisLabel>
+      </RenderingHints>
+      <FillValue>0.0</FillValue>
+      <Support>
+	      <SupportQuantity>Other</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Sensitivity</Name>
+      <ParameterKey>sensitivity__C3_CP_CIS-HIA_ONBOARD_MOMENTS</ParameterKey>
+      <Description>Sensitivity (0 : Low; 1:High)</Description>
+      <Units>Unitless</Units>
+      <FillValue>-1</FillValue>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>CIS Operational Mode</Name>
+      <ParameterKey>cis_mode__C3_CP_CIS-HIA_ONBOARD_MOMENTS</ParameterKey>
+      <Description>CIS Operational Mode</Description>
+      <Units>Unitless</Units>
+      <RenderingHints>
+        <AxisLabel>Mode</AxisLabel>
+      </RenderingHints>
+      <FillValue>99</FillValue>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Density</Name>
+      <ParameterKey>density__C3_CP_CIS-HIA_ONBOARD_MOMENTS</ParameterKey>
+      <Description>Density (in cm^-3)</Description>
+      <Units>particles cm^-3</Units>
+      <UnitsConversion>1e6>(particles) m^-3</UnitsConversion>
+      <FillValue>-1E31</FillValue>
+      <Particle>
+        <ParticleType>Ion</ParticleType>
+        <ParticleQuantity>MassDensity</ParticleQuantity>
+      </Particle>
+    </Parameter>
+    <Parameter>
+      <Name>Velocity (SR2)</Name>
+      <ParameterKey>velocity_isr2__C3_CP_CIS-HIA_ONBOARD_MOMENTS</ParameterKey>
+      <Description>Velocity in km s^-1 (ISR2)</Description>
+      <Units>km s^-1</Units>
+      <UnitsConversion>1e3>m s^-1</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>SR2</CoordinateSystemName>
+      </CoordinateSystem>
+      <FillValue>-1E31</FillValue>
+      <Particle>
+        <ParticleType>Ion</ParticleType>
+        <ParticleQuantity>Velocity</ParticleQuantity>
+      </Particle>
+    </Parameter>
+    <Parameter>
+      <Name>Velocity (GSE)</Name>
+      <ParameterKey>velocity_gse__C3_CP_CIS-HIA_ONBOARD_MOMENTS</ParameterKey>
+      <Description>Velocity in km s^-1 (GSE)</Description>
+      <Units>km s^-1</Units>
+      <UnitsConversion>1e3>m s^-1</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <FillValue>-1E31</FillValue>
+      <Particle>
+        <ParticleType>Ion</ParticleType>
+        <ParticleQuantity>Velocity</ParticleQuantity>
+      </Particle>
+    </Parameter>
+    <Parameter>
+      <Name>Temperature</Name>
+      <ParameterKey>temperature__C3_CP_CIS-HIA_ONBOARD_MOMENTS</ParameterKey>
+      <Description>Temperature in MK</Description>
+      <Units>MK</Units>
+      <UnitsConversion>1e6>K</UnitsConversion>
+      <FillValue>-1e31</FillValue>
+      <Particle>
+        <ParticleType>Ion</ParticleType>
+        <ParticleQuantity>Temperature</ParticleQuantity>
+      </Particle>
+    </Parameter>
+    <Parameter>
+      <Name>T_par</Name>
+      <ParameterKey>temp_par__C3_CP_CIS-HIA_ONBOARD_MOMENTS</ParameterKey>
+      <Description>Temperature parallel to B in MK</Description>
+      <Units>MK</Units>
+      <UnitsConversion>1e6>K</UnitsConversion>
+      <FillValue>-1e31</FillValue>
+      <Particle>
+        <ParticleType>Ion</ParticleType>
+        <ParticleQuantity>Temperature</ParticleQuantity>
+      </Particle>
+    </Parameter>
+    <Parameter>
+      <Name>T_perp</Name>
+      <ParameterKey>temp_perp__C3_CP_CIS-HIA_ONBOARD_MOMENTS</ParameterKey>
+      <Description>Temperature perpendicular to B in MK</Description>
+      <Units>MK</Units>
+      <UnitsConversion>1e6>K</UnitsConversion>
+      <FillValue>-1e31</FillValue>
+      <Particle>
+        <ParticleType>Ion</ParticleType>
+        <ParticleQuantity>Temperature</ParticleQuantity>
+      </Particle>
+    </Parameter>
+    <Parameter>
+      <Name>Total Pressure</Name>
+      <ParameterKey>pressure__C3_CP_CIS-HIA_ONBOARD_MOMENTS</ParameterKey>
+      <Description>Total Pressure</Description>
+      <Units>nPa</Units>
+      <UnitsConversion>1e-9>Pa</UnitsConversion>
+      <FillValue>-1e31</FillValue>
+      <Particle>
+        <ParticleType>Ion</ParticleType>
+        <ParticleQuantity>Pressure</ParticleQuantity>
+      </Particle>
+    </Parameter>
+    <Parameter>
+      <Name>Pressure Tensor (GSE)</Name>
+      <ParameterKey>pressure_tensor__C3_CP_CIS-HIA_ONBOARD_MOMENTS</ParameterKey>
+      <Description>Pressure Tensor (GSE)</Description>
+      <Units>nPa</Units>
+      <UnitsConversion>1e-9>Pa</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <FillValue>-1e31</FillValue>
+      <Particle>
+        <ParticleType>Ion</ParticleType>
+        <ParticleQuantity>Pressure</ParticleQuantity>
+      </Particle>
+    </Parameter>
+  </NumericalData>
+</Spase>
