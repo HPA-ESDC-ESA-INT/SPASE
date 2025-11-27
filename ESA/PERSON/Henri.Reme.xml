@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
+  <Version>2.7.0</Version>
+  <Person>
+    <ResourceID>spase://ESA/Person/Henri.Reme</ResourceID>
+    <NamingAuthority>ESA</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <PersonName>Henri Reme</PersonName>
+    <OrganizationName>IRAP/CNRS</OrganizationName>
+    <Email>Henri.Reme@irap.omp.eu</Email>
+    <ORCIdentifier>0000-0002-0173-882X</ORCIdentifier>
+  </Person>
+</Spase>

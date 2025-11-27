@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
+  <Version>2.7.0</Version>
+  <Person>
+    <ResourceID>spase://ESA/Person/Iannis.Dandouras</ResourceID>
+    <NamingAuthority>ESA</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <PersonName>Iannis Dandouras</PersonName>
+    <OrganizationName>IRAP/CNRS</OrganizationName>
+    <Email>Iannis.Dandouras@irap.omp.eu</Email>
+    <ORCIdentifier>0000-0002-7121-1118</ORCIdentifier>
+  </Person>
+</Spase>
