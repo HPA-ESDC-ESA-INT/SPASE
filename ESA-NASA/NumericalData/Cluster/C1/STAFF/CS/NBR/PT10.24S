@@ -1,0 +1,153 @@
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2.7.0.xsd">
+  <Version>2.7.0</Version>
+  <NumericalData>
+    <ResourceID>spase://ESA-NASA/NumericalData/Cluster/C1/STAFF/CS/NBR/PT10.24S</ResourceID>
+    <NamingAuthority>ESA-NASA</NamingAuthority>
+    <ResourceType>NumericalData</ResourceType>
+    <ResourceHeader>
+      <ResourceName>Magnetic Field Spectra in GSE (up to 12.5 Hz)</ResourceName>
+      <AlternateName>C1_CP_STA_CS_NBR</AlternateName>
+      <ReleaseDate>2026-02-28T12:00:00</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2026-02-28T12:00:00</ReleaseDate>
+          <Note>Initial release of metadata.</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>This dataset contains calibrated Complex Spectra (CS) of the magnetic field
+        measured by the STAFF magnetic waveform unit (STAFF-SC) from 0.1Hz to 12.5Hz with a resolution of 0.097657Hz x 10.24s,
+        in Normal Bit Rate (NBR) mode on the Cluster C1 spacecraft. 
+        This product is given in Geocentric Solar Ecliptic (GSE) coordinate system. 
+        Data calibration is performed using a moving window of 256 points in NBR mode. 
+        This value was chosen as the best compromise for routine production. 
+        For further details, please refer to the STAFF Calibration Report.</Description>
+      <Acknowledgement>Please acknowledge the STAFF team and ESA Cluster Science Archive in any publication based upon use of this data. 
+        Digital Object Identifier for the STAFF archive: doi.org/10.5270/esa-yrzyijm</Acknowledgement>
+      <Contact>
+        <PersonID>spase://ESA/Person/Olivier.Le_Contel</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Patrick.Canu</PersonID>
+        <Role>CoPI</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Arnaud.Masson</PersonID>
+        <Role>ProjectScientist</Role>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Cluster STAFF reference webpage with DOI information</Name>
+        <URL>https://doi.org/10.5270/esa-yrzyijm</URL>
+        <Description>Website</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>First results obtained by the Cluster STAFF experiment</Name>
+        <URL>https://doi.org/10.5194/angeo-21-437-2003</URL>
+        <Description>Publication</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://ESA/Repository/ESDC</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessURL>
+	      <Name>Cluster Science Archive (CSA) web interface</Name>
+	      <URL>https://csa.esac.esa.int</URL>
+        <ProductKey>C1_CP_STA_CS_NBR</ProductKey>
+      </AccessURL>
+      <AccessURL>
+        <Name>Cluster Science Archive (CSA) TAP</Name>
+        <URL>https://csa.esac.esa.int/csa-sl-tap/tap/</URL>
+        <ProductKey>C1_CP_STA_CS_NBR</ProductKey>
+        <Description> Cluster Data and Metadata via the European Space Agency Table Access Protocol (TAP) server</Description>
+      </AccessURL>
+      <Format>CEF</Format>
+    </AccessInformation>
+    <ProcessingLevel>Calibrated</ProcessingLevel>
+    <InstrumentID>spase://ESA-NASA/Instrument/Cluster/STAFF</InstrumentID>
+    <MeasurementType>Waves.Passive</MeasurementType>
+    <MeasurementType>MagneticField</MeasurementType>
+    <MeasurementType>ElectricField</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>2000-09-08T03:05:02Z</StartDate>
+        <StopDate>2024-09-30T23:42:50Z</StopDate>
+      </TimeSpan>
+      <Cadence>PT10.24S</Cadence>
+      <CadenceMin>PT10.24S</CadenceMin>
+      <CadenceMax>PT10.24S</CadenceMax>      
+    </TemporalDescription>
+    <ObservedRegion>Earth.Magnetosheath</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere.Magnetotail</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere.Main</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere.Polar</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere.RadiationBelt</ObservedRegion>
+    <ObservedRegion>Earth.NearSurface.AuroralRegion</ObservedRegion>
+    <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
+    <ObservedRegion>Earth.NearSurface.Plasmasphere</ObservedRegion>
+    <ObservedRegion>Earth.NearSurface.PolarCap</ObservedRegion>
+    <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+    <Keyword>Magnetosphere</Keyword>
+    <Keyword>Auroral Region</Keyword>
+    <Keyword>Polar Cap</Keyword>
+    <Keyword>Cusp</Keyword>
+    <Keyword>Bow Shock</Keyword>
+    <Keyword>Solar Wind</Keyword>
+    <Keyword>Magnetosheath</Keyword>
+    <Keyword>Cluster</Keyword>
+    <Keyword>Magnetotail</Keyword>
+    <Keyword>Lobe</Keyword>
+    <Keyword>Magnetic Field</Keyword>
+    <Keyword>Magnetometer</Keyword>
+    <Parameter>
+      <Name>UT Time</Name>
+      <ParameterKey>Time__C1_CP_STA_CS_NBR</ParameterKey>
+      <Description>Time tag</Description>
+      <Units>s</Units>
+      <UnitsConversion>1.0>s</UnitsConversion>
+      <RenderingHints>
+        <AxisLabel>UT</AxisLabel>
+      </RenderingHints>
+      <FillValue>9999-12-31T23:59:59.999Z</FillValue>
+      <Support>
+        <SupportQuantity>Temporal</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Frequency</Name>
+      <ParameterKey>Frequency__C1_CP_STA_CS_NBR</ParameterKey>
+      <Description>Frequency Bin</Description>
+      <Units>Hz</Units>
+      <UnitsConversion>1.0>Hz</UnitsConversion>
+      <RenderingHints>
+        <AxisLabel>F</AxisLabel>
+      </RenderingHints>
+      <ValidMin>0.0</ValidMin>
+      <ValidMax>1.240E+03</ValidMax>
+      <FillValue>-0.1000E+31</FillValue>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Magnetic Field Complex Spectrum</Name>
+      <ParameterKey>Complex_Spectrum__C1_CP_STA_CS_NBR</ParameterKey>
+      <Description>Components of the Magnetic Field Complex Spectrum</Description>
+      <Units>nT</Units>
+      <UnitsConversion>1.0E-9>T</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <RenderingHints>
+        <AxisLabel>Magnetic Field Complex Spectrum</AxisLabel>
+      </RenderingHints>
+      <FillValue>-1.00E+30</FillValue>
+      <Field>
+        <Qualifier>Vector</Qualifier>
+        <FieldQuantity>Magnetic</FieldQuantity>
+      </Field>
+    </Parameter>
+  </NumericalData>
+</Spase>
