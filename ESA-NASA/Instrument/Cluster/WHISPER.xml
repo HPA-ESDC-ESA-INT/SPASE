@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2.7.0.xsd">
+  <Version>2.7.0</Version>
+  <Instrument>
+    <ResourceID>spase://ESA-NASA/Instrument/Cluster/WHISPER</ResourceID>
+    <NamingAuthority>ESA-NASA</NamingAuthority>
+    <ResourceType>Instrument</ResourceType>
+    <ResourceHeader>
+      <ResourceName>Cluster Waves of HIgh frequency and Sounder for Probing of Electron density by Relaxation (WHISPER)</ResourceName>
+      <AlternateName>WHISPER</AlternateName>
+      <DOI>https://doi.org/10.5270/esa-6stdo07</DOI>
+      <ReleaseDate>2026-02-27T12:00:00Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2026-02-27T12:00:00Z</ReleaseDate>
+          <Note>First release using SPASE version 2.7.0.</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>The Waves of HIgh frequency and Sounder for Probing of Electron density by Relaxation (WHISPER) performs the measurement of the electron density on the four satellites of the Cluster project. The two main purposes of the WHISPER experiment are to record the natural waves and to make a diagnostic of the electron density using the sounding technique. The various working modes and the Fourier transforms calculated on board provide a good frequency resolution obtained in the bandwidth 2-83 kHz. Onboard data compression by the Digital Wave Processing (DWP) instrument allows a good dynamic and level resolution of the electric signal amplitude.</Description>
+      <Contact>
+        <PersonID>spase://ESA/Person/Pierre.Henri</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Xavier.Vallieres</PersonID>
+        <Role>DataProducer</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>Antenna</InstrumentType>
+    <InstrumentType>DoubleSphere</InstrumentType>
+    <InstrumentType>SpectralPowerReceiver</InstrumentType>
+    <InstrumentType>ResonanceSounder</InstrumentType>
+    <InvestigationName>Cluster WHISPER instrument</InvestigationName>
+    <ObservatoryID>spase://ESA-NASA/Observatory/Cluster</ObservatoryID>
+  </Instrument>
+</Spase>
