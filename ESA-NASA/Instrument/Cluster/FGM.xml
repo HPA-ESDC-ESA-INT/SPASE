@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Instrument>
+    <ResourceID>spase://ESA-NASA/Instrument/Cluster/FGM</ResourceID>
+    <NamingAuthority>ESA-NASA</NamingAuthority>
+    <ResourceType>Instrument</ResourceType>
+    <ResourceHeader>
+      <ResourceName>Fluxgate magnetometer</ResourceName>
+      <AlternateName>FGM</AlternateName>
+      <DOI>https://doi.org/10.5270/esa-hxcrsz5</DOI>
+      <ReleaseDate>2026-02-28T00:00:00Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2026-02-28T00:00:00Z</ReleaseDate>
+          <Note>First release</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>FGM key scientific datasets for Cluster-1 (similar for all other Cluster spacecraft)        
+        Dataset ID	   | Dataset content
+        C1_CP_FGM_5VPS | Magnetic field, 5 vectors per second resolution
+		    C1_CP_FGM_SPIN | Magnetic field, spin resolution
+		    C1_CP_FGM_FULL | Magnetic field, full resolution       
+      </Description>
+      <Contact>
+        <PersonID>spase://ESA/Person/Chris.Carr</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>Cluster FGM instrument</InvestigationName>
+    <ObservatoryID>spase://ESA-NASA/Observatory/Cluster</ObservatoryID>
+  </Instrument>
+</Spase>
