@@ -1,0 +1,240 @@
+<Spase xmlns="http://www.spase-group.org/data/schema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+    <Version>2.7.1</Version>
+    <NumericalData>
+        <ResourceID>spase://ESA-NASA/NumericalData/Cluster/C2/FGM/FULL/VariableCadence</ResourceID>
+        <NamingAuthority>ESA-NASA</NamingAuthority>
+        <ResourceType>NumericalData</ResourceType>
+        <ResourceHeader>
+            <ResourceName>Magnetic field, full resolution</ResourceName>
+            <AlternateName>C2_CP_FGM_FULL</AlternateName>
+            <ReleaseDate>2026-02-28T10:00:00</ReleaseDate>
+            <RevisionHistory>
+                <RevisionEvent>
+                    <ReleaseDate>2026-02-28T10:00:00</ReleaseDate>
+                    <Note>Initial release of metadata</Note>
+                </RevisionEvent>
+            </RevisionHistory>
+            <Description>This dataset contains full resolution measurements of the 
+                magnetic field vector from the FGM experiment on the Cluster C2 spacecraft. 
+                Each Cluster spacecraft carries an identical FGM (FluxGate Magnetometer) instrument  
+                to measure the DC magnetic field vector. Each instrument, in turn, consists of two 
+                triaxial fluxgate magnetometers and an onboard data processing unit. The instrument 
+                samples the magnetic field at a cadence of 22 Hz (67 Hz in Burst mode). In order to 
+                minimize the magnetic background of the spacecraft, one of the magnetometer sensors 
+                (the outboard, or OB sensor) is located at the end of one of the two 5m radial booms 
+                of the spacecraft, the other (the inboard, or IB sensor) at 1.5 m inboard from the 
+                end of the boom. Since the start of the scientific operations on February 1, 2001, 
+                only the outboard sensor on each satellite has been used.
+            </Description>
+            <Acknowledgement>Please acknowledge the FGM team and ESA Cluster Science Archive in 
+                any publication based upon use of this data.
+            </Acknowledgement>
+            <Contact>
+                <PersonID>spase://ESA/Person/Chris.Carr</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://ESA/Person/Andre.Balogh</PersonID>
+                <Role>FormerPI</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://ESA/Person/Leah.Nani.Alconcel</PersonID>
+                <Role>DataProducer</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://ESA/Person/Arnaud.Masson</PersonID>
+                <Role>ProjectScientist</Role>
+                <Role>MetadataContact</Role>
+            </Contact>
+            <InformationURL>
+                <Name>The Cluster Magnetic Field Investigation: overview of in-flight performance 
+                    and initial results</Name>
+                <URL>https://doi.org/10.5194/angeo-19-1207-2001</URL>
+                <Description>Publication</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://ESA/Repository/ESDC</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessURL>
+                <Name>CSA</Name>
+                <URL>https://csa.esac.esa.int</URL>
+                <ProductKey>C2_CP_FGM_FULL</ProductKey>
+                <Description>Cluster Science Archive (CSA) web interface</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>Cluster Science Archive TAP server</Name>
+                <URL>https://csa.esac.esa.int/csa-sl-tap/tap</URL>
+                <ProductKey>C2_CP_FGM_FULL</ProductKey>
+                <Description>Cluster data and metadata via the European Space Agency Table 
+                    Access Protocol (TAP) server
+                </Description>
+            </AccessURL>
+            <Format>CEF</Format>
+            <Format>CDF</Format>
+        </AccessInformation>
+        <AccessInformation>
+            <RepositoryID>spase://ESA/Repository/ESDC</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessURL>
+                <Name>CSA HAPI Server</Name>
+                <URL>https://csatools.esac.esa.int/HapiServer/hapi</URL>
+                <Style>HAPI</Style>
+                <ProductKey>C2_CP_FGM_FULL</ProductKey>
+                <Description>
+          Web Service to this product using the HAPI interface
+        </Description>
+            </AccessURL>
+            <Format>CSV</Format>
+            <Acknowledgement>Please acknowledge the Data Providers and CSA when using these data</Acknowledgement>
+        </AccessInformation>
+        <ProcessingLevel>Calibrated</ProcessingLevel>
+        <InstrumentID>spase://ESA-NASA/Instrument/Cluster/FGM</InstrumentID>
+        <MeasurementType>MagneticField</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>2000-07-16T00:00:00</StartDate>
+                <StopDate>2024-09-09T00:00:00</StopDate>
+            </TimeSpan>
+            <Cadence>PT0.04461S</Cadence>
+            <CadenceMin>PT0.04461S</CadenceMin>
+            <CadenceMax>PT0.01487S</CadenceMax>
+        </TemporalDescription>
+        <ObservedRegion>Earth.Magnetosheath</ObservedRegion>
+        <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+        <ObservedRegion>Earth.Magnetosphere.Magnetotail</ObservedRegion>
+        <ObservedRegion>Earth.Magnetosphere.Main</ObservedRegion>
+        <ObservedRegion>Earth.Magnetosphere.Polar</ObservedRegion>
+        <ObservedRegion>Earth.Magnetosphere.RadiationBelt</ObservedRegion>
+        <ObservedRegion>Earth.NearSurface.AuroralRegion</ObservedRegion>
+        <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
+        <ObservedRegion>Earth.NearSurface.Plasmasphere</ObservedRegion>
+        <ObservedRegion>Earth.NearSurface.PolarCap</ObservedRegion>
+        <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+        <Keyword>Magnetosphere</Keyword>
+        <Keyword>Auroral Region</Keyword>
+        <Keyword>Polar Cap</Keyword>
+        <Keyword>Cusp</Keyword>
+        <Keyword>Bow Shock</Keyword>
+        <Keyword>Solar Wind</Keyword>
+        <Keyword>Magnetosheath</Keyword>
+        <Keyword>Cluster</Keyword>
+        <Keyword>Magnetotail</Keyword>
+        <Keyword>Lobe</Keyword>
+        <Parameter>
+            <Name>Universal Time</Name>
+            <ParameterKey>time_tags__C2_CP_FGM_FULL</ParameterKey>
+            <Description>Interval centered time tag</Description>
+            <Units>s</Units>
+            <UnitsConversion>1.0>s</UnitsConversion>
+            <RenderingHints>
+                <AxisLabel>UT</AxisLabel>
+            </RenderingHints>
+            <FillValue>9999-12-31T23:59:59.999Z</FillValue>
+            <Support>
+                <SupportQuantity>Temporal</SupportQuantity>
+            </Support>
+        </Parameter>
+        <Parameter>
+            <Name>Half width of averaging interval</Name>
+            <ParameterKey>half_interval__C2_CP_FGM_FULL</ParameterKey>
+            <Description>Half averaging interval length</Description>
+            <Units>s</Units>
+            <UnitsConversion>1.0>s</UnitsConversion>
+            <RenderingHints>
+                <AxisLabel>s</AxisLabel>
+            </RenderingHints>
+            <ValidMin>0.0059</ValidMin>
+            <ValidMax>0.027</ValidMax>
+            <FillValue>-1.0E+30</FillValue>
+            <Support>
+                <SupportQuantity>Temporal</SupportQuantity>
+            </Support>
+        </Parameter>
+        <Parameter>
+            <Name>Magnetic Field Vector, full resolution in GSE</Name>
+            <ParameterKey>B_vec_xyz_gse__C2_CP_FGM_FULL</ParameterKey>
+            <Description>Magnetic Field Vector, full resolution in GSE</Description>
+            <Units>nT</Units>
+            <UnitsConversion>1.0e-9>T</UnitsConversion>
+            <CoordinateSystem>
+                <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+                <CoordinateSystemName>GSE</CoordinateSystemName>
+            </CoordinateSystem>
+            <RenderingHints>
+                <DisplayType>TimeSeries</DisplayType>
+                <AxisLabel>Mag Field</AxisLabel>
+            </RenderingHints>
+            <ValidMin>-65536</ValidMin>
+            <ValidMax>65536</ValidMax>
+            <FillValue>-1.0E+30</FillValue>
+            <Field>
+                <Qualifier>Vector</Qualifier>
+                <FieldQuantity>Magnetic</FieldQuantity>
+            </Field>
+        </Parameter>
+        <Parameter>
+            <Name>Magnetic Field Magnitude, full resolution</Name>
+            <ParameterKey>B_mag__C2_CP_FGM_FULL</ParameterKey>
+            <Description>Magnetic Field Magnitude, full resolution</Description>
+            <Units>nT</Units>
+            <UnitsConversion>1.0e-9>T</UnitsConversion>
+            <RenderingHints>
+                <AxisLabel>B</AxisLabel>
+            </RenderingHints>
+            <ValidMin>0.000</ValidMin>
+            <ValidMax>65536</ValidMax>
+            <FillValue>-1.0E+30</FillValue>
+            <Field>
+                <Qualifier>Magnitude</Qualifier>
+                <FieldQuantity>Magnetic</FieldQuantity>
+            </Field>
+        </Parameter>
+        <Parameter>
+            <Name>Position in GSE</Name>
+            <ParameterKey>sc_pos_xyz_gse__C2_CP_FGM_FULL</ParameterKey>
+            <Description>Position in GSE</Description>
+            <Units>km</Units>
+            <UnitsConversion>1.0e+3>m</UnitsConversion>
+            <CoordinateSystem>
+                <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+                <CoordinateSystemName>GSE</CoordinateSystemName>
+            </CoordinateSystem>
+            <RenderingHints>
+                <DisplayType>TimeSeries</DisplayType>
+                <AxisLabel>Position</AxisLabel>
+            </RenderingHints>
+            <ValidMin>-160000</ValidMin>
+            <ValidMax>160000</ValidMax>
+            <FillValue>-1.00E+30</FillValue>
+            <Support>
+                <Qualifier>Vector</Qualifier>
+                <SupportQuantity>Positional</SupportQuantity>
+            </Support>
+        </Parameter>
+        <Parameter>
+            <Name>FGM Instrument Range, defined on full resolution time line</Name>
+            <ParameterKey>range__C2_CP_FGM_FULL</ParameterKey>
+            <Description>FGM instrument range, defined on full resolution time line</Description>
+            <ValidMin>2</ValidMin>
+            <ValidMax>7</ValidMax>
+            <FillValue>-9</FillValue>
+            <Support>
+                <SupportQuantity>Other</SupportQuantity>
+            </Support>
+        </Parameter>
+        <Parameter>
+            <Name>Telemetry mode on full resolution time line</Name>
+            <ParameterKey>tm__C2_CP_FGM_FULL</ParameterKey>
+            <Description>FGM telemetry mode (burst mode/normal mode) on full resolution time line</Description>
+            <ValidMin>15</ValidMin>
+            <ValidMax>67</ValidMax>
+            <FillValue>-99</FillValue>
+            <Support>
+                <SupportQuantity>Other</SupportQuantity>
+            </Support>
+        </Parameter>
+    </NumericalData>
+</Spase>
