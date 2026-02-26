@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Instrument>
+    <ResourceID>spase://ESA-NASA/Instrument/Cluster/DWP</ResourceID>
+    <NamingAuthority>ESA-NASA</NamingAuthority>
+    <ResourceType>Instrument</ResourceType>
+    <ResourceHeader>
+      <ResourceName>Digital Wave-Processing Experiment</ResourceName>
+      <AlternateName>DWP</AlternateName>
+      <DOI>	https://doi.org/10.5270/esa-ftdfdba</DOI>
+      <ReleaseDate>2026-02-28T00:00:00Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2026-02-28T00:00:00Z</ReleaseDate>
+          <Note>First release</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>DWP scientific datasets 
+        Dataset ID	       Dataset content
+        C1_CP_DWP_PCOR_FX	Particle Correlator Data, fixed energy band, for Cluster-1
+        C1_CP_DWP_PCOR_ST	Particle Correlator Data, stepped energy band, for Cluster-1
+        C2_CP_DWP_PCOR_FX	Particle Correlator Data, fixed energy band, for Cluster-2
+        C2_CP_DWP_PCOR_ST	Particle Correlator Data, stepped energy band, for Cluster-2
+        C3_CP_DWP_PCOR_FX	Particle Correlator Data, fixed energy band, for Cluster-3
+        C3_CP_DWP_PCOR_ST	Particle Correlator Data, stepped energy band, for Cluster-3
+        C4_CP_DWP_PCOR_FX	Particle Correlator Data, fixed energy band, for Cluster-4
+        C4_CP_DWP_PCOR_ST	Particle Correlator Data, stepped energy band, for Cluster-4
+      </Description>
+      <Contact>
+        <PersonID>spase://ESA/Person/Richard.Boynton</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Les.Woolliscroft</PersonID>
+        <Role>FormerPI</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Hugo.Alleyne</PersonID>
+        <Role>FormerPI</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Misha.Balikhin</PersonID>
+        <Role>FormerPI</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>ParticleCorrelator</InstrumentType>
+    <InvestigationName>Cluster DWP instrument</InvestigationName>
+    <ObservatoryID>spase://ESA-NASA/Observatory/Cluster</ObservatoryID>
+  </Instrument>
+</Spase>

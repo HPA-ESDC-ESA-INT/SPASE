@@ -1,0 +1,436 @@
+<Spase xmlns="http://www.spase-group.org/data/schema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+    <Version>2.7.1</Version>
+    <NumericalData>
+        <ResourceID>spase://ESA-NASA/NumericalData/Cluster/C2/DWP/PCOR/FX/VariableCadence</ResourceID>
+        <NamingAuthority>ESA-NASA</NamingAuthority>
+        <ResourceType>NumericalData</ResourceType>
+        <ResourceHeader>
+            <ResourceName>DWP Particle Correlator High Resolution Data, stepped energy band</ResourceName>
+            <AlternateName>C2_CP_DWP_PCOR_FX</AlternateName>
+            <ReleaseDate>2026-02-28T10:00:00</ReleaseDate>
+            <RevisionHistory>
+                <RevisionEvent>
+                    <ReleaseDate>2026-02-28T10:00:00</ReleaseDate>
+                    <Note>Initial release of metadata</Note>
+                </RevisionEvent>
+            </RevisionHistory>
+            <Description>The DWP particle correlator data sets provide the result of the 
+                onboard autocorrelation of the PEACE HEEA count rate. Due to telemetry restrictions, 
+                only two of the possible 16 correlator energy channels are returned. One data set, 
+                PCOR_FX (this file) provides Auto-Correlation Functions (ACFs) at a fixed energy 
+                whilst the other PCOR_ST data set steps through the remaining energy steps at a rate 
+                of one step per spin. The 32 ACF lag values provide count rate information in the 
+                range 1.4-41.6kHz at a particular energy. In normal mode, one ACF is produced every 
+                spin where as in burst modes there may be either 4, 8, or 16 ACFs per spin depending 
+                upon the WEC operational mode implemented. In addition to the ACF and energy, this 
+                data set also contains the HEEA polar sensor from which the data were collected, the 
+                azimuth of observations (BM only), the maximum and minimum pitch angles of the 
+                electrons recorded and an estimate of the count rate based on the ACF. For further 
+                details, the user is referred to the DWP User Manual, available from CSA, which 
+                contains a complete description of all parameters within the data set as well as a 
+                list of the general caveats that apply to this data set.
+            </Description>
+            <Acknowledgement>Please acknowledge the instrument team and ESA Cluster Science Archive in any publication 
+                based upon use of this data. The DWP instrument DOI is https://doi.org/10.5270/esa-ftdfdba
+            </Acknowledgement>
+            <Contact>
+                <PersonID>spase://ESA/Person/Richard.Boynton</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://ESA/Person/Simon.Walker</PersonID>
+                <Role>ArchiveSpecialist</Role>
+                <Role>DataProducer</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://ESA/Person/Keith.Yearby</PersonID>
+                <Role>OperationsManager</Role>
+                <Role>DataProducer</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://ESA/Person/Les.Woolliscroft</PersonID>
+                <Role>FormerPI</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://ESA/Person/Hugo.Alleyne</PersonID>
+                <Role>FormerPI</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://ESA/Person/Misha.Balikhin</PersonID>
+                <Role>FormerPI</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://ESA/Person/Arnaud.Masson</PersonID>
+                <Role>ProjectScientist</Role>
+                <Role>MetadataContact</Role>
+            </Contact>
+            <InformationURL>
+                <Name>The Digital Wave-Processing Experiment on Cluster</Name>
+                <URL>https://doi.org/10.1023/A:1004914211866</URL>
+                <Description>Publication</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://ESA/Repository/ESDC</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessURL>
+                <Name>CSA</Name>
+                <URL>https://csa.esac.esa.int</URL>
+                <ProductKey>C2_CP_DWP_PCOR_FX</ProductKey>
+                <Description>Cluster Science Archive (CSA) web interface</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>Cluster Science Archive TAP server</Name>
+                <URL>https://csa.esac.esa.int/csa-sl-tap/tap</URL>
+                <ProductKey>C2_CP_DWP_PCOR_FX</ProductKey>
+                <Description>Cluster data and metadata via the European Space Agency Table 
+                    Access Protocol (TAP) server
+                </Description>
+            </AccessURL>
+            <Format>CEF</Format>
+            <Format>CDF</Format>
+        </AccessInformation>
+        <AccessInformation>
+            <RepositoryID>spase://ESA/Repository/ESDC</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessURL>
+                <Name>CSA HAPI Server</Name>
+                <URL>https://csatools.esac.esa.int/HapiServer/hapi</URL>
+                <Style>HAPI</Style>
+                <ProductKey>C2_CP_DWP_PCOR_FX</ProductKey>
+                <Description>Web Service to this product using the HAPI interface
+                </Description>
+            </AccessURL>
+            <Format>CSV</Format>
+            <Acknowledgement>Please acknowledge the Data Providers and CSA when using these data</Acknowledgement>
+        </AccessInformation>
+        <ProcessingLevel>Calibrated</ProcessingLevel>
+        <InstrumentID>spase://ESA-NASA/Instrument/Cluster/DWP</InstrumentID>
+        <MeasurementType>EnergeticParticles</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>2000-07-16T00:00:00</StartDate>
+                <StopDate>2024-10-01T00:00:00</StopDate>
+            </TimeSpan>
+            <Cadence>PT4S</Cadence>
+            <CadenceMin>PT0.22S</CadenceMin>
+            <CadenceMax>PT4.4S</CadenceMax>
+        </TemporalDescription>
+        <ObservedRegion>Earth.Magnetosheath</ObservedRegion>
+        <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+        <ObservedRegion>Earth.Magnetosphere.Magnetotail</ObservedRegion>
+        <ObservedRegion>Earth.Magnetosphere.Main</ObservedRegion>
+        <ObservedRegion>Earth.Magnetosphere.Polar</ObservedRegion>
+        <ObservedRegion>Earth.Magnetosphere.RadiationBelt</ObservedRegion>
+        <ObservedRegion>Earth.NearSurface.AuroralRegion</ObservedRegion>
+        <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
+        <ObservedRegion>Earth.NearSurface.Plasmasphere</ObservedRegion>
+        <ObservedRegion>Earth.NearSurface.PolarCap</ObservedRegion>
+        <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+        <Keyword>Magnetosphere</Keyword>
+        <Keyword>Auroral Region</Keyword>
+        <Keyword>Polar Cap</Keyword>
+        <Keyword>Cusp</Keyword>
+        <Keyword>Bow Shock</Keyword>
+        <Keyword>Solar Wind</Keyword>
+        <Keyword>Magnetosheath</Keyword>
+        <Keyword>Cluster</Keyword>
+        <Keyword>Magnetotail</Keyword>
+        <Keyword>Lobe</Keyword>
+        <Parameter>
+            <Name>Universal Time</Name>
+            <ParameterKey>Time__C2_CP_DWP_PCOR_FX</ParameterKey>
+            <Description>Interval centered time tag</Description>
+            <Units>s</Units>
+            <UnitsConversion>1.0>s</UnitsConversion>
+            <RenderingHints>
+                <AxisLabel>UT</AxisLabel>
+            </RenderingHints>
+            <FillValue>9999-12-31T23:59:59.999Z</FillValue>
+            <Support>
+                <SupportQuantity>Temporal</SupportQuantity>
+            </Support>
+        </Parameter>
+        <Parameter>
+            <Name>Half interval</Name>
+            <ParameterKey>Half_Interval__C2_CP_DWP_PCOR_FX</ParameterKey>
+            <Description>Half interval for data accumulation</Description>
+            <Units>s</Units>
+            <UnitsConversion>1.0>s</UnitsConversion>
+            <RenderingHints>
+                <AxisLabel>s</AxisLabel>
+            </RenderingHints>
+            <FillValue>-1.0</FillValue>
+            <Support>
+                <SupportQuantity>Temporal</SupportQuantity>
+            </Support>
+        </Parameter>
+        <Parameter>
+            <Name>PEACE azimuthal look direction for which ACF has been calculated</Name>
+            <ParameterKey>Look_Angle_Azimuth__C2_CP_DWP_PCOR_FX</ParameterKey>
+            <Description>PEACE azimuthal look direction for which ACF has been calculated</Description>
+            <Units>degree</Units>
+            <UnitsConversion>0.0174533>rad</UnitsConversion>
+            <CoordinateSystem>
+                <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+                <CoordinateSystemName>SR2</CoordinateSystemName>
+            </CoordinateSystem>
+            <RenderingHints>
+                <AxisLabel>Azimuth angle</AxisLabel>
+            </RenderingHints>
+            <FillValue>-1.0</FillValue>
+            <Support>
+                <SupportQuantity>Orientation</SupportQuantity>
+            </Support>
+        </Parameter>
+        <Parameter>
+            <Name>Half azimuth angle over which ACF accumulated</Name>
+            <ParameterKey>Half_Azimuth__C2_CP_DWP_PCOR_FX</ParameterKey>
+            <Description>Half azimuth angle over which ACF accumulated</Description>
+            <Units>degree</Units>
+            <UnitsConversion>0.0174533>rad</UnitsConversion>
+            <CoordinateSystem>
+                <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+                <CoordinateSystemName>SR2</CoordinateSystemName>
+            </CoordinateSystem>
+            <RenderingHints>
+                <AxisLabel>Delta Azimuth</AxisLabel>
+            </RenderingHints>
+            <FillValue>-1.0</FillValue>
+            <Support>
+                <SupportQuantity>Orientation</SupportQuantity>
+            </Support>
+        </Parameter>
+        <Parameter>
+            <Name>PEACE polar look direction for which ACF has been calculated</Name>
+            <ParameterKey>Look_Angle_Polar__C2_CP_DWP_PCOR_FX</ParameterKey>
+            <Description>PEACE polar look direction for which ACF has been calculated</Description>
+            <Units>degree</Units>
+            <UnitsConversion>0.0174533>rad</UnitsConversion>
+            <CoordinateSystem>
+                <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+                <CoordinateSystemName>SR2</CoordinateSystemName>
+            </CoordinateSystem>
+            <RenderingHints>
+                <AxisLabel>Polar Angle</AxisLabel>
+            </RenderingHints>
+            <FillValue>-99.9</FillValue>
+            <Support>
+                <SupportQuantity>Orientation</SupportQuantity>
+            </Support>
+        </Parameter>
+        <Parameter>
+            <Name>Energy band number</Name>
+            <ParameterKey>EnergyBinNumber__C2_CP_DWP_PCOR_FX</ParameterKey>
+            <Description>Energy band (number) in which the electrons are correlated</Description>
+            <Units>unitless</Units>
+            <UnitsConversion>1.0>unitless</UnitsConversion>
+            <RenderingHints>
+                <AxisLabel>Energy bin #</AxisLabel>
+            </RenderingHints>
+            <FillValue>-99.9</FillValue>
+            <Support>
+                <SupportQuantity>Other</SupportQuantity>
+            </Support>
+        </Parameter>
+        <Parameter>
+            <Name>PEACE energy for which ACF has been calculated</Name>
+            <ParameterKey>Energy__C2_CP_DWP_PCOR_FX</ParameterKey>
+            <Description>PEACE energy for which ACF has been calculated</Description>
+            <Units>eV</Units>
+            <UnitsConversion>1.602E-19>J</UnitsConversion>
+            <RenderingHints>
+                <AxisLabel>E</AxisLabel>
+            </RenderingHints>
+            <FillValue>-1.0</FillValue>
+            <Support>
+                <SupportQuantity>Other</SupportQuantity>
+            </Support>
+        </Parameter>
+        <Parameter>
+            <Name>MCP level</Name>
+            <ParameterKey>MCP_level__C2_CP_DWP_PCOR_FX</ParameterKey>
+            <Description>The PEACE HEEA MCP high voltage level setting</Description>
+            <Units>unitless</Units>
+            <UnitsConversion>1.0>unitless</UnitsConversion>
+            <RenderingHints>
+                <AxisLabel>MCP level #</AxisLabel>
+            </RenderingHints>
+            <FillValue>-1.0</FillValue>
+            <Support>
+                <SupportQuantity>Other</SupportQuantity>
+            </Support>
+        </Parameter>
+        <Parameter>
+            <Name>Number of ACFs summed over</Name>
+            <ParameterKey>NumberACFsummed__C2_CP_DWP_PCOR_FX</ParameterKey>
+            <Description>Number of PEACE sweeps summed in this accummulation</Description>
+            <Units>unitless</Units>
+            <UnitsConversion>1.0>unitless</UnitsConversion>
+            <RenderingHints>
+                <AxisLabel># summed</AxisLabel>
+            </RenderingHints>
+            <FillValue>-1.0</FillValue>
+            <Support>
+                <SupportQuantity>Other</SupportQuantity>
+            </Support>
+        </Parameter>
+        <Parameter>
+            <Name>ACF lag times</Name>
+            <ParameterKey>Lag_Time__C2_CP_DWP_PCOR_FX</ParameterKey>
+            <Description>ACF lag times</Description>
+            <Units>us</Units>
+            <UnitsConversion>1.0E-6>s</UnitsConversion>
+            <RenderingHints>
+                <AxisLabel>lag time</AxisLabel>
+            </RenderingHints>
+            <FillValue>-1.0</FillValue>
+            <Support>
+                <SupportQuantity>Other</SupportQuantity>
+            </Support>
+        </Parameter>
+        <Parameter>
+            <Name>Auto-correlation function (32 lags) of electron counts</Name>
+            <ParameterKey>ACF__C2_CP_DWP_PCOR_FX</ParameterKey>
+            <Description>Electron count auto-correlation function</Description>
+            <Units>counts^2 per 12 microsecond accumulation bin</Units>
+            <RenderingHints>
+                <AxisLabel>ACF</AxisLabel>
+            </RenderingHints>
+            <FillValue>-1.0</FillValue>
+            <Mixed>
+                <MixedQuantity>Other</MixedQuantity>
+                <Qualifier>AutoSpectrum</Qualifier>         
+            </Mixed>
+        </Parameter>
+        <Parameter>
+            <Name>Estimated electron count rate</Name>
+            <ParameterKey>CntRateEst__C2_CP_DWP_PCOR_FX</ParameterKey>
+            <Description>Estimated electron count rate</Description>
+            <Units>counts s^-1</Units>
+            <UnitsConversion>1.0>unitless</UnitsConversion>
+            <RenderingHints>
+                <DisplayType>TimeSeries</DisplayType>
+                <AxisLabel>counts</AxisLabel>
+            </RenderingHints>
+            <FillValue>-1.0</FillValue>
+            <Support>
+                <SupportQuantity>Other</SupportQuantity>
+            </Support>
+        </Parameter>
+        <Parameter>
+            <Name>min pitch angle</Name>
+            <ParameterKey>MinPitchAngle__C2_CP_DWP_PCOR_FX</ParameterKey>
+            <Description>minimum pitch angle</Description>
+            <Units>degree</Units>
+            <UnitsConversion>0.0174533>rad</UnitsConversion>
+            <CoordinateSystem>
+                <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+                <CoordinateSystemName>MFA</CoordinateSystemName>
+             </CoordinateSystem>
+            <RenderingHints>
+                <DisplayType>TimeSeries</DisplayType>
+                <AxisLabel>min pitch angle</AxisLabel>
+            </RenderingHints>
+            <FillValue>-1.0</FillValue>
+            <Support>
+                <SupportQuantity>Other</SupportQuantity>
+            </Support>
+        </Parameter>
+        <Parameter>
+            <Name>max pitch angle</Name>
+            <ParameterKey>MaxPitchAngle__C2_CP_DWP_PCOR_FX</ParameterKey>
+            <Description>maximum pitch angle</Description>
+            <Units>degree</Units>
+            <UnitsConversion>0.0174533>rad</UnitsConversion>
+            <CoordinateSystem>
+                <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+                <CoordinateSystemName>MFA</CoordinateSystemName>
+            </CoordinateSystem>
+            <RenderingHints>
+                <DisplayType>TimeSeries</DisplayType>
+                <AxisLabel>max pitch angle</AxisLabel>
+            </RenderingHints>
+            <FillValue>-1.0</FillValue>
+            <Support>
+                <SupportQuantity>Other</SupportQuantity>
+            </Support>
+        </Parameter>
+        <Parameter>
+            <Name>Fisher T</Name>
+            <ParameterKey>Correl_Fisher_T__C2_CP_DWP_PCOR_FX</ParameterKey>
+            <Description>Fisher T statistic - max(power)/sum(power)</Description>
+            <Units>unitless</Units>
+            <UnitsConversion>1.0>unitless</UnitsConversion>
+            <RenderingHints>
+                <DisplayType>TimeSeries</DisplayType>
+                <AxisLabel>Fisher T</AxisLabel>
+            </RenderingHints>
+            <FillValue>-1.0</FillValue>
+            <Support>
+                <SupportQuantity>Other</SupportQuantity>
+            </Support>
+        </Parameter>
+        <Parameter>
+            <Name>Frequency</Name>
+            <ParameterKey>Correl_Frequency__C2_CP_DWP_PCOR_FX</ParameterKey>
+            <Description>Frequency of maximum power</Description>
+            <Units>Hz</Units>
+            <UnitsConversion>1.0>Hz</UnitsConversion>
+            <RenderingHints>
+                <DisplayType>TimeSeries</DisplayType>
+                <AxisLabel>Frequency</AxisLabel>
+            </RenderingHints>
+            <FillValue>-1.0</FillValue>
+            <Support>
+                <SupportQuantity>Other</SupportQuantity>
+            </Support>
+        </Parameter>
+        <Parameter>
+            <Name>Significance</Name>
+            <ParameterKey>Correl_Fisher_Significance__C2_CP_DWP_PCOR_FX</ParameterKey>
+            <Description>Fisher significance of spectral peak</Description>
+            <Units>%</Units>
+            <RenderingHints>
+                <DisplayType>TimeSeries</DisplayType>
+                <AxisLabel>Signif</AxisLabel>
+            </RenderingHints>
+            <FillValue>-1.0</FillValue>
+            <Support>
+                <SupportQuantity>Other</SupportQuantity>
+            </Support>
+        </Parameter>
+        <Parameter>
+            <Name>Index of Variation</Name>
+            <ParameterKey>Correl_IVar__C2_CP_DWP_PCOR_FX</ParameterKey>
+            <Description>Index of variation</Description>
+            <Units>unitless</Units>
+            <UnitsConversion>1.0>unitless</UnitsConversion>
+            <RenderingHints>
+                <DisplayType>TimeSeries</DisplayType>
+                <AxisLabel>IVar</AxisLabel>
+            </RenderingHints>
+            <FillValue>-1.0</FillValue>
+            <Support>
+                <SupportQuantity>Other</SupportQuantity>
+            </Support>
+        </Parameter>
+        <Parameter>
+            <Name>PEACE mode</Name>
+            <ParameterKey>Peace_mode__C2_CP_DWP_PCOR_FX</ParameterKey>
+            <Description>PEACE Mode 0 - FIX, 1 - LAR, 2 - MAR, 3 - HAR</Description>
+            <Units>unitless</Units>
+            <UnitsConversion>1.0>unitless</UnitsConversion>
+            <RenderingHints>
+                <DisplayType>TimeSeries</DisplayType>
+                <AxisLabel>PEACE mode</AxisLabel>
+            </RenderingHints>
+            <FillValue>-1.0</FillValue>
+            <Support>
+                <SupportQuantity>Other</SupportQuantity>
+            </Support>
+        </Parameter>
+    </NumericalData>
+</Spase>
