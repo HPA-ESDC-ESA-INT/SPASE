@@ -35,9 +35,10 @@ SPASE
    |     |    |     |___SWA   
    |     |    |
    |     |    |___Cluster
+   |     |          |___CIS
+   |     |          |___DWP   
+   |     |          |___FGM
    |     |          |___STAFF
-   |     |          |___CIS   
-   |     |
    |     |   
    |     |___Observatory
    |     |    |___SolarOrbiter
@@ -68,56 +69,97 @@ SPASE
    |          |
    |          |___Cluster
    |          |     |___C1
-   |          |     |    |___STAFF
-   |          |     |    |     |___PSD
-   |          |     |    |     |___PPP   
-   |          |     |    |     |___CWF/GSE
-   |          |     |    |     |___CS
-   |          |     |    |          |___HBR
-   |          |     |    |          |___NBR   
    |          |     |    |___CIS
    |          |     |          |___HIA
    |          |     |          |    |___Onboard-Moments   
    |          |     |          |___CODIF
    |          |     |               |___HS
-   |          |     |                   |___Moments   
-   |          |     |
-   |          |     |___C2
+   |          |     |                   |___Moments
+   |          |     |    |___DWP
+   |          |     |          |___PCOR
+   |          |     |          |    |___FX
+   |          |     |          |    |___ST   
+   |          |     |    |___FGM
+   |          |     |          |___SPIN
+   |          |     |          |___5VPS
+   |          |     |          |___FULL
    |          |     |    |___STAFF
    |          |     |          |___PSD
    |          |     |          |___PPP   
    |          |     |          |___CWF/GSE
    |          |     |          |___CS
-   |          |     |               |___HBR
-   |          |     |               |___NBR    
+   |          |     |              |___HBR
+   |          |     |              |___NBR   
    |          |     |
-   |          |     |___C3
-   |          |     |    |___STAFF
-   |          |     |    |     |___PSD
-   |          |     |    |     |___PPP   
-   |          |     |    |     |___CWF/GSE
-   |          |     |    |     |___CS
-   |          |     |    |          |___HBR
-   |          |     |    |          |___NBR    
+   |          |     |___C2
    |          |     |    |___CIS
    |          |     |          |___HIA
    |          |     |          |    |___Onboard-Moments   
    |          |     |          |___CODIF
    |          |     |               |___HS
-   |          |     |                   |___Moments     
-   |          |     |
-   |          |     |___C4
+   |          |     |                   |___Moments
+   |          |     |    |___DWP
+   |          |     |          |___PCOR
+   |          |     |          |    |___FX
+   |          |     |          |    |___ST   
+   |          |     |    |___FGM
+   |          |     |          |___SPIN
+   |          |     |          |___5VPS
+   |          |     |          |___FULL
    |          |     |    |___STAFF
-   |          |     |    |     |___PSD
-   |          |     |    |     |___PPP   
-   |          |     |    |     |___CWF/GSE
-   |          |     |    |     |___CS
-   |          |     |    |          |___HBR
-   |          |     |    |          |___NBR    
-   |          |     |    |___CIS   
+   |          |     |          |___PSD
+   |          |     |          |___PPP   
+   |          |     |          |___CWF/GSE
+   |          |     |          |___CS
+   |          |     |              |___HBR
+   |          |     |              |___NBR   
+   |          |     |
+   |          |     |___C3
+   |          |     |    |___CIS
+   |          |     |          |___HIA
+   |          |     |          |    |___Onboard-Moments   
    |          |     |          |___CODIF
    |          |     |               |___HS
-   |          |     |                   |___Moments     
+   |          |     |                   |___Moments
+   |          |     |    |___DWP
+   |          |     |          |___PCOR
+   |          |     |          |    |___FX
+   |          |     |          |    |___ST   
+   |          |     |    |___FGM
+   |          |     |          |___SPIN
+   |          |     |          |___5VPS
+   |          |     |          |___FULL
+   |          |     |    |___STAFF
+   |          |     |          |___PSD
+   |          |     |          |___PPP   
+   |          |     |          |___CWF/GSE
+   |          |     |          |___CS
+   |          |     |              |___HBR
+   |          |     |              |___NBR   
+   |          |     |
+   |          |     |___C4
+   |          |     |    |___CIS
+   |          |     |          |___HIA
+   |          |     |          |    |___Onboard-Moments   
+   |          |     |          |___CODIF
+   |          |     |               |___HS
+   |          |     |                   |___Moments
+   |          |     |    |___DWP
+   |          |     |          |___PCOR
+   |          |     |          |    |___FX
+   |          |     |          |    |___ST   
+   |          |     |    |___FGM
+   |          |     |          |___SPIN
+   |          |     |          |___5VPS
+   |          |     |          |___FULL
+   |          |     |    |___STAFF
+   |          |     |          |___PSD
+   |          |     |          |___PPP   
+   |          |     |          |___CWF/GSE
+   |          |     |          |___CS
+   |          |     |              |___HBR
+   |          |     |              |___NBR   
+   |          |     |
         
   
    
