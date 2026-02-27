@@ -39,6 +39,7 @@ SPASE
    |     |          |___DWP   
    |     |          |___FGM
    |     |          |___STAFF
+   |     |          |___WHISPER
    |     |   
    |     |___Observatory
    |     |    |___SolarOrbiter
