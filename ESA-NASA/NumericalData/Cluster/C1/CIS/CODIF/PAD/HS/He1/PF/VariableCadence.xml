@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_1.xsd">
+   <Version>2.7.1</Version>
+   <NumericalData>
+      <ResourceID>spase://ESA-NASA/NumericalData/Cluster/C1/CIS/CODIF/PAD/HS/He1/PF/VariableCadence</ResourceID>
+      <NamingAuthority>ESA-NASA</NamingAuthority>
+      <ResourceType>NumericalData</ResourceType>
+      <ResourceHeader>
+         <ResourceName>CIS-CODIF Helium+ Pitch-Angle Distribution, High-sensitivity side, in Differential Particle Flux</ResourceName>
+         <AlternateName>C1_CP_CIS-CODIF_PAD_HS_He1_PF</AlternateName>
+         <ReleaseDate>2026-03-15T12:00:00.00</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2026-03-15T12:00:00.00</ReleaseDate>
+               <Note>Initial release of metadata.</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>This dataset contains Cluster Ion Spectrometry - Composition and Distribution Function analyser (CIS-CODIF) 
+            Helium+ Pitch-Angle Distribution (PAD), for the High-sensitivity side of spacecraft C1, in Differential_Particle_Flux units.
+         </Description>
+         <Acknowledgement>Please acknowledge the CIS team and ESA Cluster Science Archive when using this data. 
+            Digital Object Identifier for the CIS archive: https://doi.org/10.5270/esa-ceffumg.
+         </Acknowledgement>
+         <Contact>
+            <PersonID>spase://ESA/Person/Iannis.Dandouras</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://ESA/Person/Henri.Reme</PersonID>
+            <Role>CoPI</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://ESA/Person/Arnaud.Masson</PersonID>
+            <Role>ProjectScientist</Role>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Cluster CIS reference webpage with DOI information</Name>
+            <URL>https://doi.org/10.5270/esa-ceffumg</URL>
+            <Description>Website</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>The Cluster Ion Spectrometry (CIS) Experiment</Name>
+            <URL>https://doi.org/10.1023/A:1004929816409</URL>
+            <Description>Publication</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>First multispacecraft ion measurements in and near the Earth‘s magnetosphere with the identical Cluster ion spectrometry (CIS) experiment</Name>
+            <URL> https://doi.org/10.5194/angeo-19-1303-2001</URL>
+            <Description>Publication</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <AccessInformation>
+         <RepositoryID>spase://ESA/Repository/ESDC</RepositoryID>
+         <Availability>Online</Availability>
+         <AccessURL>
+            <Name>Cluster Science Archive (CSA) web interface</Name>
+            <URL>https://csa.esac.esa.int</URL>
+            <ProductKey>C1_CP_CIS-CODIF_PAD_HS_He1_PF</ProductKey>
+         </AccessURL>
+         <AccessURL>
+            <Name>Cluster Science Archive (CSA) TAP</Name>
+            <URL>https://csa.esac.esa.int/csa-sl-tap/tap/</URL>
+            <ProductKey>C1_CP_CIS-CODIF_PAD_HS_He1_PF</ProductKey>
+            <Description> Cluster Data and Metadata via the European Space Agency Table Access Protocol (TAP) server</Description>
+         </AccessURL>
+         <Format>CEF</Format>
+         <Format>CDF</Format>
+      </AccessInformation>
+      <AccessInformation>
+         <RepositoryID>spase://ESA/Repository/ESDC</RepositoryID>
+         <Availability>Online</Availability>
+         <AccessURL>
+            <Name>CSA HAPI Server</Name>
+            <URL>https://csatools.esac.esa.int/HapiServer/hapi</URL>
+            <Style>HAPI</Style>
+            <ProductKey>C1_CP_CIS-CODIF_PAD_HS_He1_PF</ProductKey>
+            <Description>Web Service to this product using the HAPI interface</Description>
+         </AccessURL>
+         <Format>CSV</Format>
+         <Acknowledgement>Please acknowledge the Data Providers and CSA when using these data</Acknowledgement>
+      </AccessInformation>
+      <AccessInformation>
+         <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+         <Availability>Online</Availability>
+         <AccessRights>Open</AccessRights>
+         <AccessURL>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
+            <URL>ftps://spdf.gsfc.nasa.gov/pub/data/cluster/c1/cis-codif/heplus_pitchangle_highsens_diffparticleflux/</URL>
+            <ProductKey>C1_CP_CIS-CODIF_PAD_HS_He1_PF</ProductKey>
+            <Description>Access to Data in CDF Format via ftps from SPDF</Description>
+         </AccessURL>
+         <AccessURL>
+            <Name>HTTPS from SPDF</Name>
+            <URL>https://spdf.gsfc.nasa.gov/pub/data/cluster/c1/cis-codif/heplus_pitchangle_highsens_diffparticleflux/</URL>
+            <ProductKey>C1_CP_CIS-CODIF_PAD_HS_He1_PF</ProductKey>
+            <Description>Access to Data in CDF Format via https from SPDF</Description>
+         </AccessURL>
+         <AccessURL>
+            <Name>CDAWeb</Name>
+            <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=C1_CP_CIS-CODIF_PAD_HS_HE1_PF&amp;index=sp_phys</URL>
+            <ProductKey>C1_CP_CIS-CODIF_PAD_HS_He1_PF</ProductKey>
+            <Description>Access to ASCII, CDF, and Plots via NASA/GSFC CDAWeb</Description>
+         </AccessURL>
+         <Format>CDF</Format>
+         <Acknowledgement>Please acknowledge the Data Providers and CDAWeb when using these Data.</Acknowledgement>
+      </AccessInformation>
+      <ProcessingLevel>Calibrated</ProcessingLevel>
+      <InstrumentID>spase://ESA-NASA/Instrument/Cluster/CIS</InstrumentID>
+      <MeasurementType>EnergeticParticles</MeasurementType>
+      <TemporalDescription>
+         <TimeSpan>
+            <StartDate>2001-01-31T01:02:02Z</StartDate>
+            <StopDate>2004-10-25T23:59:37Z</StopDate>
+         </TimeSpan>
+         <Cadence>PT4S</Cadence>
+         <CadenceMin>PT16S</CadenceMin>
+         <CadenceMax>PT4S</CadenceMax>
+      </TemporalDescription>
+      <ObservedRegion>Earth.Magnetosheath</ObservedRegion>
+      <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+      <ObservedRegion>Earth.Magnetosphere.Magnetotail</ObservedRegion>
+      <ObservedRegion>Earth.Magnetosphere.RadiationBelt</ObservedRegion>
+      <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
+      <ObservedRegion>Earth.NearSurface.Plasmasphere</ObservedRegion>
+      <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+      <Keyword>CIS</Keyword>
+      <Keyword>Helium+</Keyword>
+      <Keyword>Helium</Keyword> 
+      <Keyword>Mass spectrometer</Keyword>
+      <Keyword>3D velocity distribution</Keyword>
+      <Keyword>Ion Composition</Keyword>
+      <Keyword>Cluster</Keyword>
+      <Keyword>Magnetosphere</Keyword>
+      <Keyword>Solar Wind</Keyword>
+      <Keyword>Pitch-Angle Distribution</Keyword>
+      <Keyword>PAD</Keyword>
+      <Parameter>
+         <Name>Start time</Name>
+         <ParameterKey>time_tags__C1_CP_CIS-CODIF_PAD_HS_He1_PF</ParameterKey>
+         <Description>Acquisition interval start time</Description>
+         <Units>s</Units>
+         <UnitsConversion>1.0&gt;s</UnitsConversion>
+         <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>UT</AxisLabel>
+         </RenderingHints>
+         <ValidMin>2001-01-31T01:02:02Z</ValidMin>
+         <ValidMax>2004-10-25T23:59:37Z</ValidMax>
+         <FillValue>9999-99-99T99:99:99Z</FillValue>
+         <Support>
+            <SupportQuantity>Temporal</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Acquisition interval duration</Name>
+         <ParameterKey>duration__C1_CP_CIS-CODIF_PAD_HS_He1_PF</ParameterKey>
+         <Description>Acquisition interval duration</Description>
+         <Units>s</Units>
+         <UnitsConversion>1.0&gt;s</UnitsConversion>
+         <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>dT</AxisLabel>
+            <ValueFormat>F6.3</ValueFormat>
+         </RenderingHints>
+         <FillValue>0.0</FillValue>
+         <Support>
+            <SupportQuantity>Other</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>CIS Operational Mode</Name>
+         <ParameterKey>cis_mode__C1_CP_CIS-CODIF_PAD_HS_He1_PF</ParameterKey>
+         <Description>CIS Operational Mode</Description>
+         <Cadence>PT4S</Cadence>
+         <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>Mode</AxisLabel>
+            <ValueFormat>I2</ValueFormat>
+         </RenderingHints>
+         <ValidMin>0</ValidMin>
+         <ValidMax>15</ValidMax>
+         <FillValue>99</FillValue>
+         <Support>
+            <SupportQuantity>InstrumentMode</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Telemetry Product Number</Name>
+         <ParameterKey>tm_product__C1_CP_CIS_CODIF_PAD_HS_He1_PF</ParameterKey>
+         <Description>CIS Telemetry Product</Description>
+         <Cadence>PT4S</Cadence>
+         <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>Product</AxisLabel>
+            <ValueFormat>I3</ValueFormat>
+         </RenderingHints>
+         <ValidMin>0</ValidMin>
+         <ValidMax>100</ValidMax>
+         <FillValue>99</FillValue>
+         <Support>
+            <SupportQuantity>Telemetry</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Differential_Particle_Flux</Name>
+         <ParameterKey>Differential_Particle_Flux__C1_CP_CIS-CODIF_PAD_HS_He1_PF</ParameterKey>
+         <Description>Differential_Particle_Flux.</Description>
+         <Units>Particles cm^-2 s^-1 sr^-1 keV^-1</Units>
+         <UnitsConversion>6.2415E+19&gt;(particles) m^-2 s^-1 sr^-1 J^-1</UnitsConversion>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <AxisLabel>Differential_Particle_Flux</AxisLabel>
+            <ValueFormat>F11</ValueFormat>
+            <ScaleType>LogScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>16 31</Size>
+         </Structure>
+         <FillValue>-1.0e+31</FillValue>
+         <Particle>
+            <ParticleType>Ion</ParticleType>
+            <ParticleQuantity>ChargeFlux</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Pitch angles center value</Name>
+         <ParameterKey>pitch_angle__C1_CP_CIS_CODIF_PAD_HS_He1_PF</ParameterKey>
+         <Description>Pitch angles center value</Description>
+         <Units>degrees</Units>
+         <UnitsConversion>0.0174532925199>rad</UnitsConversion>
+         <RenderingHints>
+            <AxisLabel>alpha (deg)</AxisLabel>
+            <ValueFormat>F8.3</ValueFormat>
+         </RenderingHints>
+         <Structure>
+            <Size>16</Size>
+         </Structure>
+         <ValidMin>5.625</ValidMin>
+         <ValidMax>174.375</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Support>
+            <SupportQuantity>Orientation</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Energy table</Name>
+         <ParameterKey>energy_table__C1_CP_CIS_CODIF_PAD_HS_He1_PF</ParameterKey>
+         <Description>Energy table</Description>
+         <Units>eV</Units>
+         <UnitsConversion>1.60217646E-19&gt;J</UnitsConversion>
+         <Structure>
+            <Size>31</Size>
+         </Structure>
+         <ValidMin>0</ValidMin>
+         <ValidMax>45000</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Support>
+            <SupportQuantity>Other</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Delta plus energy table</Name>
+         <ParameterKey>delta_plus_energy_table__C1_CP_CIS_CODIF_PAD_HS_He1_PF</ParameterKey>
+         <Description>Delta plus energy table</Description>
+         <Units>eV</Units>
+         <UnitsConversion>1.60217646E-19&gt;J</UnitsConversion>
+         <Structure>
+            <Size>31</Size>
+         </Structure>
+         <FillValue>-1.0e+31</FillValue>
+         <Support>
+            <SupportQuantity>Other</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Delta minus energy table</Name>
+         <ParameterKey>delta_minus_energy_table__C1_CP_CIS_CODIF_PAD_HS_He1_PF</ParameterKey>
+         <Description>Delta minus energy table</Description>
+         <Units>eV</Units>
+         <UnitsConversion>1.60217646E-19&gt;J</UnitsConversion>
+         <Structure>
+            <Size>31</Size>
+         </Structure>
+         <FillValue>-1.0e+31</FillValue>
+         <Support>
+            <SupportQuantity>Other</SupportQuantity>
+         </Support>
+      </Parameter>
+   </NumericalData>
+</Spase>
