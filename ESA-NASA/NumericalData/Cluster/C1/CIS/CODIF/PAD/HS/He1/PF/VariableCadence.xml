@@ -10,10 +10,10 @@
       <ResourceHeader>
          <ResourceName>CIS-CODIF Helium+ Pitch-Angle Distribution, High-sensitivity side, in Differential Particle Flux</ResourceName>
          <AlternateName>C1_CP_CIS-CODIF_PAD_HS_He1_PF</AlternateName>
-         <ReleaseDate>2026-03-15T12:00:00.00</ReleaseDate>
+         <ReleaseDate>2026-03-05T12:00:00.00</ReleaseDate>
          <RevisionHistory>
             <RevisionEvent>
-               <ReleaseDate>2026-03-15T12:00:00.00</ReleaseDate>
+               <ReleaseDate>2026-03-05T12:00:00.00</ReleaseDate>
                <Note>Initial release of metadata.</Note>
             </RevisionEvent>
          </RevisionHistory>
