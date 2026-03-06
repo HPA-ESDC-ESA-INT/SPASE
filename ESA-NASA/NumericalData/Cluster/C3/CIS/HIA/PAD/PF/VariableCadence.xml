@@ -10,10 +10,10 @@
       <ResourceHeader>
          <ResourceName>CIS-HIA Ion Pitch-Angle Distribution on C3 in Differential Particle Flux</ResourceName>
          <AlternateName>C3_CP_CIS-HIA_PAD_HS_MAG_IONS_PF</AlternateName>
-         <ReleaseDate>2026-03-15T12:00:00.00</ReleaseDate>
+         <ReleaseDate>2026-03-06T12:00:00.00</ReleaseDate>
          <RevisionHistory>
             <RevisionEvent>
-               <ReleaseDate>2026-03-15T12:00:00.00</ReleaseDate>
+               <ReleaseDate>2026-03-06T12:00:00.00</ReleaseDate>
                <Note>Initial release of metadata.</Note>
             </RevisionEvent>
          </RevisionHistory>
