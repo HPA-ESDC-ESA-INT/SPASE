@@ -10,10 +10,10 @@
       <ResourceHeader>
          <ResourceName>CIS-CODIF Oxygen+ Pitch-Angle Distribution, High-sensitivity side, in Differential Particle Flux</ResourceName>
          <AlternateName>C4_CP_CIS-CODIF_PAD_HS_O1_PF</AlternateName>
-         <ReleaseDate>2026-03-15T12:00:00.00</ReleaseDate>
+         <ReleaseDate>2026-03-06T12:00:00.00</ReleaseDate>
          <RevisionHistory>
             <RevisionEvent>
-               <ReleaseDate>2026-03-15T12:00:00.00</ReleaseDate>
+               <ReleaseDate>2026-03-06T12:00:00.00</ReleaseDate>
                <Note>Initial release of metadata.</Note>
             </RevisionEvent>
          </RevisionHistory>
