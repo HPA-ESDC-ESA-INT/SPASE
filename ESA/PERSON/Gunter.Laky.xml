@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Person>
+    <ResourceID>spase://ESA/Person/Gunter.Laky</ResourceID>
+    <NamingAuthority>ESA</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <PersonName>Gunter Laky</PersonName>
+    <OrganizationName>Space Research Institute, Austrian Academy of Sciences</OrganizationName>
+    <Email>Gunter.Laky@oeaw.ac.at</Email>
+    <ORCIdentifier>0009-0002-1075-3578</ORCIdentifier>
+  </Person>
+</Spase>
