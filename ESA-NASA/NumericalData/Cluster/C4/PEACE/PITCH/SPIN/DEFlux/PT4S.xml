@@ -1,0 +1,642 @@
+<Spase xmlns="http://www.spase-group.org/data/schema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://www.spase-group.org/data/schema  
+  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <MetadataRightsList>
+    <Rights>
+      <!--
+                <SchemeURI>https://creativecommons.org/licenses/</SchemeURI>
+                <RightsIdentifierScheme>CC</RightsIdentifierScheme>
+             -->
+      <RightsIdentifier>CC-BY-NC-3.0-IGO</RightsIdentifier>
+      <RightsURI>https://creativecommons.org/licenses/by-nc/3.0/igo/</RightsURI>
+      <RightsName>Creative Commons Attribution-NonCommercial 3.0 IGO</RightsName>
+    </Rights>
+  </MetadataRightsList>
+  <NumericalData>
+    <ResourceID>spase://ESA-NASA/NumericalData/Cluster/C4/PEACE/PITCH/SPIN/DEFlux/PT4S</ResourceID>
+    <NamingAuthority>ESA-NASA</NamingAuthority>
+    <ResourceType>NumericalData</ResourceType>
+    <ResourceHeader>
+      <ResourceName>PEACE PITCH_SPIN data from the HEEA and/or LEEA sensors</ResourceName>
+      <AlternateName>C4_CP_PEA_PITCH_SPIN_DEFlux</AlternateName>
+      <ReleaseDate>2026-03-13T00:00:00</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2026-03-13T00:00:00</ReleaseDate>
+          <Note>Initial release of metadata</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>This data product (Differential Energy Flux) contains a single pitch angle distribution per spin, obtained by 
+        combining rebinned the Low Energy Electron Analyser (LEEA) and High Energy Electron Analyser (HEEA) data collected at 
+        various times during one spin on the Cluster C4 spacecraft.
+        The C4 LEEA or C4 HEEA instruments have been fully operational and the Data Processing Units (DPUs) have been 
+        operating nominally in dual processor mode.
+        The Plasma Electron And Current Experiment (PEACE) instrument is designed to measure
+        the electron velocity distribution in the vicinity of its host spacecraft, covering
+        an energy range of ~1 eV to ~26 keV and detecting electrons arriving from all possible
+        directions. Each PEACE instrument has two sensor heads, LEEA and HEEA, which are
+        mounted on opposite sides of the spacecraft such that the instantaneous field of view
+        of one is the same as that seen by the other half a spacecraft rotation period later.
+        LEEA and HEEA differ only in geometric factor (HEEA admits more electrons than LEEA
+        when measuring the same energy range). Both sensors sample 4*pi steradians per spin.
+        The full energy range is divided into 88 levels, however only a subset (60 or 30)
+        of those can be sampled by each sensor in a given spin. Full coverage of the
+        energy range may be achieved by using both HEEA and LEEA sensors together, each
+        sampling a different (possibly overlapping) subset of the energy range.
+        HEEA will normally cover the upper part of the energy range, since its larger
+        geometric factor enables it to make better measurements of the more diffuse
+        electron population expected at higher energies.
+        LEEA is designed to specialise in the coverage of the lowest electron energies
+        (including below 10 eV) but is also capable of covering the full energy range to
+        26 keV.  The LEEA sensor has a smaller geometric factor appropriate for the
+        higher fluxes of electrons usually found at lower energies, though LEEA does not
+        always sample the lowest energies.</Description>
+      <Acknowledgement>Please acknowledge the PEACE instrument team and ESA Cluster Science Archive in any publication based upon 
+        use of these data.</Acknowledgement>
+      <Contact>
+        <PersonID>spase://ESA/Person/Andrew.Fazakerley</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Natasha.Doss</PersonID>
+        <Role>ArchiveSpecialist</Role>
+        <Role>DataProducer</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Branislav.Mihaljcic</PersonID>
+        <Role>ArchiveSpecialist</Role>
+        <Role>DataProducer</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Gill.Watson</PersonID>
+        <Role>OperationsManager</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Leonard.N.Garcia</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Arnaud.Masson</PersonID>
+        <Role>ProjectScientist</Role>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Philippe.Escoubet</PersonID>
+        <Role>MissionManager</Role>
+      </Contact>
+      <InformationURL>
+        <Name>PEACE: A Plasma Electron and Current Experiment</Name>
+        <URL>https://doi.org/10.1023/A:1004938001388</URL>
+        <Description>Publication</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>Cluster: PEACE: The PEACE Experiment Home Page</Name>
+        <URL>https://www.mssl.ucl.ac.uk/www_plasma/missions/cluster/index.php</URL>
+        <Description>Website</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://ESA/Repository/ESDC</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <RightsList>
+        <Rights>
+          <!--
+                         <SchemeURI>https://creativecommons.org/licenses/</SchemeURI>
+                         <RightsIdentifierScheme>CC</RightsIdentifierScheme>
+                    -->
+          <RightsIdentifier>CC-BY-NC-3.0-IGO</RightsIdentifier>
+          <RightsURI>https://creativecommons.org/licenses/by-nc/3.0/igo/</RightsURI>
+          <RightsName>Creative Commons Attribution-NonCommercial 3.0 IGO</RightsName>
+        </Rights>
+      </RightsList>
+      <AccessURL>
+        <Name>CSA</Name>
+        <URL>https://csa.esac.esa.int</URL>
+        <ProductKey>C4_CP_PEA_PITCH_SPIN_DEFlux</ProductKey>
+        <Description>Cluster Science Archive (CSA) web interface</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>Cluster Science Archive TAP server</Name>
+        <URL>https://csa.esac.esa.int/csa-sl-tap/tap</URL>
+        <ProductKey>C4_CP_PEA_PITCH_SPIN_DEFlux</ProductKey>
+        <Description>Cluster data and metadata via the European Space Agency Table 
+          Access Protocol (TAP) server
+        </Description>
+      </AccessURL>
+      <Format>CEF</Format>
+      <Format>CDF</Format>
+      <Encoding>None</Encoding>
+      <Acknowledgement>Please acknowledge the PEACE team and the ESA Cluster Science Archive when using these data.</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://ESA/Repository/ESDC</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <RightsList>
+        <Rights>
+          <!--
+                         <SchemeURI>https://creativecommons.org/licenses/</SchemeURI>
+                         <RightsIdentifierScheme>CC</RightsIdentifierScheme>
+                    -->
+          <RightsIdentifier>CC-BY-NC-3.0-IGO</RightsIdentifier>
+          <RightsURI>https://creativecommons.org/licenses/by-nc/3.0/igo/</RightsURI>
+          <RightsName>Creative Commons Attribution-NonCommercial 3.0 IGO</RightsName>
+        </Rights>
+      </RightsList>
+      <AccessURL>
+        <Name>CSA HAPI Server</Name>
+        <URL>https://csatools.esac.esa.int/HapiServer/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>C4_CP_PEA_PITCH_SPIN_DEFlux</ProductKey>
+        <Description>Web Service to this product using the HAPI interface
+        </Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement>Please acknowledge the Data Providers and CSA when using these data</Acknowledgement>
+    </AccessInformation>
+    <ProcessingLevel>Calibrated</ProcessingLevel>
+    <ProviderResourceName>PEACE PITCH_SPIN data from the HEEA and/or LEEA sensors</ProviderResourceName>
+    <InstrumentID>spase://ESA-NASA/Instrument/Cluster/PEACE</InstrumentID>
+    <MeasurementType>ThermalPlasma</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>2000-09-23T04:45:15</StartDate>
+        <StopDate>2024-09-30T23:53:20</StopDate>
+      </TimeSpan>
+      <Cadence>PT4.0S</Cadence>
+    </TemporalDescription>
+    <ObservedRegion>Earth.Magnetosheath</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere.Magnetotail</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere.Main</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere.Polar</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere.RadiationBelt</ObservedRegion>
+    <ObservedRegion>Earth.NearSurface.AuroralRegion</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosheath</ObservedRegion>
+    <ObservedRegion>Earth.NearSurface.Plasmasphere</ObservedRegion>
+    <ObservedRegion>Earth.NearSurface.PolarCap</ObservedRegion>
+    <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+    <Keyword>Magnetosphere</Keyword>
+    <Keyword>Auroral Region</Keyword>
+    <Keyword>Polar Cap</Keyword>
+    <Keyword>Cusp</Keyword>
+    <Keyword>Bow Shock</Keyword>
+    <Keyword>Solar Wind</Keyword>
+    <Keyword>Magnetosheath</Keyword>
+    <Keyword>Cluster</Keyword>
+    <Keyword>Magnetotail</Keyword>
+    <Keyword>Lobe</Keyword>
+    <Parameter>
+      <Name>Data Epoch</Name>
+      <ParameterKey>time_tags__C4_CP_PEA_PITCH_SPIN_DEFlux</ParameterKey>
+      <Description>Epoch Time of PEACE data record (for one PEACE spin)</Description>
+      <Units>s</Units>
+      <UnitsConversion>1.0>s</UnitsConversion>
+      <ValidMin>2000-09-23T04:45:15</ValidMin>
+      <ValidMax>2024-09-30T23:53:20</ValidMax>
+      <Support>
+        <SupportQuantity>Temporal</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Data Epoch Lower Delta</Name>
+      <ParameterKey>time_tags_DeltaLower__C4_CP_PEA_PITCH_SPIN_DEFlux</ParameterKey>
+      <Description>Actual Lower Epoch Edge = time_tags - time_tags_DelataLower</Description>
+      <Units>s</Units>
+      <UnitsConversion>1.0>s</UnitsConversion>
+      <Support>
+        <SupportQuantity>Temporal</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Data Epoch Upper Delta</Name>
+      <ParameterKey>time_tags_DeltaUpper__C4_CP_PEA_PITCH_SPIN_DEFlux</ParameterKey>
+      <Description>Actual Upper Epoch Edge = time_tags + time_tags_DeltaUpper</Description>
+      <Units>s</Units>
+      <UnitsConversion>1.0>s</UnitsConversion>
+      <Support>
+        <SupportQuantity>Temporal</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>SR2 phi angle</Name>
+      <ParameterKey>Angle_SR2phi__C4_CP_PEA_PITCH_SPIN_DEFlux</ParameterKey>
+      <Description>Phi Angle in the SR2 co-ordinate system at the
+       center of the spin</Description>
+      <Units>Degrees</Units>
+      <UnitsConversion>0.01745>rad</UnitsConversion>
+      <ValidMin>0.0</ValidMin>
+      <ValidMax>360.0</ValidMax>
+      <Support>
+        <SupportQuantity>Orientation</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Sunpulse rephase offset</Name>
+      <ParameterKey>Mode_SunpulseRephaseOffset__C4_CP_PEA_PITCH_SPIN_DEFlux</ParameterKey>
+      <Description>Delay applied to the sun reference pulse in units of spin segment clock pulses</Description>
+      <ValidMin>0</ValidMin>
+      <ValidMax>16384</ValidMax>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Sensor (0=LEEA, 1=HEEA, 2=Both)</Name>
+      <ParameterKey>Mode_Sensor__C4_CP_PEA_PITCH_SPIN_DEFlux</ParameterKey>
+      <Description>PEACE Sensor from which data is collected (0 = LEEA, 1 = HEEA, 2 = Both)</Description>
+      <ValidMin>0</ValidMin>
+      <ValidMax>2</ValidMax>
+      <Support>
+        <SupportQuantity>InstrumentMode</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Sweep Mode</Name>
+      <ParameterKey>Mode_SweepMode_HEEA__C4_CP_PEA_PITCH_SPIN_DEFlux</ParameterKey>
+      <Description>PEACE Sweep Mode (0 = Off/Fixed, 1 = LAR, 2 = HAR, 3 = MAR)</Description>
+      <ValidMin>0</ValidMin>
+      <ValidMax>3</ValidMax>
+      <Support>
+        <SupportQuantity>InstrumentMode</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Preset level</Name>
+      <ParameterKey>Mode_Preset_HEEA__C4_CP_PEA_PITCH_SPIN_DEFlux</ParameterKey>
+      <Description>The Energy level aimed for during flyback (always larger than Mode_EnergyLevelRange)</Description>
+      <ValidMin>0</ValidMin>
+      <ValidMax>91</ValidMax>
+      <Support>
+        <SupportQuantity>InstrumentMode</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Sweep Energy Levels</Name>
+      <ParameterKey>Mode_EnergyLevelRange_HEEA__C4_CP_PEA_PITCH_SPIN_DEFlux</ParameterKey>
+      <Description>Sweep Energy Level range: the subset of the 88 energy bins measured (not including flyback)</Description>
+      <ValidMin>0</ValidMin>
+      <ValidMax>88</ValidMax>
+      <Support>
+        <SupportQuantity>InstrumentMode</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Energy Range (eV)</Name>
+      <ParameterKey>Mode_EnergyMaxMin_HEEA__C4_CP_PEA_PITCH_SPIN_DEFlux</ParameterKey>
+      <Description>The energy range (in eV) of electrons measured in a spin, expressed as Max. then Min.</Description>
+      <Units>eV</Units>
+      <UnitsConversion>1.60217646E-19>J</UnitsConversion>
+      <ValidMin>0.1</ValidMin>
+      <ValidMax>30000.0</ValidMax>
+      <Support>
+        <SupportQuantity>InstrumentMode</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>MCP Level</Name>
+      <ParameterKey>Mode_MCPlevel_HEEA__C4_CP_PEA_PITCH_SPIN_DEFlux</ParameterKey>
+      <Description>MCP Level: Related to sensor gain (i.e. increase level and gain increases)</Description>
+      <ValidMin>0</ValidMin>
+      <ValidMax>31</ValidMax>
+      <Support>
+        <SupportQuantity>InstrumentMode</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Data Origin</Name>
+      <ParameterKey>Mode_DataOrigin_HEEA__C4_CP_PEA_PITCH_SPIN_DEFlux</ParameterKey>
+      <Description>Data Origin (4=PAD)</Description>
+      <ValidMin>0</ValidMin>
+      <ValidMax>22</ValidMax>
+      <Support>
+        <SupportQuantity>InstrumentMode</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Sweep Mode</Name>
+      <ParameterKey>Mode_SweepMode_LEEA__C4_CP_PEA_PITCH_SPIN_DEFlux</ParameterKey>
+      <Description>PEACE Sweep Mode (0 = Off/Fixed, 1 = LAR, 2 = HAR, 3 = MAR)</Description>
+      <ValidMin>0</ValidMin>
+      <ValidMax>3</ValidMax>
+      <Support>
+        <SupportQuantity>InstrumentMode</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Preset level</Name>
+      <ParameterKey>Mode_Preset_LEEA__C4_CP_PEA_PITCH_SPIN_DEFlux</ParameterKey>
+      <Description>The Energy level aimed for during flyback (always larger than Mode_EnergyLevelRange)</Description>
+      <ValidMin>0</ValidMin>
+      <ValidMax>91</ValidMax>
+      <Support>
+        <SupportQuantity>InstrumentMode</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Sweep Energy Levels</Name>
+      <ParameterKey>Mode_EnergyLevelRange_LEEA__C4_CP_PEA_PITCH_SPIN_DEFlux</ParameterKey>
+      <Description>Sweep Energy Level range: the subset of the 88 energy bins measured (not including flyback)</Description>
+      <ValidMin>0</ValidMin>
+      <ValidMax>88</ValidMax>
+      <Support>
+        <SupportQuantity>InstrumentMode</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Energy Range (eV)</Name>
+      <ParameterKey>Mode_EnergyMaxMin_LEEA__C4_CP_PEA_PITCH_SPIN_DEFlux</ParameterKey>
+      <Description>The energy range (in eV) of electrons measured in a spin, expressed as Max. then Min.</Description>
+      <Units>eV</Units>
+      <UnitsConversion>1.60217646E-19>J</UnitsConversion>
+      <ValidMin>0.1</ValidMin>
+      <ValidMax>30000.0</ValidMax>
+      <Support>
+        <SupportQuantity>InstrumentMode</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>MCP Level</Name>
+      <ParameterKey>Mode_MCPlevel_LEEA__C4_CP_PEA_PITCH_SPIN_DEFlux</ParameterKey>
+      <Description>MCP Level: Related to sensor gain (i.e. increase level and gain increases)</Description>
+      <ValidMin>0</ValidMin>
+      <ValidMax>31</ValidMax>
+      <Support>
+        <SupportQuantity>InstrumentMode</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Data Origin</Name>
+      <ParameterKey>Mode_DataOrigin_LEEA__C4_CP_PEA_PITCH_SPIN_DEFlux</ParameterKey>
+      <Description>Data Origin (4=PAD)</Description>
+      <ValidMin>0</ValidMin>
+      <ValidMax>22</ValidMax>
+      <Support>
+        <SupportQuantity>InstrumentMode</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Valid subset of 'data' array</Name>
+      <ParameterKey>Mode_RealSize__C4_CP_PEA_PITCH_SPIN_DEFlux</ParameterKey>
+      <Description>Subset of Data variable that contains real data</Description>
+      <ValidMin>0</ValidMin>
+      <ValidMax>64</ValidMax>
+      <Support>
+        <SupportQuantity>InstrumentMode</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>No. energy bins returned (no fills)</Name>
+      <ParameterKey>Mode_RealBinNum__C4_CP_PEA_PITCH_SPIN_DEFlux</ParameterKey>
+      <Description>Number of energy bins returned per sweep, not including fly-backs nor windowed-out data</Description>
+      <ValidMin>0</ValidMin>
+      <ValidMax>64</ValidMax>
+      <Support>
+        <SupportQuantity>InstrumentMode</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Center Energy Values</Name>
+      <ParameterKey>Sweep_Energy__C4_CP_PEA_PITCH_SPIN_DEFlux</ParameterKey>
+      <Description>Number of energy bins returned per sweep, not including fly-backs nor windowed-out data</Description>
+      <Units>eV</Units>
+      <UnitsConversion>1.60217646E-19>J</UnitsConversion>
+      <ValidMin>0.1</ValidMin>
+      <ValidMax>30000.0</ValidMax>
+      <Support>
+        <SupportQuantity>InstrumentMode</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Lower delta Energy Values</Name>
+      <ParameterKey>Sweep_Energy_DeltaLower__C4_CP_PEA_PITCH_SPIN_DEFlux</ParameterKey>
+      <Description>Actual Lower Energy Edge of bin = Sweep_Energy - Sweep_Energy_DeltaLower</Description>
+      <Units>eV</Units>
+      <UnitsConversion>1.60217646E-19>J</UnitsConversion>
+      <ValidMin>0.1</ValidMin>
+      <ValidMax>30000.0</ValidMax>
+      <Support>
+        <SupportQuantity>InstrumentMode</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Upper delta Energy Values</Name>
+      <ParameterKey>Sweep_Energy_DeltaUpper__C4_CP_PEA_PITCH_SPIN_DEFlux</ParameterKey>
+      <Description>Actual Upper Energy Edge of bin = Sweep_Energy + Sweep_Energy_DeltaUpper</Description>
+      <Units>eV</Units>
+      <UnitsConversion>1.60217646E-19>J</UnitsConversion>
+      <ValidMin>0.1</ValidMin>
+      <ValidMax>30000.0</ValidMax>
+      <Support>
+        <SupportQuantity>InstrumentMode</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Pitch angles</Name>
+      <ParameterKey>Sweep_PitchAngle__C4_CP_PEA_PITCH_SPIN_DEFlux</ParameterKey>
+      <Description>Center values of Pitch angle bins that provided the data</Description>
+      <Units>Degrees</Units>
+      <UnitsConversion>0.01745>rad</UnitsConversion>
+      <ValidMin>0.0</ValidMin>
+      <ValidMax>180.0</ValidMax>
+      <Support>
+        <SupportQuantity>Orientation</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Lower delta Pitch angles</Name>
+      <ParameterKey>Sweep_PitchAngle_DeltaLower__C4_CP_PEA_PITCH_SPIN_DEFlux</ParameterKey>
+      <Description>Actual Lower Edge of bin = Sweep_PitchAngle - Sweep_PitchAngle_DeltaLower</Description>
+      <Units>Degrees</Units>
+      <UnitsConversion>0.01745>rad</UnitsConversion>
+      <ValidMin>0</ValidMin>
+      <ValidMax>180</ValidMax>
+      <Support>
+        <SupportQuantity>Orientation</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Upper delta Pitch angles</Name>
+      <ParameterKey>Sweep_PitchAngle_DeltaUpper__C4_CP_PEA_PITCH_SPIN_DEFlux</ParameterKey>
+      <Description>Actual Upper Edge of bin = Sweep_PitchAngle + Sweep_PitchAngle_DeltaUpper</Description>
+      <Units>Degrees</Units>
+      <UnitsConversion>0.01745>rad</UnitsConversion>
+      <ValidMin>0</ValidMin>
+      <ValidMax>180</ValidMax>
+      <Support>
+        <SupportQuantity>Orientation</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>PITCH_SPIN</Name>
+      <ParameterKey>Data__C4_CP_PEA_PITCH_SPIN_DEFlux</ParameterKey>
+      <Description>C4 PITCH_SPIN LEEA (DEFlux), 12 PA bins</Description>
+      <Units>keV/cm^2-s-str-keV</Units>
+      <UnitsConversion>6.24150974E+15>m^-2 s^-1 sr^-1</UnitsConversion>
+      <ValidMin>0.0</ValidMin>
+      <ValidMax>1.0E+09</ValidMax>
+      <Particle>
+        <ParticleType>Electron</ParticleType>
+        <Qualifier>Differential</Qualifier>
+        <ParticleQuantity>EnergyFlux</ParticleQuantity>
+      </Particle>
+    </Parameter>
+    <Parameter>
+      <Name>PITCH_SPIN background level</Name>
+      <ParameterKey>BackgroundLevel__C4_CP_PEA_PITCH_SPIN_DEFlux</ParameterKey>
+      <Description>Background level data for Data__C4_CP_PEA_ PITCH_SPIN_DEFlux</Description>
+      <Units>keV/cm^2-s-str-keV</Units>
+      <UnitsConversion>6.24150974E+15>m^-2 s^-1 sr^-1</UnitsConversion>
+      <ValidMin>0.0</ValidMin>
+      <ValidMax>1.0E+09</ValidMax>
+      <Particle>
+        <ParticleType>Electron</ParticleType>
+        <Qualifier>Differential</Qualifier>
+        <ParticleQuantity>EnergyFlux</ParticleQuantity>
+      </Particle>
+    </Parameter>
+    <Parameter>
+      <Name>Data quality flag</Name>
+      <ParameterKey>Status_Quality__C4_CP_PEA_PITCH_SPIN_DEFlux</ParameterKey>
+      <Description>C4 data quality flag</Description>
+      <ValidMin>0</ValidMin>
+      <ValidMax>4</ValidMax>
+      <Support>
+        <SupportQuantity>DataQuality</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Status Values for HEEA Count Statistics</Name>
+      <ParameterKey>Status_CountStats_HEEA__C4_CP_PEA_PITCH_SPIN_DEFlux</ParameterKey>
+      <Description>C4 Status Values for HEEA Count Statistics</Description>
+      <ValidMin>0</ValidMin>
+      <ValidMax>2</ValidMax>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Status Values for LEEA Count Statistics</Name>
+      <ParameterKey>Status_CountStats_LEEA__C4_CP_PEA_PITCH_SPIN_DEFlux</ParameterKey>
+      <Description>C4 Status Values for LEEA Count Statistics</Description>
+      <ValidMin>0</ValidMin>
+      <ValidMax>2</ValidMax>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Status Values for ASPOC</Name>
+      <ParameterKey>Status_ASPOC__C4_CP_PEA_PITCH_SPIN_DEFlux</ParameterKey>
+      <Description>C4 Status Values for ASPOC</Description>
+      <ValidMin>0</ValidMin>
+      <ValidMax>1</ValidMax>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Status Values for FGM</Name>
+      <ParameterKey>Status_FGM__C4_CP_PEA_PITCH_SPIN_DEFlux</ParameterKey>
+      <Description>C4 Status Values for FGM</Description>
+      <ValidMin>0</ValidMin>
+      <ValidMax>1</ValidMax>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Status Values for Interference caused by EFW</Name>
+      <ParameterKey>Status_InterferenceFromEFW__C4_CP_PEA_PITCH_SPIN_DEFlux</ParameterKey>
+      <Description>C4 Status Values for Interference caused by EFW</Description>
+      <ValidMin>0</ValidMin>
+      <ValidMax>1</ValidMax>
+      <Support>
+        <SupportQuantity>DataQuality</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Status Values for Interference caused by WHI</Name>
+      <ParameterKey>Status_InterferenceFromWHI__C4_CP_PEA_PITCH_SPIN_DEFlux</ParameterKey>
+      <Description>C4 Status Values for Interference caused by WHI</Description>
+      <ValidMin>0</ValidMin>
+      <ValidMax>1</ValidMax>
+      <Support>
+        <SupportQuantity>DataQuality</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Status Values for Eclipse</Name>
+      <ParameterKey>Status_Eclipse__C4_CP_PEA_PITCH_SPIN_DEFlux</ParameterKey>
+      <Description>C4 Status Values for Eclipse</Description>
+      <ValidMin>0</ValidMin>
+      <ValidMax>1</ValidMax>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Status Values for Datastream Errors</Name>
+      <ParameterKey>Status_DatastreamErrors__C4_CP_PEA_PITCH_SPIN_DEFlux</ParameterKey>
+      <Description>C4 Status Values for DatastreamErrors</Description>
+      <ValidMin>0</ValidMin>
+      <ValidMax>2</ValidMax>
+      <Support>
+        <SupportQuantity>DataQuality</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Status Values for HEEA Calibration Version</Name>
+      <ParameterKey>Status_CalibrationVersion_HEEA__C4_CP_PEA_PITCH_SPIN_DEFlux</ParameterKey>
+      <Description>C4 Status Values for HEEA Calibration Version</Description>
+      <ValidMin>0</ValidMin>
+      <ValidMax>20253652359</ValidMax>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Status Values for HEEA PEACE raw data</Name>
+      <ParameterKey>Status_PEACErawData_HEEA__C4_CP_PEA_PITCH_SPIN_DEFlux</ParameterKey>
+      <Description>C4 Status Values for HEEA PEACE raw data</Description>
+      <ValidMin>0</ValidMin>
+      <ValidMax>20253652359</ValidMax>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Status Values for LEEA Calibration Version</Name>
+      <ParameterKey>Status_CalibrationVersion_LEEA__C4_CP_PEA_PITCH_SPIN_DEFlux</ParameterKey>
+      <Description>C4 Status Values for LEEA Calibration Version</Description>
+      <ValidMin>0.0</ValidMin>
+      <ValidMax>20253652359</ValidMax>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Status Values for LEEA PEACE raw data</Name>
+      <ParameterKey>Status_PEACErawData_LEEA__C4_CP_PEA_PITCH_SPIN_DEFlux</ParameterKey>
+      <Description>C4 Status Values for LEEA PEACE raw data</Description>
+      <ValidMin>0.0</ValidMin>
+      <ValidMax>20253652359</ValidMax>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Status Values for PAD Selection Quality</Name>
+      <ParameterKey>Status_PADSelectionQuality__C4_CP_PEA_PITCH_SPIN_DEFlux</ParameterKey>
+      <Description>C4 Status Values for PAD Selection Quality</Description>
+      <ValidMin>0</ValidMin>
+      <ValidMax>10</ValidMax>
+      <Support>
+        <SupportQuantity>DataQuality</SupportQuantity>
+      </Support>
+    </Parameter>
+  </NumericalData>
+</Spase>
