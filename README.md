@@ -93,6 +93,9 @@ SPASE
    |          |     |              |___NBR   
    |          |     |
    |          |     |___C2
+   |          |     |    |___ASPOC
+   |          |     |          |___IONC
+   |          |     |          |___IONS
    |          |     |    |___CIS
    |          |     |          |___HIA
    |          |     |          |    |___Onboard-Moments   
@@ -116,6 +119,9 @@ SPASE
    |          |     |              |___NBR   
    |          |     |
    |          |     |___C3
+   |          |     |    |___ASPOC
+   |          |     |          |___IONC
+   |          |     |          |___IONS
    |          |     |    |___CIS
    |          |     |          |___HIA
    |          |     |          |    |___Onboard-Moments   
@@ -139,6 +145,9 @@ SPASE
    |          |     |              |___NBR   
    |          |     |
    |          |     |___C4
+   |          |     |    |___ASPOC
+   |          |     |          |___IONC
+   |          |     |          |___IONS
    |          |     |    |___CIS
    |          |     |          |___HIA
    |          |     |          |    |___Onboard-Moments   
