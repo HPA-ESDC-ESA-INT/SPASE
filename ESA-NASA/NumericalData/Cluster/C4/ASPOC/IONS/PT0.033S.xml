@@ -14,12 +14,12 @@
         </Rights>
     </MetadataRightsList>
     <NumericalData>
-        <ResourceID>spase://ESA-NASA/NumericalData/Cluster/C3/ASPOC/PT0.033S</ResourceID>
+        <ResourceID>spase://ESA-NASA/NumericalData/Cluster/C4/ASPOC/IONS/PT0.033S</ResourceID>
         <NamingAuthority>ESA-NASA</NamingAuthority>
         <ResourceType>NumericalData</ResourceType>
         <ResourceHeader>
             <ResourceName>Ion emission current, 0.033s resolution</ResourceName>
-            <AlternateName>C3_CP_ASP_IONS</AlternateName>
+            <AlternateName>C4_CP_ASP_IONS</AlternateName>
             <ReleaseDate>2026-02-28T10:00:00</ReleaseDate>
             <RevisionHistory>
                 <RevisionEvent>
@@ -28,7 +28,7 @@
                 </RevisionEvent>
             </RevisionHistory>
             <Description>This dataset contains measurements high resolution snapshots of the ion 
-                emission current from the ASPOC experiment on the Cluster C3 spacecraft. 
+                emission current from the ASPOC experiment on the Cluster C4 spacecraft. 
                 Each Cluster spacecraft carries an identical an ASPOC (Active Spacecraft Potential Control) 
                 experiment. ASPOC controls the electric potential of the Cluster spacecraft by means of an 
                 ion beam. This modification of the charge balance improves the plasma measurements on board.
@@ -90,13 +90,13 @@
             <AccessURL>
                 <Name>CSA</Name>
                 <URL>https://csa.esac.esa.int</URL>
-                <ProductKey>C3_CP_ASP_IONS</ProductKey>
+                <ProductKey>C4_CP_ASP_IONS</ProductKey>
                 <Description>Cluster Science Archive (CSA) web interface</Description>
             </AccessURL>
             <AccessURL>
                 <Name>Cluster Science Archive TAP server</Name>
                 <URL>https://csa.esac.esa.int/csa-sl-tap/tap</URL>
-                <ProductKey>C3_CP_ASP_IONS</ProductKey>
+                <ProductKey>C4_CP_ASP_IONS</ProductKey>
                 <Description>Cluster data and metadata via the European Space Agency Table 
                     Access Protocol (TAP) server
                 </Description>
@@ -123,7 +123,7 @@
                 <Name>CSA HAPI Server</Name>
                 <URL>https://csatools.esac.esa.int/HapiServer/hapi</URL>
                 <Style>HAPI</Style>
-                <ProductKey>C3_CP_ASP_IONS</ProductKey>
+                <ProductKey>C4_CP_ASP_IONS</ProductKey>
                 <Description>Web Service to this product using the HAPI interface</Description>
             </AccessURL>
             <Format>CSV</Format>
@@ -163,7 +163,7 @@
         <Keyword>Plasmasphere</Keyword>
         <Parameter>
             <Name>Universal Time</Name>
-            <ParameterKey>time_tags__C3_CP_ASP_IONS</ParameterKey>
+            <ParameterKey>time_tags__C4_CP_ASP_IONS</ParameterKey>
             <Description>Interval centered time tag</Description>
             <Units>s</Units>
             <UnitsConversion>1.0>s</UnitsConversion>
@@ -177,8 +177,8 @@
         </Parameter>
         <Parameter>
             <Name>Ion Emission Current</Name>
-            <ParameterKey>Ion_current__C3_CP_ASP_IONS</ParameterKey>
-            <Description>Cluster C3 Ion emission current, 0.033s resolution</Description>
+            <ParameterKey>Ion_current__C4_CP_ASP_IONS</ParameterKey>
+            <Description>Cluster C4 Ion emission current, 0.033s resolution</Description>
             <Units>uA</Units>
             <UnitsConversion>1.0E-6>A</UnitsConversion>
             <RenderingHints>

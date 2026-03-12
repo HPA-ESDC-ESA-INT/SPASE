@@ -14,12 +14,12 @@
         </Rights>
     </MetadataRightsList>
     <NumericalData>
-        <ResourceID>spase://ESA-NASA/NumericalData/Cluster/C2/ASPOC/PT0.033S</ResourceID>
+        <ResourceID>spase://ESA-NASA/NumericalData/Cluster/C3/ASPOC/IONC/PT0.5S</ResourceID>
         <NamingAuthority>ESA-NASA</NamingAuthority>
         <ResourceType>NumericalData</ResourceType>
         <ResourceHeader>
-            <ResourceName>Ion emission current, 0.033s resolution</ResourceName>
-            <AlternateName>C2_CP_ASP_IONS</AlternateName>
+            <ResourceName>Ion emission current, 0.5s resolution</ResourceName>
+            <AlternateName>C3_CP_ASP_IONC</AlternateName>
             <ReleaseDate>2026-02-28T10:00:00</ReleaseDate>
             <RevisionHistory>
                 <RevisionEvent>
@@ -27,8 +27,8 @@
                     <Note>Initial release of metadata.</Note>
                 </RevisionEvent>
             </RevisionHistory>
-            <Description>This dataset contains measurements high resolution snapshots of the ion 
-                emission current from the ASPOC experiment on the Cluster C2 spacecraft. 
+            <Description>This dataset contains measurements of the ion emission current 
+                from the ASPOC experiment on the Cluster C3 spacecraft. 
                 Each Cluster spacecraft carries an identical an ASPOC (Active Spacecraft Potential Control) 
                 experiment. ASPOC controls the electric potential of the Cluster spacecraft by means of an 
                 ion beam. This modification of the charge balance improves the plasma measurements on board.
@@ -90,13 +90,13 @@
             <AccessURL>
                 <Name>CSA</Name>
                 <URL>https://csa.esac.esa.int</URL>
-                <ProductKey>C2_CP_ASP_IONS</ProductKey>
+                <ProductKey>C3_CP_ASP_IONC</ProductKey>
                 <Description>Cluster Science Archive (CSA) web interface</Description>
             </AccessURL>
             <AccessURL>
                 <Name>Cluster Science Archive TAP server</Name>
                 <URL>https://csa.esac.esa.int/csa-sl-tap/tap</URL>
-                <ProductKey>C2_CP_ASP_IONS</ProductKey>
+                <ProductKey>C3_CP_ASP_IONC</ProductKey>
                 <Description>Cluster data and metadata via the European Space Agency Table 
                     Access Protocol (TAP) server
                 </Description>
@@ -123,7 +123,7 @@
                 <Name>CSA HAPI Server</Name>
                 <URL>https://csatools.esac.esa.int/HapiServer/hapi</URL>
                 <Style>HAPI</Style>
-                <ProductKey>C2_CP_ASP_IONS</ProductKey>
+                <ProductKey>C3_CP_ASP_IONC</ProductKey>
                 <Description>Web Service to this product using the HAPI interface</Description>
             </AccessURL>
             <Format>CSV</Format>
@@ -137,7 +137,7 @@
                 <StartDate>2000-07-16T00:00:00</StartDate>
                 <StopDate>2024-09-09T00:00:00</StopDate>
             </TimeSpan>
-            <Cadence>PT0.033S</Cadence>
+            <Cadence>PT0.5S</Cadence>
         </TemporalDescription>
         <ObservedRegion>Earth.Magnetosheath</ObservedRegion>
         <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
@@ -163,7 +163,7 @@
         <Keyword>Plasmasphere</Keyword>
         <Parameter>
             <Name>Universal Time</Name>
-            <ParameterKey>time_tags__C2_CP_ASP_IONS</ParameterKey>
+            <ParameterKey>time_tags__C3_CP_ASP_IONC</ParameterKey>
             <Description>Interval centered time tag</Description>
             <Units>s</Units>
             <UnitsConversion>1.0>s</UnitsConversion>
@@ -177,8 +177,8 @@
         </Parameter>
         <Parameter>
             <Name>Ion Emission Current</Name>
-            <ParameterKey>Ion_current__C2_CP_ASP_IONS</ParameterKey>
-            <Description>Cluster C2 Ion emission current, 0.033s resolution</Description>
+            <ParameterKey>Ion_current__C3_CP_ASP_IONC</ParameterKey>
+            <Description>Cluster C3 Ion emission current, 0.5s resolution</Description>
             <Units>uA</Units>
             <UnitsConversion>1.0E-6>A</UnitsConversion>
             <RenderingHints>

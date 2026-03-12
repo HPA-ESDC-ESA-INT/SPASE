@@ -14,7 +14,7 @@
         </Rights>
     </MetadataRightsList>
     <NumericalData>
-        <ResourceID>spase://ESA-NASA/NumericalData/Cluster/C2/ASPOC/PT0.5S</ResourceID>
+        <ResourceID>spase://ESA-NASA/NumericalData/Cluster/C2/ASPOC/IONC/PT0.5S</ResourceID>
         <NamingAuthority>ESA-NASA</NamingAuthority>
         <ResourceType>NumericalData</ResourceType>
         <ResourceHeader>
