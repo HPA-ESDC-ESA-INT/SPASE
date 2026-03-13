@@ -1,0 +1,349 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
+  <Version>2.7.0</Version>
+  <NumericalData>
+    <ResourceID>spase://ESA-NASA/NumericalData/Cluster/C3/WHISPER/ELECTRON_DENSITY/VariableCadence</ResourceID>
+    <NamingAuthority>ESA-NASA</NamingAuthority>
+    <ResourceType>NumericalData</ResourceType>
+    <ResourceHeader>
+      <ResourceName>Electron Density</ResourceName>
+      <AlternateName>C3_CP_WHI_ELECTRON_DENSITY</AlternateName>
+      <ReleaseDate>2026-02-28T10:00:00</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2026-02-28T10:00:00</ReleaseDate>
+          <Note>Initial release of metadata</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>This dataset contains plasma frequencies from WHISPER on spacecraft 3.
+    
+          The Waves of HIgh frequency and Sounder for Probing of Electron density by Relaxation (WHISPER) performs the measurement of the electron density on the four satellites of the Cluster project. The two main purposes of the WHISPER experiment are to record the natural waves and to make a diagnostic of the electron density using the sounding technique. The various working modes and the Fourier transforms calculated on board provide a good frequency resolution obtained in the bandwidth 2-83 kHz. Onboard data compression by the Digital Wave Processing (DWP) instrument allows a good dynamic and level resolution of the electric signal amplitude.
+          </Description>
+      <Acknowledgement> Please acknowledge the WHISPER team and the ESA Cluster Science Archive in any publication based upon use of this data. Digital Object Identifier for the WHISPER archive: https://doi.org/10.5270/esa-6stdo07</Acknowledgement>
+      <Contact>
+        <PersonID>spase://ESA/Person/Pierre.Henri</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Jean-Louis.Rauch</PersonID>
+        <Role>FormerPI</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Jean-Gabriel.Trotignon</PersonID>
+        <Role>FormerPI</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Pierrette.Decreau</PersonID>
+        <Role>FormerPI</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Patrick.Canu</PersonID>
+        <Role>DeputyPI</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Xavier.Vallieres</PersonID>
+        <Role>TechnicalContact</Role>
+        <Role>DataProducer</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Emmanuel.De.Leon</PersonID>
+        <Role>DataProducer</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Arnaud.Masson</PersonID>
+        <Role>ProjectScientist</Role>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Leonard.N.Garcia</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Early results from the WHISPER instrument on Cluster: an overview</Name>
+        <URL>https://doi.org/10.5194/angeo-19-1241-2001</URL>
+        <Description>Publication</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>WHISPER, a resonance sounder and wave analyser: performances and perspectives for the Cluster mission</Name>
+        <URL>https://doi.org/10.1023/A:1004931326404</URL>
+        <Description>Publication</Description>
+      </InformationURL>
+    </ResourceHeader>
+
+    <AccessInformation>
+      <RepositoryID>spase://ESA/Repository/ESDC</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>Cluster Science Archive (CSA) web interface</Name>
+        <URL>https://csa.esac.esa.int</URL>
+        <ProductKey>C3_CP_WHI_ELECTRON_DENSITY</ProductKey>
+      </AccessURL>
+      <AccessURL>
+        <Name>Cluster Science Archive (CSA) TAP</Name>
+        <URL>https://csa.esac.esa.int/csa-sl-tap/tap/</URL>
+        <ProductKey>C3_CP_WHI_ELECTRON_DENSITY</ProductKey>
+        <Description>Cluster data and Metadata via the European Space Agency Table Access Protocol (TAP) server</Description>
+      </AccessURL>
+      <Format>CEF</Format>
+      <Format>CDF</Format>
+      <Encoding>None</Encoding>
+      <Acknowledgement>Please acknowledge the WHISPER team and the ESA Cluster Science Archive when using these data.</Acknowledgement>
+    </AccessInformation>
+
+    <AccessInformation>
+      <RepositoryID>spase://ESA/Repository/ESDC</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessURL>
+        <Name>CSA HAPI Server</Name>
+        <URL>https://csatools.esac.esa.int/HapiServer/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>C3_CP_WHI_ELECTRON_DENSITY</ProductKey>
+        <Description>Web Service to this product using the HAPI interface</Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement>Please acknowledge the Data Providers and CSA when using these data</Acknowledgement>
+    </AccessInformation>
+
+    <AccessInformation>
+      <RepositoryID>spase://NASA/Repository/GSFC/SPDF</RepositoryID>
+      <AccessURL>
+        <Name>CDAWeb</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=C3_CP_WHI_ELECTRON_DENSITY&amp;index=sp_phys</URL>
+        <ProductKey>C3_CP_WHI_ELECTRON_DENSITY</ProductKey>
+      </AccessURL>
+      <Format>CDF</Format>
+      <Acknowledgement>Please acknowledge the Data Providers and CDAWeb when using these data.</Acknowledgement>
+    </AccessInformation>
+
+    <AccessInformation>
+      <RepositoryID>spase://NASA/Repository/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>C3_CP_WHI_ELECTRON_DENSITY</ProductKey>
+        <Description>Web Service to this product using the HAPI interface</Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement>Please acknowledge the Data Providers and CDAWeb when using these Data</Acknowledgement>
+    </AccessInformation>
+
+    <ProcessingLevel>ValueAdded</ProcessingLevel>
+    <ProviderResourceName>Electron Density</ProviderResourceName>
+    <InstrumentID>spase://ESA-NASA/Instrument/Cluster/WHISPER</InstrumentID>
+    <MeasurementType>Waves</MeasurementType>
+    <MeasurementType>ElectricField</MeasurementType>
+    <MeasurementType>ThermalPlasma</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>2001-02-07T00:00:08Z</StartDate>
+        <StopDate>2024-09-30T23:03:50Z</StopDate>
+      </TimeSpan>
+      <Cadence>PT52.0S</Cadence>
+      <CadenceMin>PT1.5S</CadenceMin>
+      <CadenceMax>PT104.0S</CadenceMax>
+    </TemporalDescription>
+    <SpectralRange>RadioFrequency</SpectralRange>
+    <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere.Magnetotail</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere.Main</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere.Polar</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere.RadiationBelt</ObservedRegion>
+    <ObservedRegion>Earth.NearSurface.AuroralRegion</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosheath</ObservedRegion>
+    <ObservedRegion>Earth.NearSurface.Plasmasphere</ObservedRegion>
+    <ObservedRegion>Earth.NearSurface.PolarCap</ObservedRegion>
+    <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+    <Keyword>Magnetosphere</Keyword>
+    <Keyword>Auroral Region</Keyword>
+    <Keyword>Polar Cap</Keyword>
+    <Keyword>Cusp</Keyword>
+    <Keyword>Bow Shock</Keyword>
+    <Keyword>Solar Wind</Keyword>
+    <Keyword>Magnetosheath</Keyword>
+    <Keyword>Cluster</Keyword>
+    <Keyword>Magnetotail</Keyword>
+    <Keyword>Lobe</Keyword>
+    <!-- Keywords pertaining to the data presentation -->
+    <Keyword>Time Series</Keyword>
+    <!-- Keywords pertaining to the physical phenomena appearing in spectrograms -->
+    <Keyword>AKR</Keyword>
+    <Keyword>Auroral hiss</Keyword>
+    <Keyword>Auroral Kilometric Radiation</Keyword>
+    <Keyword>Chorus</Keyword>
+    <Keyword>Continuum radiation</Keyword>
+    <Keyword>Equatorial Noise</Keyword>
+    <Keyword>Kilometric Continuum radiation</Keyword>
+    <Keyword>Plasmaspheric Hiss</Keyword>
+    <Keyword>Terrestrial Kilometric Radiation</Keyword>
+    <Keyword>TKR</Keyword>
+    <Keyword>Very Long Baseline Interferometry</Keyword>
+    <Keyword>VLBI</Keyword>
+    <Keyword>Langmuir Waves</Keyword>
+    <Keyword>Type III Solar Bursts</Keyword>
+    <Keyword>Electostatic Solitary Waves</Keyword>
+    <Keyword>ESW</Keyword>
+    <Keyword>Whistlers</Keyword>
+    <Keyword>Ion Acoustic Waves</Keyword>
+    <Keyword>Bernstein Waves</Keyword>
+    <Keyword>Upper Hybrid Waves</Keyword>
+    <Keyword>Lower Hybrid Waves</Keyword>
+    
+    <Parameter>
+      <Name>Universal Time</Name>
+      <ParameterKey>time_tags__C3_CP_WHI_ELECTRON_DENSITY</ParameterKey>
+      <Description>Interval centred time tag</Description>
+      <Units>s</Units>
+      <UnitsConversion/>
+      <RenderingHints>
+        <AxisLabel>UT</AxisLabel>
+      </RenderingHints>
+      <FillValue>9999-12-31T23:59:59Z</FillValue>
+      <Support>
+        <SupportQuantity>Temporal</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Delta Time</Name>
+      <ParameterKey>Delta_Time__C3_CP_WHI_ELECTRON_DENSITY</ParameterKey>
+      <Description>Half of the number of seconds corresponding the uncertainty of the time tags</Description>
+      <Units>s</Units>
+      <UnitsConversion>1>s</UnitsConversion>
+      <RenderingHints>
+        <AxisLabel>D</AxisLabel>
+      </RenderingHints>
+      <ValidMin>0.009</ValidMin>
+      <ValidMax>400</ValidMax>
+      <FillValue>-1</FillValue>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Spectrum Type</Name>
+      <ParameterKey>Spectrum_Type__C3_CP_WHI_ELECTRON_DENSITY</ParameterKey>
+      <Description>spectrum type (A: Active; N:Natural) from which the electron density is derived</Description>
+      <Units>unitless</Units>
+      <UnitsConversion>1>unitless</UnitsConversion>
+      <RenderingHints>
+        <AxisLabel>S_T</AxisLabel>
+      </RenderingHints>
+      <FillValue>-</FillValue>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Computation Method</Name>
+      <ParameterKey>Computation_Method__C3_CP_WHI_ELECTRON_DENSITY</ParameterKey>
+      <Description>method used for computation of electron density - see CAA-EST-CR-WHI</Description>
+      <Units>unitless</Units>
+      <UnitsConversion/>
+      <RenderingHints>
+        <AxisLabel>Meth</AxisLabel>
+      </RenderingHints>
+      <FillValue>XX</FillValue>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>External Data</Name>
+      <ParameterKey>External_Data__C3_CP_WHI_ELECTRON_DENSITY</ParameterKey>
+      <Description>use of external data (-: none;  E: EFW s/c potential)</Description>
+      <Units>unitless</Units>
+      <UnitsConversion/>
+      <RenderingHints>
+        <AxisLabel>E_D</AxisLabel>
+      </RenderingHints>
+      <FillValue>-</FillValue>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Human Validation</Name>
+      <ParameterKey>Human_Validation__C3_CP_WHI_ELECTRON_DENSITY</ParameterKey>
+      <Description>human validation (V:viewed and accepted; C:corrected manually; -:none)</Description>
+      <Units>unitless</Units>
+      <UnitsConversion/>
+      <RenderingHints>
+        <AxisLabel>Val</AxisLabel>
+      </RenderingHints>
+      <FillValue>-</FillValue>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Electron Density</Name>
+      <ParameterKey>Electron_Density__C3_CP_WHI_ELECTRON_DENSITY</ParameterKey>
+      <Description>Electron Density</Description>
+      <Units>cm^-3</Units>
+      <UnitsConversion>1.0e6>m^-3</UnitsConversion>
+      <RenderingHints>
+        <AxisLabel>E-D</AxisLabel>
+      </RenderingHints>
+      <ValidMin>0.04</ValidMin>
+      <ValidMax>100</ValidMax>
+      <FillValue>-1</FillValue>
+      <Particle>
+        <ParticleType>Electron</ParticleType>
+        <ParticleQuantity>NumberDensity</ParticleQuantity>
+      </Particle>
+    </Parameter>
+    <Parameter>
+      <Name>Uncertainty</Name>
+      <ParameterKey>Uncertainty__C3_CP_WHI_ELECTRON_DENSITY</ParameterKey>
+      <Description>Uncertainty of the computed electron density</Description>
+      <Units>cm^-3</Units>
+      <UnitsConversion>1.0e6>m^-3</UnitsConversion>
+      <RenderingHints>
+        <AxisLabel>Unc</AxisLabel>
+      </RenderingHints>
+      <ValidMin>0</ValidMin>
+      <ValidMax>100</ValidMax>
+      <FillValue>-1</FillValue>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Contrast</Name>
+      <ParameterKey>Contrast__C3_CP_WHI_ELECTRON_DENSITY</ParameterKey>
+      <Description>Local contrast for the computed density - see CAA-EST-CR-WHI</Description>
+      <Units>unitless</Units>
+      <UnitsConversion>1>unitless</UnitsConversion>
+      <RenderingHints>
+        <AxisLabel>Contr</AxisLabel>
+      </RenderingHints>
+      <ValidMin>0</ValidMin>
+      <ValidMax>1</ValidMax>
+      <FillValue>-1</FillValue>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Quality</Name>
+      <ParameterKey>Quality__C3_CP_WHI_ELECTRON_DENSITY</ParameterKey>
+      <Description>quality flag (3= semi-automatic derivation, 4= manual derivation)</Description>
+      <Units>unitless</Units>
+      <UnitsConversion>1>unitless</UnitsConversion>
+      <RenderingHints>
+        <AxisLabel>Qual</AxisLabel>
+      </RenderingHints>
+      <ValidMin>1</ValidMin>
+      <ValidMax>4</ValidMax>
+      <FillValue>-1</FillValue>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
+    </Parameter>
+  </NumericalData>
+</Spase>

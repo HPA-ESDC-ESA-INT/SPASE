@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://spase-group.org/data/schema/spase-2.7.0.xsd">
+  <Version>2.7.0</Version>
+  <Person>
+    <ResourceID>spase://ESA/Person/Emmanuel.De_Leon</ResourceID>
+    <NamingAuthority>ESA</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <PersonName>Emmanuel De Leon</PersonName>
+    <OrganizationName>Laboratoire de Physique et Chimie de l'Environnement et de l'Espace, OSUC, Univ Orleans, CNRS, CNES, F-45071 Orleans, France</OrganizationName>
+    <Email>emmanuel.de-leon@cnrs.fr</Email>
+    <ORCIdentifier>0009-0009-8779-4379</ORCIdentifier>
+  </Person>
+</Spase>
