@@ -1,7 +1,19 @@
 <Spase xmlns="http://www.spase-group.org/data/schema"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+    xsi:schemaLocation="https://www.spase-group.org/data/schema  
+    https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
     <Version>2.7.1</Version>
+    <MetadataRightsList>
+        <Rights>
+            <!--
+                <SchemeURI>https://creativecommons.org/licenses/</SchemeURI>
+                <RightsIdentifierScheme>CC</RightsIdentifierScheme>
+             -->
+            <RightsIdentifier>CC-BY-NC-3.0-IGO</RightsIdentifier>
+            <RightsURI>https://creativecommons.org/licenses/by-nc/3.0/igo/</RightsURI>
+            <RightsName>Creative Commons Attribution-NonCommercial 3.0 IGO</RightsName>
+        </Rights>
+    </MetadataRightsList>
     <NumericalData>
         <ResourceID>spase://ESA-NASA/NumericalData/Cluster/C4/DWP/PCOR/ST/VariableCadence</ResourceID>
         <NamingAuthority>ESA-NASA</NamingAuthority>
@@ -65,6 +77,10 @@
                 <Role>ProjectScientist</Role>
                 <Role>MetadataContact</Role>
             </Contact>
+            <Contact>
+                <PersonID>spase://ESA/Person/Philippe.Escoubet</PersonID>
+                <Role>MissionManager</Role>
+            </Contact>
             <InformationURL>
                 <Name>The Digital Wave-Processing Experiment on Cluster</Name>
                 <URL>https://doi.org/10.1023/A:1004914211866</URL>
@@ -74,6 +90,18 @@
         <AccessInformation>
             <RepositoryID>spase://ESA/Repository/ESDC</RepositoryID>
             <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <RightsList>
+                <Rights>
+                    <!--
+                         <SchemeURI>https://creativecommons.org/licenses/</SchemeURI>
+                         <RightsIdentifierScheme>CC</RightsIdentifierScheme>
+                    -->
+                    <RightsIdentifier>CC-BY-NC-3.0-IGO</RightsIdentifier>
+                    <RightsURI>https://creativecommons.org/licenses/by-nc/3.0/igo/</RightsURI>
+                    <RightsName>Creative Commons Attribution-NonCommercial 3.0 IGO</RightsName>
+                </Rights>
+            </RightsList>
             <AccessURL>
                 <Name>CSA</Name>
                 <URL>https://csa.esac.esa.int</URL>
@@ -94,6 +122,18 @@
         <AccessInformation>
             <RepositoryID>spase://ESA/Repository/ESDC</RepositoryID>
             <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <RightsList>
+                <Rights>
+                    <!--
+                         <SchemeURI>https://creativecommons.org/licenses/</SchemeURI>
+                         <RightsIdentifierScheme>CC</RightsIdentifierScheme>
+                    -->
+                    <RightsIdentifier>CC-BY-NC-3.0-IGO</RightsIdentifier>
+                    <RightsURI>https://creativecommons.org/licenses/by-nc/3.0/igo/</RightsURI>
+                    <RightsName>Creative Commons Attribution-NonCommercial 3.0 IGO</RightsName>
+                </Rights>
+            </RightsList>
             <AccessURL>
                 <Name>CSA HAPI Server</Name>
                 <URL>https://csatools.esac.esa.int/HapiServer/hapi</URL>
