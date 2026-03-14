@@ -1,7 +1,19 @@
 <Spase xmlns="http://www.spase-group.org/data/schema"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+    xsi:schemaLocation="https://www.spase-group.org/data/schema  
+    https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
     <Version>2.7.1</Version>
+    <MetadataRightsList>
+        <Rights>
+            <!--
+                <SchemeURI>https://creativecommons.org/licenses/</SchemeURI>
+                <RightsIdentifierScheme>CC</RightsIdentifierScheme>
+             -->
+            <RightsIdentifier>CC-BY-NC-3.0-IGO</RightsIdentifier>
+            <RightsURI>https://creativecommons.org/licenses/by-nc/3.0/igo/</RightsURI>
+            <RightsName>Creative Commons Attribution-NonCommercial 3.0 IGO</RightsName>
+        </Rights>
+    </MetadataRightsList>
     <NumericalData>
         <ResourceID>spase://ESA-NASA/NumericalData/Cluster/C1/FGM/SPIN/PT4S</ResourceID>
         <NamingAuthority>ESA-NASA</NamingAuthority>
@@ -48,6 +60,14 @@
                 <Role>ProjectScientist</Role>
                 <Role>MetadataContact</Role>
             </Contact>
+            <Contact>
+                <PersonID>spase://ESA/Person/Philippe.Escoubet</PersonID>
+                <Role>MissionManager</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://ESA/Person/Leonard.N.Garcia</PersonID>
+                <Role>MetadataContact</Role>
+            </Contact>
             <InformationURL>
                 <Name>The Cluster Magnetic Field Investigation: overview of in-flight performance 
                     and initial results</Name>
@@ -58,6 +78,18 @@
         <AccessInformation>
             <RepositoryID>spase://ESA/Repository/ESDC</RepositoryID>
             <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <RightsList>
+                <Rights>
+                    <!--
+                         <SchemeURI>https://creativecommons.org/licenses/</SchemeURI>
+                         <RightsIdentifierScheme>CC</RightsIdentifierScheme>
+                    -->
+                    <RightsIdentifier>CC-BY-NC-3.0-IGO</RightsIdentifier>
+                    <RightsURI>https://creativecommons.org/licenses/by-nc/3.0/igo/</RightsURI>
+                    <RightsName>Creative Commons Attribution-NonCommercial 3.0 IGO</RightsName>
+                </Rights>
+            </RightsList>
             <AccessURL>
                 <Name>CSA</Name>
                 <URL>https://csa.esac.esa.int</URL>
@@ -78,6 +110,18 @@
         <AccessInformation>
             <RepositoryID>spase://ESA/Repository/ESDC</RepositoryID>
             <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <RightsList>
+                <Rights>
+                    <!--
+                         <SchemeURI>https://creativecommons.org/licenses/</SchemeURI>
+                         <RightsIdentifierScheme>CC</RightsIdentifierScheme>
+                    -->
+                    <RightsIdentifier>CC-BY-NC-3.0-IGO</RightsIdentifier>
+                    <RightsURI>https://creativecommons.org/licenses/by-nc/3.0/igo/</RightsURI>
+                    <RightsName>Creative Commons Attribution-NonCommercial 3.0 IGO</RightsName>
+                </Rights>
+            </RightsList>
             <AccessURL>
                 <Name>CSA HAPI Server</Name>
                 <URL>https://csatools.esac.esa.int/HapiServer/hapi</URL>
@@ -92,6 +136,18 @@
         </AccessInformation>
         <AccessInformation>
             <RepositoryID>spase://NASA/Repository/GSFC/SPDF</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <RightsList>
+                <Rights>
+                    <SchemeURI>https://spdx.org/licenses/</SchemeURI>
+                    <RightsIdentifierScheme>SPDX</RightsIdentifierScheme>
+                    <RightsIdentifier>CC0-1.0</RightsIdentifier>
+                    <RightsURI>https://spdx.org/licenses/CC0-1.0.html</RightsURI>
+                    <RightsName>Creative Commons Zero v1.0 Universal</RightsName>
+                    <Note>CC0 1.0 Universal is the Creative Commons license applicable to all publicly available SPASE metadata descriptions</Note>
+                </Rights>
+            </RightsList>
             <AccessURL>
                 <Name>CDAWeb</Name>
                 <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=C1_CP_FGM_SPIN&amp;index=sp_phys</URL>
@@ -103,6 +159,16 @@
             <RepositoryID>spase://NASA/Repository/GSFC/SPDF</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
+            <RightsList>
+                <Rights>
+                    <SchemeURI>https://spdx.org/licenses/</SchemeURI>
+                    <RightsIdentifierScheme>SPDX</RightsIdentifierScheme>
+                    <RightsIdentifier>CC0-1.0</RightsIdentifier>
+                    <RightsURI>https://spdx.org/licenses/CC0-1.0.html</RightsURI>
+                    <RightsName>Creative Commons Zero v1.0 Universal</RightsName>
+                    <Note>CC0 1.0 Universal is the Creative Commons license applicable to all publicly available SPASE metadata descriptions</Note>
+                </Rights>
+            </RightsList>
             <AccessURL>
                 <Name>CDAWeb HAPI Server</Name>
                 <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
