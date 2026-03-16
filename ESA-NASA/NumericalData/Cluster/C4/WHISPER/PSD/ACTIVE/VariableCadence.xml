@@ -29,14 +29,17 @@
       <Contact>
         <PersonID>spase://ESA/Person/Jean-Louis.Rauch</PersonID>
         <Role>FormerPI</Role>
+        <Note>PI: 2012-2021</Note>
       </Contact>
       <Contact>
         <PersonID>spase://ESA/Person/Jean-Gabriel.Trotignon</PersonID>
         <Role>FormerPI</Role>
+        <Note>PI: 2007-2012</Note>
       </Contact>
       <Contact>
         <PersonID>spase://ESA/Person/Pierrette.Decreau</PersonID>
         <Role>FormerPI</Role>
+        <Note>PI: 1987-2007</Note>
       </Contact>
       <Contact>
         <PersonID>spase://ESA/Person/Patrick.Canu</PersonID>
