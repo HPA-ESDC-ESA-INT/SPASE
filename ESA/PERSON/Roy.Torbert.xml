@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_1.xsd">
+  <Version>2.7.1</Version>
+  <Person>
+    <ResourceID>spase://ESA/Person/Roy.Torbert</ResourceID>
+    <NamingAuthority>ESA</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <PersonName>Roy Torbert</PersonName>
+    <OrganizationName>University of New Hampshire</OrganizationName>
+    <Email>roy.torbert@unh.edu</Email>
+    <ORCIdentifier>0000-0001-7188-8690</ORCIdentifier>
+  </Person>
+</Spase>

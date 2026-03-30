@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_1.xsd">
+  <Version>2.7.1</Version>
+  <Person>
+    <ResourceID>spase://ESA/Person/Hans.Vaith</ResourceID>
+    <NamingAuthority>ESA</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <PersonName>Hans Vaith</PersonName>
+    <OrganizationName>University of New Hampshire</OrganizationName>
+    <Email>hans.vaith@unh.edu</Email>
+  </Person>
+</Spase>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_1.xsd">
+  <Version>2.7.1</Version>
+  <Person>
+    <ResourceID>spase://ESA/Person/Mikhail.Rashev</ResourceID>
+    <NamingAuthority>ESA</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <PersonName>Mikhail Rashev</PersonName>
+    <OrganizationName>Max-Planck Institute for Solar System Research</OrganizationName>
+    <Email>rashev@mps.mpg.de</Email>
+    <ORCIdentifier>0000-0002-6101-2844</ORCIdentifier>
+  </Person>
+</Spase>
