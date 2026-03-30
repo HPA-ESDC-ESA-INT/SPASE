@@ -1,0 +1,248 @@
+<Spase xmlns="http://www.spase-group.org/data/schema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://www.spase-group.org/data/schema  
+  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <NumericalData>
+    <ResourceID>spase://ESA-NASA/NumericalData/Cluster/C4/RAPID/OmniDirectionalDistribution/DifferentialFlux/Proton/PT4S</ResourceID>
+    <NamingAuthority>ESA-NASA</NamingAuthority>
+    <ResourceType>NumericalData</ResourceType>
+    <ResourceHeader>
+      <ResourceName>Proton omni-directional distribution, differential flux</ResourceName>
+      <AlternateName>C4_CP_RAP_HSPCT</AlternateName>
+      <ReleaseDate>2026-03-30T12:00:00</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2026-03-30T12:00:00</ReleaseDate>
+          <Note>Initial release of metadata</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>This dataset contains differential fluxes of Protons from 8 energy channels, omni-directional observed by the 
+        IIMS detector heads of the Research with Adaptive Particle Imaging Detectors (RAPID) instrument onboard Cluster C4.
+        
+        The RAPID spectrometer for the Cluster mission is an advanced particle detector for the analysis of suprathermal plasma distributions 
+        in the energy range from 39-400 keV for electrons, 28-1500 keV (4000 keV) for hydrogen, and 10 keV/nuc - 1500 keV (4000 keV) 
+        for heavier ions.
+        
+        The middle ion detector head failed early in the Mission. Since about 2007, the efficiencies of the electron detectors have steadily decayed, 
+        the effect being strongest for those perpendicular to the spin axis (so-called donut effect). 
+        Correction factors are being applied as best as can be determined, but must be viewed with caution.
+      </Description>
+      <Acknowledgement>Please acknowledge the instrument team andthe ESA Cluster Science Archive when using these data </Acknowledgement>
+      <Contact>
+        <PersonID>spase://ESA/Person/Patrick.W.Daly</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Berend.Wilken</PersonID>
+        <Role>FormerPI</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Esa.Vilenius</PersonID>
+        <Role>ArchiveSpecialist</Role>
+        <Role>DataProducer</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Elena.Kronberg</PersonID>
+        <Role>ArchiveSpecialist</Role>
+        <Role>DataProducer</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Arnaud.Masson</PersonID>
+        <Role>ProjectScientist</Role>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Philippe.Escoubet</PersonID>
+        <Role>MissionManager</Role>
+      </Contact>
+      <InformationURL>
+        <Name>First results from the RAPID imaging energetic particle spectrometer on board Cluster</Name>
+        <URL>https://doi.org/10.5194/angeo-19-1355-2001</URL>
+        <Description>Publication</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>RAPID - The Imaging Energetic Particle Spectrometer on Cluster</Name>
+        <URL>https://doi.org/10.1023/A:1004994202296</URL>
+        <Description>Publication</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://ESA/Repository/ESDC</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CSA</Name>
+        <URL>https://csa.esac.esa.int</URL>
+        <ProductKey>C4_CP_RAP_HSPCT</ProductKey>
+        <Description>Cluster Science Archive (CSA) web interface</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>Cluster Science Archive TAP server</Name>
+        <URL>https://csa.esac.esa.int/csa-sl-tap/tap</URL>
+        <ProductKey>C4_CP_RAP_HSPCT</ProductKey>
+        <Description>Cluster data and metadata via the European Space Agency Table 
+          Access Protocol (TAP) server
+        </Description>
+      </AccessURL>
+      <Format>CEF</Format>
+      <Format>CDF</Format>
+      <Encoding>None</Encoding>
+      <Acknowledgement>Please acknowledge the instrument team andthe ESA Cluster Science Archive when using these data </Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://ESA/Repository/ESDC</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CSA HAPI Server</Name>
+        <URL>https://csatools.esac.esa.int/HapiServer/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>C4_CP_RAP_HSPCT</ProductKey>
+        <Description>Web Service to this product using the HAPI interface
+        </Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement>Please acknowledge the Data Providers and CSA when using these data</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://NASA/Repository/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=C4_CP_RAP_HSPCT&amp;index=sp_phys</URL>
+        <ProductKey>C4_CP_RAP_HSPCT</ProductKey>
+      </AccessURL>
+      <Format>CDF</Format>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://NASA/Repository/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>C4_CP_RAP_HSPCT</ProductKey>
+        <Description>Web Service to this product using the HAPI interface</Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement>Please acknowledge the Data Providers and CDAWeb when using these Data</Acknowledgement>
+    </AccessInformation>
+    <ProcessingLevel>Calibrated</ProcessingLevel>
+    <ProviderResourceName>Proton omni-directional distribution, differential flux</ProviderResourceName>
+    <InstrumentID>spase://ESA-NASA/Instrument/Cluster/RAPID</InstrumentID>
+    <MeasurementType>EnergeticParticles</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>2000-12-07T07:08:33Z</StartDate>
+        <StopDate>2024-10-01T00:00:00Z</StopDate>
+      </TimeSpan>
+      <Cadence>PT4.0S</Cadence>
+    </TemporalDescription>
+    <ObservedRegion>Earth.Magnetosheath</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere.Magnetotail</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere.Main</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere.Polar</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere.RadiationBelt</ObservedRegion>
+    <ObservedRegion>Earth.NearSurface.AuroralRegion</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosheath</ObservedRegion>
+    <ObservedRegion>Earth.NearSurface.Plasmasphere</ObservedRegion>
+    <ObservedRegion>Earth.NearSurface.PolarCap</ObservedRegion>
+    <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+    <Keyword>Magnetosphere</Keyword>
+    <Keyword>Auroral Region</Keyword>
+    <Keyword>Polar Cap</Keyword>
+    <Keyword>Cusp</Keyword>
+    <Keyword>Bow Shock</Keyword>
+    <Keyword>Solar Wind</Keyword>
+    <Keyword>Magnetosheath</Keyword>
+    <Keyword>Cluster</Keyword>
+    <Keyword>Magnetotail</Keyword>
+    <Keyword>Lobe</Keyword>
+    <Keyword>RAPID</Keyword>
+    <Keyword>omni-directional</Keyword>
+    <Keyword>Protons</Keyword>
+    <Parameter>
+      <Name>Interval centered time tag</Name>
+      <ParameterKey>Time_tags__C4_CP_RAP_HSPCT</ParameterKey>
+      <Description>Interval centered time tag</Description>
+      <Units>s</Units>
+      <UnitsConversion>1.0>s</UnitsConversion>
+      <ValidMin>2000-12-07T07:08:33Z</ValidMin>
+      <ValidMax>2024-10-01T00:00:00Z</ValidMax>
+      <FillValue>9999-12-31T23:59:59.999Z</FillValue>
+      <Support>
+        <SupportQuantity>Temporal</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Time half interval</Name>
+      <ParameterKey>Time_half_interval__C4_CP_RAP_HSPCT</ParameterKey>
+      <Description>Time half interval</Description>
+      <Units>s</Units>
+      <UnitsConversion>1.0>s</UnitsConversion>
+      <ValidMin>1.75</ValidMin>
+      <ValidMax>2.25</ValidMax>
+      <FillValue>-1.000</FillValue> 
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Proton Differential Flux</Name>
+      <ParameterKey>Proton_Dif_flux__C4_CP_RAP_HSPCT</ParameterKey>
+      <Description>C4 Proton Differential Flux</Description>
+      <Units>Particles/(cm^2 s sr keV)</Units>
+      <UnitsConversion>6.242E+19>(particles) m^-2 s^-1 sr^-1 J^-1</UnitsConversion>
+      <ValidMin>0.0</ValidMin>
+      <ValidMax>1.0E+06</ValidMax>
+      <FillValue>-1.000E+31</FillValue>
+      <Particle>
+        <ParticleType>Proton</ParticleType>
+        <Qualifier>Differential</Qualifier>
+        <ParticleQuantity>NumberFlux</ParticleQuantity>
+      </Particle>
+    </Parameter>
+    <Parameter>
+      <Name>Standard Deviation of Proton Differential Flux</Name>
+      <ParameterKey>Proton_Dif_flux_SD__C4_CP_RAP_HSPCT</ParameterKey>
+      <Description>C4 Standard Deviation of Proton Differential Flux</Description>
+      <Units>Particles/(cm^2 s sr keV)</Units>
+      <UnitsConversion>6.242E+19>(particles) m^-2 s^-1 sr^-1 J^-1</UnitsConversion>
+      <ValidMin>0.0</ValidMin>
+      <ValidMax>1.0E+06</ValidMax>
+      <Particle>
+        <ParticleType>Proton</ParticleType>
+        <Qualifier>Differential</Qualifier>
+        <ParticleQuantity>NumberFlux</ParticleQuantity>
+      </Particle>
+    </Parameter>
+    <Parameter>
+      <Name>Energy channels</Name>
+      <ParameterKey>Dimension_E__C4_CP_RAP_HSPCT</ParameterKey>
+      <Description>Proton energy thresholds</Description>
+      <Units>keV</Units>
+      <UnitsConversion>1.602E-16>J</UnitsConversion>
+      <FillValue>0.000</FillValue>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Data quality flag</Name>
+      <ParameterKey>Quality__C4_CP_RAP_HSPCT</ParameterKey>
+      <Description>CSA Data quality: 0 N/A, 2 rates, 3 processed data</Description>
+      <Units>keV</Units>
+      <UnitsConversion>1.602E-16>J</UnitsConversion>
+      <ValidMin>0</ValidMin>
+      <ValidMax>3</ValidMax>
+      <FillValue>-1</FillValue>
+      <Support>
+        <SupportQuantity>DataQuality</SupportQuantity>
+      </Support>
+    </Parameter>
+  </NumericalData>
+</Spase>
