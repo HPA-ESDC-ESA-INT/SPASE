@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_1.xsd">
+   <Version>2.7.1</Version>
+   <NumericalData>
+      <ResourceID>spase://ESA-NASA/NumericalData/Cluster/C1/EDI/SPIN/VariableCadence</ResourceID>
+      <NamingAuthority>ESA-NASA</NamingAuthority>
+      <ResourceType>NumericalData</ResourceType>
+      <ResourceHeader>
+         <ResourceName>EDI Electron Drift Velocity and Electric Field, spin resolution</ResourceName>
+         <AlternateName>C1_CP_EDI_SPIN</AlternateName>
+         <ReleaseDate>2026-03-15T12:00:00.00</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2026-03-15T12:00:00.00</ReleaseDate>
+               <Note>Initial release of metadata.</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>This dataset contains spin resolution measurements of the electron drift velocity
+            and electric field with GOOD/CAUTION qualities from the EDI experiment on the Cluster C1 spacecraft. 
+            These data have been converted into Cluster Exchange Format from the orignal Cluster Science Data System 
+            Common Data Format (CDF) Prime Parameter files that were made available through the Cluster Science Data System. 
+            The SPIN dataset is identical to the PP dataset but without chi_squared variable.
+         </Description>
+         <Acknowledgement>Please acknowledge the EDI team and ESA Cluster Active Archive in any publication based upon use of this data. 
+            Digital Object Identifier for the EDI archive: https://doi.org/10.5270/esa-jti98hx.
+         </Acknowledgement>
+         <Contact>
+            <PersonID>spase://ESA/Person/Roy.Torbert</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://ESA/Person/Goetz.Paschmann</PersonID>
+            <Role>FormerPI</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://ESA/Person/Mikhail.Rashev</PersonID>
+            <Role>TeamMember</Role>
+            <Role>ArchiveSpecialist</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://ESA/Person/Hans.Vaith</PersonID>
+            <Role>TeamMember</Role>
+            <Role>ProjectEngineer</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://ESA/Person/Mark.Chutter</PersonID>
+            <Role>TeamMember</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://ESA/Person/Arnaud.Masson</PersonID>
+            <Role>ProjectScientist</Role>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Cluster EDI reference webpage with DOI information</Name>
+            <URL>https://doi.org/10.5270/esa-jti98hx</URL>
+            <Description>Website</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>The Electron Drift Instrument on Cluster: overview of first results</Name>
+            <URL>https://doi.org/10.5194/angeo-19-1273-2001</URL>
+            <Description>Publication</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>The Electron Drift Instrument for Cluster</Name>
+            <URL>https://doi.org/10.1023/A:1004917512774</URL>
+            <Description>Publication</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <AccessInformation>
+         <RepositoryID>spase://ESA/Repository/ESDC</RepositoryID>
+         <Availability>Online</Availability>
+         <AccessURL>
+            <Name>Cluster Science Archive (CSA) web interface</Name>
+            <URL>https://csa.esac.esa.int</URL>
+            <ProductKey>C1_CP_EDI_SPIN</ProductKey>
+         </AccessURL>
+         <AccessURL>
+            <Name>Cluster Science Archive (CSA) TAP</Name>
+            <URL>https://csa.esac.esa.int/csa-sl-tap/tap/</URL>
+            <ProductKey>C1_CP_EDI_SPIN</ProductKey>
+            <Description> Cluster Data and Metadata via the European Space Agency Table Access Protocol (TAP) server</Description>
+         </AccessURL>
+         <Format>CEF</Format>
+         <Format>CDF</Format>
+      </AccessInformation>
+      <AccessInformation>
+         <RepositoryID>spase://ESA/Repository/ESDC</RepositoryID>
+         <Availability>Online</Availability>
+         <AccessURL>
+            <Name>CSA HAPI Server</Name>
+            <URL>https://csatools.esac.esa.int/HapiServer/hapi</URL>
+            <Style>HAPI</Style>
+            <ProductKey>C1_CP_EDI_SPIN</ProductKey>
+            <Description>Web Service to this product using the HAPI interface</Description>
+         </AccessURL>
+         <Format>CSV</Format>
+         <Acknowledgement>Please acknowledge the Data Providers and CSA when using these data</Acknowledgement>
+      </AccessInformation>
+      <AccessInformation>
+         <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+         <Availability>Online</Availability>
+         <AccessRights>Open</AccessRights>
+         <AccessURL>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
+            <URL>ftps://spdf.gsfc.nasa.gov/pub/data/cluster/c1/edi/electron_driftvelo_efield_3dvect_spinreso/</URL>
+            <ProductKey>C1_CP_EDI_SPIN</ProductKey>
+            <Description>Access to Data in CDF Format via ftps from SPDF</Description>
+         </AccessURL>
+         <AccessURL>
+            <Name>HTTPS from SPDF</Name>
+            <URL>https://spdf.gsfc.nasa.gov/pub/data/cluster/c1/edi/electron_driftvelo_efield_3dvect_spinreso/</URL>
+            <ProductKey>C1_CP_EDI_SPIN</ProductKey>
+            <Description>Access to Data in CDF Format via https from SPDF</Description>
+         </AccessURL>
+         <AccessURL>
+            <Name>CDAWeb</Name>
+            <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=C1_CP_EDI_SPIN&amp;index=sp_phys</URL>
+            <ProductKey>C1_CP_EDI_SPIN</ProductKey>
+            <Description>Access to ASCII, CDF, and Plots via NASA/GSFC CDAWeb</Description>
+         </AccessURL>
+         <Format>CDF</Format>
+         <Encoding>None</Encoding>
+         <Acknowledgement>Please acknowledge the Principal Investigator. 
+            Please acknowledge the Data Providers and CDAWeb when using these Data.
+         </Acknowledgement>
+      </AccessInformation>
+      <ProcessingLevel>Calibrated</ProcessingLevel>
+      <ProviderProcessingLevel>Derived</ProviderProcessingLevel>
+      <InstrumentID>spase://ESA-NASA/Instrument/Cluster/EDI</InstrumentID>
+      <MeasurementType>ElectricField</MeasurementType>
+      <TemporalDescription>
+         <TimeSpan>
+            <StartDate>2001-02-02T07:52:05Z</StartDate>
+            <StopDate>2024-09-12T09:07:29Z</StopDate>
+         </TimeSpan>
+         <Cadence>PT4.412S</Cadence>
+         <CadenceMin>PT3.636S</CadenceMin>
+         <CadenceMax>PT4.412S</CadenceMax>
+      </TemporalDescription>
+      <ObservedRegion>Earth.Magnetosheath</ObservedRegion>
+      <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+      <ObservedRegion>Earth.Magnetosphere.Magnetotail</ObservedRegion>
+      <ObservedRegion>Earth.Magnetosphere.RadiationBelt</ObservedRegion>
+      <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
+      <ObservedRegion>Earth.NearSurface.Plasmasphere</ObservedRegion>
+      <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+      <Keyword>EDI</Keyword>
+      <Keyword>Electron Dirft Instrument (EDI)</Keyword>
+      <Keyword>Electrons</Keyword>
+      <Keyword>Electric Field</Keyword>
+      <Keyword>Electron Drift Velocity</Keyword>
+      <Keyword>Cluster</Keyword>
+      <Keyword>Magnetosphere</Keyword>
+      <Keyword>Solar Wind</Keyword>
+      <Parameter>
+         <Name>Universal Time</Name>
+         <ParameterKey>time_tags__C1_CP_EDI_SPIN</ParameterKey>
+         <Description>Interval centred time tag</Description>
+         <Units>s</Units>
+         <UnitsConversion>1.0&gt;s</UnitsConversion>
+         <RenderingHints>
+            <AxisLabel>UT</AxisLabel>
+            <ValueFormat>A24</ValueFormat>
+         </RenderingHints>
+         <ValidMin>2001-02-02T07:52:05Z</ValidMin>
+         <ValidMax>2024-09-12T09:07:29Z</ValidMax>
+         <FillValue>9999-12-31T23:59:59Z</FillValue>
+         <Support>
+            <SupportQuantity>Temporal</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Half width of averaging interval</Name>
+         <ParameterKey>half_interval__C1_CP_EDI_SPIN</ParameterKey>
+         <Description>Half averaging interval length</Description>
+         <Cadence>PT4S</Cadence>
+         <Units>s</Units>
+         <UnitsConversion>1.0&gt;s</UnitsConversion>
+         <RenderingHints>
+            <AxisLabel>s</AxisLabel>
+            <ValueFormat>F6</ValueFormat>
+         </RenderingHints>
+         <FillValue>-1.0e+28</FillValue>
+         <Support>
+            <SupportQuantity>Other</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Status</Name>
+         <ParameterKey>status__C1_CP_EDI_SPIN</ParameterKey>
+         <Description>EDI Status</Description>
+         <RenderingHints>
+            <AxisLabel>Status</AxisLabel>
+            <ValueFormat>I3</ValueFormat>
+         </RenderingHints>
+         <FillValue>255</FillValue>
+         <Support>
+            <SupportQuantity>Housekeeping</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Drift Velocity, spin resolution in GSE</Name>
+         <ParameterKey>V_ed_xyz_gse__C1_CP_EDI_SPIN</ParameterKey>
+         <Description>Electron Drift Velocity, spin resolution in GSE</Description>
+         <Caveats>The quality of the data is in status byte 0. Other options to filter are in bytes 3,5,6. 
+            More information can be found in UG(p.8) and ICD documents.</Caveats>
+         <Units>km s^-1</Units>
+         <UnitsConversion>1.0E3&gt;m s^-1</UnitsConversion>
+         <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>Velocity</AxisLabel>
+            <ValueFormat>F11</ValueFormat>
+         </RenderingHints>
+         <FillValue>-1.0e+31</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <ParticleQuantity>Velocity</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Electric Field, spin resolution in GSE</Name>
+         <ParameterKey>E_xyz_gse__C1_CP_EDI_SPIN</ParameterKey>
+         <Description>Electric Field, spin resolution in GSE</Description>
+         <Caveats>The quality of the data is in status byte 0. Other options to filter are in bytes 3,5,6. 
+            More information can be found in UG(p.8) and ICD documents.</Caveats>
+         <Units>mV m^-1</Units>
+         <UnitsConversion>1.0E-3&gt;V m^-1</UnitsConversion>
+         <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>E</AxisLabel>
+            <ValueFormat>F11</ValueFormat>
+         </RenderingHints>
+         <FillValue>-1.0e+31</FillValue>
+         <Field>
+            <FieldQuantity>Electric</FieldQuantity>
+         </Field>
+      </Parameter>
+   </NumericalData>
+</Spase>
