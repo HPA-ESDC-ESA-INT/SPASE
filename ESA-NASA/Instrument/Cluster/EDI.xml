@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Instrument>
+    <ResourceID>spase://ESA-NASA/Instrument/Cluster/EDI</ResourceID>
+    <NamingAuthority>ESA-NASA</NamingAuthority>
+    <ResourceType>Instrument</ResourceType>
+    <ResourceHeader>
+      <ResourceName>Cluster Electron Drift Instrument (EDI)</ResourceName>
+      <AlternateName>EDI</AlternateName>
+      <DOI>https://doi.org/10.5270/esa-jti98hx</DOI>
+      <ReleaseDate>2026-03-15T12:00:00Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2026-03-15T12:00:00Z</ReleaseDate>
+          <Note>First release.</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>EDI key scientific datasets for Cluster 1 (similar for Cluster 2 and Cluster 3, not working on Cluster 4)
+        
+        *Dataset ID	Dataset content
+        C1_CP_EDI_SPIN	Electron Drift Velocity and Electric Field (GSE), spin resolution
+        C1_CP_EDI_MP	Electron Drift Velocity and Electric Field (GSE), best resolution
+        C1_CP_EDI_AEDC	Corrected ambient electron counts (AE mode)
+        C1_CP_EDI_QZC	Background electron counts collected during EDI active electron drift operation (QZC mode)
+      </Description>
+      <Contact>
+        <PersonID>spase://ESA/Person/Roy.Torbert</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Mikhail.Rashev</PersonID>
+        <Role>TeamMember</Role>
+        <Role>ArchiveSpecialist</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>ElectronDriftInstrument</InstrumentType>
+    <InvestigationName>Cluster EDI instrument</InvestigationName>
+    <ObservatoryID>spase://ESA-NASA/Observatory/Cluster</ObservatoryID>
+  </Instrument>
+</Spase>
