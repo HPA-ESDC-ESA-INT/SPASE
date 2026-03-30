@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.spase-group.org/data/schema 
+  http://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Instrument>
+    <ResourceID>spase://ESA-NASA/Instrument/Cluster/RAPID</ResourceID>
+    <NamingAuthority>ESA-NASA</NamingAuthority>
+    <ResourceType>Instrument</ResourceType>
+    <ResourceHeader>
+      <ResourceName>Research with Adaptive Particle Imaging Detectors</ResourceName>
+      <AlternateName>RAPID</AlternateName>
+      <DOI>https://doi.org/10.5270/esa-7bx3aos</DOI>
+      <ReleaseDate>2026-03-30T00:00:00Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2026-03-30T00:00:00Z</ReleaseDate>
+          <Note>First release</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>RAPID key scientific datasets for Cluster 1 (similar for all other Cluster spacecraft)
+        
+        Omni-directional fluxes
+        Dataset ID	Dataset content
+        C1_CP_RAP_ESPCT6	Electron, omni-directional, differential particle flux
+        C1_CP_RAP_HSPCT	Proton, omni-directional distribution, differential particle flux
+        C1_CP_RAP_ISPCT_He	Helium, omni-directional distribution, differential particle flux
+        C1_CP_RAP_ISPCT_CNO	CNO, omni-directional distribution, differential particle flux
+        
+        3D distribution
+        Dataset ID	Dataset content
+        C1_CP_RAP_L3DD	Electron, 3D distribution, differential particle flux, standard resolution
+        C1_CP_RAP_E3DD	Electron, 3D distribution, differential particle flux, best resolution
+        C1_CP_RAP_I3DM_H	Proton, 3D distribution, differential particle flux
+        C1_CP_RAP_I3DM_HE	Helium, 3D distribution, differential particle flux
+        C1_CP_RAP_I3DM_CNO	CNO, 3D distribution, differential particle flux
+        
+        Pitch Angle Distribution (PAD)
+        Dataset ID	Dataset content
+        C1_CP_RAP_PAD_L3DD	Electron, PAD, differential particle flux, standard resolution
+        C1_CP_RAP_PAD_E3DD	Electron, PAD, differential particle flux, best resolution
+        C1_CP_RAP_PAD_H	Proton, PAD, differential particle flux
+        C1_CP_RAP_PAD_HE	Helium, PAD, differential particle flux
+        C1_CP_RAP_PAD_CNO	CNO, PAD, differential particle flux
+        </Description>
+      <Contact>
+        <PersonID>spase://ESA/Person/Patrick.W.Daly</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>Cluster RAPID instrument</InvestigationName>
+    <ObservatoryID>spase://ESA-NASA/Observatory/Cluster</ObservatoryID>
+  </Instrument>
+</Spase>
