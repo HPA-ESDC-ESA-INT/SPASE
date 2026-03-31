@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Instrument>
+    <ResourceID>spase://ESA-NASA/Instrument/Cluster/EFW</ResourceID>
+    <NamingAuthority>ESA-NASA</NamingAuthority>
+    <ResourceType>Instrument</ResourceType>
+    <ResourceHeader>
+      <ResourceName>EFW electric field double probe antenna</ResourceName>
+      <AlternateName>EFW</AlternateName>
+      <DOI>https://doi.org/10.5270/esa-rp1zebe</DOI>
+      <ReleaseDate>2026-02-28T00:00:00Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2026-02-28T00:00:00Z</ReleaseDate>
+          <Note>First release</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>The EFW (Electric Field and Wave) instrument consists of four 
+        spherical probes deployed orthogonally on 44-meter-long wire booms in the 
+        spin plane of the spacecraft. The potential differences between opposing 
+        probes, separated by 88 m tip-to-tip, are measured to provide electric 
+        field measurements in two directions, thus providing the full electric 
+        field vector in the spin plane of the spacecraft. Additionally, the 
+        potential differences between each of the probes and the spacecraft 
+        are measured, providing an estimate of the spacecraft potential relative 
+        to the plasma, which can be used as a proxy for the ambient electron 
+        density. The output analogue signals from the preamplifiers connected 
+        to the spherical probes are also provided to the wave instruments 
+        (STAFF, WHISPER and WBD) for analysis of high frequency wave phenomena.      
+      </Description>
+      <Contact>
+        <PersonID>spase://ESA/Person/Yuri.Khotyaintsev</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>DoubleSphere</InstrumentType>
+    <InvestigationName>Cluster EFW instrument</InvestigationName>
+    <ObservatoryID>spase://ESA-NASA/Observatory/Cluster</ObservatoryID>
+  </Instrument>
+</Spase>

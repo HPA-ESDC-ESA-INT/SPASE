@@ -1,0 +1,217 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
+  <Version>2.7.0</Version>
+  <NumericalData>
+    <ResourceID>spase://ESA-NASA/NumericalData/Cluster/C1/EFW/E_Field/2D/ISR2/VariableCadence</ResourceID>
+    <NamingAuthority>ESA-NASA</NamingAuthority>
+    <ResourceType>NumericalData</ResourceType>
+    <ResourceHeader>
+      <ResourceName>2D Electric field (full resolution)</ResourceName>
+      <AlternateName>C1_CP_EFW_L2_E</AlternateName>
+      <ReleaseDate>2026-02-28T10:00:00</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2026-02-28T10:00:00</ReleaseDate>
+          <Note>Initial release of metadata</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>This dataset contains measurements of the Electric field from the EFW experiment
+        on the Cluster C1 spacecraft Detailed quality information is provided as a 16 bit set of
+        flags in the parameter E_bitmask__C1_CP_EFW_L2_E. The meaning of the bits is as follows (LSB
+        numbering starting at 0): Bit 0: Reset. Bit 1: Bad bias. Bit 2: Probe latchup. Bit 3: Low
+        density saturation (-68V). Bit 4: Sweep (collection and dump). Bit 5: Burst dump. Bit 6:
+        Non-standard operations (NS_OPS). Bit 7: Manual flag. Bit 8: Single probe pair. Bit 9:
+        Asymmetric mode. Bit 10: Solar wind wake correction applied. Bit 11: Lobe wake. Bit 12:
+        Plasmaspheric wake. Bit 13: Whisper operating. Bit 14: Saturation due to high bias current.
+        Bit 15: Bias current DAC not responding correctly. Bit 16: Saturation due to probe shadow.
+        The EFW (Electric Field and Wave) instrument consists of four spherical probes deployed
+        orthogonally on 44-meter-long wire booms in the spin plane of the spacecraft. The potential
+        differences between opposing probes, separated by 88 m tip-to-tip, are measured to provide
+        electric field measurements in two directions, thus providing the full electric field vector
+        in the spin plane of the spacecraft. Additionally, the potential differences between each of
+        the probes and the spacecraft are measured, providing an estimate of the spacecraft
+        potential relative to the plasma, which can be used as a proxy for the ambient electron
+        density. The output analogue signals from the preamplifiers connected to the spherical
+        probes are also provided to the wave instruments (STAFF, WHISPER and WBD) for analysis of
+        high frequency wave phenomena. </Description>
+      <Acknowledgement> Please acknowledge the EFW team and the ESA Cluster Science Archives in any
+        publication based upon use of these data</Acknowledgement>
+      <Contact>
+        <PersonID>spase://ESA/Person/Yuri.Khotyaintsev</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Anders.Eriksson</PersonID>
+        <Role>OperationsManager</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Mats.Andre</PersonID>
+        <Role>FormerPI</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Georg.Gustafsson</PersonID>
+        <Role>FormerPI</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Chris.Cully</PersonID>
+        <Role>DataProducer</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Per-Arne.Lindqvist</PersonID>
+        <Role>DataProducer</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Arnaud.Masson</PersonID>
+        <Role>ProjectScientist</Role>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>First results of electric field and density observations by Cluster EFW based on
+          initial months of operation</Name>
+        <URL>https://doi.org/10.5194/angeo-19-1219-2001</URL>
+        <Description>Publication</Description>
+      </InformationURL>
+    </ResourceHeader>
+
+    <AccessInformation>
+      <RepositoryID>spase://ESA/Repository/ESDC</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>Cluster Science Archive (CSA) web interface</Name>
+        <URL>https://csa.esac.esa.int</URL>
+        <ProductKey>C1_CP_EFW_L2_E</ProductKey>
+      </AccessURL>
+      <AccessURL>
+        <Name>Cluster Science Archive (CSA) TAP</Name>
+        <URL>https://csa.esac.esa.int/csa-sl-tap/tap/</URL>
+        <ProductKey>C1_CP_EFW_L2_E</ProductKey>
+        <Description>Cluster data and Metadata via the European Space Agency Table Access Protocol
+          (TAP) server</Description>
+      </AccessURL>
+      <Format>CEF</Format>
+      <Format>CDF</Format>
+      <Encoding>None</Encoding>
+      <Acknowledgement>Please acknowledge the EFW team and the ESA Cluster Science Archive when
+        using these data.</Acknowledgement>
+    </AccessInformation>
+
+    <AccessInformation>
+      <RepositoryID>spase://ESA/Repository/ESDC</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessURL>
+        <Name>CSA HAPI Server</Name>
+        <URL>https://csatools.esac.esa.int/HapiServer/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>C1_CP_EFW_L2_E</ProductKey>
+        <Description>Web Service to this product using the HAPI interface</Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement>Please acknowledge the Data Providers and CSA when using these
+        data</Acknowledgement>
+    </AccessInformation>
+
+    <ProcessingLevel>Calibrated</ProcessingLevel>
+    <ProviderResourceName>2D Electric field (full resolution)</ProviderResourceName>
+    <InstrumentID>spase://ESA-NASA/Instrument/Cluster/EFW</InstrumentID>
+    <MeasurementType>Waves.Passive</MeasurementType>
+    <MeasurementType>ElectricField</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>2000-12-08T16:30:00Z</StartDate>
+        <StopDate>2018-12-10T04:29:59Z</StopDate>
+      </TimeSpan>
+      <Cadence>PT0.04S</Cadence>
+      <CadenceMin>PT0.04S</CadenceMin>
+      <CadenceMax>PT0.0022222S</CadenceMax>
+    </TemporalDescription>
+    <SpectralRange>RadioFrequency</SpectralRange>
+    <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere.Magnetotail</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere.Main</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere.Polar</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere.RadiationBelt</ObservedRegion>
+    <ObservedRegion>Earth.NearSurface.AuroralRegion</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosheath</ObservedRegion>
+    <ObservedRegion>Earth.NearSurface.Plasmasphere</ObservedRegion>
+    <ObservedRegion>Earth.NearSurface.PolarCap</ObservedRegion>
+    <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+    <Keyword>Magnetosphere</Keyword>
+    <Keyword>Auroral Region</Keyword>
+    <Keyword>Polar Cap</Keyword>
+    <Keyword>Cusp</Keyword>
+    <Keyword>Bow Shock</Keyword>
+    <Keyword>Solar Wind</Keyword>
+    <Keyword>Magnetosheath</Keyword>
+    <Keyword>Cluster</Keyword>
+    <Keyword>Magnetotail</Keyword>
+    <Keyword>Lobe</Keyword>
+    <Parameter>
+      <Name>Universal Time</Name>
+      <ParameterKey>time_tags__C1_CP_EFW_L2_E</ParameterKey>
+      <Description/>
+      <Units/>
+      <UnitsConversion/>
+      <RenderingHints>
+        <AxisLabel>UT</AxisLabel>
+      </RenderingHints>
+      <ValidMin/>
+      <ValidMax/>
+      <FillValue>9999-12-31T23:59:59Z</FillValue>
+      <Support>
+        <SupportQuantity>Temporal</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Electric field</Name>
+      <ParameterKey>E_Vec_xy_ISR2__C1_CP_EFW_L2_E</ParameterKey>
+      <Description>Electric field</Description>
+      <Units>mV/m</Units>
+      <UnitsConversion>1.0e-3>V m^-1</UnitsConversion>
+      <RenderingHints>
+        <AxisLabel>E</AxisLabel>
+      </RenderingHints>
+      <ValidMin/>
+      <ValidMax/>
+      <FillValue>-1000000000.000</FillValue>
+      <Field>
+        <Qualifier>Vector</Qualifier>
+        <FieldQuantity>Electric</FieldQuantity>
+      </Field>
+    </Parameter>
+    <Parameter>
+      <Name>Electric field measurement quality bitmask</Name>
+      <ParameterKey>E_bitmask__C1_CP_EFW_L2_E</ParameterKey>
+      <Description>Electric field measurement quality bitmask</Description>
+      <Units>unitless</Units>
+      <UnitsConversion>1>unitless</UnitsConversion>
+      <RenderingHints>
+        <AxisLabel>Bitmask</AxisLabel>
+      </RenderingHints>
+      <ValidMin>1</ValidMin>
+      <ValidMax>65536</ValidMax>
+      <FillValue>0</FillValue>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Electric field measurement quality flag (4=best)</Name>
+      <ParameterKey>E_quality__C1_CP_EFW_L2_E</ParameterKey>
+      <Description>Electric field measurement quality flag (4=best)</Description>
+      <Units>unitless</Units>
+      <UnitsConversion>1>unitless</UnitsConversion>
+      <RenderingHints>
+        <AxisLabel>Quality</AxisLabel>
+      </RenderingHints>
+      <ValidMin>0</ValidMin>
+      <ValidMax>4</ValidMax>
+      <FillValue>0</FillValue>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
+    </Parameter>
+  </NumericalData>
+</Spase>
