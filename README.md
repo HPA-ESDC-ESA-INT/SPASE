@@ -121,7 +121,15 @@ SPASE
    |          |     |    |         |___NBR
    |          |     |    |   
    |          |     |    |___WBD
-   |          |     |          |___BM2
+   |          |     |    |     |___BM2
+   |          |     |    |
+   |          |     |    |___WHISPER
+   |          |     |          |___ELECTRON_DENSITY
+   |          |     |          |___PSD
+   |          |     |          |   |___ACTIVE
+   |          |     |          |   |___NATURAL
+   |          |     |          |   |___PASSIVE_ACTIVE
+   |          |     |          |___WAVE_FORM_ENERGY
    |          |     |
    |          |     |___C2
    |          |     |    |___ASPOC
@@ -163,7 +171,15 @@ SPASE
    |          |     |    |         |___NBR
    |          |     |    |    
    |          |     |    |___WBD
-   |          |     |          |___BM2   
+   |          |     |    |     |___BM2   
+   |          |     |    |
+   |          |     |    |___WHISPER
+   |          |     |          |___ELECTRON_DENSITY
+   |          |     |          |___PSD
+   |          |     |          |   |___ACTIVE
+   |          |     |          |   |___NATURAL
+   |          |     |          |   |___PASSIVE_ACTIVE
+   |          |     |          |___WAVE_FORM_ENERGY
    |          |     |
    |          |     |___C3
    |          |     |    |___ASPOC
@@ -215,7 +231,15 @@ SPASE
    |          |     |    |         |___NBR
    |          |     |    |    
    |          |     |    |___WBD
-   |          |     |          |___BM2  
+   |          |     |    |      |___BM2  
+   |          |     |    |
+   |          |     |    |___WHISPER
+   |          |     |          |___ELECTRON_DENSITY
+   |          |     |          |___PSD
+   |          |     |          |   |___ACTIVE
+   |          |     |          |   |___NATURAL
+   |          |     |          |   |___PASSIVE_ACTIVE
+   |          |     |          |___WAVE_FORM_ENERGY
    |          |     |
    |          |     |___C4
    |          |     |    |___ASPOC
@@ -259,8 +283,15 @@ SPASE
    |          |     |    |         |___NBR
    |          |     |    |   
    |          |     |    |___WBD
-   |          |     |          |___BM2 
-   |          |     |
+   |          |     |    |     |___BM2 
+   |          |     |    |
+   |          |     |    |___WHISPER
+   |          |     |          |___ELECTRON_DENSITY
+   |          |     |          |___PSD
+   |          |     |          |   |___ACTIVE
+   |          |     |          |   |___NATURAL
+   |          |     |          |   |___PASSIVE_ACTIVE
+   |          |     |          |___WAVE_FORM_ENERGY
         
   
    
