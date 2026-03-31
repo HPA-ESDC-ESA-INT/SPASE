@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Instrument>
+    <ResourceID>spase://ESA-NASA/Instrument/Cluster/PEACE</ResourceID>
+    <NamingAuthority>ESA-NASA</NamingAuthority>
+    <ResourceType>Instrument</ResourceType>
+    <ResourceHeader>
+      <ResourceName>Plasma Electron And Current Experiment</ResourceName>
+      <AlternateName>PEACE</AlternateName>
+      <DOI>https://doi.org/10.5270/esa-jji2bq0</DOI>
+      <ReleaseDate>2026-03-13T00:00:00Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2026-03-13T00:00:00Z</ReleaseDate>
+          <Note>First release</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>PEACE key scientific datasets for Cluster-1 (similar for all other Cluster spacecraft)
+        
+        Moments
+        Dataset ID	       Dataset content
+        C1_CP_PEA_MOMENTS	Electron Moments
+        
+        
+        Pitch Angle Distributions
+        Dataset ID	                 Dataset content
+        C1_CP_PEA_PITCH_SPIN_DPFlux	Electron Pitch Angle distribution (Spin-resolution, HEEA and LEEA sensors)      
+      </Description>
+      <Contact>
+        <PersonID>spase://ESA/Person/Andrew.Fazakerley</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>ElectrostaticAnalyser</InstrumentType>
+    <InvestigationName>Cluster PEACE instrument</InvestigationName>
+    <ObservatoryID>spase://ESA-NASA/Observatory/Cluster</ObservatoryID>
+  </Instrument>
+</Spase>
