@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xsi:schemaLocation="http://www.spase-group.org/data/schema https://spase-group.org/data/schema/spase-2.7.0.xsd">
+  <Version>2.7.0</Version>
+  <Person>
+    <ResourceID>spase://ESA/Person/Jan.Soucek</ResourceID>
+    <NamingAuthority>ESA</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <PersonName>Jan Soucek</PersonName>
+    <OrganizationName>Czech Academy of Sciences, Institute of Atmospheric Physics: Prague, Prague, CZ</OrganizationName>
+    <Email>soucek@ufa.cas.czu</Email>
+    <ORCIdentifier>0000-0003-0462-6804</ORCIdentifier>
+  </Person>
+</Spase>
