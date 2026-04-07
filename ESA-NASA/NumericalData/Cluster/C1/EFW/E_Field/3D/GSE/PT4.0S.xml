@@ -4,12 +4,12 @@
   xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
   <Version>2.7.0</Version>
   <NumericalData>
-    <ResourceID>spase://ESA-NASA/NumericalData/Cluster/C4/EFW/E_Field/3D/GSE/P4.0S</ResourceID>
+    <ResourceID>spase://ESA-NASA/NumericalData/Cluster/C1/EFW/L3_E3D_GSE/PT4.0S</ResourceID>
     <NamingAuthority>ESA-NASA</NamingAuthority>
     <ResourceType>NumericalData</ResourceType>
     <ResourceHeader>
       <ResourceName>3D Electric field in GSE (E.B=0) (4 sec resolution)</ResourceName>
-      <AlternateName>C4_CP_EFW_L3_E3D_GSE</AlternateName>
+      <AlternateName>C1_CP_EFW_L3_E3D_GSE</AlternateName>
       <ReleaseDate>2026-02-28T10:00:00</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
@@ -19,7 +19,7 @@
       </RevisionHistory>
       <Description>This dataset contains 4-sec averages of the 3-dimensional Electric field vector
         in the inertial frame (i.e., vxB removed) in the spacecraft coordinate system (GSE), using
-        EFW electric field data from C4_CP_EFW_L3_E and FGM magnetic field data from C4_CP_FGM_5VPS
+        EFW electric field data from C1_CP_EFW_L3_E and FGM magnetic field data from C1_CP_FGM_5VPS
         that are used to calculate the 4-sec averaged 3-dimensional magnetic field vector for the
         time stamps of electric field data. The spin-axis component of the electric field is
         calculated with assumption of E.B equals 0 and with use of 2 electric field components
@@ -27,7 +27,7 @@
         component along the spin axis is less than 2 nT or the elevation angle of the magnetic field
         vector from the spacecraft spin plane is less than 15 degrees, the spin-axis electric field
         component has a FILLVAL. Detailed quality information is provided as a 16 bit set of flags
-        in the parameter E_bitmask__C4_CP_EFW_L3_E3D_GSE. The meaning of the bits is as follows (LSB
+        in the parameter E_bitmask__C1_CP_EFW_L3_E3D_GSE. The meaning of the bits is as follows (LSB
         numbering starting at 0): Bit 0: Reset. Bit 1: Bad bias. Bit 2: Probe latchup. Bit 3: Low
         density saturation (-68V). Bit 4: Sweep (collection and dump). Bit 5: Burst dump. Bit 6:
         Non-standard operations (NS_OPS). Bit 7: Manual flag. Bit 8: Not used. Bit 9: Not used. Bit
@@ -75,6 +75,10 @@
         <Role>ProjectScientist</Role>
         <Role>MetadataContact</Role>
       </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Philippe.Escoubet</PersonID>
+        <Role>MissionManager</Role>
+      </Contact>
       <InformationURL>
         <Name>First results of electric field and density observations by Cluster EFW based on
           initial months of operation</Name>
@@ -90,12 +94,12 @@
       <AccessURL>
         <Name>Cluster Science Archive (CSA) web interface</Name>
         <URL>https://csa.esac.esa.int</URL>
-        <ProductKey>C4_CP_EFW_L3_E3D_GSE</ProductKey>
+        <ProductKey>C1_CP_EFW_L3_E3D_GSE</ProductKey>
       </AccessURL>
       <AccessURL>
         <Name>Cluster Science Archive (CSA) TAP</Name>
         <URL>https://csa.esac.esa.int/csa-sl-tap/tap/</URL>
-        <ProductKey>C4_CP_EFW_L3_E3D_GSE</ProductKey>
+        <ProductKey>C1_CP_EFW_L3_E3D_GSE</ProductKey>
         <Description>Cluster data and Metadata via the European Space Agency Table Access Protocol
           (TAP) server</Description>
       </AccessURL>
@@ -113,7 +117,7 @@
         <Name>CSA HAPI Server</Name>
         <URL>https://csatools.esac.esa.int/HapiServer/hapi</URL>
         <Style>HAPI</Style>
-        <ProductKey>C4_CP_EFW_L3_E3D_GSE</ProductKey>
+        <ProductKey>C1_CP_EFW_L3_E3D_GSE</ProductKey>
         <Description>Web Service to this product using the HAPI interface</Description>
       </AccessURL>
       <Format>CSV</Format>
@@ -128,8 +132,8 @@
     <MeasurementType>ElectricField</MeasurementType>
     <TemporalDescription>
       <TimeSpan>
-        <StartDate>2001-02-01T00:00:00Z</StartDate>
-        <StopDate>2024-09-29T23:59:58Z</StopDate>
+        <StartDate>2001-01-01T00:00:00Z</StartDate>
+        <StopDate>2018-12-10T03:00:14Z</StopDate>
       </TimeSpan>
       <Cadence>PT4.0S</Cadence>
       <CadenceMin>PT4.0S</CadenceMin>
@@ -158,7 +162,7 @@
     <Keyword>Lobe</Keyword>
     <Parameter>
       <Name>Universal Time</Name>
-      <ParameterKey>time_tags__C4_CP_EFW_L3_E3D_GSE</ParameterKey>
+      <ParameterKey>time_tags__C1_CP_EFW_L3_E3D_GSE</ParameterKey>
       <Description/>
       <Units>s</Units>
       <UnitsConversion>1.0>s</UnitsConversion>
@@ -169,12 +173,12 @@
       <ValidMax/>
       <FillValue>9999-12-31T23:59:59Z</FillValue>
       <Support>
-        <SupportQuantity>Other</SupportQuantity>
+        <SupportQuantity>Temporal</SupportQuantity>
       </Support>
     </Parameter>
     <Parameter>
       <Name>Electric Field</Name>
-      <ParameterKey>E_Vec_xyz_GSE__C4_CP_EFW_L3_E3D_GSE</ParameterKey>
+      <ParameterKey>E_Vec_xyz_GSE__C1_CP_EFW_L3_E3D_GSE</ParameterKey>
       <Description>Electric Field</Description>
       <Units>mV/m</Units>
       <UnitsConversion>1.0e-3>V m^-1</UnitsConversion>
@@ -191,7 +195,7 @@
     </Parameter>
     <Parameter>
       <Name>Error of electric field (GSE)</Name>
-      <ParameterKey>delta_Ez_GSE__C4_CP_EFW_L3_E3D_GSE</ParameterKey>
+      <ParameterKey>delta_Ez_GSE__C1_CP_EFW_L3_E3D_GSE</ParameterKey>
       <Description>Error of electric field (GSE)</Description>
       <Units>mV/m</Units>
       <UnitsConversion>1.0e-3>V m^-1</UnitsConversion>
@@ -208,7 +212,7 @@
     </Parameter>
     <Parameter>
       <Name>Electric field measurement quality bitmask</Name>
-      <ParameterKey>E_bitmask__C4_CP_EFW_L3_E3D_GSE</ParameterKey>
+      <ParameterKey>E_bitmask__C1_CP_EFW_L3_E3D_GSE</ParameterKey>
       <Description>Electric field measurement quality bitmask</Description>
       <Units>unitless</Units>
       <UnitsConversion>1>unitless</UnitsConversion>
@@ -224,7 +228,7 @@
     </Parameter>
     <Parameter>
       <Name>Electric field measurement quality flag (4=best)</Name>
-      <ParameterKey>E_quality__C4_CP_EFW_L3_E3D_GSE</ParameterKey>
+      <ParameterKey>E_quality__C1_CP_EFW_L3_E3D_GSE</ParameterKey>
       <Description>Electric field measurement quality flag (4=best)</Description>
       <Units>unitless</Units>
       <UnitsConversion>1>unitless</UnitsConversion>
@@ -240,7 +244,7 @@
     </Parameter>
     <Parameter>
       <Name>Electric field standard deviation</Name>
-      <ParameterKey>E_sigma__C4_CP_EFW_L3_E3D_GSE</ParameterKey>
+      <ParameterKey>E_sigma__C1_CP_EFW_L3_E3D_GSE</ParameterKey>
       <Description>Electric field standard deviation</Description>
       <Units>mV/m</Units>
       <UnitsConversion>1.0e-3>V m^-1</UnitsConversion>

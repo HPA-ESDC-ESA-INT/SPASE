@@ -4,7 +4,7 @@
   xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
   <Version>2.7.0</Version>
   <NumericalData>
-    <ResourceID>spase://ESA-NASA/NumericalData/Cluster/C1/EFW/3D_Drift_Velocity/INERT/VariableCadence</ResourceID>
+    <ResourceID>spase://ESA-NASA/NumericalData/Cluster/C1/EFW/L2_V3D_INERT/VariableCadence</ResourceID>
     <NamingAuthority>ESA-NASA</NamingAuthority>
     <ResourceType>NumericalData</ResourceType>
     <ResourceHeader>
@@ -70,6 +70,10 @@
         <PersonID>spase://ESA/Person/Arnaud.Masson</PersonID>
         <Role>ProjectScientist</Role>
         <Role>MetadataContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Philippe.Escoubet</PersonID>
+        <Role>MissionManager</Role>
       </Contact>
       <InformationURL>
         <Name>First results of electric field and density observations by Cluster EFW based on

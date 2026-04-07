@@ -4,12 +4,12 @@
   xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
   <Version>2.7.0</Version>
   <NumericalData>
-    <ResourceID>spase://ESA-NASA/NumericalData/Cluster/C4/EFW/E_Field/2D/ISR2/P4.0S</ResourceID>
+    <ResourceID>spase://ESA-NASA/NumericalData/Cluster/C4/EFW/L3_E3D_INERT/PT4.0S</ResourceID>
     <NamingAuthority>ESA-NASA</NamingAuthority>
     <ResourceType>NumericalData</ResourceType>
     <ResourceHeader>
-      <ResourceName>2D Electric field, (4 sec resolution)</ResourceName>
-      <AlternateName>C4_CP_EFW_L3_E</AlternateName>
+      <ResourceName>3D Electric field in ISR2 (E.B=0) (4 sec resolution)</ResourceName>
+      <AlternateName>C4_CP_EFW_L3_E3D_INERT</AlternateName>
       <ReleaseDate>2026-02-28T10:00:00</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
@@ -17,24 +17,33 @@
           <Note>Initial release of metadata</Note>
         </RevisionEvent>
       </RevisionHistory>
-      <Description>This dataset contains measurements of the Electric field (4 sec resolution) from
-        the EFW experiment on the Cluster C4 spacecraft Detailed quality information is provided as
-        a 16 bit set of flags in the parameter E_bitmask__C4_CP_EFW_L3_E. The meaning of the bits is
-        as follows (LSB numbering starting at 0): Bit 0: Reset. Bit 1: Bad bias. Bit 2: Probe
-        latchup. Bit 3: Low density saturation (-68V). Bit 4: Sweep (collection and dump). Bit 5:
-        Burst dump. Bit 6: Non-standard operations (NS_OPS). Bit 7: Manual flag. Bit 8: Not used.
-        Bit 9: Not used. Bit 10: Solar wind wake correction applied. Bit 11: Lobe wake. Bit 12:
-        Plasmaspheric wake. Bit 13: Whisper operating. Bit 14: Saturation due to high bias current.
-        Bit 15: Not used. The EFW (Electric Field and Wave) instrument consists of four spherical
-        probes deployed orthogonally on 44-meter-long wire booms in the spin plane of the
-        spacecraft. The potential differences between opposing probes, separated by 88 m tip-to-tip,
-        are measured to provide electric field measurements in two directions, thus providing the
-        full electric field vector in the spin plane of the spacecraft. Additionally, the potential
-        differences between each of the probes and the spacecraft are measured, providing an
-        estimate of the spacecraft potential relative to the plasma, which can be used as a proxy
-        for the ambient electron density. The output analogue signals from the preamplifiers
-        connected to the spherical probes are also provided to the wave instruments (STAFF, WHISPER
-        and WBD) for analysis of high frequency wave phenomena. </Description>
+      <Description>This dataset contains 4-sec averages of the 3-dimensional Electric field vector
+        in the inertial frame (i.e., vxB removed) in the spacecraft coordinate system (ISR2), using
+        EFW electric field data from C4_CP_EFW_L3_E and FGM magnetic field data from C4_CP_FGM_5VPS
+        that are used to calculate the 4-sec averaged 3-dimensional magnetic field vector for the
+        time stamps of electric field data. The spin-axis component of the electric field is
+        calculated with assumption of E.B equals 0 and with use of 2 electric field components
+        measured in the spin plane and three magnetic field components. If the magnetic field
+        component along the spin axis is less than 2 nT or the elevation angle of the magnetic field
+        vector from the spacecraft spin plane is less than 15 degrees, the spin-axis electric field
+        component has a FILLVAL. Detailed quality information is provided as a 16 bit set of flags
+        in the parameter E_bitmask__C4_CP_EFW_L3_E3D_INERT. The meaning of the bits is as follows
+        (LSB numbering starting at 0): Bit 0: Reset. Bit 1: Bad bias. Bit 2: Probe latchup. Bit 3:
+        Low density saturation (-68V). Bit 4: Sweep (collection and dump). Bit 5: Burst dump. Bit 6:
+        Non-standard operations (NS_OPS). Bit 7: Manual flag. Bit 8: Not used. Bit 9: Not used. Bit
+        10: Solar wind wake correction applied. Bit 11: Lobe wake. Bit 12: Plasmaspheric wake. Bit
+        13: Whisper operating. Bit 14: Saturation due to high bias current. Bit 15: Bias current DAC
+        not responding correctly. Bit 16: Saturation due to probe shadow. The EFW (Electric Field
+        and Wave) instrument consists of four spherical probes deployed orthogonally on
+        44-meter-long wire booms in the spin plane of the spacecraft. The potential differences
+        between opposing probes, separated by 88 m tip-to-tip, are measured to provide electric
+        field measurements in two directions, thus providing the full electric field vector in the
+        spin plane of the spacecraft. Additionally, the potential differences between each of the
+        probes and the spacecraft are measured, providing an estimate of the spacecraft potential
+        relative to the plasma, which can be used as a proxy for the ambient electron density. The
+        output analogue signals from the preamplifiers connected to the spherical probes are also
+        provided to the wave instruments (STAFF, WHISPER and WBD) for analysis of high frequency
+        wave phenomena. </Description>
       <Acknowledgement> Please acknowledge the EFW team and the ESA Cluster Science Archives in any
         publication based upon use of these data</Acknowledgement>
       <Contact>
@@ -66,6 +75,14 @@
         <Role>ProjectScientist</Role>
         <Role>MetadataContact</Role>
       </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Philippe.Escoubet</PersonID>
+        <Role>MissionManager</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Leonard.N.Garcia</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
       <InformationURL>
         <Name>First results of electric field and density observations by Cluster EFW based on
           initial months of operation</Name>
@@ -81,12 +98,12 @@
       <AccessURL>
         <Name>Cluster Science Archive (CSA) web interface</Name>
         <URL>https://csa.esac.esa.int</URL>
-        <ProductKey>C4_CP_EFW_L3_E</ProductKey>
+        <ProductKey>C4_CP_EFW_L3_E3D_INERT</ProductKey>
       </AccessURL>
       <AccessURL>
         <Name>Cluster Science Archive (CSA) TAP</Name>
         <URL>https://csa.esac.esa.int/csa-sl-tap/tap/</URL>
-        <ProductKey>C4_CP_EFW_L3_E</ProductKey>
+        <ProductKey>C4_CP_EFW_L3_E3D_INERT</ProductKey>
         <Description>Cluster data and Metadata via the European Space Agency Table Access Protocol
           (TAP) server</Description>
       </AccessURL>
@@ -104,7 +121,7 @@
         <Name>CSA HAPI Server</Name>
         <URL>https://csatools.esac.esa.int/HapiServer/hapi</URL>
         <Style>HAPI</Style>
-        <ProductKey>C4_CP_EFW_L3_E</ProductKey>
+        <ProductKey>C4_CP_EFW_L3_E3D_INERT</ProductKey>
         <Description>Web Service to this product using the HAPI interface</Description>
       </AccessURL>
       <Format>CSV</Format>
@@ -112,15 +129,44 @@
         data</Acknowledgement>
     </AccessInformation>
 
+    <AccessInformation>
+      <RepositoryID>spase://NASA/Repository/GSFC/SPDF</RepositoryID>
+      <AccessURL>
+        <Name>CDAWeb</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=C4_CP_EFW_L3_E3D_INERT&amp;index=sp_phys</URL>
+        <ProductKey>C4_CP_EFW_L3_E3D_INERT</ProductKey>
+      </AccessURL>
+      <Format>CDF</Format>
+      <Acknowledgement>Please acknowledge the Data Providers and CDAWeb when using these
+        data.</Acknowledgement>
+    </AccessInformation>
+
+    <AccessInformation>
+      <RepositoryID>spase://NASA/Repository/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>C4_CP_EFW_L3_E3D_INERT</ProductKey>
+        <Description>Web Service to this product using the HAPI interface</Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement>Please acknowledge the Data Providers and CDAWeb when using these
+        Data</Acknowledgement>
+    </AccessInformation>
+
     <ProcessingLevel>Calibrated</ProcessingLevel>
-    <ProviderResourceName>2D Electric field, (4 sec resolution)</ProviderResourceName>
+    <ProviderResourceName>3D Electric field in ISR2 (E.B=0) (4 sec
+      resolution)</ProviderResourceName>
     <InstrumentID>spase://ESA-NASA/Instrument/Cluster/EFW</InstrumentID>
     <MeasurementType>Waves.Passive</MeasurementType>
     <MeasurementType>ElectricField</MeasurementType>
     <TemporalDescription>
       <TimeSpan>
-        <StartDate>2000-12-01T00:00:00Z</StartDate>
-        <StopDate>2024-09-30T23:47:06Z</StopDate>
+        <StartDate>2001-02-01T00:00:00Z</StartDate>
+        <StopDate>2024-09-29T23:59:58Z</StopDate>
       </TimeSpan>
       <Cadence>PT4.0S</Cadence>
       <CadenceMin>PT4.0S</CadenceMin>
@@ -149,10 +195,10 @@
     <Keyword>Lobe</Keyword>
     <Parameter>
       <Name>Universal Time</Name>
-      <ParameterKey>time_tags__C4_CP_EFW_L3_E</ParameterKey>
+      <ParameterKey>time_tags__C4_CP_EFW_L3_E3D_INERT</ParameterKey>
       <Description/>
-      <Units/>
-      <UnitsConversion/>
+      <Units>s</Units>
+      <UnitsConversion>1.0>s</UnitsConversion>
       <RenderingHints>
         <AxisLabel>UT</AxisLabel>
       </RenderingHints>
@@ -164,34 +210,34 @@
       </Support>
     </Parameter>
     <Parameter>
-      <Name>Electric field (4 sec resolution)</Name>
-      <ParameterKey>E_Vec_xy_ISR2__C4_CP_EFW_L3_E</ParameterKey>
-      <Description>Electric field (4 sec resolution)</Description>
+      <Name>Electric Field</Name>
+      <ParameterKey>E_Vec_xyz_ISR2__C4_CP_EFW_L3_E3D_INERT</ParameterKey>
+      <Description>Electric Field</Description>
       <Units>mV/m</Units>
       <UnitsConversion>1.0e-3>V m^-1</UnitsConversion>
       <RenderingHints>
-        <AxisLabel>E</AxisLabel>
+        <AxisLabel>Electric Field (ISR2)</AxisLabel>
       </RenderingHints>
-      <ValidMin/>
-      <ValidMax/>
-      <FillValue>-1000000000.000</FillValue>
+      <ValidMin>-700</ValidMin>
+      <ValidMax>700</ValidMax>
+      <FillValue>-1e+31</FillValue>
       <Field>
         <Qualifier>Vector</Qualifier>
         <FieldQuantity>Electric</FieldQuantity>
       </Field>
     </Parameter>
     <Parameter>
-      <Name>Electric field standard deviation</Name>
-      <ParameterKey>E_sigma__C4_CP_EFW_L3_E</ParameterKey>
-      <Description>Electric field standard deviation</Description>
+      <Name>Error of electric field (ISR2)</Name>
+      <ParameterKey>delta_Ez_ISR2__C4_CP_EFW_L3_E3D_INERT</ParameterKey>
+      <Description>Error of electric field (ISR2)</Description>
       <Units>mV/m</Units>
       <UnitsConversion>1.0e-3>V m^-1</UnitsConversion>
       <RenderingHints>
-        <AxisLabel>St dev</AxisLabel>
+        <AxisLabel>Error of Ez (ISR2)</AxisLabel>
       </RenderingHints>
-      <ValidMin/>
-      <ValidMax/>
-      <FillValue>-1000000000.000</FillValue>
+      <ValidMin>-700</ValidMin>
+      <ValidMax>700</ValidMax>
+      <FillValue>-1e+31</FillValue>
       <Field>
         <Qualifier>Vector</Qualifier>
         <FieldQuantity>Electric</FieldQuantity>
@@ -199,7 +245,7 @@
     </Parameter>
     <Parameter>
       <Name>Electric field measurement quality bitmask</Name>
-      <ParameterKey>E_bitmask__C4_CP_EFW_L3_E</ParameterKey>
+      <ParameterKey>E_bitmask__C4_CP_EFW_L3_E3D_INERT</ParameterKey>
       <Description>Electric field measurement quality bitmask</Description>
       <Units>unitless</Units>
       <UnitsConversion>1>unitless</UnitsConversion>
@@ -215,7 +261,7 @@
     </Parameter>
     <Parameter>
       <Name>Electric field measurement quality flag (4=best)</Name>
-      <ParameterKey>E_quality__C4_CP_EFW_L3_E</ParameterKey>
+      <ParameterKey>E_quality__C4_CP_EFW_L3_E3D_INERT</ParameterKey>
       <Description>Electric field measurement quality flag (4=best)</Description>
       <Units>unitless</Units>
       <UnitsConversion>1>unitless</UnitsConversion>
@@ -228,6 +274,23 @@
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Electric field standard deviation</Name>
+      <ParameterKey>E_sigma__C4_CP_EFW_L3_E3D_INERT</ParameterKey>
+      <Description>Electric field standard deviation</Description>
+      <Units>mV/m</Units>
+      <UnitsConversion>1.0e-3>V m^-1</UnitsConversion>
+      <RenderingHints>
+        <AxisLabel>St dev</AxisLabel>
+      </RenderingHints>
+      <ValidMin>0</ValidMin>
+      <ValidMax>700</ValidMax>
+      <FillValue>-1000000000.000</FillValue>
+      <Field>
+        <Qualifier>Vector</Qualifier>
+        <FieldQuantity>Electric</FieldQuantity>
+      </Field>
     </Parameter>
   </NumericalData>
 </Spase>

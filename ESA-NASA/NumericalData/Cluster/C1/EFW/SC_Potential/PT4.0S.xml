@@ -4,12 +4,12 @@
   xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
   <Version>2.7.0</Version>
   <NumericalData>
-    <ResourceID>spase://ESA-NASA/NumericalData/Cluster/C4/EFW/3D_Drift_Velocity/INERT/P4.0S</ResourceID>
+    <ResourceID>spase://ESA-NASA/NumericalData/Cluster/C1/EFW/L3_P/PT4.0S</ResourceID>
     <NamingAuthority>ESA-NASA</NamingAuthority>
     <ResourceType>NumericalData</ResourceType>
     <ResourceHeader>
-      <ResourceName>ExB drift velocity in ISR2 (4 sec resolution)</ResourceName>
-      <AlternateName>C4_CP_EFW_L3_V3D_INERT</AlternateName>
+      <ResourceName>Spacecraft potential (4 sec resolution)</ResourceName>
+      <AlternateName>C1_CP_EFW_L3_P</AlternateName>
       <ReleaseDate>2026-02-28T10:00:00</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
@@ -17,19 +17,8 @@
           <Note>Initial release of metadata</Note>
         </RevisionEvent>
       </RevisionHistory>
-      <Description>This dataset contains 4-sec averages of the ExB-drift velocity in ISR2, using
-        3-dimensional EFW electric field data from C4_CP_EFW_L3_E3D_INERT and FGM magnetic field
-        data from C4_CP_FGM_5VPS that are used to calculate the 4-sec average magnetic field vector
-        for the time stamps of electric field data. When the spin-axis electric field component has
-        a FILLVAL (i.e. it cannot be determined), then the x- and y components of this dataset have
-        FILLVAL. Detailed quality information is provided as a 16 bit set of flags in the parameter
-        E_bitmask__C4_CP_EFW_L3_V3D_INERT. The meaning of the bits is as follows (LSB numbering
-        starting at 0): Bit 0: Reset. Bit 1: Bad bias. Bit 2: Probe latchup. Bit 3: Low density
-        saturation (-68V). Bit 4: Sweep (collection and dump). Bit 5: Burst dump. Bit 6:
-        Non-standard operations (NS_OPS). Bit 7: Manual flag. Bit 8: Not used. Bit 9: Not used. Bit
-        10: Solar wind wake correction applied. Bit 11: Lobe wake. Bit 12: Plasmaspheric wake. Bit
-        13: Whisper operating. Bit 14: Saturation due to high bias current. Bit 15: Bias current DAC
-        not responding correctly. Bit 16: Saturation due to probe shadow. The EFW (Electric Field
+      <Description>This dataset contains measurements of the negative of the Spacecraft potential (4
+        sec resolution) from the EFW experiment on the Cluster C1 spacecraft The EFW (Electric Field
         and Wave) instrument consists of four spherical probes deployed orthogonally on
         44-meter-long wire booms in the spin plane of the spacecraft. The potential differences
         between opposing probes, separated by 88 m tip-to-tip, are measured to provide electric
@@ -40,8 +29,8 @@
         output analogue signals from the preamplifiers connected to the spherical probes are also
         provided to the wave instruments (STAFF, WHISPER and WBD) for analysis of high frequency
         wave phenomena. </Description>
-      <Acknowledgement> Please acknowledge the ESA Cluster Science Archives in any publication based
-        upon this data</Acknowledgement>
+      <Acknowledgement> Please acknowledge the EFW team and the ESA Cluster Science Archives in any
+        publication based upon use of these data</Acknowledgement>
       <Contact>
         <PersonID>spase://ESA/Person/Yuri.Khotyaintsev</PersonID>
         <Role>PrincipalInvestigator</Role>
@@ -72,6 +61,10 @@
         <Role>MetadataContact</Role>
       </Contact>
       <Contact>
+        <PersonID>spase://ESA/Person/Philippe.Escoubet</PersonID>
+        <Role>MissionManager</Role>
+      </Contact>
+      <Contact>
         <PersonID>spase://ESA/Person/Leonard.N.Garcia</PersonID>
         <Role>MetadataContact</Role>
       </Contact>
@@ -90,12 +83,12 @@
       <AccessURL>
         <Name>Cluster Science Archive (CSA) web interface</Name>
         <URL>https://csa.esac.esa.int</URL>
-        <ProductKey>C4_CP_EFW_L3_V3D_INERT</ProductKey>
+        <ProductKey>C1_CP_EFW_L3_P</ProductKey>
       </AccessURL>
       <AccessURL>
         <Name>Cluster Science Archive (CSA) TAP</Name>
         <URL>https://csa.esac.esa.int/csa-sl-tap/tap/</URL>
-        <ProductKey>C4_CP_EFW_L3_V3D_INERT</ProductKey>
+        <ProductKey>C1_CP_EFW_L3_P</ProductKey>
         <Description>Cluster data and Metadata via the European Space Agency Table Access Protocol
           (TAP) server</Description>
       </AccessURL>
@@ -113,7 +106,7 @@
         <Name>CSA HAPI Server</Name>
         <URL>https://csatools.esac.esa.int/HapiServer/hapi</URL>
         <Style>HAPI</Style>
-        <ProductKey>C4_CP_EFW_L3_V3D_INERT</ProductKey>
+        <ProductKey>C1_CP_EFW_L3_P</ProductKey>
         <Description>Web Service to this product using the HAPI interface</Description>
       </AccessURL>
       <Format>CSV</Format>
@@ -125,8 +118,8 @@
       <RepositoryID>spase://NASA/Repository/GSFC/SPDF</RepositoryID>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=C4_CP_EFW_L3_V3D_INERT&amp;index=sp_phys</URL>
-        <ProductKey>C4_CP_EFW_L3_V3D_INERT</ProductKey>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=C1_CP_EFW_L3_P&amp;index=sp_phys</URL>
+        <ProductKey>C1_CP_EFW_L3_P</ProductKey>
       </AccessURL>
       <Format>CDF</Format>
       <Acknowledgement>Please acknowledge the Data Providers and CDAWeb when using these
@@ -141,7 +134,7 @@
         <Name>CDAWeb HAPI Server</Name>
         <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
         <Style>HAPI</Style>
-        <ProductKey>C4_CP_EFW_L3_V3D_INERT</ProductKey>
+        <ProductKey>C1_CP_EFW_L3_P</ProductKey>
         <Description>Web Service to this product using the HAPI interface</Description>
       </AccessURL>
       <Format>CSV</Format>
@@ -150,14 +143,14 @@
     </AccessInformation>
 
     <ProcessingLevel>Calibrated</ProcessingLevel>
-    <ProviderResourceName>ExB drift velocity in ISR2 (4 sec resolution)</ProviderResourceName>
+    <ProviderResourceName>Spacecraft potential (4 sec resolution)</ProviderResourceName>
     <InstrumentID>spase://ESA-NASA/Instrument/Cluster/EFW</InstrumentID>
     <MeasurementType>Waves.Passive</MeasurementType>
     <MeasurementType>ElectricField</MeasurementType>
     <TemporalDescription>
       <TimeSpan>
-        <StartDate>2001-02-01T00:00:00Z</StartDate>
-        <StopDate>2024-09-29T23:59:58Z</StopDate>
+        <StartDate>2000-12-05T19:32:46Z</StartDate>
+        <StopDate>2024-09-30T23:47:02Z</StopDate>
       </TimeSpan>
       <Cadence>PT4.0S</Cadence>
       <CadenceMin>PT4.0S</CadenceMin>
@@ -186,58 +179,71 @@
     <Keyword>Lobe</Keyword>
     <Parameter>
       <Name>Universal Time</Name>
-      <ParameterKey>time_tags__C4_CP_EFW_L3_V3D_INERT</ParameterKey>
+      <ParameterKey>time_tags__C1_CP_EFW_L3_P</ParameterKey>
       <Description/>
-      <Units>s</Units>
-      <UnitsConversion>1.0>s</UnitsConversion>
+      <Units/>
+      <UnitsConversion/>
       <RenderingHints>
         <AxisLabel>UT</AxisLabel>
       </RenderingHints>
-      <ValidMin/>
-      <ValidMax/>
       <FillValue>9999-12-31T23:59:59Z</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
       </Support>
     </Parameter>
     <Parameter>
-      <Name>Velocity</Name>
-      <ParameterKey>v_drift_ISR2__C4_CP_EFW_L3_V3D_INERT</ParameterKey>
-      <Description>Velocity</Description>
-      <Units>km/s</Units>
-      <UnitsConversion>1.0e3>m s^-1</UnitsConversion>
+      <Name>Spacecraft potential (4 sec resolution)</Name>
+      <ParameterKey>Spacecraft_potential__C1_CP_EFW_L3_P</ParameterKey>
+      <Description>Spacecraft potential (4 sec resolution)</Description>
+      <Units>V</Units>
+      <UnitsConversion>1>V</UnitsConversion>
       <RenderingHints>
-        <AxisLabel>Velocity (ISR2)</AxisLabel>
+        <AxisLabel>-Sc pot</AxisLabel>
       </RenderingHints>
-      <ValidMin>-2000</ValidMin>
-      <ValidMax>2000</ValidMax>
-      <FillValue>-1e+31</FillValue>
+      <ValidMin>-68</ValidMin>
+      <ValidMax>5</ValidMax>
+      <FillValue>-1000000000.000</FillValue>
       <Field>
         <Qualifier>Vector</Qualifier>
         <FieldQuantity>Electric</FieldQuantity>
       </Field>
     </Parameter>
     <Parameter>
-      <Name>Error of velocityISR2</Name>
-      <ParameterKey>delta_v_ISR2__C4_CP_EFW_L3_V3D_INERT</ParameterKey>
-      <Description>Error of velocityISR2</Description>
-      <Units>km/s</Units>
-      <UnitsConversion>1.0e3>m s^-1</UnitsConversion>
+      <Name>Probes used for Spacecraft potential measurement</Name>
+      <ParameterKey>P_probes__C1_CP_EFW_L3_P</ParameterKey>
+      <Description>Probes used for Spacecraft potential measurement</Description>
+      <Units>unitless</Units>
+      <UnitsConversion>1>unitless</UnitsConversion>
       <RenderingHints>
-        <AxisLabel>Error of velocity (ISR2)</AxisLabel>
+        <AxisLabel>Probes</AxisLabel>
       </RenderingHints>
-      <ValidMin>-2000</ValidMin>
-      <ValidMax>2000</ValidMax>
-      <FillValue>-1e+31</FillValue>
-      <Field>
-        <Qualifier>Vector</Qualifier>
-        <FieldQuantity>Electric</FieldQuantity>
-      </Field>
+      <ValidMin>1</ValidMin>
+      <ValidMax>1234</ValidMax>
+      <FillValue>0</FillValue>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
     </Parameter>
     <Parameter>
-      <Name>Electric field measurement quality bitmask</Name>
-      <ParameterKey>E_bitmask__C4_CP_EFW_L3_V3D_INERT</ParameterKey>
-      <Description>Electric field measurement quality bitmask</Description>
+      <Name>ASPOC status bit (1=active)</Name>
+      <ParameterKey>ASPOC_status__C1_CP_EFW_L3_P</ParameterKey>
+      <Description>ASPOC status bit (1=active)</Description>
+      <Units>unitless</Units>
+      <UnitsConversion>1>unitless</UnitsConversion>
+      <RenderingHints>
+        <AxisLabel>ASPOC_ON</AxisLabel>
+      </RenderingHints>
+      <ValidMin>0</ValidMin>
+      <ValidMax>1</ValidMax>
+      <FillValue>0</FillValue>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Spacecraft potential measurement quality bitmask</Name>
+      <ParameterKey>P_bitmask__C1_CP_EFW_L3_P</ParameterKey>
+      <Description>Spacecraft potential measurement quality bitmask</Description>
       <Units>unitless</Units>
       <UnitsConversion>1>unitless</UnitsConversion>
       <RenderingHints>
@@ -251,9 +257,9 @@
       </Support>
     </Parameter>
     <Parameter>
-      <Name>Electric field measurement quality flag (4=best)</Name>
-      <ParameterKey>E_quality__C4_CP_EFW_L3_V3D_INERT</ParameterKey>
-      <Description>Electric field measurement quality flag (4=best)</Description>
+      <Name>Spacecraft potential measurement quality flag (4=best)</Name>
+      <ParameterKey>P_quality__C1_CP_EFW_L3_P</ParameterKey>
+      <Description>Spacecraft potential measurement quality flag (4=best)</Description>
       <Units>unitless</Units>
       <UnitsConversion>1>unitless</UnitsConversion>
       <RenderingHints>
@@ -261,27 +267,10 @@
       </RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>4</ValidMax>
-      <FillValue>0</FillValue>
+      <FillValue>-1</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
-    </Parameter>
-    <Parameter>
-      <Name>Electric field standard deviation</Name>
-      <ParameterKey>E_sigma__C4_CP_EFW_L3_V3D_INERT</ParameterKey>
-      <Description>Electric field standard deviation</Description>
-      <Units>mV/m</Units>
-      <UnitsConversion>1.0e-3>V m^-1</UnitsConversion>
-      <RenderingHints>
-        <AxisLabel>St dev</AxisLabel>
-      </RenderingHints>
-      <ValidMin>0</ValidMin>
-      <ValidMax>700</ValidMax>
-      <FillValue>-1000000000.000</FillValue>
-      <Field>
-        <Qualifier>Vector</Qualifier>
-        <FieldQuantity>Electric</FieldQuantity>
-      </Field>
     </Parameter>
   </NumericalData>
 </Spase>

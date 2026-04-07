@@ -4,7 +4,7 @@
   xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
   <Version>2.7.0</Version>
   <NumericalData>
-    <ResourceID>spase://ESA-NASA/NumericalData/Cluster/C3/EFW/Internal_Burst_Mode/Spacecraft_Potential/VariableCadence</ResourceID>
+    <ResourceID>spase://ESA-NASA/NumericalData/Cluster/C3/EFW/L2_PB/VariableCadence</ResourceID>
     <NamingAuthority>ESA-NASA</NamingAuthority>
     <ResourceType>NumericalData</ResourceType>
     <ResourceHeader>
@@ -59,6 +59,10 @@
         <PersonID>spase://ESA/Person/Arnaud.Masson</PersonID>
         <Role>ProjectScientist</Role>
         <Role>MetadataContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Philippe.Escoubet</PersonID>
+        <Role>MissionManager</Role>
       </Contact>
       <InformationURL>
         <Name>First results of electric field and density observations by Cluster EFW based on
@@ -118,7 +122,7 @@
       </TimeSpan>
       <Cadence>PT0.0022222S</Cadence>
       <CadenceMin>PT0.0022222S</CadenceMin>
-      <CadenceMax>PT5.55e-05S</CadenceMax>
+      <CadenceMax>PT0.0000555S</CadenceMax>
     </TemporalDescription>
     <SpectralRange>RadioFrequency</SpectralRange>
     <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
