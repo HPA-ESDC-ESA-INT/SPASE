@@ -8,7 +8,8 @@
         <NamingAuthority>ESA-NASA</NamingAuthority>
         <ResourceType>NumericalData</ResourceType>
         <ResourceHeader>
-            <ResourceName>Cluster C2 Wideband Data (WBD) Plasma Wave Receiver/High Time Resolution Waveform Data</ResourceName>
+            <ResourceName>Cluster C2 Wideband Data (WBD) Plasma Wave Receiver/High Time Resolution Electric and Magnetic Field Waveform Data Returned via BM2</ResourceName>
+            <AlternateName>Cluster C2 Wideband Data Plasma Wave Receiver/High Time Resolution Waveform Data Returned via BM2</AlternateName>
             <AlternateName>C2_CE_WBD_WAVEFORM_BM2_CDF</AlternateName>
             <AlternateName>C2_CP_WBD_WAVEFORM_BM2</AlternateName>
             <AlternateName>C2_WAVEFORM_WBD_BM2</AlternateName>
@@ -19,7 +20,59 @@
                     <Note>Initial release of metadata</Note>
                 </RevisionEvent>
             </RevisionHistory>
-            <Description>The following description applies to the Wideband Data (WBD) Plasma Wave Receivers on all four Cluster satellites, each satellite being uniquely identified by its number (1 through 4) or its given name (Rumba, Salsa, Samba, Tango, respectively) and to the WBD data obtained in an onboard storage mode called Burst Mode 2 (BM2) only (i.e., not those data obtained in real time mode where data were transmitted directly to ground stations). High time resolution calibrated waveform data are sampled in one of 3 frequency bands in the range 0-577 kHz along one axis using either an electric field antenna or a magnetic search coil sensor. The dataset also includes instrument mode, data quality and the angles required to orient the measurement with respect to the magnetic field and to the GSE coordinate system. The AC electric field data are obtained by using one of the two spin plane electric field antennas of the EFW (Electric Fields and Waves) instrument as a sensor. The AC magnetic field data are obtained by using one of the two search coil magnetometers (one in the spin plane, the other along the spin axis) of the STAFF (Spatio-Temporal Analysis of Field Fluctuations) instrument as a sensor. The WBD data are obtained in one of three filter bandwidth modes: (1) 9.5 kHz, (2) 19 kHz, or (3) 77 kHz. The minimum frequency of each of these three frequency bands can be shifted up (converted) from the default 0 kHz base frequency by 125.454, 250.908 or 501.816 kHz. The time resolution of the data shown in the spectral plots is determined from the WBD instrument mode. The highest time resolution data (generally the DWP (Digital Wave Processor) Duty Cycled mode with 77 kHz bandwidth) are sampled at 4.6 microseconds in the time domain (~4.7 milliseconds in the frequency domain using a standard 1024 point FFT). The lowest time resolution data (generally the DWP Divide by 4 Digital Filter with 9.5 kHz bandwidth mode) are sampled at 146 microseconds in the time domain (~150 milliseconds in the frequency domain using a standard 1024 point FFT). The BM2 data were not obtained continuously throughout the orbit but rather in preplanned blocks of time targeting specific regions of interest. The data were processed and archived by the University of Iowa, Iowa City, Iowa, USA, and the University of Sheffield, Sheffield, UK. A list of the status of the WBD instrument on each spacecraft, the telemetry time spans, operating modes and other details are available under Science Data Availability on the University of Iowa Cluster WBD web site at http://space.physics.uiowa.edu/cluster/ under menu items "Data &amp; Tools" and then "Data Coverage" and through the documentation section of the Cluster Science Archive (CSA) (https://www.cosmos.esa.int/web/csa/documentation). Details on Cluster WBD Interpretation Issues and Caveats can be found at http://space.physics.uiowa.edu/cluster/ by clicking on their links under the "Data &amp; Tools" tab from the Menu bar in the upper right-hand corner. These documents are also available from the Documentation section of the CSA website. For further details on the Cluster WBD data products see Pickett, J.S., et al., "Cluster Wideband Data Products in the Cluster Active Archive" in The Cluster Active Archive, 2010, Springer-Verlag, pp 169-183, and the Cluster WBD User Guide archived at the CSA website in the Documentation section. CALIBRATION: The procedure used in computing the calibrated Electric Field and Magnetic Field values found in this file can be obtained from the Cluster WBD Calibration Report archived at the CSA website in the Documentation section. Because the calibration was applied in the time domain using simple equations the raw counts actually measured by the WBD instrument can be obtained by using these equations and solving for "Raw Counts", keeping in mind that this number is an Integer ranging from 0 to 255. Since DC offset is a real number, the resultant when solving for raw counts will need to be converted to the nearest whole number. A sample IDL routine for reverse calibrating to obtain "Raw Counts" is provided in the WBD Calibration Report archived at the CSA. CONVERSION TO FREQUENCY DOMAIN: In order to convert the WBD data to the frequency domain via an FFT, the following steps need to be carried out: +------------------------------------------------------------------------------------------------------------------------------------------------------------+ | | | 1) If Electric Field, first divide calibrated data values by 1000 to get V/m; | | 2) Apply window of preference, if any (such as Hann, etc.); | | 3) Divide data values by sqrt(2) to get back to the rms domain; | | 4) Perform FFT (see Bandwidth variable notes for non-continuous modes and/or the WBD User Guide archived at the CSA); | | 5) Divide by the noise bandwidth, which is equal to the sampling frequency divided by the FFT size (see table below for appropriate sampling frequency); | | 6) Multiply by the appropriate constant for the window used, if any. | +------------------------------------------------------------------------------------------------------------------------------------------------------------+ These steps are more fully explained in the WBD Calibration Report archived at the CSA. BURST MODE SPECIFICS: WBD data obtained in a mode called Burst Mode 2 (BM2) are stored onboard and transmitted to the ground with the data from all the other instruments. This mode was rarely used early in the mission--a few times in 2000 during commissioning and one other time prior to July 2010 (on March 7, 2001)--because it results in decreased bandwidth or a higher degree of duty cycling for WBD. BM2 data were obtained more often starting in 2010 in order to obtain data at low altitude or in the high priority auroral acceleration region where it was not possbile to obtain these data through the real time mode. Since then and until the end of the mission BM2 data were obtained primarily at outer boundaries (bow shock, foreshock, magnetosheath, magnetopause, plasmasheet), in regions where propagating Auroral Kilometric Radiation can be observed, and during perigee crossings of the magnetic equator. Typically, approximately 4 operations of 1-2 hours duration were obtained in these regions each month. The data were obtained in one of two ways: Duty Cycling (non-continuous sampling) and Digital Filtering (continuous sampling with reduced frequency extent). The various BM2 modes (see Parameter BM_Mode in this description and in the data files) used throughout the mission are defined as follows: +----------------------------------------------------------------------------+ | | | 0 = DWP Duty Cycled 9.5 kHz, 1-in-3; | | 1 = DWP Duty Cycled 9.5 kHz, 1-in-4; | | 2 = DWP Duty Cycled 19 kHz, 1-in-3; | | 3 = DWP Duty Cycled 19 kHz, 1-in-4; | | 4 = DWP Duty Cycled 77 kHz, 1-in-3; | | 5 = DWP Duty Cycled 77 kHz, 1-in-4; | | 6 = DWP Digital Filtered 9.5 kHz, 1-in-3, roll-off at 3.2 kHz; | | 7 = DWP Digital Filtered 9.5 kHz, 1-in-3, optimized roll-off at 4.2 kHz; | | 8 = DWP Digital Filtered 9.5 kHz, 1-in-4, roll-off at 2.5 kHz; | | 9 = DWP Digital Filtered 9.5 kHz, 1-in-4, optimized roll-off at 3.1 kHz. | +----------------------------------------------------------------------------+ The table below shows the Bandwidth and Sampling Rates associated with each of these ten modes: +----------------------------------------+ |Bandwidth | Sample Rate | Burst Modes | |-----------| -------------|-------------| | 9.5 kHz | 27.443 kHz | 0,1 | | 19 kHz | 54.886 kHz | 2,3 | | 77 kHz | 219.544 kHz | 4,5 | | 3.2 kHz | 9.148 kHz | 6 | | 4.2 kHz | 9.148 kHz | 7 | | 2.5 kHz | 6.861 kHz | 8 | | 3.1 kHz | 6.861 kHz | 9 | +----------------------------------------+ COORDINATE SYSTEM USED: One axis measurements made in the Antenna Coordinate System, i.e., if electric field measurement, it will either be Ey or Ez, both of which are in the spin plane of the spacecraft, and if magnetic field measurement, it will either be Bx, along the spin axis, or By, in spin plane. The user of WBD data should refer to the WBD User Guide, archived at the CSA, Section 5.4.1 and Figure 5.3 for a description of the three orientation angles provided in these files. Since WBD measurements are made along one axis only, these three angles provide the only means for orienting the WBD measurements with respect to a geocentric coordinate system and to the magnetic field direction.</Description>
+            <Description>
+                The following description applies to the Wideband Data (WBD) Plasma Wave Receivers on all four Cluster satellites, each satellite being uniquely identified by its number (1 through 4) or its given name (Rumba, Salsa, Samba, Tango, respectively) and to the WBD data obtained in an onboard storage mode called Burst Mode 2 (BM2) only (i.e., not those data obtained in real time mode where data were transmitted directly to ground stations). High time resolution calibrated waveform data are sampled in one of 3 frequency bands in the range 0-577 kHz along one axis using either an electric field antenna or a magnetic search coil sensor. The dataset also includes instrument mode, data quality and the angles required to orient the measurement with respect to the magnetic field and to the GSE coordinate system. The AC electric field data are obtained by using one of the two spin plane electric field antennas of the EFW (Electric Fields and Waves) instrument as a sensor. The AC magnetic field data are obtained by using one of the two search coil magnetometers (one in the spin plane, the other along the spin axis) of the STAFF (Spatio-Temporal Analysis of Field Fluctuations) instrument as a sensor. The WBD data are obtained in one of three filter bandwidth modes: (1) 9.5 kHz, (2) 19 kHz, or (3) 77 kHz. The minimum frequency of each of these three frequency bands can be shifted up (converted) from the default 0 kHz base frequency by 125.454, 250.908 or 501.816 kHz. The time resolution of the data shown in the spectral plots is determined from the WBD instrument mode. The highest time resolution data (generally the DWP (Digital Wave Processor) Duty Cycled mode with 77 kHz bandwidth) are sampled at 4.6 microseconds in the time domain (~4.7 milliseconds in the frequency domain using a standard 1024 point FFT). The lowest time resolution data (generally the DWP Divide by 4 Digital Filter with 9.5 kHz bandwidth mode) are sampled at 146 microseconds in the time domain (~150 milliseconds in the frequency domain using a standard 1024 point FFT).
+                
+                The BM2 data were not obtained continuously throughout the orbit but rather in preplanned blocks of time targeting specific regions of interest. The data were processed and archived by the University of Iowa, Iowa City, Iowa, USA, and the University of Sheffield, Sheffield, UK. A list of the status of the WBD instrument on each spacecraft, the telemetry time spans, operating modes and other details are available under Science Data Availability on the University of Iowa Cluster WBD web site at https://space.physics.uiowa.edu/plasma-wave/cluster under menu items "Data &amp; Tools" and then "Data Coverage" and through the documentation section of the Cluster Science Archive (CSA) (https://www.cosmos.esa.int/web/csa/documentation). Details on Cluster WBD Interpretation Issues and Caveats can be found at https://space.physics.uiowa.edu/plasma-wave/cluster by clicking on their links under the "Data &amp; Tools" tab from the Menu bar in the upper right-hand corner. These documents are also available from the Documentation section of the CSA website. For further details on the Cluster WBD data products see Pickett, J.S., et al., "Cluster Wideband Data Products in the Cluster Active Archive" in The Cluster Active Archive, 2010, Springer-Verlag, pp 169-183, and the Cluster WBD User Guide archived at the CSA website in the Documentation section.
+                
+                CALIBRATION: The procedure used in computing the calibrated Electric Field and Magnetic Field values found in this file can be obtained from the Cluster WBD Calibration Report archived at the CSA website in the Documentation section. Because the calibration was applied in the time domain using simple equations the raw counts actually measured by the WBD instrument can be obtained by using these equations and solving for "Raw Counts", keeping in mind that this number is an Integer ranging from 0 to 255. Since DC offset is a real number, the resultant when solving for raw counts will need to be converted to the nearest whole number. A sample IDL routine for reverse calibrating to obtain "Raw Counts" is provided in the WBD Calibration Report archived at the CSA.
+                
+                CONVERSION TO FREQUENCY DOMAIN: In order to convert the WBD data to the frequency domain via an FFT, the following steps need to be carried out:
+                
+                +------------------------------------------------------------------------------------------------------------------------------------------------------------+
+                | |
+                | 1) If Electric Field, first divide calibrated data values by 1000 to get V/m; |
+                | 2) Apply window of preference, if any (such as Hann, etc.); |
+                | 3) Divide data values by sqrt(2) to get back to the rms domain; |
+                | 4) Perform FFT (see Bandwidth variable notes for non-continuous modes and/or the WBD User Guide archived at the CSA); |
+                | 5) Divide by the noise bandwidth, which is equal to the sampling frequency divided by the FFT size (see table below for appropriate sampling frequency); |
+                | 6) Multiply by the appropriate constant for the window used, if any. |
+                +------------------------------------------------------------------------------------------------------------------------------------------------------------+
+                
+                These steps are more fully explained in the WBD Calibration Report archived at the CSA.
+                
+                BURST MODE SPECIFICS: WBD data obtained in a mode called Burst Mode 2 (BM2) are stored onboard and transmitted to the ground with the data from all the other instruments. This mode was rarely used early in the mission--a few times in 2000 during commissioning and one other time prior to July 2010 (on March 7, 2001)--because it results in decreased bandwidth or a higher degree of duty cycling for WBD. BM2 data were obtained more often starting in 2010 in order to obtain data at low altitude or in the high priority auroral acceleration region where it was not possbile to obtain these data through the real time mode. Since then and until the end of the mission BM2 data were obtained primarily at outer boundaries (bow shock, foreshock, magnetosheath, magnetopause, plasmasheet), in regions where propagating Auroral Kilometric Radiation can be observed, and during perigee crossings of the magnetic equator. Typically, approximately 4 operations of 1-2 hours duration were obtained in these regions each month. The data were obtained in one of two ways: Duty Cycling (non-continuous sampling) and Digital Filtering (continuous sampling with reduced frequency extent). The various BM2 modes (see Parameter BM_Mode in this description and in the data files) used throughout the mission are defined as follows:
+                
+                +----------------------------------------------------------------------------+
+                | |
+                | 0 = DWP Duty Cycled 9.5 kHz, 1-in-3; |
+                | 1 = DWP Duty Cycled 9.5 kHz, 1-in-4; |
+                | 2 = DWP Duty Cycled 19 kHz, 1-in-3; |
+                | 3 = DWP Duty Cycled 19 kHz, 1-in-4; |
+                | 4 = DWP Duty Cycled 77 kHz, 1-in-3; |
+                | 5 = DWP Duty Cycled 77 kHz, 1-in-4; |
+                | 6 = DWP Digital Filtered 9.5 kHz, 1-in-3, roll-off at 3.2 kHz; |
+                | 7 = DWP Digital Filtered 9.5 kHz, 1-in-3, optimized roll-off at 4.2 kHz; |
+                | 8 = DWP Digital Filtered 9.5 kHz, 1-in-4, roll-off at 2.5 kHz; |
+                | 9 = DWP Digital Filtered 9.5 kHz, 1-in-4, optimized roll-off at 3.1 kHz. |
+                +----------------------------------------------------------------------------+
+                
+                The table below shows the Bandwidth and Sampling Rates associated with each of these ten modes:
+                
+                +----------------------------------------+
+                
+                Bandwidth	Sample Rate	Burst Modes
+                9.5 kHz	27.443 kHz	0,1
+                19 kHz	54.886 kHz	2,3
+                77 kHz	219.544 kHz	4,5
+                3.2 kHz	9.148 kHz	6
+                4.2 kHz	9.148 kHz	7
+                2.5 kHz	6.861 kHz	8
+                3.1 kHz	6.861 kHz	9
+                +----------------------------------------+
+                
+                COORDINATE SYSTEM USED: One axis measurements made in the Antenna Coordinate System, i.e., if electric field measurement, it will either be Ey or Ez, both of which are in the spin plane of the spacecraft, and if magnetic field measurement, it will either be Bx, along the spin axis, or By, in spin plane. The user of WBD data should refer to the WBD User Guide, archived at the CSA, Section 5.4.1 and Figure 5.3 for a description of the three orientation angles provided in these files. Since WBD measurements are made along one axis only, these three angles provide the only means for orienting the WBD measurements with respect to a geocentric coordinate system and to the magnetic field direction.
+            </Description>
             
             <Acknowledgement>Users of the Cluster WBD data are encouraged to acknowledge Jolene S. Pickett, PI, 
                 and Donald A. Gurnett, Co-I, University of Iowa and the Coordinated Data Analysis Web (CDAWeb) 
@@ -76,7 +129,7 @@
             
             <InformationURL>
                 <Name>Cluster WBD Instrument Page</Name>
-                <URL>https://space.physics.uiowa.edu/cluster/</URL>
+                <URL>https://space.physics.uiowa.edu/plasma-wave/cluster</URL>
                 <Description>Cluster WBD Instrument page maintained by the University of Iowa with links to 
                     instrument descriptions and team members, publications, lists of coordinated observing times, 
                     science data availability catalogs, data, data interpretation and caveat descriptions as well 
@@ -92,12 +145,12 @@
                 <Language>en</Language>
             </InformationURL>
             
-            <PriorID>spase://VWO/NumericalData/Cluster-Rumba/WBD/Cluster_1_Waveform_WBD</PriorID>
-            <PriorID>spase://VWO/NumericalData/Cluster-Rumba/WBD_BM2/PT0.0000046S</PriorID>
-            <PriorID>spase://VSPO/NumericalData/Cluster-Rumba/WBD_BM2/PT0.0000046S</PriorID>
-            <PriorID>spase://VSPO/NumericalData/Cluster-Rumba/WBD/BM2/PT0.0000046S</PriorID>
-            <PriorID>spase://ESA/NumericalData/Cluster-Rumba/WBD/BM2/PT0.0000046S</PriorID>
-            <PriorID>spase://NASA/NumericalData/Cluster-Rumba/WBD/BM2/PT0.0000046S</PriorID>
+            <PriorID>spase://VWO/NumericalData/Cluster-Salsa/WBD/Cluster_2_Waveform_WBD</PriorID>
+            <PriorID>spase://VWO/NumericalData/Cluster-Salsa/WBD_BM2/PT0.0000046S</PriorID>
+            <PriorID>spase://VSPO/NumericalData/Cluster-Salsa/WBD_BM2/PT0.0000046S</PriorID>
+            <PriorID>spase://VSPO/NumericalData/Cluster-Salsa/WBD/BM2/PT0.0000046S</PriorID>
+            <PriorID>spase://ESA/NumericalData/Cluster-Salsa/WBD/BM2/PT0.0000046S</PriorID>
+            <PriorID>spase://NASA/NumericalData/Cluster-Salsa/WBD/BM2/PT0.0000046S</PriorID>
         </ResourceHeader>
         
         <AccessInformation>
@@ -121,7 +174,7 @@
                 <URL>https://csa.esac.esa.int</URL>
                 <ProductKey>C2_CP_WBD_WAVEFORM_BM2</ProductKey>
                 <ProductKey>C2_CE_WBD_WAVEFORM_BM2_CDF</ProductKey>
-                <Description>Access to repository of Cluster 4 Wideband data in Cluster Exchange Format (CEF) and 
+                <Description>Access to repository of Cluster 2 Wideband data in Cluster Exchange Format (CEF) and 
                     CDF format at the Cluster Science Archive. The CEF format files have the designation 
                     C[n]_CP_WBD_WAVEFORM, the CDF format has the designation C[n]_CE_WBD_WAVEFORM_CDF, 
                     where n=1,2,3,4.</Description>              
@@ -188,7 +241,7 @@
             </RightsList>
             <AccessURL>
                 <Name>HTTPS from SPDF</Name>
-                <URL>https://spdf.gsfc.nasa.gov/pub/data/cluster/c2/wbd/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/cluster/c2/wbd_bm2/</URL>
                 <Description>HTTP access to repository of Cluster 2 WBD CDFs at NASA</Description>
                 <Language>en</Language>
             </AccessURL>
@@ -276,7 +329,7 @@
         <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
         <ObservedRegion>Heliosphere.Inner</ObservedRegion>
         <Caveats>See the Cluster WBD data Interpretation Issues and Caveats documents at the web site 
-            http://space.physics.uiowa.edu/cluster/, and clicking on their links under the "Data &amp; Tools" 
+            https://space.physics.uiowa.edu/plasma-wave/cluster, and clicking on their links under the "Data &amp; Tools" 
             tab from the Menu bar in the upper right-hand corner. These documents can also be retrieved from 
             the Documentation section of the Cluster Science Archive (https://www.cosmos.esa.int/web/csa/).</Caveats>
         <Keyword>Time Series</Keyword>
@@ -459,7 +512,37 @@
         <Parameter>
             <Name>BM_Mode</Name>
             <ParameterKey>BM_Mode</ParameterKey>
-            <Description>Definition of BM_Modes: +---------------------------------------------------------------------------+ | | | 0 = DWP Duty Cycled 9.5 kHz, 1-in-3; | | 1 = DWP Duty Cycled 9.5 kHz, 1-in-4; | | 2 = DWP Duty Cycled 19 kHz, 1-in-3; | | 3 = DWP Duty Cycled 19 kHz, 1-in-4; | | 4 = DWP Duty Cycled 77 kHz, 1-in-3; | | 5 = DWP Duty Cycled 77 kHz, 1-in-4; | | 6 = DWP Digital Filtered 9.5 kHz, 1-in-3, roll-off at 3.2 kHz; | | 7 = DWP Digital Filtered 9.5 kHz, 1-in-3, optimized roll-off at 4.2 kHz; | | 8 = DWP Digital Filtered 9.5 kHz, 1-in-4, roll-off at 2.5 kHz; | | 9 = DWP Digital Filtered 9.5 kHz, 1-in-4, optimized roll-off at 3.1 kHz. | +---------------------------------------------------------------------------+ The following are the bandwidths and sampling rates for each of the 10 defined modes: +----------------------------------------+ | Bandwidth | Sample Rate | Burst Modes | |-----------|--------------|-------------| | 9.5 kHz | 27.443 kHz | 0,1 | | 19 kHz | 54.886 kHz | 2,3 | | 77 kHz | 219.544 kHz | 4,5 | | 3.2 kHz | 9.148 kHz | 6 | | 4.2 kHz | 9.148 kHz | 7 | | 2.5 kHz | 6.861 kHz | 8 | | 3.1 kHz | 6.861 kHz | 9 | +----------------------------------------+</Description>
+            <Description>
+                Definition of BM_Modes:
+                
+                +---------------------------------------------------------------------------+
+                | |
+                | 0 = DWP Duty Cycled 9.5 kHz, 1-in-3; |
+                | 1 = DWP Duty Cycled 9.5 kHz, 1-in-4; |
+                | 2 = DWP Duty Cycled 19 kHz, 1-in-3; |
+                | 3 = DWP Duty Cycled 19 kHz, 1-in-4; |
+                | 4 = DWP Duty Cycled 77 kHz, 1-in-3; |
+                | 5 = DWP Duty Cycled 77 kHz, 1-in-4; |
+                | 6 = DWP Digital Filtered 9.5 kHz, 1-in-3, roll-off at 3.2 kHz; |
+                | 7 = DWP Digital Filtered 9.5 kHz, 1-in-3, optimized roll-off at 4.2 kHz; |
+                | 8 = DWP Digital Filtered 9.5 kHz, 1-in-4, roll-off at 2.5 kHz; |
+                | 9 = DWP Digital Filtered 9.5 kHz, 1-in-4, optimized roll-off at 3.1 kHz. |
+                +---------------------------------------------------------------------------+
+                
+                The following are the bandwidths and sampling rates for each of the 10 defined modes:
+                
+                +----------------------------------------+
+                
+                Bandwidth	Sample Rate	Burst Modes
+                9.5 kHz	27.443 kHz	0,1
+                19 kHz	54.886 kHz	2,3
+                77 kHz	219.544 kHz	4,5
+                3.2 kHz	9.148 kHz	6
+                4.2 kHz	9.148 kHz	7
+                2.5 kHz	6.861 kHz	8
+                3.1 kHz	6.861 kHz	9
+                +----------------------------------------+    
+            </Description>
             <Support>
                 <SupportQuantity>Other</SupportQuantity>
             </Support>
