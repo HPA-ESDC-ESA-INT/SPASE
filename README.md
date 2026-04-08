@@ -38,7 +38,8 @@ SPASE
    |     |          |___ASPOC
    |     |          |___CIS
    |     |          |___DWP
-   |     |          |___EDI   
+   |     |          |___EDI
+   |     |          |___EFW   
    |     |          |___FGM
    |     |          |___PEACE
    |     |          |___RAPID   
