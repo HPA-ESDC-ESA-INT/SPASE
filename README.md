@@ -55,24 +55,24 @@ SPASE
    |     |___NumericalData
    |          |___SolarOrbiter
    |          |     |___MAG
-   |          |     |   |___L2
+   |          |     |    |___L2
    |          |     |        
    |          |     |___SWA   
    |          |     |    |___EAS
-   |          |     |    |    |___L2
-   |          |     |    |        |___PAD
+   |          |     |    |     |___L2
+   |          |     |    |          |___PAD
    |          |     |    |___EAS1
-   |          |     |    |    |___L2
-   |          |     |    |        |___NM3D
+   |          |     |    |     |___L2
+   |          |     |    |          |___NM3D
    |          |     |    |   
    |          |     |    |___HIS
-   |          |     |    |    |___L3
-   |          |     |    |        |___Composition   
+   |          |     |    |     |___L3
+   |          |     |    |          |___Composition   
    |          |     |    |___PAS
-   |          |     |         |___L2
-   |          |     |             |___VDF
-   |          |     |             |___Ground-Moments   
-   |          |     |             |___EnergyFlux
+   |          |     |          |___L2
+   |          |     |               |___VDF
+   |          |     |               |___Ground-Moments   
+   |          |     |               |___EnergyFlux
    |          |
    |          |___Cluster
    |          |     |___C1
@@ -98,18 +98,18 @@ SPASE
    |          |     |    |   
    |          |     |    |___EFW
    |          |     |    |     |___3D_Drift_Velocity
-   |          |     |    |     |   |___GSE
-   |          |     |    |     |   |___ISR2
+   |          |     |    |     |    |___GSE
+   |          |     |    |     |    |___ISR2
    |          |     |    |     |___E_Field
-   |          |     |    |     |   |___2D
-   |          |     |    |     |   |   |___ISR2
-   |          |     |    |     |   |___3D
-   |          |     |    |     |   |   |___GSE
-   |          |     |    |     |   |   |___ISR2
+   |          |     |    |     |    |___2D
+   |          |     |    |     |    |    |___ISR2
+   |          |     |    |     |    |___3D
+   |          |     |    |     |    |    |___GSE
+   |          |     |    |     |    |    |___ISR2
    |          |     |    |     |___Internal_Burst_Mode
-   |          |     |    |     |   |___2D_Electric_Field
-   |          |     |    |     |   |___3D_MagneticField
-   |          |     |    |     |   |___Spacecraft_Potential
+   |          |     |    |     |    |___2D_Electric_Field
+   |          |     |    |     |    |___3D_MagneticField
+   |          |     |    |     |    |___Spacecraft_Potential
    |          |     |    |     |___SC_Potential
    |          |     |    |
    |          |     |    |___FGM
@@ -120,10 +120,10 @@ SPASE
    |          |     |    |___PEACE
    |          |     |    |     |___MOMENTS
    |          |     |    |     |___PITCH
-   |          |     |    |         |___SPIN
-   |          |     |    |              |___DEFlux
-   |          |     |    |              |___DPFlux
-   |          |     |    |              |___PSD
+   |          |     |    |          |___SPIN
+   |          |     |    |               |___DEFlux
+   |          |     |    |               |___DPFlux
+   |          |     |    |               |___PSD
    |          |     |    |
    |          |     |    |___RAPID
    |          |     |    |     |___OmniDirectionalDistribution
@@ -134,8 +134,8 @@ SPASE
    |          |     |    |     |___PPP   
    |          |     |    |     |___CWF/GSE
    |          |     |    |     |___CS
-   |          |     |    |         |___HBR
-   |          |     |    |         |___NBR
+   |          |     |    |          |___HBR
+   |          |     |    |          |___NBR
    |          |     |    |   
    |          |     |    |___WBD
    |          |     |    |     |___BM2
@@ -143,9 +143,9 @@ SPASE
    |          |     |    |___WHISPER
    |          |     |          |___ELECTRON_DENSITY
    |          |     |          |___PSD
-   |          |     |          |   |___ACTIVE
-   |          |     |          |   |___NATURAL
-   |          |     |          |   |___PASSIVE_ACTIVE
+   |          |     |          |    |___ACTIVE
+   |          |     |          |    |___NATURAL
+   |          |     |          |    |___PASSIVE_ACTIVE
    |          |     |          |___WAVE_FORM_ENERGY
    |          |     |
    |          |     |___C2
@@ -155,8 +155,8 @@ SPASE
    |          |     |    |
    |          |     |    |___DWP
    |          |     |    |     |___PCOR
-   |          |     |    |         |___FX
-   |          |     |    |         |___ST
+   |          |     |    |          |___FX
+   |          |     |    |          |___ST
    |          |     |    |   
    |          |     |    |___EDI
    |          |     |    |     |___MP
@@ -164,18 +164,18 @@ SPASE
    |          |     |    |   
    |          |     |    |___EFW
    |          |     |    |     |___3D_Drift_Velocity
-   |          |     |    |     |   |___GSE
-   |          |     |    |     |   |___ISR2
+   |          |     |    |     |    |___GSE
+   |          |     |    |     |    |___ISR2
    |          |     |    |     |___E_Field
-   |          |     |    |     |   |___2D
-   |          |     |    |     |   |   |___ISR2
-   |          |     |    |     |   |___3D
-   |          |     |    |     |   |   |___GSE
-   |          |     |    |     |   |   |___ISR2
+   |          |     |    |     |    |___2D
+   |          |     |    |     |    |    |___ISR2
+   |          |     |    |     |    |___3D
+   |          |     |    |     |    |    |___GSE
+   |          |     |    |     |    |    |___ISR2
    |          |     |    |     |___Internal_Burst_Mode
-   |          |     |    |     |   |___2D_Electric_Field
-   |          |     |    |     |   |___3D_MagneticField
-   |          |     |    |     |   |___Spacecraft_Potential
+   |          |     |    |     |    |___2D_Electric_Field
+   |          |     |    |     |    |___3D_MagneticField
+   |          |     |    |     |    |___Spacecraft_Potential
    |          |     |    |     |___SC_Potential
    |          |     |    |
    |          |     |    |___FGM
@@ -200,8 +200,8 @@ SPASE
    |          |     |    |     |___PPP   
    |          |     |    |     |___CWF/GSE
    |          |     |    |     |___CS
-   |          |     |    |         |___HBR
-   |          |     |    |         |___NBR
+   |          |     |    |          |___HBR
+   |          |     |    |          |___NBR
    |          |     |    |    
    |          |     |    |___WBD
    |          |     |    |     |___BM2   
@@ -209,9 +209,9 @@ SPASE
    |          |     |    |___WHISPER
    |          |     |          |___ELECTRON_DENSITY
    |          |     |          |___PSD
-   |          |     |          |   |___ACTIVE
-   |          |     |          |   |___NATURAL
-   |          |     |          |   |___PASSIVE_ACTIVE
+   |          |     |          |    |___ACTIVE
+   |          |     |          |    |___NATURAL
+   |          |     |          |    |___PASSIVE_ACTIVE
    |          |     |          |___WAVE_FORM_ENERGY
    |          |     |
    |          |     |___C3
@@ -223,16 +223,16 @@ SPASE
    |          |     |    |     |___HIA
    |          |     |    |     |    |___Onboard-Moments
    |          |     |    |     |    |___PAD
-   |          |     |    |     |        |___PF   
+   |          |     |    |     |         |___PF   
    |          |     |    |     |___CODIF
    |          |     |    |          |___HS
-   |          |     |    |          |   |___Moments
+   |          |     |    |          |    |___Moments
    |          |     |    |          |___PAD
-   |          |     |    |              |___HS
+   |          |     |    |               |___HS
    |          |     |    |___DWP
    |          |     |    |     |___PCOR
-   |          |     |    |     |    |___FX
-   |          |     |    |     |    |___ST
+   |          |     |    |          |___FX
+   |          |     |    |          |___ST
    |          |     |    |
    |          |     |    |___EDI
    |          |     |    |     |___MP
@@ -240,18 +240,18 @@ SPASE
    |          |     |    |   
    |          |     |    |___EFW
    |          |     |    |     |___3D_Drift_Velocity
-   |          |     |    |     |   |___GSE
-   |          |     |    |     |   |___ISR2
+   |          |     |    |     |    |___GSE
+   |          |     |    |     |    |___ISR2
    |          |     |    |     |___E_Field
-   |          |     |    |     |   |___2D
-   |          |     |    |     |   |   |___ISR2
-   |          |     |    |     |   |___3D
-   |          |     |    |     |   |   |___GSE
-   |          |     |    |     |   |   |___ISR2
+   |          |     |    |     |    |___2D
+   |          |     |    |     |    |    |___ISR2
+   |          |     |    |     |    |___3D
+   |          |     |    |     |    |    |___GSE
+   |          |     |    |     |    |    |___ISR2
    |          |     |    |     |___Internal_Burst_Mode
-   |          |     |    |     |   |___2D_Electric_Field
-   |          |     |    |     |   |___3D_MagneticField
-   |          |     |    |     |   |___Spacecraft_Potential
+   |          |     |    |     |    |___2D_Electric_Field
+   |          |     |    |     |    |___3D_MagneticField
+   |          |     |    |     |    |___Spacecraft_Potential
    |          |     |    |     |___SC_Potential
    |          |     |    |
    |          |     |    |___FGM
@@ -276,18 +276,18 @@ SPASE
    |          |     |    |     |___PPP   
    |          |     |    |     |___CWF/GSE
    |          |     |    |     |___CS
-   |          |     |    |         |___HBR
-   |          |     |    |         |___NBR
+   |          |     |    |          |___HBR
+   |          |     |    |          |___NBR
    |          |     |    |    
    |          |     |    |___WBD
-   |          |     |    |      |___BM2  
+   |          |     |    |     |___BM2  
    |          |     |    |
    |          |     |    |___WHISPER
    |          |     |          |___ELECTRON_DENSITY
    |          |     |          |___PSD
-   |          |     |          |   |___ACTIVE
-   |          |     |          |   |___NATURAL
-   |          |     |          |   |___PASSIVE_ACTIVE
+   |          |     |          |    |___ACTIVE
+   |          |     |          |    |___NATURAL
+   |          |     |          |    |___PASSIVE_ACTIVE
    |          |     |          |___WAVE_FORM_ENERGY
    |          |     |
    |          |     |___C4
@@ -298,9 +298,9 @@ SPASE
    |          |     |    |___CIS 
    |          |     |    |     |___CODIF
    |          |     |    |          |___HS
-   |          |     |    |          |   |___Moments
+   |          |     |    |          |    |___Moments
    |          |     |    |          |___PAD
-   |          |     |    |              |___HS
+   |          |     |    |               |___HS
    |          |     |    |___DWP
    |          |     |    |     |___PCOR
    |          |     |    |          |___FX
@@ -308,18 +308,18 @@ SPASE
    |          |     |    |   
    |          |     |    |___EFW
    |          |     |    |     |___3D_Drift_Velocity
-   |          |     |    |     |   |___GSE
-   |          |     |    |     |   |___ISR2
+   |          |     |    |     |    |___GSE
+   |          |     |    |     |    |___ISR2
    |          |     |    |     |___E_Field
-   |          |     |    |     |   |___2D
-   |          |     |    |     |   |   |___ISR2
-   |          |     |    |     |   |___3D
-   |          |     |    |     |   |   |___GSE
-   |          |     |    |     |   |   |___ISR2
+   |          |     |    |     |    |___2D
+   |          |     |    |     |    |    |___ISR2
+   |          |     |    |     |    |___3D
+   |          |     |    |     |    |    |___GSE
+   |          |     |    |     |    |    |___ISR2
    |          |     |    |     |___Internal_Burst_Mode
-   |          |     |    |     |   |___2D_Electric_Field
-   |          |     |    |     |   |___3D_MagneticField
-   |          |     |    |     |   |___Spacecraft_Potential
+   |          |     |    |     |    |___2D_Electric_Field
+   |          |     |    |     |    |___3D_MagneticField
+   |          |     |    |     |    |___Spacecraft_Potential
    |          |     |    |     |___SC_Potential
    |          |     |    |
    |          |     |    |___FGM
@@ -331,9 +331,9 @@ SPASE
    |          |     |    |     |___MOMENTS
    |          |     |    |     |___PITCH
    |          |     |    |          |___SPIN
-   |          |     |    |              |___DEFlux
-   |          |     |    |              |___DPFlux
-   |          |     |    |              |___PSD
+   |          |     |    |               |___DEFlux
+   |          |     |    |               |___DPFlux
+   |          |     |    |               |___PSD
    |          |     |    |
    |          |     |    |___RAPID
    |          |     |    |     |___OmniDirectionalDistribution
@@ -344,8 +344,8 @@ SPASE
    |          |     |    |     |___PPP   
    |          |     |    |     |___CWF/GSE
    |          |     |    |     |___CS
-   |          |     |    |         |___HBR
-   |          |     |    |         |___NBR
+   |          |     |    |          |___HBR
+   |          |     |    |          |___NBR
    |          |     |    |   
    |          |     |    |___WBD
    |          |     |    |     |___BM2 
@@ -353,9 +353,9 @@ SPASE
    |          |     |    |___WHISPER
    |          |     |          |___ELECTRON_DENSITY
    |          |     |          |___PSD
-   |          |     |          |   |___ACTIVE
-   |          |     |          |   |___NATURAL
-   |          |     |          |   |___PASSIVE_ACTIVE
+   |          |     |          |    |___ACTIVE
+   |          |     |          |    |___NATURAL
+   |          |     |          |    |___PASSIVE_ACTIVE
    |          |     |          |___WAVE_FORM_ENERGY
         
   
