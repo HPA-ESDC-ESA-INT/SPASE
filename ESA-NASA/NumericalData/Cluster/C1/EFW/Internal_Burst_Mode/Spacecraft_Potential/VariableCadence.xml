@@ -4,7 +4,7 @@
   xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
   <Version>2.7.0</Version>
   <NumericalData>
-    <ResourceID>spase://ESA-NASA/NumericalData/Cluster/C1/EFW/L2_PB/VariableCadence</ResourceID>
+    <ResourceID>spase://ESA-NASA/NumericalData/Cluster/C1/EFW/Internal_Burst_Mode/Spacecraft_Potential/VariableCadence</ResourceID>
     <NamingAuthority>ESA-NASA</NamingAuthority>
     <ResourceType>NumericalData</ResourceType>
     <ResourceHeader>

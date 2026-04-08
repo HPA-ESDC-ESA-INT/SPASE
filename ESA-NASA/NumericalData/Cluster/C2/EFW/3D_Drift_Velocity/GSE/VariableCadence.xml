@@ -4,7 +4,7 @@
   xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
   <Version>2.7.0</Version>
   <NumericalData>
-    <ResourceID>spase://ESA-NASA/NumericalData/Cluster/C2/EFW/L2_V3D_GSE/VariableCadence</ResourceID>
+    <ResourceID>spase://ESA-NASA/NumericalData/Cluster/C2/EFW/3D_Drift_Velocity/GSE/VariableCadence</ResourceID>
     <NamingAuthority>ESA-NASA</NamingAuthority>
     <ResourceType>NumericalData</ResourceType>
     <ResourceHeader>

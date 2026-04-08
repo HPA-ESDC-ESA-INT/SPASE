@@ -4,7 +4,7 @@
   xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
   <Version>2.7.0</Version>
   <NumericalData>
-    <ResourceID>spase://ESA-NASA/NumericalData/Cluster/C2/EFW/L2_BB/PT0.0022222S</ResourceID>
+    <ResourceID>spase://ESA-NASA/NumericalData/Cluster/C2/EFW/Internal_Burst_Mode/3D_MagneticField/PT0.0022222S</ResourceID>
     <NamingAuthority>ESA-NASA</NamingAuthority>
     <ResourceType>NumericalData</ResourceType>
     <ResourceHeader>

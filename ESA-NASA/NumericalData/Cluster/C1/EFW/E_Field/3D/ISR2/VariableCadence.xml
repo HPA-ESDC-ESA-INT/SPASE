@@ -4,12 +4,12 @@
   xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
   <Version>2.7.0</Version>
   <NumericalData>
-    <ResourceID>spase://ESA-NASA/NumericalData/Cluster/C3/EFW/L2_E3D_INERT/VariableCadence</ResourceID>
+    <ResourceID>spase://ESA-NASA/NumericalData/Cluster/C1/EFW/E_Field/3D/ISR2/VariableCadence</ResourceID>
     <NamingAuthority>ESA-NASA</NamingAuthority>
     <ResourceType>NumericalData</ResourceType>
     <ResourceHeader>
       <ResourceName>3D Electric field in ISR2 (E.B=0) (full resolution)</ResourceName>
-      <AlternateName>C3_CP_EFW_L2_E3D_INERT</AlternateName>
+      <AlternateName>C1_CP_EFW_L2_E3D_INERT</AlternateName>
       <ReleaseDate>2026-02-28T10:00:00</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
@@ -19,14 +19,14 @@
       </RevisionHistory>
       <Description>This dataset contains instantaneous values of the 3-dimensional Electric field
         vector in the inertial frame (i.e., vxB removed) in the spacecraft coordinate system (ISR2),
-        using EFW electric field data from C3_CP_EFW_L2_E and FGM magnetic field data from
-        C3_CP_FGM_FULL that are interpolated to the time stamps of electric field data. The
+        using EFW electric field data from C1_CP_EFW_L2_E and FGM magnetic field data from
+        C1_CP_FGM_FULL that are interpolated to the time stamps of electric field data. The
         spin-axis component of the electric field is calculated with assumption of E.B equals 0 and
         with use of 2 electric field components measured in the spin plane and three magnetic field
         components. If the magnetic field component along the spin axis is less than 2 nT or the
         elevation angle of the magnetic field vector from the spacecraft spin plane is less than 15
         degrees, the spin-axis electric field component has a FILLVAL. Detailed quality information
-        is provided as a 16 bit set of flags in the parameter E_bitmask__C3_CP_EFW_L2_E3D_INERT. The
+        is provided as a 16 bit set of flags in the parameter E_bitmask__C1_CP_EFW_L2_E3D_INERT. The
         meaning of the bits is as follows (LSB numbering starting at 0): Bit 0: Reset. Bit 1: Bad
         bias. Bit 2: Probe latchup. Bit 3: Low density saturation (-68V). Bit 4: Sweep (collection
         and dump). Bit 5: Burst dump. Bit 6: Non-standard operations (NS_OPS). Bit 7: Manual flag.
@@ -93,12 +93,12 @@
       <AccessURL>
         <Name>Cluster Science Archive (CSA) web interface</Name>
         <URL>https://csa.esac.esa.int</URL>
-        <ProductKey>C3_CP_EFW_L2_E3D_INERT</ProductKey>
+        <ProductKey>C1_CP_EFW_L2_E3D_INERT</ProductKey>
       </AccessURL>
       <AccessURL>
         <Name>Cluster Science Archive (CSA) TAP</Name>
         <URL>https://csa.esac.esa.int/csa-sl-tap/tap/</URL>
-        <ProductKey>C3_CP_EFW_L2_E3D_INERT</ProductKey>
+        <ProductKey>C1_CP_EFW_L2_E3D_INERT</ProductKey>
         <Description>Cluster data and Metadata via the European Space Agency Table Access Protocol
           (TAP) server</Description>
       </AccessURL>
@@ -116,7 +116,7 @@
         <Name>CSA HAPI Server</Name>
         <URL>https://csatools.esac.esa.int/HapiServer/hapi</URL>
         <Style>HAPI</Style>
-        <ProductKey>C3_CP_EFW_L2_E3D_INERT</ProductKey>
+        <ProductKey>C1_CP_EFW_L2_E3D_INERT</ProductKey>
         <Description>Web Service to this product using the HAPI interface</Description>
       </AccessURL>
       <Format>CSV</Format>
@@ -132,7 +132,7 @@
     <TemporalDescription>
       <TimeSpan>
         <StartDate>2001-01-01T00:00:00Z</StartDate>
-        <StopDate>2011-03-05T18:13:09Z</StopDate>
+        <StopDate>2009-10-13T23:59:59Z</StopDate>
       </TimeSpan>
       <Cadence>PT0.04S</Cadence>
       <CadenceMin>PT0.04S</CadenceMin>
@@ -161,7 +161,7 @@
     <Keyword>Lobe</Keyword>
     <Parameter>
       <Name>Universal Time</Name>
-      <ParameterKey>time_tags__C3_CP_EFW_L2_E3D_INERT</ParameterKey>
+      <ParameterKey>time_tags__C1_CP_EFW_L2_E3D_INERT</ParameterKey>
       <Description/>
       <Units>s</Units>
       <UnitsConversion>1.0>s</UnitsConversion>
@@ -177,7 +177,7 @@
     </Parameter>
     <Parameter>
       <Name>Electric Field</Name>
-      <ParameterKey>E_Vec_xyz_ISR2__C3_CP_EFW_L2_E3D_INERT</ParameterKey>
+      <ParameterKey>E_Vec_xyz_ISR2__C1_CP_EFW_L2_E3D_INERT</ParameterKey>
       <Description>Electric Field</Description>
       <Units>mV/m</Units>
       <UnitsConversion>1.0e-3>V m^-1</UnitsConversion>
@@ -194,7 +194,7 @@
     </Parameter>
     <Parameter>
       <Name>Error of electric field (ISR2)</Name>
-      <ParameterKey>delta_Ez_ISR2__C3_CP_EFW_L2_E3D_INERT</ParameterKey>
+      <ParameterKey>delta_Ez_ISR2__C1_CP_EFW_L2_E3D_INERT</ParameterKey>
       <Description>Error of electric field (ISR2)</Description>
       <Units>mV/m</Units>
       <UnitsConversion>1.0e-3>V m^-1</UnitsConversion>
@@ -211,7 +211,7 @@
     </Parameter>
     <Parameter>
       <Name>Electric field measurement quality bitmask</Name>
-      <ParameterKey>E_bitmask__C3_CP_EFW_L2_E3D_INERT</ParameterKey>
+      <ParameterKey>E_bitmask__C1_CP_EFW_L2_E3D_INERT</ParameterKey>
       <Description>Electric field measurement quality bitmask</Description>
       <Units>unitless</Units>
       <UnitsConversion>1>unitless</UnitsConversion>
@@ -227,7 +227,7 @@
     </Parameter>
     <Parameter>
       <Name>Electric field measurement quality flag (4=best)</Name>
-      <ParameterKey>E_quality__C3_CP_EFW_L2_E3D_INERT</ParameterKey>
+      <ParameterKey>E_quality__C1_CP_EFW_L2_E3D_INERT</ParameterKey>
       <Description>Electric field measurement quality flag (4=best)</Description>
       <Units>unitless</Units>
       <UnitsConversion>1>unitless</UnitsConversion>

@@ -4,12 +4,12 @@
   xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
   <Version>2.7.0</Version>
   <NumericalData>
-    <ResourceID>spase://ESA-NASA/NumericalData/Cluster/C1/EFW/L3_V3D_INERT/PT4.0S</ResourceID>
+    <ResourceID>spase://ESA-NASA/NumericalData/Cluster/C4/EFW/3D_Drift_Velocity/ISR2/PT4.0S</ResourceID>
     <NamingAuthority>ESA-NASA</NamingAuthority>
     <ResourceType>NumericalData</ResourceType>
     <ResourceHeader>
       <ResourceName>ExB drift velocity in ISR2 (4 sec resolution)</ResourceName>
-      <AlternateName>C1_CP_EFW_L3_V3D_INERT</AlternateName>
+      <AlternateName>C4_CP_EFW_L3_V3D_INERT</AlternateName>
       <ReleaseDate>2026-02-28T10:00:00</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
@@ -18,12 +18,12 @@
         </RevisionEvent>
       </RevisionHistory>
       <Description>This dataset contains 4-sec averages of the ExB-drift velocity in ISR2, using
-        3-dimensional EFW electric field data from C1_CP_EFW_L3_E3D_INERT and FGM magnetic field
-        data from C1_CP_FGM_5VPS that are used to calculate the 4-sec average magnetic field vector
+        3-dimensional EFW electric field data from C4_CP_EFW_L3_E3D_INERT and FGM magnetic field
+        data from C4_CP_FGM_5VPS that are used to calculate the 4-sec average magnetic field vector
         for the time stamps of electric field data. When the spin-axis electric field component has
         a FILLVAL (i.e. it cannot be determined), then the x- and y components of this dataset have
         FILLVAL. Detailed quality information is provided as a 16 bit set of flags in the parameter
-        E_bitmask__C1_CP_EFW_L3_V3D_INERT. The meaning of the bits is as follows (LSB numbering
+        E_bitmask__C4_CP_EFW_L3_V3D_INERT. The meaning of the bits is as follows (LSB numbering
         starting at 0): Bit 0: Reset. Bit 1: Bad bias. Bit 2: Probe latchup. Bit 3: Low density
         saturation (-68V). Bit 4: Sweep (collection and dump). Bit 5: Burst dump. Bit 6:
         Non-standard operations (NS_OPS). Bit 7: Manual flag. Bit 8: Not used. Bit 9: Not used. Bit
@@ -94,12 +94,12 @@
       <AccessURL>
         <Name>Cluster Science Archive (CSA) web interface</Name>
         <URL>https://csa.esac.esa.int</URL>
-        <ProductKey>C1_CP_EFW_L3_V3D_INERT</ProductKey>
+        <ProductKey>C4_CP_EFW_L3_V3D_INERT</ProductKey>
       </AccessURL>
       <AccessURL>
         <Name>Cluster Science Archive (CSA) TAP</Name>
         <URL>https://csa.esac.esa.int/csa-sl-tap/tap/</URL>
-        <ProductKey>C1_CP_EFW_L3_V3D_INERT</ProductKey>
+        <ProductKey>C4_CP_EFW_L3_V3D_INERT</ProductKey>
         <Description>Cluster data and Metadata via the European Space Agency Table Access Protocol
           (TAP) server</Description>
       </AccessURL>
@@ -117,7 +117,7 @@
         <Name>CSA HAPI Server</Name>
         <URL>https://csatools.esac.esa.int/HapiServer/hapi</URL>
         <Style>HAPI</Style>
-        <ProductKey>C1_CP_EFW_L3_V3D_INERT</ProductKey>
+        <ProductKey>C4_CP_EFW_L3_V3D_INERT</ProductKey>
         <Description>Web Service to this product using the HAPI interface</Description>
       </AccessURL>
       <Format>CSV</Format>
@@ -129,8 +129,8 @@
       <RepositoryID>spase://NASA/Repository/GSFC/SPDF</RepositoryID>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=C1_CP_EFW_L3_V3D_INERT&amp;index=sp_phys</URL>
-        <ProductKey>C1_CP_EFW_L3_V3D_INERT</ProductKey>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=C4_CP_EFW_L3_V3D_INERT&amp;index=sp_phys</URL>
+        <ProductKey>C4_CP_EFW_L3_V3D_INERT</ProductKey>
       </AccessURL>
       <Format>CDF</Format>
       <Acknowledgement>Please acknowledge the Data Providers and CDAWeb when using these
@@ -145,7 +145,7 @@
         <Name>CDAWeb HAPI Server</Name>
         <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
         <Style>HAPI</Style>
-        <ProductKey>C1_CP_EFW_L3_V3D_INERT</ProductKey>
+        <ProductKey>C4_CP_EFW_L3_V3D_INERT</ProductKey>
         <Description>Web Service to this product using the HAPI interface</Description>
       </AccessURL>
       <Format>CSV</Format>
@@ -160,8 +160,8 @@
     <MeasurementType>ElectricField</MeasurementType>
     <TemporalDescription>
       <TimeSpan>
-        <StartDate>2001-01-01T00:00:00Z</StartDate>
-        <StopDate>2018-12-10T03:00:14Z</StopDate>
+        <StartDate>2001-02-01T00:00:00Z</StartDate>
+        <StopDate>2024-09-29T23:59:58Z</StopDate>
       </TimeSpan>
       <Cadence>PT4.0S</Cadence>
       <CadenceMin>PT4.0S</CadenceMin>
@@ -190,7 +190,7 @@
     <Keyword>Lobe</Keyword>
     <Parameter>
       <Name>Universal Time</Name>
-      <ParameterKey>time_tags__C1_CP_EFW_L3_V3D_INERT</ParameterKey>
+      <ParameterKey>time_tags__C4_CP_EFW_L3_V3D_INERT</ParameterKey>
       <Description/>
       <Units>s</Units>
       <UnitsConversion>1.0>s</UnitsConversion>
@@ -206,7 +206,7 @@
     </Parameter>
     <Parameter>
       <Name>Velocity</Name>
-      <ParameterKey>v_drift_ISR2__C1_CP_EFW_L3_V3D_INERT</ParameterKey>
+      <ParameterKey>v_drift_ISR2__C4_CP_EFW_L3_V3D_INERT</ParameterKey>
       <Description>Velocity</Description>
       <Units>km/s</Units>
       <UnitsConversion>1.0e3>m s^-1</UnitsConversion>
@@ -223,7 +223,7 @@
     </Parameter>
     <Parameter>
       <Name>Error of velocityISR2</Name>
-      <ParameterKey>delta_v_ISR2__C1_CP_EFW_L3_V3D_INERT</ParameterKey>
+      <ParameterKey>delta_v_ISR2__C4_CP_EFW_L3_V3D_INERT</ParameterKey>
       <Description>Error of velocityISR2</Description>
       <Units>km/s</Units>
       <UnitsConversion>1.0e3>m s^-1</UnitsConversion>
@@ -240,7 +240,7 @@
     </Parameter>
     <Parameter>
       <Name>Electric field measurement quality bitmask</Name>
-      <ParameterKey>E_bitmask__C1_CP_EFW_L3_V3D_INERT</ParameterKey>
+      <ParameterKey>E_bitmask__C4_CP_EFW_L3_V3D_INERT</ParameterKey>
       <Description>Electric field measurement quality bitmask</Description>
       <Units>unitless</Units>
       <UnitsConversion>1>unitless</UnitsConversion>
@@ -256,7 +256,7 @@
     </Parameter>
     <Parameter>
       <Name>Electric field measurement quality flag (4=best)</Name>
-      <ParameterKey>E_quality__C1_CP_EFW_L3_V3D_INERT</ParameterKey>
+      <ParameterKey>E_quality__C4_CP_EFW_L3_V3D_INERT</ParameterKey>
       <Description>Electric field measurement quality flag (4=best)</Description>
       <Units>unitless</Units>
       <UnitsConversion>1>unitless</UnitsConversion>
@@ -272,7 +272,7 @@
     </Parameter>
     <Parameter>
       <Name>Electric field standard deviation</Name>
-      <ParameterKey>E_sigma__C1_CP_EFW_L3_V3D_INERT</ParameterKey>
+      <ParameterKey>E_sigma__C4_CP_EFW_L3_V3D_INERT</ParameterKey>
       <Description>Electric field standard deviation</Description>
       <Units>mV/m</Units>
       <UnitsConversion>1.0e-3>V m^-1</UnitsConversion>
