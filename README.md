@@ -98,13 +98,13 @@ SPASE
    |          |     |    |___EFW
    |          |     |    |     |___3D_Drift_Velocity
    |          |     |    |     |   |___GSE
-   |          |     |    |     |   |___INERT
+   |          |     |    |     |   |___ISR2
    |          |     |    |     |___E_Field
    |          |     |    |     |   |___2D
    |          |     |    |     |   |   |___ISR2
    |          |     |    |     |   |___3D
    |          |     |    |     |   |   |___GSE
-   |          |     |    |     |   |   |___INERT
+   |          |     |    |     |   |   |___ISR2
    |          |     |    |     |___Internal_Burst_Mode
    |          |     |    |     |   |___2D_Electric_Field
    |          |     |    |     |   |___3D_MagneticField
@@ -161,6 +161,22 @@ SPASE
    |          |     |    |     |___MP
    |          |     |    |     |___SPIN
    |          |     |    |   
+   |          |     |    |___EFW
+   |          |     |    |     |___3D_Drift_Velocity
+   |          |     |    |     |   |___GSE
+   |          |     |    |     |   |___ISR2
+   |          |     |    |     |___E_Field
+   |          |     |    |     |   |___2D
+   |          |     |    |     |   |   |___ISR2
+   |          |     |    |     |   |___3D
+   |          |     |    |     |   |   |___GSE
+   |          |     |    |     |   |   |___ISR2
+   |          |     |    |     |___Internal_Burst_Mode
+   |          |     |    |     |   |___2D_Electric_Field
+   |          |     |    |     |   |___3D_MagneticField
+   |          |     |    |     |   |___Spacecraft_Potential
+   |          |     |    |     |___SC_Potential
+   |          |     |    |
    |          |     |    |___FGM
    |          |     |    |     |___SPIN
    |          |     |    |     |___5VPS
@@ -221,6 +237,22 @@ SPASE
    |          |     |    |     |___MP
    |          |     |    |     |___SPIN   
    |          |     |    |   
+   |          |     |    |___EFW
+   |          |     |    |     |___3D_Drift_Velocity
+   |          |     |    |     |   |___GSE
+   |          |     |    |     |   |___ISR2
+   |          |     |    |     |___E_Field
+   |          |     |    |     |   |___2D
+   |          |     |    |     |   |   |___ISR2
+   |          |     |    |     |   |___3D
+   |          |     |    |     |   |   |___GSE
+   |          |     |    |     |   |   |___ISR2
+   |          |     |    |     |___Internal_Burst_Mode
+   |          |     |    |     |   |___2D_Electric_Field
+   |          |     |    |     |   |___3D_MagneticField
+   |          |     |    |     |   |___Spacecraft_Potential
+   |          |     |    |     |___SC_Potential
+   |          |     |    |
    |          |     |    |___FGM
    |          |     |    |     |___SPIN
    |          |     |    |     |___5VPS
@@ -273,6 +305,22 @@ SPASE
    |          |     |    |          |___FX
    |          |     |    |          |___ST
    |          |     |    |   
+   |          |     |    |___EFW
+   |          |     |    |     |___3D_Drift_Velocity
+   |          |     |    |     |   |___GSE
+   |          |     |    |     |   |___ISR2
+   |          |     |    |     |___E_Field
+   |          |     |    |     |   |___2D
+   |          |     |    |     |   |   |___ISR2
+   |          |     |    |     |   |___3D
+   |          |     |    |     |   |   |___GSE
+   |          |     |    |     |   |   |___ISR2
+   |          |     |    |     |___Internal_Burst_Mode
+   |          |     |    |     |   |___2D_Electric_Field
+   |          |     |    |     |   |___3D_MagneticField
+   |          |     |    |     |   |___Spacecraft_Potential
+   |          |     |    |     |___SC_Potential
+   |          |     |    |
    |          |     |    |___FGM
    |          |     |    |     |___SPIN
    |          |     |    |     |___5VPS
