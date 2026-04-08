@@ -86,15 +86,31 @@ SPASE
    |          |     |    |          |___PAD
    |          |     |    |              |___HS
    |          |     |    |
-   |          |     |    |___EDI
-   |          |     |    |     |___MP
-   |          |     |    |     |___SPIN
-   |          |     |    |   
    |          |     |    |___DWP
    |          |     |    |     |___PCOR
    |          |     |    |          |___FX
    |          |     |    |          |___ST
    |          |     |    |   
+   |          |     |    |___EDI
+   |          |     |    |     |___MP
+   |          |     |    |     |___SPIN
+   |          |     |    |   
+   |          |     |    |___EFW
+   |          |     |    |     |___3D_Drift_Velocity
+   |          |     |    |     |   |___GSE
+   |          |     |    |     |   |___INERT
+   |          |     |    |     |___E_Field
+   |          |     |    |     |   |___2D
+   |          |     |    |     |   |   |___ISR2
+   |          |     |    |     |   |___3D
+   |          |     |    |     |   |   |___GSE
+   |          |     |    |     |   |   |___INERT
+   |          |     |    |     |___Internal_Burst_Mode
+   |          |     |    |     |   |___2D_Electric_Field
+   |          |     |    |     |   |___3D_MagneticField
+   |          |     |    |     |   |___Spacecraft_Potential
+   |          |     |    |     |___SC_Potential
+   |          |     |    |
    |          |     |    |___FGM
    |          |     |    |     |___SPIN
    |          |     |    |     |___5VPS
