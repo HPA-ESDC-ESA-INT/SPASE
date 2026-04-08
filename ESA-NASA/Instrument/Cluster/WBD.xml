@@ -33,6 +33,18 @@
         <PersonID>spase://ESA/Person/Leonard.N.Garcia</PersonID>
         <Role>MetadataContact</Role>
       </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Keith.Yearby</PersonID>
+        <Role>DataProducer</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Simon.Walker</PersonID>
+        <Role>DataProducer</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Jan.Soucek</PersonID>
+        <Role>DataProducer</Role>
+      </Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
         <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-045A-10</URL>
@@ -45,11 +57,9 @@
       </InformationURL>
       <InformationURL>
         <Name>University of Iowa Cluster WBD Website</Name>
-        <URL>https://space.physics.uiowa.edu/cluster/</URL>
+        <URL>https://space.physics.uiowa.edu/plasma-wave/cluster</URL>
         <Description>Detailed information about the experiment, its operation, publications and access to data plots and plotting tools.</Description>
       </InformationURL>
-      <PriorID>spase://SMWG/Instrument/Cluster-Rumba/WBD</PriorID>
-      <PriorID>spase://SMWG/Instrument/Cluster2-Rumba/WBD</PriorID>
     </ResourceHeader>
     <InstrumentType>WaveformReceiver</InstrumentType>
     <InvestigationName>Wide Band Data (WBD)</InvestigationName>

@@ -9,6 +9,7 @@
         <ResourceType>NumericalData</ResourceType>
         <ResourceHeader>
             <ResourceName>Cluster C1 Wideband Data (WBD) Plasma Wave Receiver/High Time Resolution Waveform Data</ResourceName>
+            <AlternateName>Cluster C1 Wideband Data Plasma Wave Receiver/High Time Resolution Waveform Data</AlternateName>
             <AlternateName>C1_CE_WBD_WAVEFORM_CDF</AlternateName>
             <AlternateName>C1_CP_WBD_WAVEFORM</AlternateName>
             <AlternateName>C1_WAVEFORM_WBD</AlternateName>
@@ -47,9 +48,9 @@
                 University of Iowa, Iowa City, Iowa, USA and the Institute of Atmospheric Physics, Prague, Czech Republic.  
                 A list of the status of the WBD instrument on each spacecraft, the telemetry time spans, operating 
                 modes and other details are available under Science Data Availability on the University of Iowa 
-                Cluster WBD web site at http://space.physics.uiowa.edu/cluster/ and through the documentation 
+                Cluster WBD web site at https://space.physics.uiowa.edu/plasma-wave/cluster and through the documentation 
                 section of the Cluster Science Archive (CSA) (https://www.cosmos.esa.int/web/csa/documentation). 
-                Details on Cluster WBD Interpretation Issues and Caveats can be found at http://space.physics.uiowa.edu/cluster/ 
+                Details on Cluster WBD Interpretation Issues and Caveats can be found at https://space.physics.uiowa.edu/plasma-wave/cluster 
                 by clicking on their links under the "Data &amp; Tools" tab from the Menu bar in the upper 
                 right-hand corner. These documents are also available from the Documentation section of the CSA website. 
                 For further details on the Cluster WBD data products see Pickett, J.S., et al., "Cluster Wideband 
@@ -152,7 +153,7 @@
             
             <InformationURL>
                 <Name>Cluster WBD Instrument Page</Name>
-                <URL>https://space.physics.uiowa.edu/cluster/</URL>
+                <URL>https://space.physics.uiowa.edu/plasma-wave/cluster</URL>
                 <Description>Cluster WBD Instrument page maintained by the University of Iowa with links to 
                     instrument descriptions and team members, publications, lists of coordinated observing times, 
                     science data availability catalogs, data, data interpretation and caveat descriptions as well 
@@ -168,7 +169,7 @@
                 <Language>en</Language>
             </InformationURL>
             
-            <PriorID>spase://VWO/NumericalData/Cluster-Rumba/WBD/Cluster_4_Waveform_WBD</PriorID>
+            <PriorID>spase://VWO/NumericalData/Cluster-Rumba/WBD/Cluster_1_Waveform_WBD</PriorID>
             <PriorID>spase://VWO/NumericalData/Cluster-Rumba/WBD/PT0.0000046S</PriorID>
             <PriorID>spase://VMO/NumericalData/Cluster-Rumba/WBD/PrimeParameter/PT0.02S</PriorID>
             <PriorID>spase://VSPO/NumericalData/Cluster-Rumba/WBD/PT0.0000046S</PriorID>
@@ -197,7 +198,7 @@
                 <URL>https://csa.esac.esa.int</URL>
                 <ProductKey>C1_CP_WBD_WAVEFORM</ProductKey>
                 <ProductKey>C1_CE_WBD_WAVEFORM_CDF</ProductKey>
-                <Description>Access to repository of Cluster 4 Wideband data in Cluster Exchange Format (CEF) and 
+                <Description>Access to repository of Cluster 1 Wideband data in Cluster Exchange Format (CEF) and 
                     CDF format at the Cluster Science Archive. The CEF format files have the designation 
                     C[n]_CP_WBD_WAVEFORM, the CDF format has the designation C[n]_CE_WBD_WAVEFORM_CDF, 
                     where n=1,2,3,4.</Description>              
@@ -330,14 +331,14 @@
         </AccessInformation>
         -->
         <ProcessingLevel>Calibrated</ProcessingLevel>
-        <InstrumentID>spase://SMWG/Instrument/Cluster/C4/WBD</InstrumentID>
+        <InstrumentID>spase://ESA/Instrument/Cluster/WBD</InstrumentID>
         <MeasurementType>Waves.Passive</MeasurementType>
         <MeasurementType>ElectricField</MeasurementType>
         <MeasurementType>MagneticField</MeasurementType>
         <TemporalDescription>
             <TimeSpan>
-                <StartDate>2001-01-04T14:56:13Z</StartDate>
-                <StopDate>2024-09-29T08:31:06Z</StopDate>
+                <StartDate>2000-11-27T12:49:43Z</StartDate>
+                <StopDate>2024-09-28T23:01:05Z</StopDate>
             </TimeSpan>
             <Cadence>PT0.0000364S</Cadence>
             <CadenceMin>PT0.0000046S</CadenceMin>
@@ -352,7 +353,7 @@
         <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
         <ObservedRegion>Heliosphere.Inner</ObservedRegion>
         <Caveats>See the Cluster WBD data Interpretation Issues and Caveats documents at the web site 
-            http://space.physics.uiowa.edu/cluster/, and clicking on their links under the "Data &amp; Tools" 
+            https://space.physics.uiowa.edu/plasma-wave/cluster, and clicking on their links under the "Data &amp; Tools" 
             tab from the Menu bar in the upper right-hand corner. These documents can also be retrieved from 
             the Documentation section of the Cluster Science Archive (https://www.cosmos.esa.int/web/csa/).</Caveats>
         <Keyword>Time Series</Keyword>
