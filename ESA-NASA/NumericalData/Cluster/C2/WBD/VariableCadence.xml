@@ -290,7 +290,7 @@
         <MeasurementType>MagneticField</MeasurementType>
         <TemporalDescription>
             <TimeSpan>
-                <StartDate>2000-11-27T13:12:21Z</StartDate>
+                <StartDate>2000-09-06T01:15:13Z</StartDate>
                 <StopDate>2024-07-12T01:46:03Z</StopDate>
             </TimeSpan>
             <Cadence>PT0.0000364S</Cadence>

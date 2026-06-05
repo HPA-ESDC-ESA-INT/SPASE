@@ -220,14 +220,14 @@
             <AccessURL>
                 <Name>HTTPS from SPDF</Name>
                 <URL>https://spdf.gsfc.nasa.gov/pub/data/cluster/c4/wbd/</URL>
-                <Description>HTTP access to repository of Cluster 1 WBD CDFs at NASA</Description>
+                <Description>HTTP access to repository of Cluster 4 WBD CDFs at NASA</Description>
                 <Language>en</Language>
             </AccessURL>
             <AccessURL>
                 <Name>CDAWeb</Name>
                 <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=C4_WAVEFORM_WBD&amp;index=sp_phys</URL>
                 <ProductKey>C4_WAVEFORM_WBD</ProductKey>
-                <Description>HTTP access to repository of Cluster 1 WBD CDFs at NASA</Description>
+                <Description>HTTP access to repository of Cluster 4 WBD CDFs at NASA</Description>
                 <Language>en</Language>
             </AccessURL>
             <Format>CDF</Format>
@@ -291,7 +291,7 @@
         <MeasurementType>MagneticField</MeasurementType>
         <TemporalDescription>
             <TimeSpan>
-                <StartDate>2001-01-04T14:56:13Z</StartDate>
+                <StartDate>2000-11-04T07:59:18Z</StartDate>
                 <StopDate>2024-09-29T08:31:06Z</StopDate>
             </TimeSpan>
             <Cadence>PT0.0000364S</Cadence>
