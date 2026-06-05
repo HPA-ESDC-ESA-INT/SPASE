@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xsi:schemaLocation="http://www.spase-group.org/data/schema https://spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Person>
+    <ResourceID>spase://ESA/Person/Per-Arne.Lindqvist</ResourceID>
+    <NamingAuthority>ESA</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <PersonName>Per-Arne Lindqvist</PersonName>
+    <OrganizationName>KTH Royal Institute of Technology, Stockholm, Sweden</OrganizationName>
+    <Email>pal@kth.se</Email>
+    <ORCIdentifier>0000-0001-5617-9765</ORCIdentifier>
+  </Person>
+</Spase>
