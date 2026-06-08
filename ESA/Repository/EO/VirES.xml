@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+   <Version>2.7.1</Version>
+   <Repository>
+      <ResourceID>spase://ESA/Repository/EO/VirES</ResourceID>
+      <NamingAuthority>ESA</NamingAuthority>
+      <ResourceType>Repository</ResourceType>
+      <ResourceHeader>
+         <ResourceName>VirES for Swarm</ResourceName>
+         <ReleaseDate>2026-06-01T00:00:00</ReleaseDate>
+         <Description>VirES provides access to ESA Swarm mission products and related datasets and models</Description>
+         <Contact>
+            <PersonID>spase://ESA/Person/Ashley.R.A.Smith</PersonID>
+            <Role>MetadataContact</Role>
+            <Role>TechnicalContact</Role>
+            <Role>Scientist</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://ESA/Person/Martin.Paces</PersonID>
+            <Role>TechnicalContact</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://ESA/Person/EOX.IT.Services</PersonID>
+            <Role>TechnicalContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Swarm Handbook</Name>
+            <URL>https://swarmhandbook.earth.esa.int/catalogue/index</URL>
+            <Description>Upstream catalogue describing Swarm products</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>Description of VirES for Swarm</Name>
+            <URL>https://earth.esa.int/eogateway/tools/vires-for-swarm</URL>
+         </InformationURL>
+      </ResourceHeader>
+      <AccessURL>
+         <URL>https://vires.services</URL>
+      </AccessURL>
+   </Repository>
+</Spase>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+   <Version>2.7.1</Version>
+   <Person>
+      <ResourceID>spase://ESA/Person/Ashley.R.A.Smith</ResourceID>
+      <NamingAuthority>ESA</NamingAuthority>
+      <PersonName>Ashley R. A. Smith</PersonName>
+      <OrganizationName>mag.earth Ltd, UK</OrganizationName>
+      <Email>ashley@mag.earth</Email>
+      <ORCIdentifier>0000-0001-5198-9574</ORCIdentifier>
+   </Person>
+</Spase>
