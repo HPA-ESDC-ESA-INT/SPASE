@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+   <Version>2.7.1</Version>
+   <Person>
+      <ResourceID>spase://ESA/Person/Martin.Paces</ResourceID>
+      <NamingAuthority>ESA</NamingAuthority>
+      <PersonName>Martin Pačes</PersonName>
+      <OrganizationName>EOX IT Services GmbH, Austria</OrganizationName>
+      <Email>martin.paces@eox.at</Email>
+      <Email>info@vires.services</Email>
+      <RORIdentifier>04yk5j107</RORIdentifier>
+   </Person>
+</Spase>
