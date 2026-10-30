@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns="http://www.spase-group.org/data/schema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.2.xsd">
+  <Version>2.7.2</Version>
+  <MetadataRightsList>
+    <Rights>
+      <SchemeURI>https://creativecommons.org/licenses/</SchemeURI>
+      <RightsIdentifierScheme>CC</RightsIdentifierScheme>
+      <RightsIdentifier>CC-BY-NC-3.0-IGO</RightsIdentifier>
+      <RightsURI>https://creativecommons.org/licenses/by-nc/3.0/igo/</RightsURI>
+      <RightsName>Creative Commons Attribution-NonCommercial 3.0 IGO</RightsName>
+    </Rights>
+  </MetadataRightsList>
+  <NumericalData>
+    <ResourceID>spase://ESA-NASA/NumericalData/Cluster/C4/CIS/CODIF/LS/O1/Moments/VariableCadence</ResourceID>
+    <NamingAuthority>ESA-NASA</NamingAuthority>
+    <ResourceType>NumericalData</ResourceType>
+    <ResourceHeader>
+      <ResourceName>CIS-CODIF Oxygen+ Moments (Low sensitivity)</ResourceName>
+      <AlternateName>C4_CP_CIS-CODIF_LS_O1_MOMENTS</AlternateName>
+      <ReleaseDate>2026-10-30T12:00:00</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2026-10-30T12:00:00</ReleaseDate>
+          <Note>Initial release of metadata. JSO</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>This dataset contains CIS-CODIF Oxygen+ ground moments computed from 3D distributions for Low-sensitivity side on spacecraft C4.
+
+          The CIS (Cluster Ion Spectrometry) experiment is a comprehensive ionic plasma spectrometry package onboard the Cluster spacecraft, capable of obtaining full three-dimentional ion distributions (about 0 to 40 keV/e) with a time resolution of one spacecraft spin (4 sec) and with mass-per-charge composition determination. The CIS package consists of two different instruments, a time-of-flight ion Composition and Distribution Function analyser (CODIF, or CIS-1) and a Hot Ion Analyser (HIA, or CIS-2).
+          </Description>
+      <Acknowledgement> Please acknowledge the CIS team and ESA Cluster Science Archive when using this data.</Acknowledgement>
+      <Contact>
+        <PersonID>spase://ESA/Person/Iannis.Dandouras</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Henri.Reme</PersonID>
+        <Role>CoPI</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Arnaud.Masson</PersonID>
+        <Role>ProjectScientist</Role>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Philippe.Escoubet</PersonID>
+        <Role>MissionManager</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Cluster CIS reference webpage with DOI information</Name>
+        <URL>https://doi.org/10.5270/esa-ceffumg</URL>
+        <Description>Website</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>The Cluster Ion Spectrometry (CIS) Experiment</Name>
+        <URL>https://doi.org/10.1023/A:1004929816409</URL>
+        <Description>Publication</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>First multispacecraft ion measurements in and near the Earth‘s magnetosphere with the identical Cluster ion spectrometry (CIS) experiment</Name>
+        <URL>https://doi.org/10.5194/angeo-19-1303-2001</URL>
+        <Description>Publication</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://ESA/Repository/ESDC</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <RightsList>
+        <Rights>
+          <SchemeURI>https://creativecommons.org/licenses/</SchemeURI>
+          <RightsIdentifierScheme>CC</RightsIdentifierScheme>
+          <RightsIdentifier>CC-BY-NC-3.0-IGO</RightsIdentifier>
+          <RightsURI>https://creativecommons.org/licenses/by-nc/3.0/igo/</RightsURI>
+          <RightsName>Creative Commons Attribution-NonCommercial 3.0 IGO</RightsName>
+        </Rights>
+      </RightsList>
+      <AccessURL>
+        <Name>CSA</Name>
+        <URL>https://csa.esac.esa.int</URL>
+        <ProductKey>C4_CP_CIS-CODIF_LS_O1_MOMENTS</ProductKey>
+        <Description>Cluster Science Archive (CSA) web interface</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>Cluster Science Archive (CSA) TAP server</Name>
+        <URL>https://csa.esac.esa.int/csa-sl-tap/tap/</URL>
+        <ProductKey>C4_CP_CIS-CODIF_LS_O1_MOMENTS</ProductKey>
+        <Description>Cluster data and Metadata via the European Space Agency Table Access Protocol (TAP) server</Description>
+      </AccessURL>
+      <Format>CEF</Format>
+      <Format>CDF</Format>
+      <Encoding>None</Encoding>
+      <Acknowledgement>Please acknowledge the CIS team and the ESA Cluster Science Archive when using these data.</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://ESA/Repository/ESDC</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <RightsList>
+        <Rights>
+          <SchemeURI>https://creativecommons.org/licenses/</SchemeURI>
+          <RightsIdentifierScheme>CC</RightsIdentifierScheme>
+          <RightsIdentifier>CC-BY-NC-3.0-IGO</RightsIdentifier>
+          <RightsURI>https://creativecommons.org/licenses/by-nc/3.0/igo/</RightsURI>
+          <RightsName>Creative Commons Attribution-NonCommercial 3.0 IGO</RightsName>
+        </Rights>
+      </RightsList>
+      <AccessURL>
+        <Name>CSA HAPI Server</Name>
+        <URL>https://csatools.esac.esa.int/HapiServer/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>C4_CP_CIS-CODIF_LS_O1_MOMENTS</ProductKey>
+        <Description>Web Service to this product using the HAPI interface</Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement>Please acknowledge the Data Providers and CSA when using these data</Acknowledgement>
+    </AccessInformation>
+    <ProcessingLevel>Calibrated</ProcessingLevel>
+    <ProviderResourceName>O+ Moments (Low sensitivity)</ProviderResourceName>
+    <InstrumentID>spase://ESA-NASA/Instrument/Cluster/CIS</InstrumentID>
+    <MeasurementType>EnergeticParticles</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>2001-01-09T17:10:16Z</StartDate>
+        <StopDate>2024-08-19T20:13:00Z</StopDate>
+      </TimeSpan>
+      <Cadence>PT4.0S</Cadence>
+      <CadenceMin>PT16.0S</CadenceMin>
+      <CadenceMax>PT4.0S</CadenceMax>
+    </TemporalDescription>
+    <ObservedRegion>Earth.Magnetosheath</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere.Magnetotail</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere.RadiationBelt</ObservedRegion>
+    <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
+    <ObservedRegion>Earth.NearSurface.Plasmasphere</ObservedRegion>
+    <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+    <Keyword>CIS</Keyword>
+    <Keyword>CODIF</Keyword>
+    <Keyword>Oxygen</Keyword>
+    <Keyword>Ion</Keyword>
+    <Keyword>Mass spectrometer</Keyword>
+    <Keyword>3D velocity distribution</Keyword>
+    <Keyword>Ion Composition</Keyword>
+    <Keyword>Cluster</Keyword>
+    <Keyword>Magnetosphere</Keyword>
+    <Keyword>Solar Wind</Keyword>
+    <Parameter>
+      <Name>Center time</Name>
+      <ParameterKey>time_tags__C4_CP_CIS-CODIF_LS_O1_MOMENTS</ParameterKey>
+      <Description>Acquisition interval center time</Description>
+      <Units>s</Units>
+      <UnitsConversion>1.0&gt;s</UnitsConversion>
+      <RenderingHints>
+        <AxisLabel>UT</AxisLabel>
+      </RenderingHints>
+      <ValidMin>2001-01-09T17:10:16Z</ValidMin>
+      <ValidMax>2024-08-19T20:13:00Z</ValidMax>
+      <FillValue>9999-99-99T99:99:99Z</FillValue>
+      <Support>
+        <SupportQuantity>Temporal</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Half interval duration</Name>
+      <ParameterKey>duration__C4_CP_CIS-CODIF_LS_O1_MOMENTS</ParameterKey>
+      <Description>Half interval duration</Description>
+      <Units>s</Units>
+      <UnitsConversion>1.0&gt;s</UnitsConversion>
+      <RenderingHints>
+        <AxisLabel>dT</AxisLabel>
+      </RenderingHints>
+      <ValidMin>1.826</ValidMin>
+      <ValidMax>2.326</ValidMax>
+      <FillValue>0.0</FillValue>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Density</Name>
+      <ParameterKey>density__C4_CP_CIS-CODIF_LS_O1_MOMENTS</ParameterKey>
+      <Description>Density (in cm^-3)</Description>
+      <Units>particles cm^-3</Units>
+      <UnitsConversion>1e6&gt;(particles) m^-3</UnitsConversion>
+      <ValidMin>0.0</ValidMin>
+      <ValidMax>0.614557</ValidMax>
+      <FillValue>-1e31</FillValue>
+      <Particle>
+        <ParticleType>Ion</ParticleType>
+        <ParticleQuantity>MassDensity</ParticleQuantity>
+        <ChemicalFormula>O+</ChemicalFormula>
+      </Particle>
+    </Parameter>
+    <Parameter>
+      <Name>Velocity</Name>
+      <ParameterKey>velocity__C4_CP_CIS-CODIF_LS_O1_MOMENTS</ParameterKey>
+      <Description>Velocity in km s^-1 (GSE)</Description>
+      <Units>km s^-1</Units>
+      <UnitsConversion>1e3&gt;m s^-1</UnitsConversion>
+      <ValidMin>-585.005</ValidMin>
+      <ValidMax>532.337</ValidMax>
+      <FillValue>-1e31</FillValue>
+      <Particle>
+        <ParticleType>Ion</ParticleType>
+        <ParticleQuantity>Velocity</ParticleQuantity>
+        <ChemicalFormula>O+</ChemicalFormula>
+      </Particle>
+    </Parameter>
+    <Parameter>
+      <Name>Pressure Tensor (GSE)</Name>
+      <ParameterKey>pressure__C4_CP_CIS-CODIF_LS_O1_MOMENTS</ParameterKey>
+      <Description>Pressure Tensor (GSE)</Description>
+      <Units>nPa</Units>
+      <UnitsConversion>1e-9&gt;Pa</UnitsConversion>
+      <ValidMin>-0.0304087</ValidMin>
+      <ValidMax>0.0660307</ValidMax>
+      <FillValue>-1e31</FillValue>
+      <Particle>
+        <ParticleType>Ion</ParticleType>
+        <ParticleQuantity>Pressure</ParticleQuantity>
+        <ChemicalFormula>He+</ChemicalFormula>
+      </Particle>
+    </Parameter>
+    <Parameter>
+      <Name>Temperature</Name>
+      <ParameterKey>T__C4_CP_CIS-CODIF_LS_O1_MOMENTS</ParameterKey>
+      <Description>Temperature in MK</Description>
+      <Units>MK</Units>
+      <UnitsConversion>1e6&gt;K</UnitsConversion>
+      <ValidMin>0.0</ValidMin>
+      <ValidMax>55.9417</ValidMax>
+      <FillValue>-1e31</FillValue>
+      <Particle>
+        <ParticleType>Ion</ParticleType>
+        <ParticleQuantity>Temperature</ParticleQuantity>
+        <ChemicalFormula>O+</ChemicalFormula>
+      </Particle>
+    </Parameter>
+    <Parameter>
+      <Name>T_par</Name>
+      <ParameterKey>T_par__C4_CP_CIS-CODIF_LS_O1_MOMENTS</ParameterKey>
+      <Description>Parallel temperature in MK</Description>
+      <Units>MK</Units>
+      <UnitsConversion>1e6&gt;K</UnitsConversion>
+      <ValidMin>0.0</ValidMin>
+      <ValidMax>163.183</ValidMax>
+      <FillValue>-1e31</FillValue>
+      <Particle>
+        <ParticleType>Ion</ParticleType>
+        <ParticleQuantity>Temperature</ParticleQuantity>
+        <ChemicalFormula>O+</ChemicalFormula>
+      </Particle>
+    </Parameter>
+    <Parameter>
+      <Name>T_perp</Name>
+      <ParameterKey>T_perp__C4_CP_CIS-CODIF_LS_O1_MOMENTS</ParameterKey>
+      <Description>Perpendicular temperarure in MK</Description>
+      <Units>MK</Units>
+      <UnitsConversion>1e6&gt;K</UnitsConversion>
+      <ValidMin>0.0</ValidMin>
+      <ValidMax>10.3023</ValidMax>
+      <FillValue>-1e31</FillValue>
+      <Particle>
+        <ParticleType>Ion</ParticleType>
+        <ParticleQuantity>Temperature</ParticleQuantity>
+        <ChemicalFormula>O+</ChemicalFormula>
+      </Particle>
+    </Parameter>
+  </NumericalData>
+</Spase>
