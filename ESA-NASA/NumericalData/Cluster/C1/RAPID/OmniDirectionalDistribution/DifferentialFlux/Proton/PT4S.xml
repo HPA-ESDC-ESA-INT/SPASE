@@ -3,6 +3,15 @@
   xsi:schemaLocation="https://www.spase-group.org/data/schema  
   https://www.spase-group.org/data/schema/spase-2.7.2.xsd">
   <Version>2.7.2</Version>
+  <MetadataRightsList>
+    <Rights>
+      <SchemeURI>https://creativecommons.org/licenses/</SchemeURI>
+      <RightsIdentifierScheme>CC</RightsIdentifierScheme>
+      <RightsIdentifier>CC-BY-NC-3.0-IGO</RightsIdentifier>
+      <RightsURI>https://creativecommons.org/licenses/by-nc/3.0/igo/</RightsURI>
+      <RightsName>Creative Commons Attribution-NonCommercial 3.0 IGO</RightsName>
+    </Rights>
+  </MetadataRightsList>
   <NumericalData>
     <ResourceID>spase://ESA-NASA/NumericalData/Cluster/C1/RAPID/OmniDirectionalDistribution/DifferentialFlux/Proton/PT4S</ResourceID>
     <NamingAuthority>ESA-NASA</NamingAuthority>
@@ -15,6 +24,10 @@
         <RevisionEvent>
           <ReleaseDate>2026-03-30T12:00:00</ReleaseDate>
           <Note>Initial release of metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-09-01T12:00:00</ReleaseDate>
+          <Note>Updated record to model v2.7.2. Added MetadataRights and RightsList. JSO</Note>
         </RevisionEvent>
       </RevisionHistory>
       <Description>This dataset contains differential fluxes of Protons from 8 energy channels, omni-directional observed by the 
@@ -71,6 +84,15 @@
       <RepositoryID>spase://ESA/Repository/ESDC</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
+      <RightsList>
+        <Rights>
+          <SchemeURI>https://creativecommons.org/licenses/</SchemeURI>
+          <RightsIdentifierScheme>CC</RightsIdentifierScheme>
+          <RightsIdentifier>CC-BY-NC-3.0-IGO</RightsIdentifier>
+          <RightsURI>https://creativecommons.org/licenses/by-nc/3.0/igo/</RightsURI>
+          <RightsName>Creative Commons Attribution-NonCommercial 3.0 IGO</RightsName>
+        </Rights>
+      </RightsList>
       <AccessURL>
         <Name>CSA</Name>
         <URL>https://csa.esac.esa.int</URL>
@@ -81,34 +103,50 @@
         <Name>Cluster Science Archive TAP server</Name>
         <URL>https://csa.esac.esa.int/csa-sl-tap/tap</URL>
         <ProductKey>C1_CP_RAP_HSPCT</ProductKey>
-        <Description>Cluster data and metadata via the European Space Agency Table 
-          Access Protocol (TAP) server
-        </Description>
+        <Description>Cluster data and metadata via the European Space Agency Table Access Protocol (TAP) server</Description>
       </AccessURL>
       <Format>CEF</Format>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
-      <Acknowledgement>Please acknowledge the instrument team andthe ESA Cluster Science Archive when using these data </Acknowledgement>
+      <Acknowledgement>Please acknowledge the instrument team and the ESA Cluster Science Archive when using these data </Acknowledgement>
     </AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://ESA/Repository/ESDC</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
+      <RightsList>
+        <Rights>
+          <SchemeURI>https://creativecommons.org/licenses/</SchemeURI>
+          <RightsIdentifierScheme>CC</RightsIdentifierScheme>
+          <RightsIdentifier>CC-BY-NC-3.0-IGO</RightsIdentifier>
+          <RightsURI>https://creativecommons.org/licenses/by-nc/3.0/igo/</RightsURI>
+          <RightsName>Creative Commons Attribution-NonCommercial 3.0 IGO</RightsName>
+        </Rights>
+      </RightsList>
       <AccessURL>
         <Name>CSA HAPI Server</Name>
         <URL>https://csatools.esac.esa.int/HapiServer/hapi</URL>
         <Style>HAPI</Style>
         <ProductKey>C1_CP_RAP_HSPCT</ProductKey>
-        <Description>Web Service to this product using the HAPI interface
-        </Description>
+        <Description>Web Service to this product using the HAPI interface</Description>
       </AccessURL>
       <Format>CSV</Format>
       <Acknowledgement>Please acknowledge the Data Providers and CSA when using these data</Acknowledgement>
     </AccessInformation>
     <AccessInformation>
-      <RepositoryID>spase://NASA/Repository/GSFC/SPDF</RepositoryID>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
+      <RightsList>
+        <Rights>
+          <SchemeURI>https://spdx.org/licenses/</SchemeURI>
+          <RightsIdentifierScheme>SPDX</RightsIdentifierScheme>
+          <RightsIdentifier>CC0-1.0</RightsIdentifier>
+          <RightsURI>https://spdx.org/licenses/CC0-1.0.html</RightsURI>
+          <RightsName>Creative Commons Zero v1.0 Universal</RightsName>
+          <Note>CC0 1.0 Universal is the Creative Commons license applicable to all publicly available NASA Heliophysics data products</Note>
+        </Rights>
+      </RightsList>
       <AccessURL>
         <Name>CDAWeb</Name>
         <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=C1_CP_RAP_HSPCT&amp;index=sp_phys</URL>
@@ -117,9 +155,19 @@
       <Format>CDF</Format>
     </AccessInformation>
     <AccessInformation>
-      <RepositoryID>spase://NASA/Repository/GSFC/SPDF</RepositoryID>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
+      <RightsList>
+        <Rights>
+          <SchemeURI>https://spdx.org/licenses/</SchemeURI>
+          <RightsIdentifierScheme>SPDX</RightsIdentifierScheme>
+          <RightsIdentifier>CC0-1.0</RightsIdentifier>
+          <RightsURI>https://spdx.org/licenses/CC0-1.0.html</RightsURI>
+          <RightsName>Creative Commons Zero v1.0 Universal</RightsName>
+          <Note>CC0 1.0 Universal is the Creative Commons license applicable to all publicly available NASA Heliophysics data products</Note>
+        </Rights>
+      </RightsList>
       <AccessURL>
         <Name>CDAWeb HAPI Server</Name>
         <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
@@ -140,6 +188,8 @@
         <StopDate>2007-03-14T23:59:57Z</StopDate>
       </TimeSpan>
       <Cadence>PT4.0S</Cadence>
+      <CadenceMin>PT4.0S</CadenceMin>
+      <CadenceMax>PT4.0S</CadenceMax>
     </TemporalDescription>
     <ObservedRegion>Earth.Magnetosheath</ObservedRegion>
     <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
@@ -235,8 +285,7 @@
       <Name>Data quality flag</Name>
       <ParameterKey>Quality__C1_CP_RAP_HSPCT</ParameterKey>
       <Description>CSA Data quality: 0 N/A, 2 rates, 3 processed data</Description>
-      <Units>keV</Units>
-      <UnitsConversion>1.602E-16>J</UnitsConversion>
+      <Units>unitless</Units>
       <ValidMin>0</ValidMin>
       <ValidMax>3</ValidMax>
       <FillValue>-1</FillValue>

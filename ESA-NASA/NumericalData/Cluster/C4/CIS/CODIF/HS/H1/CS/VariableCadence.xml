@@ -1,0 +1,344 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns="http://www.spase-group.org/data/schema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.2.xsd">
+  <Version>2.7.2</Version>
+  <MetadataRightsList>
+    <Rights>
+      <SchemeURI>https://creativecommons.org/licenses/</SchemeURI>
+      <RightsIdentifierScheme>CC</RightsIdentifierScheme>
+      <RightsIdentifier>CC-BY-NC-3.0-IGO</RightsIdentifier>
+      <RightsURI>https://creativecommons.org/licenses/by-nc/3.0/igo/</RightsURI>
+      <RightsName>Creative Commons Attribution-NonCommercial 3.0 IGO</RightsName>
+    </Rights>
+  </MetadataRightsList>
+  <NumericalData>
+    <ResourceID>spase://ESA-NASA/NumericalData/Cluster/C4/CIS/CODIF/HS/H1/CS/VariableCadence</ResourceID>
+    <NamingAuthority>ESA-NASA</NamingAuthority>
+    <ResourceType>NumericalData</ResourceType>
+    <ResourceHeader>
+      <ResourceName>CIS-CODIF Proton 3D distribution (High sensitivity)</ResourceName>
+      <AlternateName>C4_CP_CIS-CODIF_HS_H1_CS</AlternateName>
+      <ReleaseDate>2026-10-30T12:00:00</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2026-10-30T12:00:00</ReleaseDate>
+          <Note>Initial release of metadata. JSO</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>This dataset contains CIS-CODIF 3D Proton distributions for the High-Sensitivity side of spacecraft C4, in Corrected_Particle_Count_Rate units.
+
+          The CIS (Cluster Ion Spectrometry) experiment is a comprehensive ionic plasma spectrometry package onboard the Cluster spacecraft, capable of obtaining full three-dimentional ion distributions (about 0 to 40 keV/e) with a time resolution of one spacecraft spin (4 sec) and with mass-per-charge composition determination. The CIS package consists of two different instruments, a time-of-flight ion Composition and Distribution Function analyser (CODIF, or CIS-1) and a Hot Ion Analyser (HIA, or CIS-2).
+          </Description>
+      <Acknowledgement> Please acknowledge the CIS team and ESA Cluster Science Archive when using this data.</Acknowledgement>
+      <Contact>
+        <PersonID>spase://ESA/Person/Iannis.Dandouras</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Henri.Reme</PersonID>
+        <Role>CoPI</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Arnaud.Masson</PersonID>
+        <Role>ProjectScientist</Role>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://ESA/Person/Philippe.Escoubet</PersonID>
+        <Role>MissionManager</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Cluster CIS reference webpage with DOI information</Name>
+        <URL>https://doi.org/10.5270/esa-ceffumg</URL>
+        <Description>Website</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>The Cluster Ion Spectrometry (CIS) Experiment</Name>
+        <URL>https://doi.org/10.1023/A:1004929816409</URL>
+        <Description>Publication</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>First multispacecraft ion measurements in and near the Earth‘s magnetosphere with the identical Cluster ion spectrometry (CIS) experiment</Name>
+        <URL>https://doi.org/10.5194/angeo-19-1303-2001</URL>
+        <Description>Publication</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://ESA/Repository/ESDC</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <RightsList>
+        <Rights>
+          <SchemeURI>https://creativecommons.org/licenses/</SchemeURI>
+          <RightsIdentifierScheme>CC</RightsIdentifierScheme>
+          <RightsIdentifier>CC-BY-NC-3.0-IGO</RightsIdentifier>
+          <RightsURI>https://creativecommons.org/licenses/by-nc/3.0/igo/</RightsURI>
+          <RightsName>Creative Commons Attribution-NonCommercial 3.0 IGO</RightsName>
+        </Rights>
+      </RightsList>
+      <AccessURL>
+        <Name>CSA</Name>
+        <URL>https://csa.esac.esa.int</URL>
+        <ProductKey>C4_CP_CIS-CODIF_HS_H1_CS</ProductKey>
+        <Description>Cluster Science Archive (CSA) web interface</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>Cluster Science Archive (CSA) TAP server</Name>
+        <URL>https://csa.esac.esa.int/csa-sl-tap/tap/</URL>
+        <ProductKey>C4_CP_CIS-CODIF_HS_H1_CS</ProductKey>
+        <Description>Cluster data and Metadata via the European Space Agency Table Access Protocol (TAP) server</Description>
+      </AccessURL>
+      <Format>CEF</Format>
+      <Format>CDF</Format>
+      <Encoding>None</Encoding>
+      <Acknowledgement>Please acknowledge the CIS team and the ESA Cluster Science Archive when using these data.</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://ESA/Repository/ESDC</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <RightsList>
+        <Rights>
+          <SchemeURI>https://creativecommons.org/licenses/</SchemeURI>
+          <RightsIdentifierScheme>CC</RightsIdentifierScheme>
+          <RightsIdentifier>CC-BY-NC-3.0-IGO</RightsIdentifier>
+          <RightsURI>https://creativecommons.org/licenses/by-nc/3.0/igo/</RightsURI>
+          <RightsName>Creative Commons Attribution-NonCommercial 3.0 IGO</RightsName>
+        </Rights>
+      </RightsList>
+      <AccessURL>
+        <Name>CSA HAPI Server</Name>
+        <URL>https://csatools.esac.esa.int/HapiServer/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>C4_CP_CIS-CODIF_HS_H1_CS</ProductKey>
+        <Description>Web Service to this product using the HAPI interface</Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement>Please acknowledge the Data Providers and CSA when using these data</Acknowledgement>
+    </AccessInformation>
+    <ProcessingLevel>Calibrated</ProcessingLevel>
+    <ProviderResourceName>H+ 3D distribution (High sensitivity)</ProviderResourceName>
+    <InstrumentID>spase://ESA-NASA/Instrument/Cluster/CIS</InstrumentID>
+    <MeasurementType>EnergeticParticles</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>2001-01-09T15:10:05Z</StartDate>
+        <StopDate>2024-10-01T00:00:00Z</StopDate>
+      </TimeSpan>
+      <Cadence>PT4.0S</Cadence>
+      <CadenceMin>PT16.0S</CadenceMin>
+      <CadenceMax>PT4.0S</CadenceMax>
+    </TemporalDescription>
+    <ObservedRegion>Earth.Magnetosheath</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere.Magnetotail</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere.RadiationBelt</ObservedRegion>
+    <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
+    <ObservedRegion>Earth.NearSurface.Plasmasphere</ObservedRegion>
+    <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+    <Keyword>CIS</Keyword>
+    <Keyword>CODIF</Keyword>
+    <Keyword>Proton</Keyword>
+    <Keyword>Mass spectrometer</Keyword>
+    <Keyword>3D velocity distribution</Keyword>
+    <Keyword>Ion Composition</Keyword>
+    <Keyword>Cluster</Keyword>
+    <Keyword>Magnetosphere</Keyword>
+    <Keyword>Solar Wind</Keyword>
+    <Parameter>
+      <Name>Universal Time</Name>
+      <ParameterKey>time_tags__C4_CP_CIS-CODIF_HS_H1_CS</ParameterKey>
+      <Description>Acquisition interval start time</Description>
+      <Units>s</Units>
+      <UnitsConversion>1.0&gt;s</UnitsConversion>
+      <RenderingHints>
+        <AxisLabel>UT</AxisLabel>
+      </RenderingHints>
+      <ValidMin>2001-01-09T15:10:05Z</ValidMin>
+      <ValidMax>2024-10-01T00:00:00Z</ValidMax>
+      <FillValue>9999-99-99T99:99:99Z</FillValue>
+      <Support>
+        <SupportQuantity>Temporal</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Interval duration</Name>
+      <ParameterKey>duration__C4_CP_CIS-CODIF_HS_H1_CS</ParameterKey>
+      <Description>Interval duration</Description>
+      <Units>s</Units>
+      <UnitsConversion>1.0&gt;s</UnitsConversion>
+      <RenderingHints>
+        <AxisLabel>dT</AxisLabel>
+      </RenderingHints>
+      <ValidMin>3.507</ValidMin>
+      <ValidMax>13.522</ValidMax>
+      <FillValue>0.0</FillValue>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>CIS Operational Mode</Name>
+      <ParameterKey>cis_mode__C4_CP_CIS-CODIF_HS_H1_CS</ParameterKey>
+      <Description>CIS Operational Mode</Description>
+      <Units>unitless</Units>
+      <UnitsConversion>1&gt;unitless</UnitsConversion>
+      <RenderingHints>
+        <AxisLabel>Mode</AxisLabel>
+      </RenderingHints>
+      <ValidMin>0</ValidMin>
+      <ValidMax>15</ValidMax>
+      <FillValue>99</FillValue>
+      <Support>
+        <SupportQuantity>InstrumentMode</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Telemetry Product Number</Name>
+      <ParameterKey>tm_product__C4_CP_CIS-CODIF_HS_H1_CS</ParameterKey>
+      <Description>CIS Telemetry Product</Description>
+      <Units>unitless</Units>
+      <UnitsConversion>1&gt;unitless</UnitsConversion>
+      <RenderingHints>
+        <AxisLabel>Product</AxisLabel>
+      </RenderingHints>
+      <ValidMin>0</ValidMin>
+      <ValidMax>100</ValidMax>
+      <FillValue>99</FillValue>
+      <Support>
+        <SupportQuantity>Telemetry</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Geometric factor</Name>
+      <ParameterKey>geom_factor__C4_CP_CIS-CODIF_HS_H1_CS</ParameterKey>
+      <Description>Geometric factor</Description>
+      <Units>cm^2 sr keV keV^-1</Units>
+      <UnitsConversion>1.0E-4&gt;m^2 sr</UnitsConversion>
+      <ValidMin>0.0</ValidMin>
+      <ValidMax>0.00239</ValidMax>
+      <FillValue>-1e+31</FillValue>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Codif MCP High-Voltage</Name>
+      <ParameterKey>codif_mcp_hv__C4_CP_CIS-CODIF_HS_H1_CS</ParameterKey>
+      <Description>CODIF MCP High-Voltage</Description>
+      <Units>volt</Units>
+      <UnitsConversion>1&gt;V</UnitsConversion>
+      <RenderingHints>
+        <AxisLabel>MCP HV</AxisLabel>
+      </RenderingHints>
+      <ValidMin>0.0</ValidMin>
+      <ValidMax>2473.19</ValidMax>
+      <FillValue>-1e+31</FillValue>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Codif Acceleration High-Voltage</Name>
+      <ParameterKey>codif_acc_hv__C4_CP_CIS-CODIF_HS_H1_CS</ParameterKey>
+      <Description>CODIF Acceleration High-Voltage</Description>
+      <Units>volt</Units>
+      <UnitsConversion>1&gt;V</UnitsConversion>
+      <RenderingHints>
+        <AxisLabel>ACC HV</AxisLabel>
+      </RenderingHints>
+      <ValidMin>0.0</ValidMin>
+      <ValidMax>14898.6</ValidMax>
+      <FillValue>-1e+31</FillValue>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>CIS-CODIF 3D HS Proton distributions</Name>
+      <ParameterKey>3d_ions__C4_CP_CIS-CODIF_HS_H1_CS</ParameterKey>
+      <Description>CIS-CODIF 3D HS Proton distributions</Description>
+      <Units>Particles s^-1</Units>
+      <UnitsConversion>1&gt;(particles) s^-1</UnitsConversion>
+      <ValidMin>0.0</ValidMin>
+      <ValidMax>1.90319e+07</ValidMax>
+      <FillValue>-1e+31</FillValue>
+      <Particle>
+        <ParticleType>Proton</ParticleType>
+        <ParticleQuantity>CountRate</ParticleQuantity>
+      </Particle>
+    </Parameter>
+    <Parameter>
+      <Name>Polar bin edges</Name>
+      <ParameterKey>theta__C4_CP_CIS-CODIF_HS_H1_CS</ParameterKey>
+      <Description>Polar bin edges (particle arrival direction)</Description>
+      <Units>deg</Units>
+      <UnitsConversion>0.0174532925199&gt;rad</UnitsConversion>
+      <RenderingHints>
+        <AxisLabel>Polar bin</AxisLabel>
+      </RenderingHints>
+      <ValidMin>-78.75</ValidMin>
+      <ValidMax>78.75</ValidMax>
+      <FillValue>-1e+31</FillValue>
+      <Support>
+        <SupportQuantity>Orientation</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Azimuthal bin edges</Name>
+      <ParameterKey>phi__C4_CP_CIS-CODIF_HS_H1_CS</ParameterKey>
+      <Description>Azimuthal bin edges (particle arrival direction)</Description>
+      <Units>deg</Units>
+      <UnitsConversion>0.0174532925199&gt;rad</UnitsConversion>
+      <RenderingHints>
+        <AxisLabel>Azimuthal bin</AxisLabel>
+      </RenderingHints>
+      <ValidMin>-157.917</ValidMin>
+      <ValidMax>179.583</ValidMax>
+      <FillValue>-1e+31</FillValue>
+      <Support>
+        <SupportQuantity>Orientation</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Energy table</Name>
+      <ParameterKey>energy_table__C4_CP_CIS-CODIF_HS_H1_CS</ParameterKey>
+      <Description>Energy table</Description>
+      <Units>eV</Units>
+      <UnitsConversion>1.60217646E-19&gt;J</UnitsConversion>
+      <ValidMin>25.13</ValidMin>
+      <ValidMax>35238.04</ValidMax>
+      <FillValue>-1e+31</FillValue>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Delta plus energy table</Name>
+      <ParameterKey>delta_plus_energy_table__C4_CP_CIS-CODIF_HS_H1_CS</ParameterKey>
+      <Description>Delta plus energy table</Description>
+      <Units>eV</Units>
+      <UnitsConversion>1.60217646E-19&gt;J</UnitsConversion>
+      <ValidMin>2.32</ValidMin>
+      <ValidMax>3252.77</ValidMax>
+      <FillValue>-1e+31</FillValue>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Delta minus energy table</Name>
+      <ParameterKey>delta_minus_energy_table__C4_CP_CIS-CODIF_HS_H1_CS</ParameterKey>
+      <Description>Delta minus energy table</Description>
+      <Units>eV</Units>
+      <UnitsConversion>1.60217646E-19&gt;J</UnitsConversion>
+      <ValidMin>3.57</ValidMin>
+      <ValidMax>5006.14</ValidMax>
+      <FillValue>-1e+31</FillValue>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
+    </Parameter>
+  </NumericalData>
+</Spase>
